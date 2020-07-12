@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ONC</title>
+    <link rel="icon" type="image/jpg" href="http://res.cloudinary.com/do3nu0tns/image/upload/v1594413833/gbh2v1yc7fdouhpjy03i.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Courgette&display=swap" rel="stylesheet">
+    <title>OceNatCreations</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +14,8 @@
   </head>
 
   <body>
+    <%= render 'shared/header' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
   </body>
 </html>

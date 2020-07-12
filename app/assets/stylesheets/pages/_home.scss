@@ -1,1 +1,29 @@
-// Specific CSS for your home-page
+body{
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+.my-container{
+  height: calc( 100vh - 150px );
+  background-image: linear-gradient(225deg, rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.9)), url("http://res.cloudinary.com/do3nu0tns/image/upload/v1594397358/yfxhrx3zvrk89velrbty.jpg");
+  background-size: cover;
+}
+.my-card{
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  font-size: 40px;
+  overflow: hidden;
+}
+.my-card h2{
+  font-family: 'Courgette', cursive;
+}
+.list{
+  display: none;
+  font-size: 24px;
+  list-style: none;
+  transition: 0.5s;
+  & li{
+    margin-left: -40px;
+    font-family: 'Courgette', cursive;
+  }
+}

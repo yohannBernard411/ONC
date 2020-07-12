@@ -1,2 +1,36 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="my-container">
+  <div class="my-card">
+    <h2>Home</h2>
+    <ul class="list">
+      <li>Who are we?</li>
+      <li>Conditions of sale</li>
+      <li>Contact</li>
+      <li>Connection</li>
+    </ul>
+  </div>
+  <div class="my-card">
+    <h2>Shop</h2>
+    <ul class="list">
+      <li>Zero wast products</li>
+      <li>Upcycling / single piece</li>
+      <li><%= link_to "Summer collection 2020", root_path %></li>
+    </ul>
+  </div>
+  <div class="my-card">
+    <h2>Articles</h2>
+    <ul class="list">
+      <li>Plastics in the oceans</li>
+      <li>Wool interests</li>
+      <li>Flax and other matter</li>
+      <li>Textile innovation</li>
+      <li><%= link_to "Label", articles_label_path %></li>
+    </ul>
+  </div>
+  <div class="my-card">
+    <h2>Partners</h2>
+    <ul class="list">
+      <li>Link</li>
+      <li>Spitzberg jacket</li>
+    </ul>
+  </div>
+</div>
