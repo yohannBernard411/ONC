@@ -1,0 +1,59 @@
+<h1>Listing clothes</h1>
+
+<p id="notice"><%= notice %></p>
+
+<p id="alert"><%= alert %></p>
+
+<main>
+  <% @clothes.each do |clothe| %>
+    <div id="card">
+      <%= cl_image_tag clothe.photos[0].key, height: 300, width: 300, crop: :fill %>
+      <div class="description">
+        <H2>
+          <%= clothe.name %>
+        </H2>
+
+        <p>
+          <p>Price: <strong><%= clothe.price_cents/100 %> Euros.</strong></p>
+        </p>
+
+        <p>
+          <p>note:</p>
+          <%= content_tag(:div, id: "starsContainer#{clothe.id}", class: "starsContainer" ) do %>
+            <%= content_tag(:div, id: "allstars#{clothe.id}", class: "allstars" ) do %>
+              <%= content_tag(:div, id: "boite1#{clothe.id}", class: "boite1") do %>
+              <p></p>
+              <% end %>
+            <% end %>
+            <%= content_tag(:div, id: "borderstars#{clothe.id}", class: "borderstars" ) do %>
+              <%= content_tag(:div, id: "boite2#{clothe.id}", class: "boite2" ) do %>
+                <p></p>
+              <% end %>
+            <% end %>
+          <% end %>
+          <p> sur <strong><%= clothe.nbov %></strong> évaluations </p>
+        </p>
+
+        <p>
+          <p>Delivery:</p>
+          <%= content_tag(:strong, id: "delivery#{clothe.id}", class: "delivery") do %>
+            <%= clothe.delivery %>
+          <% end %>
+        </p>
+
+        <%# content_tag(:p, clothe.color, id: "indexColor#{clothe.id}", class: "indexColor" ) %>
+        <%# content_tag(:p, clothe.scoring, id: "slide#{clothe.id}", class: "slide" ) %>
+        <%# content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
+
+        <%= link_to 'Voir', clothe_path(clothe.id), class: "btnlink" %>
+          <%= link_to 'Editer', edit_clothe_path(clothe.id), class: "btnlink" %>
+          <%= link_to 'Supprimer', clothe_path(clothe), method: "delete", data: {confirm: 'Etes vous sûr?'}, class: "btnlink" %>
+
+      </div>
+
+    </div>
+
+  <% end %>
+</main>
+
+  <%= link_to 'New clothe',   new_clothe_path, class: "btnlink" %>
