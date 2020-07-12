@@ -1,0 +1,51 @@
+<div id="showmain">
+  <h1 id="showTitle">Clothe: <%= @clothe.name %></h1>
+  <div id="showContainerRow">
+    <div id="showLeftPart">
+      <div id="showImg" style="background-image: url('<%= cl_image_path @clothe.photos[0].key %>'); height: 300px; width: 300px;">
+        <%= content_tag(:p, @clothe.option, id: "showoption") %>
+      </div>
+      <% @clothe.photos.each do |photo| %>
+        <%= cl_image_tag photo.key, height: 60, width: 60, crop: :fill %>
+      <% end %>
+      <div id="links">
+          <%= link_to 'Edit', edit_clothe_path(@clothe) %> |
+        <%= link_to 'Back', clothes_path %> |
+        <%= content_tag(:a, "Comments", id: "displayComments", onclick: "displayComments()" )  %>
+      </div>
+    </div>
+
+    <div id="showRightPart">
+      <p>
+        <p>Price: <strong><%= @clothe.price_cents.fdiv(100) %> Euros.</strong></p>
+      </p>
+      <p>
+        <p>note:</p>
+        <%= content_tag(:div, id: "showstarsContainer", class: "showstarsContainer" ) do %>
+          <%= content_tag(:div, id: "showallstars", class: "showallstars" ) do %>
+            <%= content_tag(:div, id: "showboite1", class: "showboite1") do %>
+              <p></p>
+            <% end %>
+          <% end %>
+          <%= content_tag(:div, id: "showborderstars", class: "showborderstars" ) do %>
+            <%= content_tag(:div, id: "showboite2", class: "showboite2" ) do %>
+              <p></p>
+            <% end %>
+          <% end %>
+        <% end %>
+        <p> sur <strong><%= @clothe.nbov %></strong> évaluations </p>
+      </p>
+      <p>
+        <p>Delivery:</p>
+        <%= content_tag(:strong) do %>
+          <%= content_tag(:p, @clothe.delivery, id: "showdelivery") %>
+        <% end %>
+      </p>
+      <%= content_tag(:p, @clothe.delivery_color, id: "showColor") %>
+      <%= content_tag(:p, @clothe.scoring, id: "shownotation") %>
+    </div>
+  </div>
+  <div id="screenToDisplay">
+    <h2 id="commentsTitle">Comments</h2>
+  </div>
+</div>

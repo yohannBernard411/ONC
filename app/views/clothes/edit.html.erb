@@ -1,0 +1,47 @@
+<div id="newmain">
+
+  <h1 id="newTitle">Update clothe</h1>
+
+  <%= simple_form_for(@clothe) do |form| %>
+
+    <% if @clothe.errors.any? %>
+      <div id="error_explanation">
+        <h2>
+          <%= pluralize(@clothe.errors.count, "error") %> prohibited
+          this clothe from being saved:
+        </h2>
+        <ul>
+          <% @clothe.errors.full_messages.each do |msg| %>
+            <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+    <%= form.input :name %><br>
+
+    <%= form.input :category %><br>
+
+    <%= form.input :option %><br>
+
+    <%= form.input :price_cents %><br>
+
+    <%= form.input :scoring %><br>
+
+    <%= form.input :nbov %><br>
+
+    <%= form.input :delivery %><br>
+
+    <%= form.input :delivery_color %><br>
+
+    <%= form.input :stock %><br>
+
+    <%= form.input :photos, as: :file, input_html: { multiple: true } %>
+
+    <%= form.submit %>
+
+  <% end %>
+
+  <%= link_to 'Back', clothes_path %>
+
+</div>
