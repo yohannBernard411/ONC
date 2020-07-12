@@ -1,0 +1,34 @@
+.header{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  background-color: white;
+}
+.logo{
+  width: 90px;
+  height: 90px;
+}
+.flag{
+  width: 90px;
+  height: 90px;
+  margin-right: 0;
+}
+.my-title{
+  font-size: 32px;
+  font-family: 'Akronim', cursive;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.oce{
+  color: $my-blue;
+}
+.nat{
+  color: $my-green;
+}
+.creations{
+  color: $my-orange;
+}
