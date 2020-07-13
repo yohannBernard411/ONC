@@ -33,6 +33,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'cloudinary', '~> 1.12.0'
 gem 'i18n'
+gem 'devise'
 
 group :development, :test do
   gem 'pry-byebug'
