@@ -84,7 +84,7 @@
   height: 160px;
   background-color: lightblue;
   transform: translate( calc( 50vw - 60px ), -200px);
-  position: absolute;
+  position: fixed;
   transition: top 1s;
 }
 /* classes */
