@@ -56,4 +56,7 @@
   <% end %>
 </main>
 
+<% if policy(Clothe).create? %>
   <%= link_to 'New clothe',   new_clothe_path, class: "btnlink" %>
+<% end %>
+  
