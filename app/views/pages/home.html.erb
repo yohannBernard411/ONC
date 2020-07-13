@@ -1,36 +1,36 @@
 <div class="my-container">
   <div class="my-card">
-    <h2>Home</h2>
+    <h2><%= I18n.translate("welcome.index.home") %></h2>
     <ul class="list">
-      <li>Who are we?</li>
-      <li>Conditions of sale</li>
-      <li>Contact</li>
-      <li>Connection</li>
+      <li><%= link_to I18n.translate("welcome.index.who"), "/home/who" %></li>
+      <li><%= link_to I18n.translate("welcome.index.condition"), "/home/condition" %></li>
+      <li><%= link_to I18n.translate("welcome.index.contact"), "/home/contact" %></li>
+      <li><%= link_to I18n.translate("welcome.index.connexion"), "/connect/index" %></li>
     </ul>
   </div>
   <div class="my-card">
-    <h2>Shop</h2>
+    <h2><%= I18n.translate("welcome.index.shop") %></h2>
     <ul class="list">
-      <li>Zero wast products</li>
-      <li>Upcycling / single piece</li>
-      <li><%= link_to "Summer collection 2020", clothes_path %></li>
+      <li><%= link_to I18n.translate("welcome.index.product"), "/shop/product" %></li>
+      <li><%= link_to I18n.translate("welcome.index.upcycling"), "/shop/upcycling" %></li>
+      <li><%= link_to I18n.translate("welcome.index.collection"), clothes_path %></li>
     </ul>
   </div>
   <div class="my-card">
-    <h2>Articles</h2>
+    <h2><%= I18n.translate("welcome.index.articles") %></h2>
     <ul class="list">
-      <li>Plastics in the oceans</li>
-      <li>Wool interests</li>
-      <li>Flax and other matter</li>
-      <li>Textile innovation</li>
-      <li><%= link_to "Label", articles_label_path %></li>
+      <li><%= link_to I18n.translate("welcome.index.plastic"), "/articles/plastic" %></li>
+      <li><%= link_to I18n.translate("welcome.index.interest"), "/articles/interest" %></li>
+      <li><%= link_to I18n.translate("welcome.index.lin"), "/articles/lin" %></li>
+      <li><%= link_to I18n.translate("welcome.index.innovation"), "/articles/innovation" %></li>
+      <li><%= link_to I18n.translate("welcome.index.label"), articles_label_path %></li>
     </ul>
   </div>
   <div class="my-card">
-    <h2>Partners</h2>
+    <h2><%= I18n.translate("welcome.index.partners") %></h2>
     <ul class="list">
-      <li>Link</li>
-      <li>Spitzberg jacket</li>
+      <li><%= link_to I18n.translate("welcome.index.link"), "/partners/link" %></li>
+      <li><%= link_to I18n.translate("welcome.index.spitzberg"), "/partners/spitzberg" %></li>
     </ul>
   </div>
 </div>

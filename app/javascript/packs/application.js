@@ -27,8 +27,10 @@ import "bootstrap";
 
 // Internal imports, e.g:
 import { displayMenu } from '../components/menu';
+import { displayFlag } from '../components/langue';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   displayMenu();
+  displayFlag();
 });

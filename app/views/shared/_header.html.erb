@@ -1,9 +1,18 @@
 <div class="header">
+
   <%= link_to image_tag("logo.jpg", class: "logo"), root_path %>
+
   <h1 class="my-title">
     <p class="oce">Oce</p>
     <p class="nat">Nat</p>
     <p class="creations">Creations</p>
   </h1>
-  <%= image_tag("frenchFlag.png", class: "flag") %>
+
+  <div id="langue">
+    <label id="labelLangue"><%= @langue %></label>
+    <button id="francais"><%= link_to "Français", url_for(only_path: true, locale: "fr") %></button>
+    <button id="english"><%= link_to "English", url_for(only_path: true, locale: "en") %></button>
+    <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
+  </div>
+  
 </div>
