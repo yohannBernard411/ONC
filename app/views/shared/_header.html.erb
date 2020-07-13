@@ -8,11 +8,24 @@
     <p class="creations">Creations</p>
   </h1>
 
+  <div id="cubic" class="restrict">
+    <p id="burger" class="wait">&equiv;</p>
+    <p id="cross" class="action2">&times;</p>
+  </div>
+  
+</div>
+
+<div id="menu" class="menuup">
+  <% if current_user %>
+    <%= link_to "Se deconnecter", "#" %>
+  <% else %>
+    <%= link_to "Se connecter", "#" %>
+  <% end %>
+  <br><br>
   <div id="langue">
     <label id="labelLangue"><%= @langue %></label>
     <button id="francais"><%= link_to "Français", url_for(only_path: true, locale: "fr") %></button>
     <button id="english"><%= link_to "English", url_for(only_path: true, locale: "en") %></button>
     <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
   </div>
-  
 </div>
