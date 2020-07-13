@@ -32,3 +32,21 @@
 .creations{
   color: $my-orange;
 }
+#labelLangue{
+  display: none;
+}
+#langue{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  button{
+    width: 90px;
+    height: 25px;
+    background-color: rgba(250, 250, 250, 0.7);
+  }
+}

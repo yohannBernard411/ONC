@@ -1,0 +1,132 @@
+---
+es:
+  welcome:
+    index:
+      articles: Articulos
+      collection: Colección de verano 2020
+      condition: Condición de venta
+      connexion: Conexion
+      contact: Contactar
+      home: Bienvenida
+      innovation: Innovación textil
+      interest: Interés de lana
+      label: Etiquetas
+      lin: Lino y otras materias
+      link: Vínculos
+      partners: Tutoriales/ Socios
+      plastic: Plástico en el océano
+      product: Cero productos de desecho
+      shop: Tienda
+      spitzberg: Chaqueta Spitzberg
+      upcycling: Upcycling / pieza única
+      who: "¿Quiénes somos?"
+  devise:
+    confirmations:
+      confirmed: "Tu cuenta ya ha sido confirmada."
+      confirmed_and_signed_in: "Tu cuenta ya ha sido confirmada. Has sido indentificado."
+      send_instructions: "Recibirás un correo electrónico en unos minutos con instrucciones sobre cómo reestablecer tu contraseña."
+      send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un correo electrónico en unos minutos con instrucciones sobre cómo reiniciar tu contraseña."
+    failure:
+      already_authenticated: "Ya estás identificado."
+      inactive: "Tu cuenta aún no ha sido activada."
+      invalid: "Correo o contraseña inválidos."
+      invalid_token: "Cadena de autenticación invalida."
+      locked: "Tu cuenta está bloqueada."
+      not_found_in_database: "Correo o contraseña inválidos."
+      timeout: "Tu sesión ha expirado, por favor identifícate de nuevo para continuar."
+      unauthenticated: "Necesitas iniciar sesión o registrarte para continuar."
+      unconfirmed: "Debes de confirmar tu cuenta para continuar."
+    mailer:
+      confirmation_instructions:
+        subject: "Instrucciones de confirmación"
+      reset_password_instructions:
+        subject: "Instrucciones para reestablecer tu contraseña"
+      unlock_instructions:
+        subject: "Instrucciones de desbloqueo"
+    omniauth_callbacks:
+      failure: "No se te pudo autorizar de %{kind} debido a \"%{reason}\"."
+      success: "Identificado correctamente de %{kind}."
+    passwords:
+      no_token: "No puedes acceder a esta página sino es por medio de un enlace para reestablecer de contraseña envíado a tu correo. Si accediste desde el enlace para reestablecer la contraseña, asegúrate de que la URL esté completa."
+      send_instructions: "Recibirás un correo electrónico con instrucciones sobre cómo reestablecer tu contraseña en unos minutos."
+      send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un enlace para reestablecer la contraseña en unos minutos."
+      updated: "Tu contraseña se cambió correctamente. Has sido identificado."
+      updated_not_active: "Tu contraseña se cambió correctamente."
+    registrations:
+      destroyed: "¡Adiós! Tu cuenta ha sido cancelada. Esperamos volver a verte pronto."
+      signed_up: "¡Bienvenido! Has sido identificado."
+      signed_up_but_inactive: "Te has registrado correctamente. Pero no has podido iniciar sesión porque no has activado tu cuenta."
+      signed_up_but_locked: "Te has registrado correctamente. Pero no has podido iniciar sesión porque tu cuenta está bloqueada."
+      signed_up_but_unconfirmed: "Se te ha enviado un mensaje con un enlace de confirmación. Por favor visita el enlace para activar tu cuenta."
+      update_needs_confirmation: "Actualizaste tu cuenta correctamente, pero necesitamos verificar tu nueva cuenta de correo. Por favor revisa tu correo electrónico y visita el enlace para finalizar la confirmación de tu nueva dirección de correo electrónico."
+      updated: "Has actualizado tu cuenta correctamente."
+    sessions:
+      signed_in: "Has ingresado iniciado sesión."
+      signed_out: "Has cerrado la sesión."
+    unlocks:
+      send_instructions: "Recibirás un correo electrónico en unos minutos con instrucciones sobre cómo desbloquear tu cuenta."
+      send_paranoid_instructions: "Si tu cuenta existe, recibirás un correo electrónico en unos minutos con instrucciones sobre cómo desbloquear tu cuenta."
+      unlocked: "Tu cuenta ha sido desbloqueada. Por favor inicia sesión para continuar."
+  errors:
+    messages:
+      already_confirmed: "ya ha sido confirmado, por favor intenta iniciar sesión"
+      confirmation_period_expired: "necesita ser confirmado en %{period}, por favor vuelve a solicitarla"
+      expired: "ha expirado, por favor vuelve a solicitarla"
+      not_found: "no se encontró"
+      not_locked: "no estaba bloqueado"
+      not_saved:
+        one: "1 error impidió que este %{resource} fuese guardado:"
+        other: "%{count} errores impidieron que este %{resource} fuese guardado:"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
+  articles:
+    labels:
+      title: "LAS ETIQUETAS"
+      para1: "Como la industria textil es una de las más contaminantes del mundo, la industria de las etiquetas pronto comenzará.
+              Siempre más verde que verde ... ¿Pero qué nos están vendiendo?"
+      para2: "Así que gracias a todos los que escribieron sobre el tema y me permitieron documentarme ... El wiki es tu mejor amigo ..."
+      para3: "Así que voy a hacer una pequeña lista detallando los dos principales ya que si tengo que confiar en una etiqueta, esto
+              ra uno de estos dos ... Después de la lana, certificada o no, siempre prefiero un pequeño criador francés, o
+              parto ... en resumen, volvamos a nuestras ovejas !!!! "
+      para4: "GOTS for"
+      img1: "logotipo GOTS"
+      para5: "Para mí, este es el punto de referencia en esta área. Desde 2008, tiene como objetivo armonizar las normas en el sector textil en todo el mundo.
+              Y él me interesa particularmente ya que tiene las especificaciones más estrictas sobre lana,
+              algodón, seda, cáñamo (falta lino ... pero bueno). Además, hace un llamamiento a las organizaciones independientes para llevar a cabo
+              control de la aplicación del cargo de cargos que el productor se ha comprometido a respetar."
+      para6: "Para cada producción, su cuaderno, por supuesto, pero en general encontramos lo que está prohibido:"
+      li1: "Metales pesados ​​en su conjunto"
+      li2: "disruptores endocrinos"
+      li3: "Retardantes de llama bromados o clorados"
+      li4: "Organismos genéticamente modificados u OGM"
+      li5: "Nanotecnología"
+      li6: "carcinógenos"
+      li7: "PVC"
+      li8: "níquel"
+      li9: "Cromo"
+      li10: "Métodos de impresión con disolventes aromáticos"
+      li11: "Métodos de impresión de plastisol utilizando ftalatos y PVC."
+      para7: "Para lo que es inevitable, la etiqueta ecológica hace concesiones sin ceder ante la ley del mercado. Por así decirlo,
+              La certificación GOTS busca limitar su uso con medidas tales como: "
+      li20: "Riego de cultivos de algodón que deben ser razonados"
+      li21: "Las aguas residuales que deben tratarse en una planta de tratamiento de aguas residuales"
+      li22: "El embalaje que debe ser reciclable."
+      para8: "En cuanto a lo social, no hace falta decir (-pero seguramente no tanto como se debe decir) que el trabajo forzado,
+              los niños y la discriminación están prohibidos, se suma a eso las recomendaciones de la OIT (organización internacional de
+              trabajo), es decir, horas y salarios dignos, el derecho a organizarse y las condiciones de salud y seguridad ."
+      para9: "Y lo que aprecio especialmente como cliente, las pruebas de desgaste, porque para ser lógico, la ropa debe
+              poder durar con el tiempo para limitar su producción y su impacto ambiental."

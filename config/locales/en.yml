@@ -1,33 +1,137 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
+---
 en:
-  hello: "Hello world"
+  welcome:
+    index:
+      articles: Articles
+      collection: Summer collection 2020
+      condition: Conditions of sale
+      connexion: Connection
+      contact: Contact
+      home: Home
+      innovation: Textile innovation
+      interest: Wool interests
+      label: Label
+      lin: Flax and other matter
+      link: Link
+      partners: Tutorials/ Partners
+      plastic: Plastic in the oceans
+      product: Zero waste products
+      shop: Shop
+      spitzberg: Spitzberg Jacket
+      upcycling: Upcycling / single piece
+      who: who are we?
+  devise:
+    confirmations:
+      confirmed: "Your email address has been successfully confirmed."
+      send_instructions: "You will receive an email with instructions for how to confirm your email address in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
+    failure:
+      already_authenticated: "You are already signed in."
+      inactive: "Your account is not activated yet."
+      invalid: "Invalid %{authentication_keys} or password."
+      locked: "Your account is locked."
+      last_attempt: "You have one more attempt before your account is locked."
+      not_found_in_database: "Invalid %{authentication_keys} or password."
+      timeout: "Your session expired. Please sign in again to continue."
+      unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "You have to confirm your email address before continuing."
+    mailer:
+      confirmation_instructions:
+        subject: "Confirmation instructions"
+      reset_password_instructions:
+        subject: "Reset password instructions"
+      unlock_instructions:
+        subject: "Unlock instructions"
+      email_changed:
+        subject: "Email Changed"
+      password_change:
+        subject: "Password Changed"
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Your password has been changed successfully. You are now signed in."
+      updated_not_active: "Your password has been changed successfully."
+    registrations:
+      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
+      signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address."
+      updated: "Your account has been updated successfully."
+      updated_but_not_signed_in: "Your account has been updated successfully, but since your password was changed, you need to sign in again"
+    sessions:
+      signed_in: "Signed in successfully."
+      signed_out: "Signed out successfully."
+      already_signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
+      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+  errors:
+    messages:
+      already_confirmed: "was already confirmed, please try signing in"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "has expired, please request a new one"
+      not_found: "not found"
+      not_locked: "was not locked"
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "&hellip;"
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
+  articles:
+    labels:
+      title: "THE LABELS"
+      para1: "The textile industry being one of the most polluting in the world, the label industry was soon to get started.
+              Always greener than green .... But what are we being sold ??? "
+      para2: "So thank you to everyone who wrote on the subject and allowed me to document myself ... The wiki is your best friend ..."
+      para3: "So I'm going to make you a little list by detailing the two main ones since if I have to trust a label, this
+              ra one of these two .... After for wool, certified or not, I always favor a small French breeder, or
+              childbirth ... in short let's go back to our sheep !!!! "
+      para4: "GOTS for"
+      img1: "GOTS logo"
+      para5: "For me, this is the benchmark in this area. Since 2008, it has aimed to harmonize standards in the textile sector worldwide.
+              And he particularly interests me since he has the strictest specifications concerning wool,
+              cotton, silk, hemp (flax missing ... but good). In addition, it calls on independent organizations to carry out
+              control of the application of the chahier of charges that the producer has undertaken to respect. "
+      para6: "For each production its notebook of course but on the whole we find for what is prohibited:"
+      li1: "Heavy metals as a whole,"
+      li2: "Endocrine disruptors,"
+      li3: "Brominated or chlorinated flame retardants,"
+      li4: "Genetically modified organisms or GMOs,"
+      li5: "Nanotechnology,"
+      li6: "Carcinogens,"
+      li7: "PVC,"
+      li8: "Nickel,"
+      li9: "Chromium,"
+      li10: "Printing methods using aromatic solvents,"
+      li11: "Plastisol printing methods using phthalates and PVC."
+      para7: "For what is inevitable, the eco-label makes concessions without however yielding to the law of the market. So to speak,
+              GOTS certification seek to limit their use with measures such as: "
+      li20: "Watering cotton crops that must be reasoned,"
+      li21: "The wastewater that must be treated in a wastewater treatment plant,"
+      li22: "The packaging which must be recyclable."
+      para8: "As for the social, it goes without saying (-but surely not that much since it must be said) that forced labor,
+              children and discrimination are prohibited, in addition to the recommendations of the ILO (international organization of
+              work), ie decent hours and wages, the right to organize, and health and safety conditions. "
+      para9: "And what I particularly appreciate as a customer, wear tests, because to be logical the clothing must
+              be able to last over time, in order to limit its production and its environmental impact. "

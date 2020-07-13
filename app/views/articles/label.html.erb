@@ -1,49 +1,39 @@
-<h1 class="myTitle">LES LABELS</h1>
+<h1 class="myTitle"><%= I18n.translate("articles.labels.title") %></h1>
 
-<p class="myText">L'industrie du textile étant une des plus polluantes mondialement, l'industrie des labels n'allait pas tarder à s'y mettre. 
-Toujours plus vert que vert.... Mais qu'est ce que l'on nous vend ???</p>
-<p class="myText">Donc merci à tous ceux et celles qui ont écrit sur le sujet et m'ont permis de me doccumenter...Le wiki est ton meilleur ami...</p>
-<p class="myText">Je vais donc vous en faire une petite liste en détaillant les deux principaux puisque si je dois me fier à un label, ce 
-sera un de ces deux-là....Après pour la laine, certifiée ou pas , je privilégie toujours un petit éleveur français, ou 
-fillature...bref revenons à nos moutons !!!!</p><br>
+<p class="myText"><%= I18n.translate("articles.labels.para1") %></p>
+<p class="myText"><%= I18n.translate("articles.labels.para2") %></p>
+<p class="myText"><%= I18n.translate("articles.labels.para3") %></p><br>
 
-<p class="myText">GOTS pour </p>
+<p class="myText"><%= I18n.translate("articles.labels.para4") %></p>
 
-<%= image_tag("http://res.cloudinary.com/do3nu0tns/image/upload/v1594405901/xogv37s9hnbuqsnpbcj8.png", class: "logo", alt:"Logo de Gots", id:"labelImage") %><br><br>
+<%= cl_image_tag("xogv37s9hnbuqsnpbcj8", class: "logo", alt: I18n.translate("articles.labels.img1") , id:"labelImage") %><br><br>
 
-<p class="myText">C'est pour moi la référence en la matière. Il vise depuis 2008 à harmoniser  les normes du secteur textile mondialement. 
-Et il m'interresse particulièrement puisqu'il possède les cahiers des charges les plus strictes concernant la laine, le 
-coton, la soie, le chanvre (manque le lin...mais bon). De plus il fait appel à des organismes indépendants pour effectuer 
-le contrôle de l'application du chahier des charges que le producteur s'est engagé à respecter.</p><br>
+<p class="myText"><%= I18n.translate("articles.labels.para5") %></p><br>
 
-<p class="myText">A chaque production son cahier bien sûr mais dans l'ensemble on retrouve pour ce qui est interdits :</p>
+<p class="myText"><%= I18n.translate("articles.labels.para6") %></p>
 
 <ul class="myText">
-    <li>Les métaux lourds dans leur ensemble,</li>
-    <li>Les perturbateurs endocriniens,</li>
-    <li>Les produits ignifuges bromés ou chlorés,</li>
-    <li>Les organismes génétiquement modifiés ou OGM,</li>
-    <li>La nanotechnologie,</li>
-    <li>Les substances cancérigènes,</li>
-    <li>Le PVC,</li>
-    <li>Le nickel,</li>
-    <li>Le chrome,</li>
-    <li>Les méthodes d’impression utilisant des solvants aromatiques,</li>
-    <li>Les méthodes d’impression plastisol utilisant des phtalates et PVC.</li>
+    <li><%= I18n.translate("articles.labels.li1") %></li>
+    <li><%= I18n.translate("articles.labels.li2") %></li>
+    <li><%= I18n.translate("articles.labels.li3") %></li>
+    <li><%= I18n.translate("articles.labels.li4") %></li>
+    <li><%= I18n.translate("articles.labels.li5") %></li>
+    <li><%= I18n.translate("articles.labels.li6") %></li>
+    <li><%= I18n.translate("articles.labels.li7") %></li>
+    <li><%= I18n.translate("articles.labels.li8") %></li>
+    <li><%= I18n.translate("articles.labels.li9") %></li>
+    <li><%= I18n.translate("articles.labels.li10") %></li>
+    <li><%= I18n.translate("articles.labels.li11") %></li>
 </ul><br>
 
-<p class="myText">Pour ce qui est  inévitables, l'écolabel fait des concessions sans toutefois se plier à la loi du marché. Pour ainsi dire, 
-la certification GOTS cherchent à limiter leur usage avec des mesures comme pour :</p><br>
+<p class="myText"><%= I18n.translate("articles.labels.para7") %></p><br>
 
 <ul class="myText">
-    <li>L’arrosage des cultures de coton qui doit être raisonné,</li>
-    <li>Les eaux usées qui doivent être assainies dans une station d’épuration,</li>
-    <li><strong>Les emballages qui doivent être recyclables.</strong></li>
+    <li><%= I18n.translate("articles.labels.li20") %></li>
+    <li><%= I18n.translate("articles.labels.li21") %></li>
+    <li><strong><%= I18n.translate("articles.labels.li22") %></strong></li>
 </ul>
 
-<p class="myText">Pour ce qui est du social, il va de soi (-mais surement pas tant que ça vu qu'il faut le dire) que le travail forcé, 
-des enfants et la discrimination sont interdits, se rajoute à ça les recommandations de l'OIT (organisation internationale du 
-travail),  soit horaire et salaire décents, le droit syndical , et des conditions d'hygiène et de sécurités.</p><br>
+<p class="myText"><%= I18n.translate("articles.labels.para8") %></p><br>
 
-<p class="myText">Et ce que j'apprécie particulièrement en tant que client, des tests de d'usures, car pour être logique le vétement doit 
-pouvoir durer dans le temps, afin de limiter sa production et son impact envirronemental.</p>
+<p class="myText"><%= I18n.translate("articles.labels.para9") %></p>
