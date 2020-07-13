@@ -1,6 +1,8 @@
+/*   HEADER   */
 .header{
   width: 100vw;
   height: 90px;
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -38,10 +40,6 @@
 #langue{
   width: 90px;
   height: 90px;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
   background-size: cover;
   background-position: center;
   button{
@@ -49,4 +47,72 @@
     height: 25px;
     background-color: rgba(250, 250, 250, 0.7);
   }
+}
+
+/*   DROPDOWN MENU   */
+
+/* all elements */
+#burger{
+  position: absolute;
+  top: -15px;
+  right: 22px;
+  transform-origin: center;
+  transition: transform 1s, color 1s, Z-index 1s;
+}
+#cross{
+  position: absolute;
+  top: -15px;
+  right: 22px;
+  transform-origin: center;
+  transition: transform 1s, color 1s, Z-index 1s;
+}
+#cubic{
+  width: 90px;
+  height: 90px;
+  float: right;
+  background-color: white;
+  border: solid 5px #2A80B9;
+  font-size: 80px;
+  font-weight: bold;
+  color: #2A80B9;
+  transition: border-radius 1s;
+}
+#menu{
+  text-align: center;
+  z-index: 3;
+  width: 120px;
+  height: 160px;
+  background-color: lightblue;
+  transform: translate( calc( 50vw - 60px ), -200px);
+  position: absolute;
+  transition: top 1s;
+}
+/* classes */
+.wait{
+  transform: rotate(0deg);
+  Z-index: 4;
+  visibility: visible;
+  color: #2A80B9;
+}
+.action{
+  transform: rotate(360deg);
+  Z-index: 2;
+  color: white;
+}
+.action2{
+  transform: rotate(-360deg);
+  Z-index: 2;
+  color: white;
+}
+.expand{
+  border-radius: 50%;
+}
+.restrict{
+   border-radius: 0;
+}
+.menuup{
+  top: 0;
+}
+.menudown{
+  top: 300px;
 }
