@@ -25,3 +25,92 @@
   text-align: center;
   padding-left: calc( 50vw - 110px );
 }
+.clothe_index_image{
+  width: 100%;
+  height: auto;
+}
+.description{
+  width: 100%;
+  margin: 0;
+  & h2{
+    margin: 0;
+  }
+  & p{
+    margin: 0;
+  }
+}
+.starsContainer{
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  top: 55px;
+  overflow: hidden;
+}
+.allstars{
+  width: 150px;
+  height: 30px;
+  overflow:hidden;
+  position: relative;
+}
+.boite1{
+  width: 150px;
+  height: 30px;
+  background-size: cover;
+  background-image: url("starsfull.png");
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.borderstars{
+  width: 150px;
+  height: 30px;
+  overflow:hidden;
+  position: relative;
+  top: -30px;
+}
+.boite2{
+  width: 150px;
+  height: 30px;
+  background-size: cover;
+  background-image: url("starsempty.png");
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+.option{
+  text-align: center;
+  font-size: 16px;
+  background-color: red;
+  transform: rotateZ(-45deg);
+  width: 150px;
+  height: 20px;
+  position: absolute;
+  z-index: 3;
+  top: 30px;
+  left: -30px;
+}
+.overflow{
+  overflow: hidden;
+  padding: 0;
+}
+.indexColor, .slide{
+  visibility: hidden;
+  position: absolute;
+}
+.displaystars{
+  color: purple;
+}
+.indexclothetitle{
+  color: $my-green;
+  font-family: 'Akronim', cursive;
+}
+.index-clothes-page{
+  font-family: 'Courgette', cursive;
+  & h2{
+    font-family: 'Courgette', cursive;
+  }
+}
+.btnlink{
+  border: solid 1px rgba(42, 128, 185, 0.9);
+  border-radius: 5px;
+}

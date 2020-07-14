@@ -135,3 +135,19 @@ fr:
               travail),  soit horaire et salaire décents, le droit syndical , et des conditions d'hygiène et de sécurités."
       para9: "Et ce que j'apprécie particulièrement en tant que client, des tests de d'usures, car pour être logique le vétement doit 
               pouvoir durer dans le temps, afin de limiter sa production et son impact envirronemental."
+  clothes:
+    index:
+      title: "Liste des vêtements"
+      search: "Rechercher..."
+      price: "Prix:"
+      note: "Note:"
+      ononon: "Sur:"
+      ratings: évaluations.
+      delivery: "Livraison:"
+      see: "Voir"
+      edit: "Editer"
+      delete: "Supprimer"
+      newclothe: "Créer nouveau vétement"
+
+
+
