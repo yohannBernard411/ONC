@@ -1,3 +1,20 @@
+*{
+  font-family: 'Courgette', cursive;
+}
+h2{
+  font-family: 'Courgette', cursive !important;
+}
 h1{
   text-align: center;
+  font-family: 'Akronim', cursive !important;
 }
+.btnlink{
+  border: solid 1px rgba(42, 128, 185, 0.9);
+  border-radius: 5px;
+  height: 30px;
+  padding: 1px 6px;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+

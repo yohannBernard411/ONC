@@ -135,3 +135,37 @@ en:
               work), ie decent hours and wages, the right to organize, and health and safety conditions. "
       para9: "And what I particularly appreciate as a customer, wear tests, because to be logical the clothing must
               be able to last over time, in order to limit its production and its environmental impact. "
+  clothes:
+    index:
+      title: "List of clothes"
+      search: "Search ..."
+      price: "Price:"
+      note: "Note:"
+      ononon: "On:"
+      ratings: "ratings."
+      delivery: "Delivery:"
+      see: "See"
+      edit: "Edit"
+      delete: "Delete"
+      newclothe: "Create new clothe"
+    edit:
+      update: "Update"
+    form:
+      name: "Name:"
+      category: "Category:"
+      option: "Option:"
+      price_cents: "Price in cents:"
+      scoring: "Note out of 5:"
+      nbov: "Number of votes:"
+      delivery: "Delivery:"
+      delivery_color: "Delivery color:"
+      stock: "Quantities in stock:"
+      photos: "Photos:"
+      submit: "Validate"
+    new:
+      title: "New"
+    show:
+      edit: "Edit"
+      back: "Return"
+      comments: "Comments"
+      buy: "Buy"

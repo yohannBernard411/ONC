@@ -33,10 +33,10 @@
         <%= content_tag(:p, @clothe.scoring, id: "slide#{@clothe.id}", class: "slide") %>
       </div>
       <div id="links">
-        <%= link_to 'Edit', edit_clothe_path(@clothe), class: "btnlink" %> |
-        <%= link_to 'Back', clothes_path, class: "btnlink" %> |
-        <%= link_to "Comments", "#", id: "displayComments", class: "btnlink" %> |
-        <%= link_to "Acheter", "#", class: "btnlink" %>
+        <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %> |
+        <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %> |
+        <%= link_to I18n.translate("clothes.show.comments"), "#", id: "displayComments", class: "btnlink" %> |
+        <%= link_to I18n.translate("clothes.show.buy"), "#", class: "btnlink" %>
       </div>
     </div>
   </div>

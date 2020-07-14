@@ -130,3 +130,37 @@ es:
               trabajo), es decir, horas y salarios dignos, el derecho a organizarse y las condiciones de salud y seguridad ."
       para9: "Y lo que aprecio especialmente como cliente, las pruebas de desgaste, porque para ser lógico, la ropa debe
               poder durar con el tiempo para limitar su producción y su impacto ambiental."
+  clothes:
+    index:
+      title: "Lista de ropa"
+      search: "Buscar ..."
+      price: "Precio:"
+      note: "Nota:"
+      ononon: "On:"
+      ratings: "Calificaciones."
+      delivery: "Entrega:"
+      see: "Ves"
+      edit: "Editar"
+      delete: "Eliminar"
+      newclothe: "Crear ropa nueva"
+    edit:
+      update: "Actualización"
+    form:
+      name: "Apellido:"
+      category: "Categoría:"
+      option: "Opción:"
+      price_cents: "Precio en centavos:"
+      scoring: "Nota de 5:"
+      nbov: "Número de votos:"
+      delivery: "Entrega:"
+      delivery_color: "Color de entrega:"
+      stock: "Cantidades en stock:"
+      photos: "Fotos:"
+      submit: "Validar"
+    new:
+      title: "Nuevo"
+    show:
+      edit: "Editar"
+      back: "Volver"
+      comments: "Comentarios"
+      buy: "Compra"

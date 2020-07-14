@@ -4,7 +4,6 @@ const displayStars = () => {
   const displays = document.getElementsByClassName("displaystars");
   for (let rang = 0; rang < scores.length; rang +=1 ){
     const score = scores[rang];
-    console.log(score);
     const display = displays[rang];
     const value = score.innerHTML;
     const id = score.id.slice(5-(score.id.length));
@@ -28,7 +27,6 @@ const displayStars = () => {
       full += 1;
     }
     // //add color to delivery
-    console.log(id);
     const delivery = document.getElementById("delivery"+id);
     delivery.style.color = document.getElementById("indexColor"+id).innerText;
     //check empty option
