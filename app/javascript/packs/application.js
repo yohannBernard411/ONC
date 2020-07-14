@@ -29,10 +29,12 @@ import "bootstrap";
 import { displayMenu } from '../components/menu';
 import { displayFlag } from '../components/langue';
 import { displayDropDownMenu } from '../components/dropdownMenu';
+import { displayStars } from '../components/starSystem';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   displayMenu();
   displayFlag();
   displayDropDownMenu();
+  displayStars();
 });
