@@ -30,6 +30,7 @@ import { displayMenu } from '../components/menu';
 import { displayFlag } from '../components/langue';
 import { displayDropDownMenu } from '../components/dropdownMenu';
 import { displayStars } from '../components/starSystem';
+import { displayViewer } from '../components/myViewer';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -37,4 +38,5 @@ document.addEventListener('turbolinks:load', () => {
   displayFlag();
   displayDropDownMenu();
   displayStars();
+  displayViewer();
 });
