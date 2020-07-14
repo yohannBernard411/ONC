@@ -21,7 +21,7 @@
   <% else %>
     <%= link_to "Se connecter", "#" %>
   <% end %>
-  <br><br>
+  <br><hr>
   <div id="langue">
     <label id="labelLangue"><%= @langue %></label>
     <button id="francais"><%= link_to "Français", url_for(only_path: true, locale: "fr") %></button>

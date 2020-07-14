@@ -142,12 +142,30 @@ fr:
       price: "Prix:"
       note: "Note:"
       ononon: "Sur:"
-      ratings: évaluations.
+      ratings: "évaluations."
       delivery: "Livraison:"
       see: "Voir"
       edit: "Editer"
       delete: "Supprimer"
       newclothe: "Créer nouveau vétement"
-
-
-
+    edit:
+      update: "Mise à jour"
+    form:
+      name: "Nom:"
+      category: "Catégorie:"
+      option: "Option:"
+      price_cents: "Prix en centimes:"
+      scoring: "Note sur 5:"
+      nbov: "Nombre de votes:"
+      delivery: "Livraison:"
+      delivery_color: "Couleur livraison:"
+      stock: "Quantitées en stock:"
+      photos: "Photos:"
+      submit: "Valider"
+    new:
+      title: "Nouveau"
+    show:
+      edit: "Editer"
+      back: "Retour"
+      comments: "Commentaires"
+      buy: "Acheter"
