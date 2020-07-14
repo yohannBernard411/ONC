@@ -2,6 +2,12 @@ class ClothesController < ApplicationController
 
   def index
     @clothes = policy_scope(Clothe).order(created_at: :desc)
+    @search = params["search"]
+    if @search.present?
+      @name = @search["name"]
+      @clothes = policy_scope(Clothe).where("name ILIKE ?", "%#{@name}%").order(created_at: :desc)
+    end
+    
   end
 
   def show
