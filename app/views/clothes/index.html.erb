@@ -1,5 +1,13 @@
 <h1>Listing clothes</h1>
 
+<div class="search-bar-container">
+  <%= simple_form_for :search, url: clothes_path, method: "GET", html: { class: 'form-inline' } do |f| %>
+    <%= f.input :name, label: "", input_html: {value: "", placeholder: "Search"} %>
+    <%= f.submit ' ', class: "btn", id: "my-search-button" %>
+    <i class="fas fa-search" id="magnify-icon"></i>
+  <% end %>
+</div>
+
 <p id="notice"><%= notice %></p>
 
 <p id="alert"><%= alert %></p>

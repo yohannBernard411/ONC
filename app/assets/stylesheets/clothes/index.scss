@@ -1,0 +1,27 @@
+.required > abbr{
+  display: none;
+}
+#search_name{
+  width: 220px;
+  border-radius: 20px;
+  border-right: none;
+}
+#my-search-button{
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  margin-left: -35px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(42, 128, 185, 0.9);
+}
+#magnify-icon{
+  z-index: 2;
+  font-size: 25px;
+  margin-left: -33px;
+  margin-top: 3px;
+}
+.search-bar-container{
+  text-align: center;
+  padding-left: calc( 50vw - 110px );
+}
