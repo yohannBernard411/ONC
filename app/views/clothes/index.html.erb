@@ -26,7 +26,7 @@
               <h2><%= clothe.name %></h2>
 
               <p>
-                <p><%= I18n.translate("clothes.index.price") %> <strong><%= clothe.price_cents/100 %>.00 Euros.</strong></p>
+                <p><%= I18n.translate("clothes.index.price") %> <strong><%= humanized_money_with_symbol(clothe.price) %></strong></p>
               </p>
 
               <p>

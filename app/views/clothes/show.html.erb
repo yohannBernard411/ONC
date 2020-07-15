@@ -24,7 +24,7 @@
       <%= content_tag(:p,"", id: "displaystars#{@clothe.id}", class: "displaystars" ) %>
       <%= I18n.translate("clothes.index.ononon") %> <strong><%= @clothe.nbov %></strong> <%= I18n.translate("clothes.index.ratings") %>
       <div id="showRightPart">
-        <p>Price: <strong><%= @clothe.price_cents/100 %>.00 Euros.</strong></p>
+        <p>Prix: <%= humanized_money_with_symbol(@clothe.price) %></p>
         <%= I18n.translate("clothes.index.delivery") %>
         <%= content_tag(:strong, id: "delivery#{@clothe.id}", class: "delivery") do %>
           <%= @clothe.delivery %>
@@ -36,7 +36,10 @@
         <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %> |
         <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %> |
         <%= link_to I18n.translate("clothes.show.comments"), "#", id: "displayComments", class: "btnlink" %> |
-        <%= link_to I18n.translate("clothes.show.buy"), "#", class: "btnlink" %> |
+        <%= form_tag orders_path do %>
+          <%= hidden_field_tag 'clothe_id', @clothe.id %>
+          <%= submit_tag 'Purchase', class: 'btnlink' %>
+        <% end %> |
         <%= link_to 'Leave a comment', new_clothe_comment_path(@clothe), class: "btnlink" %>
       </div>
     </div>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_15_081447) do
+ActiveRecord::Schema.define(version: 2020_07_15_113320) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,7 +40,6 @@ ActiveRecord::Schema.define(version: 2020_07_15_081447) do
     t.string "name"
     t.string "category"
     t.string "option"
-    t.integer "price_cents"
     t.float "scoring"
     t.integer "nbov"
     t.string "delivery"
@@ -48,6 +47,8 @@ ActiveRecord::Schema.define(version: 2020_07_15_081447) do
     t.integer "stock"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "price_cents", default: 0, null: false
+    t.string "sku"
   end
 
   create_table "comments", force: :cascade do |t|
@@ -59,6 +60,19 @@ ActiveRecord::Schema.define(version: 2020_07_15_081447) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["clothe_id"], name: "index_comments_on_clothe_id"
+  end
+
+  create_table "orders", force: :cascade do |t|
+    t.string "state"
+    t.string "clothe_sku"
+    t.integer "amount_cents", default: 0, null: false
+    t.string "checkout_session_id"
+    t.bigint "user_id", null: false
+    t.bigint "clothe_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["clothe_id"], name: "index_orders_on_clothe_id"
+    t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -76,4 +90,6 @@ ActiveRecord::Schema.define(version: 2020_07_15_081447) do
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "comments", "clothes"
+  add_foreign_key "orders", "clothes"
+  add_foreign_key "orders", "users"
 end
