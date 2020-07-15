@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_15_113320) do
+ActiveRecord::Schema.define(version: 2020_07_15_163547) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,13 @@ ActiveRecord::Schema.define(version: 2020_07_15_113320) do
     t.string "checksum", null: false
     t.datetime "created_at", null: false
     t.index ["key"], name: "index_active_storage_blobs_on_key", unique: true
+  end
+
+  create_table "carts", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_carts_on_user_id"
   end
 
   create_table "clothes", force: :cascade do |t|
@@ -60,6 +67,16 @@ ActiveRecord::Schema.define(version: 2020_07_15_113320) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["clothe_id"], name: "index_comments_on_clothe_id"
+  end
+
+  create_table "line_items", force: :cascade do |t|
+    t.bigint "cart_id", null: false
+    t.bigint "clothe_id", null: false
+    t.integer "quantity"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["cart_id"], name: "index_line_items_on_cart_id"
+    t.index ["clothe_id"], name: "index_line_items_on_clothe_id"
   end
 
   create_table "orders", force: :cascade do |t|
@@ -89,7 +106,10 @@ ActiveRecord::Schema.define(version: 2020_07_15_113320) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "carts", "users"
   add_foreign_key "comments", "clothes"
+  add_foreign_key "line_items", "carts"
+  add_foreign_key "line_items", "clothes"
   add_foreign_key "orders", "clothes"
   add_foreign_key "orders", "users"
 end

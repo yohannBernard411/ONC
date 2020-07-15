@@ -40,4 +40,12 @@ class ClothePolicy < ApplicationPolicy
   def destroy?
     return true
   end
+
+  def add?
+    return true
+  end
+
+  def remove?
+    return true
+  end
 end

@@ -28,4 +28,11 @@
     <button id="english"><%= link_to "English", url_for(only_path: true, locale: "en") %></button>
     <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
   </div>
+  <div class="my-cart">
+    <% if @all_line_items %>
+      <%= "Vous avez " %><%= @all_line_items.count %>
+      <%= " Articles dans votre panier." %><br>
+      <%= link_to "Voir mon panier", "#", class: "btnlink" %>
+    <% end %>
+  </div>
 </div>

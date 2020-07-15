@@ -15,6 +15,11 @@ class ClothesController < ApplicationController
     authorize @clothe
     @comments = Comment.where(clothe_id: @clothe.id)
     authorize @comments
+    # pour l'affichage du header:
+    @all_line_items = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id)
+    if LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id).where(clothe_id: @clothe.id)[0]
+      @current_clothe = true
+    end
   end
 
   def new
@@ -52,7 +57,27 @@ class ClothesController < ApplicationController
   authorize @clothe
   @clothe.destroy
   redirect_to clothes_path
-end
+  end
+
+  def add
+    @clothe = Clothe.find(params[:id])
+    authorize @clothe
+    @cart = Cart.new(user_id: current_user.id) unless @cart = Cart.where(user_id: current_user.id)[0]
+    @cart.save!
+    # authorize @cart
+    @line_item = LineItem.new(cart_id: @cart.id, clothe_id: @clothe.id, quantity: 1)
+    # authorize @line_item
+    @line_item.save!
+    redirect_to @clothe
+  end
+
+  def remove
+    @clothe = Clothe.find(params[:id])
+    authorize @clothe
+    @line_item = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id).where(clothe_id: @clothe.id)[0]
+    @line_item.destroy
+    redirect_to @clothe
+  end
 
   private
 

@@ -89,7 +89,7 @@
   z-index: 4;
   width: 200px;
   height: 300px;
-  background-color: #2A80B9;
+  background-color: #89cdfa;
   transform: translate( calc( 50vw - 100px ), -300px);
   position: fixed;
   transition: top 1s;
@@ -125,4 +125,7 @@
 }
 .menudown{
   top: 400px;
+}
+.my-cart{
+  color: white;
 }
