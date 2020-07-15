@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
   get 'articles/label', to: 'articles#label'
+  get 'clothes/:id/add', to: 'clothes#add', as: 'add_to_cart'
+  get 'clothes/:id/remove', to: 'clothes#remove', as: 'remove_from_cart'
   resources :clothes do
     resources :comments, only: [ :new, :create ]
   end
@@ -9,6 +11,7 @@ Rails.application.routes.draw do
   resources :orders, only: [:show, :create] do
     resources :payments, only: :new
   end
+  
   mount StripeEvent::Engine, at: '/stripe-webhooks'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
