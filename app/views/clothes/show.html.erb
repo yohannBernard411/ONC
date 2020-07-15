@@ -36,8 +36,29 @@
         <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %> |
         <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %> |
         <%= link_to I18n.translate("clothes.show.comments"), "#", id: "displayComments", class: "btnlink" %> |
-        <%= link_to I18n.translate("clothes.show.buy"), "#", class: "btnlink" %>
+        <%= link_to I18n.translate("clothes.show.buy"), "#", class: "btnlink" %> |
+        <%= link_to 'Leave a comment', new_clothe_comment_path(@clothe), class: "btnlink" %>
       </div>
     </div>
   </div>
+</div>
+<hr><hr>
+
+<div class="all-comments">
+  <% @comments.each do |comment| %>
+    <div class="container">
+      <%= comment.title %><br>
+      <%= comment.content %><br>
+      <%= comment.note %><br>
+      <%= comment.user_id %><br>
+      <%= link_to "see", comment_path(comment), class: "btnlink" %>
+      <%= link_to "Remove",
+                    comment_path(comment),
+                    method: :delete,
+                    data: { confirm: "Are you sure?" },
+                    class: "btnlink" %>
+      <%= link_to "update", edit_comment_path(comment.id), class: "btnlink" %>
+    </div>
+    <hr>
+  <% end %>
 </div>

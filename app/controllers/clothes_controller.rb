@@ -13,6 +13,8 @@ class ClothesController < ApplicationController
   def show
     @clothe = Clothe.find(params[:id])
     authorize @clothe
+    @comments = Comment.where(clothe_id: @clothe.id)
+    authorize @comments
   end
 
   def new
