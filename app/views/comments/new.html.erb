@@ -1,0 +1,6 @@
+<%= simple_form_for [ @clothe, @comment ] do |f| %>
+  <%= f.input :title %>
+  <%= f.input :content %>
+  <%= f.input :note %>
+  <%= f.submit "Submit comment", class: "btnlink" %> | <%= link_to "return", clothe_path(@clothe.id), class: "btnlink"  %>
+<% end %>
