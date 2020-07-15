@@ -20,7 +20,7 @@
   margin-right: 0;
 }
 .my-title{
-  font-size: 32px;
+  font-size: calc( calc( 100vw - 180px ) / 6 );
   display: flex;
   justify-content: space-around;
   align-items: center;
