@@ -32,7 +32,7 @@
     <% if @all_line_items %>
       <%= "Vous avez " %><%= @all_line_items.count %>
       <%= " Articles dans votre panier." %><br>
-      <%= link_to "Voir mon panier", "#", class: "btnlink" %>
+      <%= link_to "Voir mon panier", cart_path(@all_line_items[0].cart_id), class: "btnlink" %>
     <% end %>
   </div>
 </div>

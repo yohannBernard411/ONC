@@ -1,0 +1,30 @@
+<h1 id="cart-show-title">Mon panier</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Article</th>
+            <th>Quantitée</th>
+            <th>Prix unitaire</th>
+            <th>Prix total</th>
+        </tr>
+    </thead>
+    <tbody>
+      <% @all_line_items.each do |line_item| %>
+        <tr>
+          <td><%= line_item.clothe.name %></td>
+          <td><%= line_item.quantity %></td>
+          <td><%= "#{line_item.clothe.price_cents/100}.00 Euros." %></td>
+          <td class="row-total"><%= "#{line_item.quantity * (line_item.clothe.price_cents/100)}.00 Euros." %></td>
+        </tr>
+      <% end %>
+    </tbody>
+    <tfoot>
+    <tr>
+      <td colspan="3">Total</td>
+      <td id="main-total"></td>
+    </tr>
+  </tfoot>
+</table>
+
+<%= link_to "Retourner en boutique", clothes_path, class: "btnlink" %>
+
