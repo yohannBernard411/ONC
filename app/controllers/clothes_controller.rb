@@ -19,6 +19,8 @@ class ClothesController < ApplicationController
     @all_line_items = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id)
     if LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id).where(clothe_id: @clothe.id)[0]
       @current_clothe = true
+    else
+      @current_clothe = false
     end
   end
 
