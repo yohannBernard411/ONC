@@ -3,6 +3,8 @@ const displayDropDownMenu = () => {
   const cross = document.getElementById("cross");
   const cubic = document.getElementById("cubic");
   const menu = document.getElementById("menu");
+  burger.style.right = ((90 - burger.offsetWidth) / 2) + "px";
+  cross.style.right = ((90 - cross.offsetWidth) / 2) + "px";
   burger.addEventListener("click", () => {
     burger.classList.remove("wait");
     burger.classList.add("action");
