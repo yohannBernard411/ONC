@@ -39,11 +39,7 @@
         <%= link_to "put in my cart", add_to_cart_path(@clothe), class: "btnlink" %>
         <% if @current_clothe %>
           <%= link_to "remove from my cart",  remove_from_cart_path(@clothe), class: "btnlink" %>
-        <% end %>
-        <%= form_tag orders_path do %>
-          <%= hidden_field_tag 'clothe_id', @clothe.id %>
-          <%= submit_tag 'purchase', class: 'btnlink' %>
-        <% end %> |
+        <% end %> | 
         <%= link_to 'Leave a comment', new_clothe_comment_path(@clothe), class: "btnlink" %>
       </div>
     </div>

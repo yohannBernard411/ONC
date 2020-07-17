@@ -1,6 +1,6 @@
 class Order < ApplicationRecord
   belongs_to :user
-  belongs_to :clothe
+  belongs_to :cart
 
   monetize :amount_cents
 end

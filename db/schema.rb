@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_16_014006) do
+ActiveRecord::Schema.define(version: 2020_07_17_151111) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,6 +40,9 @@ ActiveRecord::Schema.define(version: 2020_07_16_014006) do
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "price_cents", default: 0, null: false
+    t.string "sku"
+    t.string "name"
     t.index ["user_id"], name: "index_carts_on_user_id"
   end
 
@@ -81,14 +84,13 @@ ActiveRecord::Schema.define(version: 2020_07_16_014006) do
 
   create_table "orders", force: :cascade do |t|
     t.string "state"
-    t.string "clothe_sku"
     t.integer "amount_cents", default: 0, null: false
     t.string "checkout_session_id"
     t.bigint "user_id", null: false
-    t.bigint "clothe_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["clothe_id"], name: "index_orders_on_clothe_id"
+    t.integer "cart_id"
+    t.string "cart_sku"
     t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
@@ -111,6 +113,5 @@ ActiveRecord::Schema.define(version: 2020_07_16_014006) do
   add_foreign_key "comments", "clothes"
   add_foreign_key "line_items", "carts"
   add_foreign_key "line_items", "clothes"
-  add_foreign_key "orders", "clothes"
   add_foreign_key "orders", "users"
 end

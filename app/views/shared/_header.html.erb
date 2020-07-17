@@ -17,9 +17,9 @@
 
 <div id="menu" class="menuup">
   <% if current_user %>
-    <%= link_to "Se deconnecter", "#" %>
+    <%= link_to "Se deconnecter", destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %>
   <% else %>
-    <%= link_to "Se connecter", "#" %>
+    <%= link_to "Se connecter", new_user_session_path %>
   <% end %>
   <br><hr>
   <div id="langue">
@@ -29,10 +29,10 @@
     <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
   </div>
   <div class="my-cart">
-    <% if @current_clothe %>
-      <%= "Vous avez " %><%= @all_line_items.count %>
+    <% if @all_line_items %>
+      <%= "Vous avez " %><%= @total_count %>
       <%= " Articles dans votre panier." %><br>
-      <%= link_to "Voir mon panier", cart_path(@all_line_items[0].cart_id), class: "btnlink" %>
+      <%= link_to "Voir mon panier", cart_path(current_user.cart.id), class: "btnlink" %>
     <% end %>
   </div>
 </div>

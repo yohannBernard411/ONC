@@ -63,6 +63,7 @@
   padding: 0;
   position: absolute;
   top: -15px;
+  right: 22px;
   transform-origin: center;
   transition: transform 1s, color 1s, Z-index 1s;
 }
@@ -109,12 +110,12 @@
   color: #2A80B9;
 }
 .action{
-  transform: rotate(360deg);
+  transform: rotate(-360deg);
   Z-index: 2;
   color: white;
 }
 .action2{
-  transform: rotate(-360deg);
+  transform: rotate(360deg);
   Z-index: 2;
   color: white;
 }

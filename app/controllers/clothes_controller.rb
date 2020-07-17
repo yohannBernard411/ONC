@@ -7,7 +7,6 @@ class ClothesController < ApplicationController
       @name = @search["name"]
       @clothes = policy_scope(Clothe).where("name ILIKE ?", "%#{@name}%").order(created_at: :desc)
     end
-    
   end
 
   def show
@@ -15,13 +14,6 @@ class ClothesController < ApplicationController
     authorize @clothe
     @comments = Comment.where(clothe_id: @clothe.id)
     authorize @comments
-    # pour l'affichage du header:
-    @all_line_items = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id)
-    if LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id).where(clothe_id: @clothe.id)[0]
-      @current_clothe = true
-    else
-      @current_clothe = false
-    end
   end
 
   def new
@@ -67,7 +59,12 @@ class ClothesController < ApplicationController
     @cart = Cart.new(user_id: current_user.id) unless @cart = Cart.where(user_id: current_user.id)[0]
     @cart.save!
     # authorize @cart
-    @line_item = LineItem.new(cart_id: @cart.id, clothe_id: @clothe.id, quantity: 1)
+    @line_item = LineItem.where(cart_id: @cart.id).where(clothe_id: @clothe.id)[0]
+    if @line_item
+      @line_item.quantity += 1
+    else
+      @line_item = LineItem.new(cart_id: @cart.id, clothe_id: @clothe.id, quantity: 1)
+    end
     # authorize @line_item
     @line_item.save!
     redirect_to @clothe

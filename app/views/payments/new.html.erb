@@ -1,9 +1,9 @@
 <div class="container">
   <div class="row py-4">
-    <div class="col-md-3"><%= cl_image_tag @order.clothe.photos[0].key, class:"picture", height: 280, width: 280, crop: :fill %></div>
+    <div class="col-md-3"><%= image_tag "http://res.cloudinary.com/do3nu0tns/image/upload/v1594997331/h1j2nhmbuavymrramr9f.png" %></div>
     <div class="col">
       <h1>Checkout summary</h1>
-      <p>Purchase of <strong><%= @order.clothe.name %></strong> for <strong><%= humanized_money_with_symbol @order.amount %></strong></p>
+      <p>Purchase of <strong><%= @order.cart.name %></strong> for <strong><%= humanized_money_with_symbol @order.cart.price %></strong></p>
       <button id="pay" class="btn btn-primary">Pay</button>
       <script src="https://js.stripe.com/v3/"></script>
       <script>
