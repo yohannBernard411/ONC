@@ -1,17 +1,16 @@
 class OrdersController < ApplicationController
 
   def create
-    clothe = Clothe.find(params[:clothe_id])
-    authorize clothe
-    order  = Order.create!(clothe: clothe, clothe_sku: clothe.sku, amount: clothe.price, state: 'pending', user: current_user)
+    cart = Cart.find(current_user.cart.id)
+    order  = Order.create!(cart: cart, cart_sku: cart.sku, amount_cents: cart.price_cents, state: 'pending', user: current_user)
     authorize order
 
     session = Stripe::Checkout::Session.create(
       payment_method_types: ['card'],
       line_items: [{
-        name: clothe.name,
-        images: [clothe.photos],
-        amount: clothe.price_cents,
+        name: cart.name,
+        images: ["http://res.cloudinary.com/do3nu0tns/image/upload/v1594997331/h1j2nhmbuavymrramr9f.png"],
+        amount: cart.price_cents,
         currency: 'eur',
         quantity: 1
       }],
