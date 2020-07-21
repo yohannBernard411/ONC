@@ -6,11 +6,11 @@ const displayMenu = () => {
       card.style.transition = "0.5s";
       card.addEventListener("click", (event) => {
         allItems.forEach((item) => {
-          if (item === event.path[1]){
-            item.style.height = "70%";
+          if (item === event.path[1] || item === event.path[0]){
+            item.style.height = "calc( calc( 100vh - 150px ) * 0.7 )";
             item.querySelector(".list").style.display = "block";
           } else {
-            item.style.height = "10%";
+            item.style.height = "calc( calc( 100vh - 150px ) * 0.1 )";
             item.querySelector(".list").style.display = "none";
           }
         });

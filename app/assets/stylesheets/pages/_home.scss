@@ -26,6 +26,10 @@ body{
   & li{
     margin-left: -40px;
     font-family: 'Courgette', cursive;
+    & a{
+      display: block;
+      width: 100vw;
+    }
   }
 }
 
@@ -40,8 +44,12 @@ body{
     width: 50%;
     height: 50%;
     border: solid 2px grey;
+    cursor: pointer;
   }
-
+  .list li a{
+    display: block;
+    width: 70vw;
+  }
 }
 
 // media queries desktop
@@ -55,5 +63,10 @@ body{
     width: 25%;
     height: 100%;
     margin-top: 40px;
+    cursor: pointer;
+  }
+  .list li a{
+    display: block;
+    width: 70vw;
   }
 }
