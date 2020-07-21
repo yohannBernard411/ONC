@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_17_151111) do
+ActiveRecord::Schema.define(version: 2020_07_20_212516) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -72,6 +72,21 @@ ActiveRecord::Schema.define(version: 2020_07_17_151111) do
     t.index ["clothe_id"], name: "index_comments_on_clothe_id"
   end
 
+  create_table "delivery_adresses", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "adress1"
+    t.string "adress2"
+    t.string "city"
+    t.string "state"
+    t.string "zipcode"
+    t.integer "phone_number"
+    t.text "delivery_instructions"
+    t.string "code_secure"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "line_items", force: :cascade do |t|
     t.bigint "cart_id", null: false
     t.bigint "clothe_id", null: false
@@ -104,6 +119,8 @@ ActiveRecord::Schema.define(version: 2020_07_17_151111) do
     t.datetime "updated_at", precision: 6, null: false
     t.boolean "admin", default: false
     t.integer "cart_id"
+    t.bigint "delivery_adress_id", null: false
+    t.index ["delivery_adress_id"], name: "index_users_on_delivery_adress_id"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
@@ -114,4 +131,5 @@ ActiveRecord::Schema.define(version: 2020_07_17_151111) do
   add_foreign_key "line_items", "carts"
   add_foreign_key "line_items", "clothes"
   add_foreign_key "orders", "users"
+  add_foreign_key "users", "delivery_adresses"
 end

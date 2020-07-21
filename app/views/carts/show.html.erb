@@ -21,16 +21,18 @@
     <tfoot>
     <tr>
       <td colspan="3">Total</td>
-      <td id="main-total"><%= @total_price / 100 %>.00 Euros.</td>
+      <td id="main-total"><%= @total_price %>.00 Euros.</td>
     </tr>
   </tfoot>
 </table>
+<p>Amount: <%= humanized_money_with_symbol(current_user.cart.price_cents) %>.00</p>
 
-<p>Amount: <%= humanized_money_with_symbol(current_user.cart.price_cents) %></p>
+<%= link_to "Passer commande", new_delivery_adress_path, class: "btnlink" %> 
 
-<%= link_to "Retourner en boutique", clothes_path, class: "btnlink" %> | 
-<%= form_tag orders_path do %>
-  <%= hidden_field_tag 'cart_id', current_user.cart.id %>
-  <%= submit_tag 'purchase', class: 'btnlink' %>
-<% end %>
+<%= link_to "Retourner en boutique", clothes_path, class: "btnlink" %>
 
+
+<%# form_tag orders_path do %>
+  <%# hidden_field_tag 'cart_id', current_user.cart.id %>
+  <%# submit_tag 'Valider commande', class: 'btnlink' %>
+<%# end %>

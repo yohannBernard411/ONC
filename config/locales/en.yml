@@ -169,3 +169,18 @@ en:
       back: "Return"
       comments: "Comments"
       buy: "Buy"
+  shared:
+    header:
+      signout: "Sign out"
+      signin: "Sign in"
+      you_have: 
+        one: "You have 1 item in your cart."
+        other: "You have %{count} items in your cart."
+      see_cart: "See my shopping cart"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: " can't be blank!"

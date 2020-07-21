@@ -164,3 +164,18 @@ es:
       back: "Volver"
       comments: "Comentarios"
       buy: "Compra"
+  shared:
+    header:
+      signout: "Desconectarse"
+      signin: "Conectarse"
+      you_have: 
+        one: "Tienes 1 artículo en tu carrito."
+        other: "Tienes %{count} artículos en tu carrito."
+      see_cart: "Ver mi cesta"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: " no debe estar vacío!"

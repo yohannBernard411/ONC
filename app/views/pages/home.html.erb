@@ -1,5 +1,5 @@
 <div class="my-container">
-  <div class="my-card">
+  <div class="my-card" id="home">
     <h2><%= I18n.translate("welcome.index.home") %></h2>
     <ul class="list">
       <li><%= link_to I18n.translate("welcome.index.who"), "/home/who" %></li>
@@ -8,7 +8,7 @@
       <li><%= link_to I18n.translate("welcome.index.connexion"), "/connect/index" %></li>
     </ul>
   </div>
-  <div class="my-card">
+  <div class="my-card" id="shop">
     <h2><%= I18n.translate("welcome.index.shop") %></h2>
     <ul class="list">
       <li><%= link_to I18n.translate("welcome.index.product"), "/shop/product" %></li>
@@ -16,7 +16,7 @@
       <li><%= link_to I18n.translate("welcome.index.collection"), clothes_path %></li>
     </ul>
   </div>
-  <div class="my-card">
+  <div class="my-card" id="articles">
     <h2><%= I18n.translate("welcome.index.articles") %></h2>
     <ul class="list">
       <li><%= link_to I18n.translate("welcome.index.plastic"), "/articles/plastic" %></li>
@@ -26,7 +26,7 @@
       <li><%= link_to I18n.translate("welcome.index.label"), articles_label_path %></li>
     </ul>
   </div>
-  <div class="my-card">
+  <div class="my-card" id="partners">
     <h2><%= I18n.translate("welcome.index.partners") %></h2>
     <ul class="list">
       <li><%= link_to I18n.translate("welcome.index.link"), "/partners/link" %></li>

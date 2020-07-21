@@ -21,6 +21,7 @@
 }
 .my-title{
   font-size: calc( calc( 100vw - 180px ) / 6 );
+  margin-top: 3vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -90,12 +91,13 @@
   transition: border-radius 1s;
 }
 #menu{
+  padding-top: 25px;
   text-align: center;
   z-index: 4;
-  width: 200px;
-  height: 300px;
+  width: 50vw;
+  height: 50vh;
   background-color: #89cdfa;
-  transform: translate( calc( 50vw - 100px ), -300px);
+  transform: translate( 25vw, -300px);
   position: fixed;
   transition: top 1s;
 }
@@ -133,4 +135,20 @@
 }
 .my-cart{
   color: white;
+}
+
+// media queries tablette
+
+@media (min-width: 500px) and (max-width: 1200px) {
+  .my-title{
+    font-size: calc( calc( 100vw - 180px ) / 10 );
+  }
+}
+
+// media queries desktop
+
+@media (min-width: 1201px){
+  .my-title{
+    font-size: calc( calc( 100vw - 180px ) / 14 );
+  }
 }

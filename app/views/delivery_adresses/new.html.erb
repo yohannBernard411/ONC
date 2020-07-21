@@ -1,0 +1,20 @@
+<h1>Delivery Adresses</h1>
+
+<%= simple_form_for @delivery_adress do |f| %>
+  <%= f.input :first_name %>
+  <%= f.input :last_name %>
+  <%= f.input :adress1 %>
+  <%= f.input :adress2 %>
+  <%= f.input :city %>
+  <%= f.input :state %>
+  <%= f.input :zipcode %>
+  <%= f.input :phone_number %>
+  <%= f.input :delivery_instructions %>
+  <%= f.input :code_secure %>
+  <%= f.button :submit, label:"Valider mon adresse" %>
+<% end %>
+
+<%= form_tag orders_path do %>
+  <%= hidden_field_tag 'cart_id', current_user.cart.id %>
+  <%= submit_tag 'Régler ma commande', class: 'btnlink' %>
+<% end %>

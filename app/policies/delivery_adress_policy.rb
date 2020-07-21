@@ -1,6 +1,6 @@
-class CartPolicy < ApplicationPolicy
+class DeliveryAdressPolicy < ApplicationPolicy
 
-  attr_reader :user, :cart
+  attr_reader :user, :delivery_adress
 
   class Scope < Scope
     def resolve
@@ -8,9 +8,9 @@ class CartPolicy < ApplicationPolicy
     end
   end
 
-  def initialize(user, cart)
+  def initialize(user, delivery_adress)
     @user = user
-    @cart = cart
+    @delivery_adress = delivery_adress
   end
 
   def index?

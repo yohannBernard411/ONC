@@ -1,26 +1,25 @@
 class CartsController < ApplicationController
 
-  def show
-    puts "===debut==="
-    puts "===@cart:==="
-    @cart = Cart.where(user_id: current_user.id)[0] # juste un id
-    puts "===@all_line_items:==="
-    @all_line_items = LineItem.where(cart_id: @cart.id).includes(:clothe) #cart_id, clothe_id, quantity
-    puts "===@cart price and name and save:==="
-    # @all_clothes = []
+  def index
+    @carts = Cart.all
+    @all_line_items = LineItem.all
+    @clothes = Clothe.all
+    @orders = Order.all
+    authorize @carts
+  end
 
-    # @cart.price_cents = 0
-    # @all_line_items.each do |line_item|
-    #   @all_clothes << Clothe.find(line_item.clothe_id)
-    #   @cart.price_cents += (Clothe.find(line_item.clothe_id)).price_cents
-    # end
+  def show
+    @cart = Cart.where(user_id: current_user.id)[0]
+    @all_line_items = LineItem.where(cart_id: @cart.id).includes(:clothe)
+    @total_price = 0
+    @all_line_items.each do |line|
+      @total_price += line.quantity * (line.clothe.price_cents / 100)
+    end
     @cart.price_cents = @total_price
-    @cart.name = "commande N° xxxx"
+    @cart.name = "Commande N° #{@cart.id}"
 
     @cart.save!
-    puts "===fin==="
     authorize @cart
   end
-    #  cart GET    /carts/:id(.:format)   carts#show
 
 end

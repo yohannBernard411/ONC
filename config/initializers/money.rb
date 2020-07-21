@@ -2,6 +2,7 @@
 
 MoneyRails.configure do |config|
 
+  # https://github.com/RubyMoney/money#deprecation
   Money.locale_backend = :currency
 
   MoneyRails.configure do |config|
@@ -50,16 +51,16 @@ MoneyRails.configure do |config|
   #                          }
 
   # Register a custom currency
-  #
+  
   # Example:
   # config.register_currency = {
   #   priority:            1,
   #   iso_code:            "EU4",
-  #   name:                "Euro with subunit of 4 digits",
+  #   name:                "Euro with subunit of 2 digits",
   #   symbol:              "€",
   #   symbol_first:        true,
   #   subunit:             "Subcent",
-  #   subunit_to_unit:     10000,
+  #   subunit_to_unit:     100,
   #   thousands_separator: ".",
   #   decimal_mark:        ","
   # }

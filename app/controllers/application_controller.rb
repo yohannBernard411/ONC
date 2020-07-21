@@ -6,16 +6,18 @@ class ApplicationController < ActionController::Base
   include Pundit
 
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
-  after_action :verify_policy_scoped, only: :index, unless: :skip_pundit?
+  # after_action :verify_policy_scoped, only: :index, unless: :skip_pundit?
 
   def load_cart
     if current_user
-      @all_line_items = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id)
-      @total_count = 0
-      @total_price = 0
-      @all_line_items.each do |line_item|
-        @total_count += line_item.quantity
-        @total_price += (line_item.quantity * (line_item.clothe.price_cents))
+      if current_user.cart_id
+        @all_line_items = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id)
+        @total_count = 0
+        @total_price = 0
+        @all_line_items.each do |line_item|
+          @total_count += line_item.quantity
+          @total_price += (line_item.quantity * (line_item.clothe.price_cents))
+        end
       end
     end
   end
