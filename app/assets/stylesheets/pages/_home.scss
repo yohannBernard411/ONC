@@ -8,6 +8,7 @@ body{
   background-size: cover;
 }
 .my-card{
+  margin: 0;
   width: 100%;
   height: 25%;
   text-align: center;
@@ -25,5 +26,34 @@ body{
   & li{
     margin-left: -40px;
     font-family: 'Courgette', cursive;
+  }
+}
+
+// media queries tablette
+
+@media (min-width: 500px) and (max-width: 1200px) {
+  .my-container{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .my-card{
+    width: 50%;
+    height: 50%;
+    border: solid 2px grey;
+  }
+
+}
+
+// media queries desktop
+
+@media (min-width: 1201px){
+  .my-container{
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .my-card{
+    width: 25%;
+    height: 100%;
+    margin-top: 40px;
   }
 }

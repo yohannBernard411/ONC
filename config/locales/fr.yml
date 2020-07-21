@@ -169,3 +169,18 @@ fr:
       back: "Retour"
       comments: "Commentaires"
       buy: "Acheter"
+  shared:
+    header:
+      signout: "Se deconnecter"
+      signin: "Se connecter"
+      you_have: 
+        one: "Vous avez 1 article dans votre panier."
+        other: "Vous avez %{count} articles dans votre panier."
+      see_cart: "Voir mon panier"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: " ne doit pas être vide!"

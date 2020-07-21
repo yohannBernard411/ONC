@@ -1,11 +1,12 @@
 const displayDropDownMenu = () => {
-  const burger = document.getElementById("burger");
-  const cross = document.getElementById("cross");
   const cubic = document.getElementById("cubic");
   const menu = document.getElementById("menu");
-  console.log(burger.offsetWidth);
-  burger.style.right = ((90 - burger.offsetWidth) / 2) + "px";
-  cross.style.right = ((90 - cross.offsetWidth) / 2) + "px";
+  cubic.insertAdjacentHTML("beforeend", '<p id="burger" class="wait">&equiv;</p>');
+  cubic.insertAdjacentHTML("beforeend", '<p id="cross" class="action2">&times;</p>');
+  const burger = document.getElementById("burger");
+  const cross = document.getElementById("cross");
+  burger.style.right = ((90 - burger.getBoundingClientRect()) / 2) + "px";
+  cross.style.right = "22px";
   burger.addEventListener("click", () => {
     burger.classList.remove("wait");
     burger.classList.add("action");

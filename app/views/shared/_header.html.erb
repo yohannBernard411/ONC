@@ -9,17 +9,15 @@
   </h1>
 
   <div id="cubic" class="restrict">
-    <p id="burger" class="wait">&equiv;</p>
-    <p id="cross" class="action2">&times;</p>
   </div>
   
 </div>
 
 <div id="menu" class="menuup">
   <% if current_user %>
-    <%= link_to "Se deconnecter", destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %>
+    <%= link_to I18n.translate("shared.header.signout"), destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %>
   <% else %>
-    <%= link_to "Se connecter", new_user_session_path %>
+    <%= link_to I18n.translate("shared.header.signin"), new_user_session_path, class: "btnlink" %>
   <% end %>
   <br><hr>
   <div id="langue">
@@ -28,11 +26,11 @@
     <button id="english"><%= link_to "English", url_for(only_path: true, locale: "en") %></button>
     <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
   </div>
+  <hr>
   <div class="my-cart">
     <% if @all_line_items %>
-      <%= "Vous avez " %><%= @total_count %>
-      <%= " Articles dans votre panier." %><br>
-      <%= link_to "Voir mon panier", cart_path(current_user.cart.id), class: "btnlink" %>
+      <%= I18n.translate("shared.header.you_have", count: @total_count) %><br>
+      <%= link_to I18n.translate("shared.header.see_cart"), cart_path(current_user.cart.id), class: "btnlink" %>
     <% end %>
   </div>
 </div>
