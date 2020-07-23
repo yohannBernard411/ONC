@@ -1,7 +1,7 @@
 class ClothesController < ApplicationController
 
   def index
-    @clothes = policy_scope(Clothe).order(created_at: :desc)
+    @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
     @search = params["search"]
     if @search.present?
       @name = @search["name"]
