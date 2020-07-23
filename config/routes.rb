@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get 'articles/label', to: 'articles#label'
   get 'clothes/:id/add', to: 'clothes#add', as: 'add_to_cart'
   get 'clothes/:id/remove', to: 'clothes#remove', as: 'remove_from_cart'
+  get 'homes/who', to: 'homes#who'
+  get 'homes/contact', to: 'homes#contact'
+
 
   resources :clothes do
     resources :comments, only: [ :new, :create ]
