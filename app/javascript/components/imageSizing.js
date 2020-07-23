@@ -1,0 +1,5 @@
+const adaptScreenSize = () => {
+
+}
+
+export { adaptScreenSize };

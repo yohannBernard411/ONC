@@ -6,7 +6,7 @@
       <div class="my-viewer">
         <p id="right-button"><i class="fas fa-arrow-circle-left"></i></p>
           <% @clothe.photos.each_with_index do |photo, index| %>
-            <%= cl_image_tag photo.key, id:"photo#{index}", class:"picture", height: 280, width: 280, crop: :fill %>
+            <%= cl_image_tag photo.key, id:"photo#{index}", class:"picture", width: 800, height:500, crop: :fill %>
           <% end %>
         <p id="left-button"><i class="fas fa-arrow-circle-right"></i></p>
       </div>

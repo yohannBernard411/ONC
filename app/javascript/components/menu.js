@@ -18,7 +18,6 @@ const displayMenu = () => {
     })
   }
   const tabletteMenu = () => {
-    console.log("verif tablette");
     const allItems = document.querySelectorAll(".my-card");
     const home = document.getElementById("home");
     const shop = document.getElementById("shop");
@@ -103,12 +102,14 @@ const displayMenu = () => {
     })
   }
 
-  if (window.matchMedia("(max-width: 500px)").matches) {
-    smartphoneMenu();
-  } else if (window.matchMedia("(min-width: 500px)").matches && window.matchMedia("(max-width: 1200px)").matches) {
-    tabletteMenu();
-  } else {
-    desktopMenu();
+  if (document.getElementById("home")){
+    if (window.matchMedia("(max-width: 500px)").matches) {
+      smartphoneMenu();
+    } else if (window.matchMedia("(min-width: 500px)").matches && window.matchMedia("(max-width: 1200px)").matches) {
+      tabletteMenu();
+    } else {
+      desktopMenu();
+    }
   }
 
 }
