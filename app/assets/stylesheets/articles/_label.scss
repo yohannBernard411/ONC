@@ -1,6 +1,7 @@
 #labelImage{
-  width: 100vw;
-  height: 100vw;
+  width: 90vw;
+  max-width: 900px;
+  height: auto;
 }
 .myTitle{
   text-align: center;
@@ -11,4 +12,8 @@
 .myText{
   font-family: 'Courgette', cursive;
   margin: 0 20px;
+}
+.centrage{
+  width: 100%;
+  text-align: center;
 }
