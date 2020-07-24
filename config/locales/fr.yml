@@ -153,6 +153,7 @@ fr:
     form:
       name: "Nom:"
       category: "Catégorie:"
+      description: "Description:"
       option: "Option:"
       price_cents: "Prix en centimes:"
       scoring: "Note sur 5:"

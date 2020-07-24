@@ -153,6 +153,7 @@ en:
     form:
       name: "Name:"
       category: "Category:"
+      description: "Description:"
       option: "Option:"
       price_cents: "Price in cents:"
       scoring: "Note out of 5:"

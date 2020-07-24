@@ -2,7 +2,7 @@ class Clothe < ApplicationRecord
 
   has_many_attached :photos #cloudinary
 
-  # has_many :comments, dependent: :destroy
+  has_many :comments, dependent: :destroy
   monetize :price_cents
   
   # has_many :line_items

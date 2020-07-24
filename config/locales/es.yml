@@ -148,6 +148,7 @@ es:
     form:
       name: "Apellido:"
       category: "Categoría:"
+      description: "Descripción:"
       option: "Opción:"
       price_cents: "Precio en centavos:"
       scoring: "Nota de 5:"
