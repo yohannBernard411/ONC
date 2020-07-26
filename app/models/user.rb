@@ -30,7 +30,7 @@ class User < ApplicationRecord
     user = User.where(facebook_id: auth.uid).first
     unless user
       user = User.where(email: auth.email).first
-    unless user
+    else unless user
     # where(facebook_id: auth.uid).first_or_create! do |user|
       user = User.new
       user.email = auth.info.email
