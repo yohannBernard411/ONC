@@ -2,7 +2,9 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
 
-  devise_for :users
+  devise_for :users, controllers: {
+    omniauth_callbacks: 'users/omniauth_callbacks'
+  }
   
   get 'articles/label', to: 'articles#label'
   get 'clothes/:id/add', to: 'clothes#add', as: 'add_to_cart'

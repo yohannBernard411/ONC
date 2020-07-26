@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
 
+  before_action :configure_devise_parameters, if: :devise_controller?
   before_action :set_locale
   before_action :load_cart
   before_action :authenticate_user!
@@ -11,12 +12,14 @@ class ApplicationController < ActionController::Base
   def load_cart
     if current_user
       if current_user.cart_id
-        @all_line_items = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id)
-        @total_count = 0
-        @total_price = 0
-        @all_line_items.each do |line_item|
-          @total_count += line_item.quantity
-          @total_price += (line_item.quantity * (line_item.clothe.price_cents))
+        if LineItem.where(cart_id: Cart.where(user_id: current_user.id))[0]
+          @all_line_items = LineItem.where(cart_id: (Cart.where(user_id: current_user.id))[0].id)
+          @total_count = 0
+          @total_price = 0
+          @all_line_items.each do |line_item|
+            @total_count += line_item.quantity
+            @total_price += (line_item.quantity * (line_item.clothe.price_cents))
+          end
         end
       end
     end
@@ -24,6 +27,10 @@ class ApplicationController < ActionController::Base
 
   def default_url_options
     { locale: I18n.locale }
+  end
+
+  def configure_devise_parameters
+    devise_parameter_sanitizer.permit(:sign_up) { |u| u.permit(:username, :email, :password, :password_confirmation) }
   end
 
   private
