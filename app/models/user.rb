@@ -27,13 +27,19 @@ class User < ApplicationRecord
   end
 
   def self.from_facebook(auth)
-    (where(facebook_id: auth.uid) || where(email: auth.email)).first_or_create! do |user|
+    user = User.where(facebook_id: auth.uid).first
+    unless user
+      user = User.where(email: auth.email).first
+    unless user
+    # where(facebook_id: auth.uid).first_or_create! do |user|
+      user = User.new
       user.email = auth.info.email
       user.username = auth.info.name
       user.password = Devise.friendly_token[0, 20]
       user.cart_id = 3
       user.delivery_adress_id = 1
       user.skip_confirmation!
+      user.save
     end
   end
 
