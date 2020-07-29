@@ -56,7 +56,7 @@ class ClothesController < ApplicationController
   def add
     @clothe = Clothe.find(params[:id])
     authorize @clothe
-    @cart = Cart.new(user_id: current_user.id) unless @cart = Cart.where(user_id: current_user.id)[0]
+    @cart = Cart.new(user_id: current_user.id, state: "awaiting") unless @cart = Cart.where(user_id: current_user.id)[0]
     @cart.save!
     # authorize @cart
     @line_item = LineItem.where(cart_id: @cart.id).where(clothe_id: @clothe.id)[0]
