@@ -6,7 +6,7 @@
 
 <% @carts.each do |cart| %>
   <%# renseignement du panier %>
-  <%= cart.name %>
+  <%= cart.id %>
   <br>
   <%# renseignement de la commande(order) %>
   <% @orders.where(cart_id: cart.id).each do |order| %>
