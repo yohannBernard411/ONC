@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'ocenat.creations@orange.fr'
+  default from: 'emailing@bernardyohann.fr'
   layout 'mailer'
 end
