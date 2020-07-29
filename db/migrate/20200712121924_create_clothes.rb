@@ -10,6 +10,7 @@ class CreateClothes < ActiveRecord::Migration[6.0]
       t.string :delivery
       t.string :delivery_color
       t.integer :stock
+      t.string :wire_type
 
       t.timestamps
     end

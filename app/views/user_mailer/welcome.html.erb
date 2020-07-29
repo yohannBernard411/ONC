@@ -2,7 +2,7 @@
 <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 <div class="header">
 
-  <%= link_to image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1594413833/gbh2v1yc7fdouhpjy03i.jpg", class: "logo"), "#" %>
+  <%= link_to image_tag("logo.jpg", class: "logo"), "#" %>
 
   <h1 class="my-title">
     <p class="oce">Oce</p>
@@ -11,7 +11,7 @@
     <p class="creations">Creations</p>
   </h1>
 
-  <%= link_to image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1594413833/gbh2v1yc7fdouhpjy03i.jpg", class: "logo"), "#" %>
+  <%= link_to image_tag("logo.jpg", class: "logo"), "#" %>
   
 </div>
 
@@ -23,7 +23,3 @@
 <p>On this web site we talk about cloth and knitting</p>
 
 <p>Happy visiting!</p>
-
-<p>You can confirm your account email through the link below:</p>
-
-<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
