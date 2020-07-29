@@ -42,6 +42,7 @@ gem 'money-rails'
 gem 'stripe'
 gem 'stripe_event'
 gem 'bullet'
+gem 'postmark-rails'
 
 group :development, :test do
   gem 'pry-byebug'
