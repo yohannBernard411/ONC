@@ -2,11 +2,18 @@ class User < ApplicationRecord
 
   attr_accessor :login
 
+  after_create :send_welcome_email
+
+
   validates :username, presence: true, uniqueness: {case_sensitive: false }, format: {with: /\A[a-zA-Z0-9 _\.]*\z/}
 
-  belongs_to :cart
-  # belongs_to :delivery_adress
-  has_many :orders
+  has_many :comments
+  has_one :delivery_adress
+  has_one :cart
+  has_many :line_items, through: :cart
+
+  
+  
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
@@ -30,9 +37,7 @@ class User < ApplicationRecord
       user.email = auth.info.email
       user.username = auth.info.name
       user.password = Devise.friendly_token[0, 20]
-      user.cart_id = 3
-      user.delivery_adress_id = 1
-      user.skip_confirmation!
+      # user.skip_confirmation!
     end
   end
 
@@ -47,6 +52,12 @@ class User < ApplicationRecord
       )
     end
     user
+  end
+
+  private
+
+  def send_welcome_email
+    UserMailer.with(user: self).welcome.deliver_now
   end
 
 end
