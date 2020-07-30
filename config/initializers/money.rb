@@ -58,11 +58,11 @@ MoneyRails.configure do |config|
   #   iso_code:            "EU4",
   #   name:                "Euro with subunit of 2 digits",
   #   symbol:              "€",
-  #   symbol_first:        true,
+  #   symbol_first:        false,
   #   subunit:             "Subcent",
   #   subunit_to_unit:     100,
-  #   thousands_separator: ".",
-  #   decimal_mark:        ","
+  #  thousands_separator: ".",
+  #  decimal_mark:        ","
   # }
 
   # Specify a rounding mode
@@ -85,9 +85,11 @@ MoneyRails.configure do |config|
   # Example:
   #
   # config.default_format = {
-  #   no_cents_if_whole: nil,
-  #   symbol: nil,
-  #   sign_before_symbol: nil
+  #   no_cents_if_whole: false,
+  #   symbol: '€',
+  #   sign_before_symbol: false,
+  #   thousands_separator: ".",
+  #   decimal_mark:        ","
   # }
 
   # If you would like to use I18n localization (formatting depends on the
