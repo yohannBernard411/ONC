@@ -3,8 +3,13 @@ class Clothe < ApplicationRecord
   has_many_attached :photos
   has_many :comments, dependent: :destroy
   has_many :line_items
-  has_many :dyeing, dependent: :destroy
-  has_many :scaling, dependent: :destroy
+  has_many :dyeings, dependent: :destroy
+  has_many :scalings, dependent: :destroy
+  has_many :colors, through: :dyeings
+  has_many :sizes, through: :scalings
+
+
+
   monetize :price_cents
 
   validates :name, presence: true

@@ -10,6 +10,7 @@ class ClothesController < ApplicationController
   end
 
   def show
+    @line_item = LineItem.new
     @clothe = Clothe.find(params[:id])
     authorize @clothe
     @comments = Comment.where(clothe_id: @clothe.id)
@@ -59,11 +60,11 @@ class ClothesController < ApplicationController
     @cart = Cart.new(user_id: current_user.id, state: "awaiting") unless @cart = Cart.where(user_id: current_user.id)[0]
     @cart.save!
     # authorize @cart
-    @line_item = LineItem.where(cart_id: @cart.id).where(clothe_id: @clothe.id)[0]
+    @line_item = LineItem.where(cart_id: @cart.id).where(clothe_id: @clothe.id).where(size: params[:size]).where(color: params[:color]).first
     if @line_item
       @line_item.quantity += 1
     else
-      @line_item = LineItem.new(cart_id: @cart.id, clothe_id: @clothe.id, quantity: 1)
+      @line_item = LineItem.new(cart_id: @cart.id, clothe_id: @clothe.id, quantity: 1, size: params[:size], color: params[:color])
     end
     # authorize @line_item
     @line_item.save!

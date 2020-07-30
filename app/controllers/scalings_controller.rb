@@ -1,0 +1,3 @@
+class ScalingsController < ApplicationController
+
+end

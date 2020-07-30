@@ -63,6 +63,14 @@ ActiveRecord::Schema.define(version: 2020_07_28_222030) do
     t.text "description"
   end
 
+  create_table "colors", force: :cascade do |t|
+    t.string "name"
+    t.string "code_hexa"
+    t.string "code_rgb"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "comments", force: :cascade do |t|
     t.string "title"
     t.text "content"
@@ -91,12 +99,12 @@ ActiveRecord::Schema.define(version: 2020_07_28_222030) do
   end
 
   create_table "dyeings", force: :cascade do |t|
-    t.bigint "possible_colors_id", null: false
-    t.bigint "clothes_id", null: false
+    t.bigint "color_id", null: false
+    t.bigint "clothe_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["clothes_id"], name: "index_dyeings_on_clothes_id"
-    t.index ["possible_colors_id"], name: "index_dyeings_on_possible_colors_id"
+    t.index ["clothe_id"], name: "index_dyeings_on_clothe_id"
+    t.index ["color_id"], name: "index_dyeings_on_color_id"
   end
 
   create_table "line_items", force: :cascade do |t|
@@ -120,27 +128,19 @@ ActiveRecord::Schema.define(version: 2020_07_28_222030) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "possible_colors", force: :cascade do |t|
-    t.string "name"
-    t.string "code_hexa"
-    t.string "code_rgb"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "possible_sizes", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "scalings", force: :cascade do |t|
-    t.bigint "possible_sizes_id", null: false
-    t.bigint "clothes_id", null: false
+    t.bigint "size_id", null: false
+    t.bigint "clothe_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["clothes_id"], name: "index_scalings_on_clothes_id"
-    t.index ["possible_sizes_id"], name: "index_scalings_on_possible_sizes_id"
+    t.index ["clothe_id"], name: "index_scalings_on_clothe_id"
+    t.index ["size_id"], name: "index_scalings_on_size_id"
+  end
+
+  create_table "sizes", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -172,12 +172,12 @@ ActiveRecord::Schema.define(version: 2020_07_28_222030) do
   add_foreign_key "carts", "users"
   add_foreign_key "comments", "clothes"
   add_foreign_key "comments", "users"
-  add_foreign_key "dyeings", "clothes", column: "clothes_id"
-  add_foreign_key "dyeings", "possible_colors", column: "possible_colors_id"
+  add_foreign_key "dyeings", "clothes"
+  add_foreign_key "dyeings", "colors"
   add_foreign_key "line_items", "carts"
   add_foreign_key "line_items", "clothes"
-  add_foreign_key "scalings", "clothes", column: "clothes_id"
-  add_foreign_key "scalings", "possible_sizes", column: "possible_sizes_id"
+  add_foreign_key "scalings", "clothes"
+  add_foreign_key "scalings", "sizes"
   add_foreign_key "users", "carts"
   add_foreign_key "users", "delivery_adresses"
 end
