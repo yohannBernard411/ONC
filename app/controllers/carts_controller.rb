@@ -2,9 +2,9 @@ class CartsController < ApplicationController
 
   def index
     @carts = Cart.all
-    @all_line_items = LineItem.all
-    @clothes = Clothe.all
-    @orders = Order.all
+    # @all_line_items = LineItem.all
+    # @clothes = Clothe.all
+    # @orders = Order.all
     authorize @carts
   end
 

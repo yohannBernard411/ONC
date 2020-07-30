@@ -32,6 +32,25 @@
         <%= content_tag(:p, @clothe.delivery_color, id: "indexColor#{@clothe.id}", class: "indexColor") %>
         <%= content_tag(:p, @clothe.scoring, id: "slide#{@clothe.id}", class: "slide") %>
       </div>
+
+      <div class="option-choice">
+        <% @clothe.colors.each do |color| %>
+          <%= color.name %>
+        <% end %>
+        <% @clothe.sizes.each do |size| %>
+          <%= size.name %>
+        <% end %>
+      </div>
+
+      <%# ajout du formulaire de choix de taille et couleur qui creer line item %>
+        <%= simple_form_for [ @clothe, @line_item ] do |f| %>
+          <%= f.input :color, collection: @clothe.colors.each { |color| color.name } %>
+          <%= f.input :size, collection: @clothe.sizes.each { |size| size.name } %>
+          <%= f.submit 'Mettre dans mon panier' %>
+        <% end %>
+
+
+
       <div id="links">
         <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %> |
         <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %> |

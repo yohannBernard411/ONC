@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   resources :clothes do
     resources :comments, only: [ :new, :create ]
+    resources :line_items, only: [ :new, :create ]
   end
   resources :orders, only: [:show, :create] do
     resources :payments, only: :new
@@ -23,6 +24,11 @@ Rails.application.routes.draw do
   resources :comments, only: [ :show, :edit, :update, :destroy ]
   resources :carts, only: [ :show, :index ]
   resources :delivery_adresses
+  resources :dyeings
+  resources :scalings
+  resources :colors
+  resources :sizes
+
   
   mount StripeEvent::Engine, at: '/stripe-webhooks'
 

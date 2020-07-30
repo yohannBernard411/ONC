@@ -1,0 +1,3 @@
+class DyeingsController < ApplicationController
+
+end

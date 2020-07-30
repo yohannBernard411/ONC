@@ -8,20 +8,15 @@
   <%# renseignement du panier %>
   <%= cart.id %>
   <br>
-  <%# renseignement de la commande(order) %>
-  <% @orders.where(cart_id: cart.id).each do |order| %>
-    <%= order.state %>
-    <p><%= order.amount_cents/100 %>.00 Euros.</P>
-  <% end %>
-  <br>
-  <%# renseignements des articles (line item) %>
-  <% @all_line_items.where(cart_id: cart.id).each do |line| %>
-    <%# renseignement de chaque vetement (clothe) %>
-    <% @clothes.where(id: line.clothe_id).each do |clothe| %>
-      <%= clothe.name %>
-      <%= line.quantity %>
-      <br>
-    <% end %>
+  <%# contenu du panier %>
+  <% cart.line_items.each do |line| %>
+    <%= line.id %>
+    <%= line.clothe.name %>
+    <%= line.quantity %>
+    <%= (Size.find(line.size.to_i)).name %>
+    <%= (Color.find(line.color.to_i)).name %>
+    <%= line.state %>
+    <br><hr><br>
   <% end %>
 <hr><hr>
 <% end %>
