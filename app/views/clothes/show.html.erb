@@ -44,8 +44,12 @@
 
       <%# ajout du formulaire de choix de taille et couleur qui creer line item %>
         <%= simple_form_for [ @clothe, @line_item ] do |f| %>
-          <%= f.input :color, collection: @clothe.colors.each { |color| color.name } %>
-          <%= f.input :size, collection: @clothe.sizes.each { |size| size.name } %>
+          <%= f.hidden_field :cart_id, value: @cart.id %>
+          <%= f.hidden_field :clothe_id, value: @clothe.id %>
+          <%= f.hidden_field :quantity, value: 1 %>
+          <%= f.hidden_field :state, value: "pending" %>
+          <%= f.input :color, collection: @clothe.colors.each { |color| [color.name, color.id] } %>
+          <%= f.input :size, collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
           <%= f.submit 'Mettre dans mon panier' %>
         <% end %>
 

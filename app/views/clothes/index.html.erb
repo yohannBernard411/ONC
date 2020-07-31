@@ -19,7 +19,9 @@
         <div class="row">
           <div class="col-5 overflow">
             <%= content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
-            <%= cl_image_tag clothe.photos[0].key, class: "clothe_index_image", crop: :fill %>
+            <% if clothe.photos[0] %>
+              <%= cl_image_tag clothe.photos[0].key, class: "clothe_index_image", crop: :fill %>
+            <% end %>
           </div>
           <div class="col-7">
             <div class="description">
