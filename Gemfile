@@ -43,6 +43,7 @@ gem 'stripe'
 gem 'stripe_event'
 gem 'bullet'
 gem 'postmark-rails'
+gem 'faker'
 
 group :development, :test do
   gem 'pry-byebug'

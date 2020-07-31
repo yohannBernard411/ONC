@@ -10,6 +10,7 @@ class ClothesController < ApplicationController
   end
 
   def show
+    @cart = current_user.cart
     @line_item = LineItem.new
     @clothe = Clothe.find(params[:id])
     authorize @clothe

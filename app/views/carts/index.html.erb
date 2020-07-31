@@ -13,8 +13,8 @@
     <%= line.id %>
     <%= line.clothe.name %>
     <%= line.quantity %>
-    <%= (Size.find(line.size.to_i)).name %>
-    <%= (Color.find(line.color.to_i)).name %>
+    <%= (Size.find(line.size)).name %>
+    <%= (Color.find(line.color)).name %>
     <%= line.state %>
     <br><hr><br>
   <% end %>
