@@ -2,7 +2,7 @@ class User < ApplicationRecord
 
   attr_accessor :login
 
-  # after_create :send_welcome_email
+  after_create :send_welcome_email
 
 
   validates :username, presence: true, uniqueness: {case_sensitive: false }, format: {with: /\A[a-zA-Z0-9 _\.]*\z/}

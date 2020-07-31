@@ -39,7 +39,6 @@ Clothe.create!(name: "Sac rouge", category: "sac", option: "Trés pratique", sco
 # users generating
 puts "regenerating all users"
 User.create!(email: "yohannb215@gmail.com", admin: true, username: "SuperYoyo", password: "Guitare512$")
-User.create!(email: "sonia.bernard00@orange.fr", admin: true, username: "SuperSony", password: "azerty")
 
 # comments generating
 puts "regenerating all comments"
