@@ -33,6 +33,8 @@ import { displayStars } from '../components/starSystem';
 import { displayViewer } from '../components/myViewer';
 import { sumInGrid } from '../components/calculGrid';
 import { adaptScreenSize } from '../components/imageSizing';
+import { displayComments } from '../components/comments';
+import { displaySizes } from '../components/sizes';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -43,4 +45,6 @@ document.addEventListener('turbolinks:load', () => {
   displayViewer();
   sumInGrid();
   adaptScreenSize();
+  displaySizes();
+  displayComments();
 });

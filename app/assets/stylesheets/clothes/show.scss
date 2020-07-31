@@ -51,3 +51,35 @@
     top: 120px;
     left: -30px;
 }
+.hidden-options{
+  display: none;
+}
+
+
+#size-tableau{
+  overflow-x:auto;
+}
+
+#mesures{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.row-size:nth-child(odd){
+  background-color: #82b1ee
+}
+.cellule-size{
+  text-align: left;
+  padding: 10px 20px;
+}
+.mannequin{
+  width: 80%;
+  height: auto;
+}
+.centrage-size{
+  text-align: center;
+}
+.title-size{
+  text-align: center;
+}

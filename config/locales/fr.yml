@@ -170,6 +170,7 @@ fr:
       back: "Retour"
       comments: "Commentaires"
       buy: "Acheter"
+      size: "Taille"
   shared:
     header:
       signout: "Se deconnecter"

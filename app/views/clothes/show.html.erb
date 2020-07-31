@@ -58,19 +58,95 @@
       <div id="links">
         <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %> |
         <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %> |
-        <%= link_to I18n.translate("clothes.show.comments"), "#", id: "displayComments", class: "btnlink" %> |
+        <button id="displayComment"><%= I18n.translate("clothes.show.comments") %></button> |
         <%= link_to "put in my cart", add_to_cart_path(@clothe), class: "btnlink" %>
         <% if @current_clothe %>
           <%= link_to "remove from my cart",  remove_from_cart_path(@clothe), class: "btnlink" %>
         <% end %> | 
-        <%= link_to 'Leave a comment', new_clothe_comment_path(@clothe), class: "btnlink" %>
+        <%= link_to 'Leave a comment', new_clothe_comment_path(@clothe), class: "btnlink" %> |
+        <button id="displaySize"><%= I18n.translate("clothes.show.size") %></button>
+
       </div>
     </div>
   </div>
 </div>
-<hr><hr>
+<hr>
 
-<div class="all-comments">
+<div class="container hidden-options" id="set-size">
+  <h2>Mensurations et tailles</h2>
+  <p>Chaque vêtement étant fait sur mesure, il est important que vous les sachiez les prendre correctement afin que je m'adapte au mieux à votre morphologie aussi un petit croquis est plus parlant </p>
+  <div class="container centrage-size">
+    <img src="https://res.cloudinary.com/do3nu0tns/image/upload/v1596214077/ej31fpkpapglqgpecz3l.jpg" alt="Prise de mesures" class="mannequin">
+  </div>
+
+  <p class="title-size">Mensurations</p>
+  <div id="size-tableau">
+      <table id="mesures">
+        <tbody>
+          <tr class="row-size">
+            <td colspan="2">Stature</td>
+            <% (160..185).to_a.each do |stature| %>
+              <td class="cellule-size"><%= stature %></td>
+            <% end %>
+          </tr>
+          <tr class="row-size">
+            <td colspan="2">Tour poitrine</td>
+            <% (74..124).to_a.each do |poitrine| %>
+              <% if poitrine.even? %>
+                <td class="cellule-size"><%= poitrine %></td>
+              <% end %>
+            <% end %>
+          </tr>
+          <tr class="row-size">
+            <td colspan="2">Tour de taille</td>
+            <% (58..108).to_a.each do |taille| %>
+              <% if taille.even? %>
+                <td class="cellule-size"><%= taille %></td>
+              <% end %>
+            <% end %>
+          </tr>
+          <tr class="row-size">
+            <td colspan="2">Tour de hanches</td>
+            <% (80..130).to_a.each do |hanches| %>
+              <% if hanches.even? %>
+                <td class="cellule-size"><%= hanches %></td>
+              <% end %>
+            <% end %>
+          </tr>
+          <tr class="row-size">
+            <td colspan="2">Longueur bras</td>
+            <% (57..65).to_a.each do |bras| %>
+              <td class="cellule-size"><%= bras %></td>
+            <% end %>
+            <% 17.times do %>
+              <td class="cellule-size"></td>
+            <% end %>
+          </tr>
+          <tr class="row-size">
+            <td colspan="2">Largeur épaule</td>
+            <% (110..155).to_a.each do |epaule| %>
+              <% if epaule%5 == 0 %>
+                <td class="cellule-size"><%= epaule/10 %></td>
+              <% end %>
+            <% end %>
+            <% 16.times do %>
+              <td class="cellule-size"></td>
+            <% end %>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="28">Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----</td>
+          </tr>
+        </tfoot>
+    </table>
+  </div>
+
+</div>
+
+<hr>
+
+<div id="all-comments" class="hidden-options">
   <% @comments.each do |comment| %>
     <div class="container">
       <%= comment.title %><br>
@@ -88,3 +164,5 @@
     <hr>
   <% end %>
 </div>
+
+<hr>

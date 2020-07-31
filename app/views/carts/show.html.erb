@@ -11,10 +11,10 @@
     <tbody>
       <% @all_line_items.each do |line_item| %>
         <tr>
-          <td><%= line_item.clothe.name %></td>
-          <td><%= line_item.quantity %></td>
-          <td><%= "#{line_item.clothe.price_cents/100}.00 Euros." %></td>
-          <td class="row-total"><%= "#{line_item.quantity * (line_item.clothe.price_cents/100)}.00 Euros." %></td>
+          <td class="cellule-show"><%= line_item.clothe.name %></td>
+          <td class="cellule-show"><%= line_item.quantity %></td>
+          <td class="cellule-show"><%= "#{line_item.clothe.price_cents/100}.00 Euros." %></td>
+          <td class="row-total cellule-show"><%= "#{line_item.quantity * (line_item.clothe.price_cents/100)}.00 Euros." %></td>
         </tr>
       <% end %>
     </tbody>
