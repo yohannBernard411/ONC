@@ -170,6 +170,7 @@ en:
       back: "Return"
       comments: "Comments"
       buy: "Buy"
+      size: "Size"
   shared:
     header:
       signout: "Sign out"

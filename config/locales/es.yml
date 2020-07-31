@@ -165,6 +165,7 @@ es:
       back: "Volver"
       comments: "Comentarios"
       buy: "Compra"
+      size: "Talla"
   shared:
     header:
       signout: "Desconectarse"
