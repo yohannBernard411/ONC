@@ -60,10 +60,12 @@ class User < ApplicationRecord
     require 'mail'
     Mail.defaults do
       delivery_method :smtp, {
-        :port      => 587,
-        :address   => "smtp.mailgun.org",
-        :user_name => "",
-        :password  => "",
+        :port           => ENV['MAILGUN_SMTP_PORT'],
+        :address        => ENV['MAILGUN_SMTP_SERVER'],
+        :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+        :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+        :domain         => 'ocenatcreations.herokuapp.com',
+        :authentication => :plain,
       }
     end
     mail = Mail.deliver do
