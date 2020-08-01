@@ -60,10 +60,9 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "ONC_production"
 
+  # mailer avec mailgun
   config.action_mailer.perform_caching = false
-
-  config.action_mailer.delivery_method     = :postmark
-  config.action_mailer.postmark_settings   = { api_token: ENV['POSTMARK_API_TOKEN'] }
+  config.action_mailer.delivery_method     = :smtp
   config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
 
   # Ignore bad email addresses and do not raise email delivery errors.
@@ -114,6 +113,4 @@ Rails.application.configure do
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
-  #add mano mailer
-  config.action_mailer.default_url_options = { :host => 'ocenatcreations.herokuapp.com' }
 end
