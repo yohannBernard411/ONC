@@ -56,7 +56,13 @@ class User < ApplicationRecord
   private
 
   def send_welcome_email
-    UserMailer.with(user: self).welcome.deliver_now
+    # UserMailer.with(user: self).welcome.deliver_now
+    RestClient.post "https://api:#{ENV['MAILGUN_API_KEY']}"\
+  "@api.mailgun.net/v3/ocenatcreations.herokuapp.com/messages",
+  :from => "Excited User <mailgun@ocenatcreations.herokuapp.com>",
+  :to => "yohannb215@gmail.com, emailing@bernardyohann.fr",
+  :subject => "Hello",
+  :text => "Testing some Mailgun awesomness!"
   end
 
 end
