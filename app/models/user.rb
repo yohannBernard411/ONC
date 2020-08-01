@@ -56,26 +56,11 @@ class User < ApplicationRecord
   private
 
   def send_welcome_email
-    # UserMailer.with(user: self).welcome.deliver_now
-    require 'mail'
-    Mail.defaults do
-      delivery_method :smtp, {
-        :port           => ENV['MAILGUN_SMTP_PORT'],
-        :address        => ENV['MAILGUN_SMTP_SERVER'],
-        :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
-        :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-        :domain         => 'ocenatcreations.herokuapp.com',
-        :authentication => :plain,
-      }
-    end
-    mail = Mail.deliver do
-      to      'yohannb215@gmail.com'
-      from    'emailing@bernardyohann.fr'
-      subject 'Hello'
-      text_part do
-        body 'Testing some Mailgun awesomness'
-      end
+    # Tell the UserMailer to send a welcome email after save
+    if Rails.env.production?
+      UserMailer.with(user: @user).welcome.deliver_later
+    elsif Rails.env.development? 
+      UserMailer.with(user: @user).welcome.deliver_now
     end
   end
-
 end
