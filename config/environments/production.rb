@@ -63,7 +63,7 @@ Rails.application.configure do
   # mailer avec mailgun
   config.action_mailer.perform_caching = false
   config.action_mailer.delivery_method     = :smtp
-  config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
+  config.action_mailer.default_url_options = { host: "mailing.ocenatcreations.com" }
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
