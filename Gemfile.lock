@@ -318,6 +318,7 @@ DEPENDENCIES
   i18n
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  mail
   money-rails
   omniauth
   omniauth-facebook
