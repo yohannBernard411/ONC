@@ -56,6 +56,15 @@ class User < ApplicationRecord
   private
 
   def send_welcome_email
+
+    RestClient.post "https://api:ENV['MAILGUN_API_KEY']"\
+      "@api.eu.mailgun.net/v3/ocenatcreations.com/messages",
+      :from => "Excited User <mailgun@ocenatcreations.com>",
+      :to => "bar@example.com, bernard.yohann516@orange.fr",
+      :subject => "Hello",
+      :text => "Testing some Mailgun awesomness!"
+
+
     # Tell the UserMailer to send a welcome email after save
     # if Rails.env.production?
     #   UserMailer.with(user: @user).welcome.deliver_later
@@ -63,7 +72,7 @@ class User < ApplicationRecord
     #   UserMailer.with(user: @user).welcome.deliver_now
     # end
 
-    UserMailer.with(user: self).welcome.deliver_now
+    # UserMailer.with(user: self).welcome.deliver_now
 
     # require 'mail'
     # mail = Mail.deliver do
