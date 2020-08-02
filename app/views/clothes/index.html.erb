@@ -48,8 +48,12 @@
               <%= content_tag(:p, clothe.scoring, id: "slide#{clothe.id}", class: "slide" ) %>
 
               <%= link_to I18n.translate("clothes.index.see"), clothe_path(clothe.id), class: "btnlink" %>
-              <%= link_to I18n.translate("clothes.index.edit"), edit_clothe_path(clothe.id), class: "btnlink" %>
-              <%= link_to I18n.translate("clothes.index.delete"), clothe_path(clothe), method: "delete", data: {confirm: 'Etes vous sûr?'}, class: "btnlink" %>
+              <% if policy(Clothe).edit? %>
+                <%= link_to I18n.translate("clothes.index.edit"), edit_clothe_path(clothe.id), class: "btnlink" %>
+              <% end %>
+              <% if policy(Clothe).destroy? %>
+                <%= link_to I18n.translate("clothes.index.delete"), clothe_path(clothe), method: "delete", data: {confirm: 'Etes vous sûr?'}, class: "btnlink" %>
+              <% end %>
             </div>
           </div>
         </div>
@@ -59,10 +63,12 @@
 
   <hr>
 
-  <% if policy(Clothe).create? %>
-    <%= link_to I18n.translate("clothes.index.newclothe"),   new_clothe_path, class: "btnlink" %>
+  <% if policy(Clothe).new? %>
+    <%= link_to I18n.translate("clothes.index.newclothe"), new_clothe_path, class: "btnlink" %>
   <% end %>
-</div>
 
-<%= link_to "voir toutes les commandes", carts_path, class: "btnlink" %>
-  
+  <% if policy(Cart).index? %>
+    <%= link_to "voir toutes les commandes", carts_path, class: "btnlink" %>
+  <% end %>
+
+</div>

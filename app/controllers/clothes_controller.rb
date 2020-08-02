@@ -1,20 +1,25 @@
 class ClothesController < ApplicationController
 
+  skip_before_action :authenticate_user!, only: [:index], unless: :skip_pundit?
+  skip_after_action :verify_authorized, only: [:index], unless: :skip_pundit?
+
   def index
-    @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
     @search = params["search"]
     if @search.present?
-      @name = @search["name"]
-      @clothes = policy_scope(Clothe).where("name ILIKE ?", "%#{@name}%").order(created_at: :desc)
+      @clothes = policy_scope(Clothe).where("name ILIKE ?", "%#{@search["name"]}%").order(created_at: :desc)
+      unless @clothes.first
+        @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
+      end
+    else
+      @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
     end
   end
 
   def show
-    @cart = current_user.cart
     @line_item = LineItem.new
     @clothe = Clothe.find(params[:id])
-    authorize @clothe
     @comments = Comment.where(clothe_id: @clothe.id)
+    authorize @clothe
     authorize @comments
   end
 
@@ -39,25 +44,24 @@ class ClothesController < ApplicationController
   end
 
   def update
-   @clothe = Clothe.find(params[:id])
-   authorize @clothe
-   if @clothe.update(clothe_params)
-     redirect_to @clothe
-   else
-     render 'edit'
-   end
- end
+    @clothe = Clothe.find(params[:id])
+    authorize @clothe
+    if @clothe.update(clothe_params)
+      redirect_to @clothe
+    else
+      render 'edit'
+    end
+  end
 
- def destroy
-  @clothe = Clothe.find(params[:id])
-  authorize @clothe
-  @clothe.destroy
-  redirect_to clothes_path
+  def destroy
+    @clothe = Clothe.find(params[:id])
+    authorize @clothe
+    @clothe.destroy
+    redirect_to clothes_path
   end
 
   def add
     @clothe = Clothe.find(params[:id])
-    authorize @clothe
     @cart = Cart.new(user_id: current_user.id, state: "awaiting") unless @cart = Cart.where(user_id: current_user.id)[0]
     @cart.save!
     # authorize @cart
@@ -74,7 +78,6 @@ class ClothesController < ApplicationController
 
   def remove
     @clothe = Clothe.find(params[:id])
-    authorize @clothe
     @line_item = LineItem.where(cart_id: Cart.where(user_id: current_user.id)[0].id).where(clothe_id: @clothe.id)[0]
     @line_item.destroy
     redirect_to @clothe

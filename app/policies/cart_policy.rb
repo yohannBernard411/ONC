@@ -14,31 +14,35 @@ class CartPolicy < ApplicationPolicy
   end
 
   def index?
-    return true
+    if @user
+      return @user.admin
+    end
   end
 
   def show?
-    return true
+    if @user
+      return @user.id == @cart.user_id
+    end
   end
 
   def create?
-    return true
+    
   end
 
   def new?
-    return true
+
   end
 
   def edit?
-    return true
+
   end
 
   def update?
-    return true
+
   end
 
   def destroy?
-    return true
+
   end
 
 end
