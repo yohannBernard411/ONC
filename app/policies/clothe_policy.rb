@@ -22,30 +22,50 @@ class ClothePolicy < ApplicationPolicy
   end
 
   def create?
-    return true
+    if @user
+      return @user.admin
+    else
+      return false
+    end
   end
 
   def new?
-    return true
+    if @user
+      return @user.admin
+    else
+      return false
+    end
   end
 
   def edit?
-    return true
+    if @user
+      return @user.admin
+    else
+      return false
+    end
   end
 
   def update?
-    return true
+    if @user
+      return @user.admin
+    else
+      return false
+    end
   end
 
   def destroy?
-    return true
+    if @user
+      return @user.admin
+    else
+      return false
+    end
   end
 
   def add?
-    return true
+    return true if @user
   end
 
   def remove?
-    return true
+    return true if @user
   end
 end

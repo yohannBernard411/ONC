@@ -21,22 +21,34 @@ class CommentPolicy < ApplicationPolicy
   end
 
   def create?
-    return true
+
   end
 
   def new?
-    return true
+    return true if @user
   end
 
   def edit?
-    return true
+    if @user
+      if @user.admin || @user.id == @comment.user_id
+        return true
+      else
+        return false
+      end
+    end
   end
 
   def update?
-    return true
+
   end
 
   def destroy?
-    return true
+    if @user
+      if @user.admin || @user.id == @comment.user_id
+        return true
+      else
+        return false
+      end
+    end
   end
 end

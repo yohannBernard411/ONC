@@ -1,11 +1,13 @@
 class HomesController < ApplicationController
 
+  skip_before_action :authenticate_user!, only: [:who, :contact], unless: :skip_pundit?
+  skip_after_action :verify_authorized, only: [:who, :contact], unless: :skip_pundit?
+
   def who
-    skip_authorization
+    
   end
 
   def contact
-    skip_authorization
   end
 
 end
