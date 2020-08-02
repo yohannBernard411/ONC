@@ -4,7 +4,7 @@ ActionMailer::Base.delivery_method = :smtp
     :address        => ENV['MAILGUN_SMTP_SERVER'],
     :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
     :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-    :domain         => 'mailing.ocenatcreations.com',
-    :authentication => :plain,
+    :domain         => 'gmail.com',
+    :authentication => :login,
     :enable_starttls_auto => true,
   }

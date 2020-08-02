@@ -63,15 +63,17 @@ class User < ApplicationRecord
     #   UserMailer.with(user: @user).welcome.deliver_now
     # end
 
-    require 'mail'
-    mail = Mail.deliver do
-      to      'bernard.yohann516@orange.fr'
-      from    'courrier@ocenatcreations.com'
-      subject 'Hello'
-      text_part do
-        body 'Testing some Mailgun awesomness'
-      end
-    end
+    UserMailer.with(user: self).welcome.deliver_now
+
+    # require 'mail'
+    # mail = Mail.deliver do
+    #   to      'bernard.yohann516@orange.fr'
+    #   from    'courrier@ocenatcreations.com'
+    #   subject 'Hello'
+    #   text_part do
+    #     body 'Testing some Mailgun awesomness'
+    #   end
+    # end
 
   end
 end
