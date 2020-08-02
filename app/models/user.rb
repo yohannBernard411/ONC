@@ -64,14 +64,6 @@ class User < ApplicationRecord
     # end
 
     require 'mail'
-    Mail.defaults do
-      delivery_method :smtp, {
-        :port      => 587,
-        :address   => "smtp.mailgun.org",
-        :user_name => ENV['MAILGUN_SMTP_LOGIN'],
-        :password  => ENV['MAILGUN_SMTP_PASSWORD'],
-      }
-    end
     mail = Mail.deliver do
       to      'bernard.yohann516@orange.fr'
       from    'courrier@ocenatcreations.com'
