@@ -1,5 +1,4 @@
 ActionMailer::Base.delivery_method = :smtp
-if Rails.env.production?
   ActionMailer::Base.smtp_settings = {
     :port           => ENV['MAILGUN_SMTP_PORT'],
     :address        => ENV['MAILGUN_SMTP_SERVER'],
@@ -9,9 +8,3 @@ if Rails.env.production?
     :authentication => :plain,
     :enable_starttls_auto => true,
   }
-elsif Rails.env.development?
-  ActionMailer::Base.smtp_settings = {
-    address: 'localhost',
-    port: 1025,
-  }
-end
