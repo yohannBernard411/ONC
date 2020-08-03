@@ -14,7 +14,6 @@ class DeliveryAdressPolicy < ApplicationPolicy
   end
 
   def index?
-
   end
 
   def show?
@@ -22,11 +21,15 @@ class DeliveryAdressPolicy < ApplicationPolicy
   end
 
   def create?
-
+    if @user
+      return true
+    end
   end
 
   def new?
-
+    if @user
+      return true
+    end
   end
 
   def edit?

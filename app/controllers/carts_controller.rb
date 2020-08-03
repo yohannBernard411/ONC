@@ -1,12 +1,12 @@
 class CartsController < ApplicationController
 
   def index
-    @carts = Cart.all
+    @carts = policy_scope(Cart).all
     authorize @carts
   end
 
   def show
-    @cart = Cart.where(user_id: current_user.id)[0]
+    @cart = Cart.where(user_id: current_user.id).last
     @all_line_items = LineItem.where(cart_id: @cart.id).includes(:clothe)
     @total_price = 0
     @all_line_items.each do |line|

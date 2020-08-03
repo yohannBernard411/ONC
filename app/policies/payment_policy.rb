@@ -1,15 +1,16 @@
-class OrderPolicy < ApplicationPolicy
+class PaymentPolicy < ApplicationPolicy
 
-  attr_reader :user, :order
+  attr_reader :user, :payment
 
   class Scope < Scope
     def resolve
       scope.all
     end
   end
-  def initialize(user, order)
+
+  def initialize(user, payment)
     @user = user
-    @order = order
+    @payment = payment
   end
 
   def index?
@@ -21,9 +22,7 @@ class OrderPolicy < ApplicationPolicy
   end
 
   def create?
-    if @user
-      return true
-    end
+
   end
 
   def new?
