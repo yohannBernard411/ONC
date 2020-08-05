@@ -20,3 +20,4 @@ class ArticlePolicy < ApplicationPolicy
   def lin
     return true
   end
+end
