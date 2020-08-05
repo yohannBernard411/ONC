@@ -11,7 +11,7 @@ fr:
       innovation: Innovations textiles
       interest: Intérets de la laine
       label: Label
-      lin: Le Lin et autres matières
+      lin: La laine et autres matières
       link: Liens
       partners: Tutos/ Partenaires
       plastic: Plastique dans l'océan
@@ -99,8 +99,86 @@ fr:
       more_pages:
         display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
   articles:
+    lin:
+      titre1: "Fils, Laines et autres matières"
+      titre2: "Quoi choisir ?"
+      texte1: "Cc, vous connaissez mes idées sur le sujets aussi je vous passerai le topo sur les fils à tricoter synthétique, vous y retrouverez l'acrylique, le nylon et le polyamide, le polyester, le lurex(une rare exception que vous pouvez retrouver dans mes créations). L'avantage des ces matières c'est leur facilité d'entretien, leur faible coût. Leurs inconvénients sont peu de qualité thermique (dommage pour un pull),ils sont issus de la pétrochimie et même une fois produits, ils continuent de polluer à chaque lavage via les eaux usées, les microparticules qui s'en dégagent passent à travers les filtres des stations d'épuration pour finir dans la mer."
+      texte2: "Les fils à tricoter naturels sont réalisés à partir de fibres animales ou végétales filées, appelés communément laines. L'avantage est leur qualité thermique et respirante, et qu'elles ne prennent pas d'odeur, il suffit de ventiler votre pull, pas besoin de le laver à chaque fois que vous le porter, l'inconvénient est justement le lavage car les laines peuvent feutrer sous l'effet du changement brutal de température et les mouvements du tambour de la machine. Un procédé existe pour éviter ça ce sont les laines Superwash (SW), mais ce procédé utilise beaucoup de produits chimiques et d'eau donc un fort impact sur environnement autant le savoir. Contrairement aux fibres animales les fibres végétales sont très peu élastiques."
+      soustitre1: "Les différentes fibres animales :"
+      strong1: "La laine de mouton"
+      liste1: ", brebis et agneau proviennent de la tonte des toisons. Suivant les races elles seront plus ou moins douces. Attention aussi à leur provenance, le mouton peut être en australie/amérique du sud, la laine lavée et traitée en chine et le filage en France. Le mérinos est très doux et en France le mérinos d'Arles, il y a aussi Ouessant, Shetland... La structure de la laine lui confère une bonne élasticité, de plus elle a une mémoire de forme ce qui évite les déformations dans le temps. Elle est infroissable et facile à teindre. Elle possède beaucoup de qualités thermiques et permet au corps de garder une température constante, et laisse la peau respirer, et permet l'évacuation de la transpiration."
+      strong2: "La laine Angora et cachemire"
+      liste2: ", sont issues de chèvres. Le cachemire provient de chèvres de l'Himalaya, c'est le sous-poil de la toison. Elle est très fine, douce et avec des qualités thermiques très performantes. Les chèvres angora fournissent le mohair que l'on retrouve classé dans différentes catégories selon sa finesse, le plus fin étant le kid-mohair (provenant des chevreaux). Cette laine se gonfle d'air dès qu'il fait froid, ce qui lui confère des qualités thermiques exceptionnelles. La France en offre une grande variété grâce à nos élevages artisanaux. On le retrouve souvent associé à la soie sous la forme Kid-silk."
+      strong3: "laine de lapin angora"
+      liste3: " : C'est une fibre extrêmement douce et jusqu'à 9fois plus chaude que la laine de mouton. Il faut faire attention à l'origine et au conditions de « récolte », en Allemagne les lapins sont tondus, en France épiler au peigne, en Asie le lapin est sacrifié. Alors attention à vos fournisseurs, et allez vers l'angora Caregora (respect strict du bien-être animal, avec une certification européenne)."
+      strong4: "Laine d'Alpaga"
+      liste4: ", très douce, chaude, légère et résistante, c'est une fibre de haut de gamme. La fibre de bébé alpaga convient parfaitement aux peaux sensibles, notamment pour la layette. De nombreux élevages se sont développés en France."
+      strong5: "Laine de Yak"
+      liste5: ", elle a des qualités similaires au cachemire, douceur au toucher et chaleur.C'est une fibre assez rare qui ne peut être récoltée que de façon artisanale au printemps par étrillage car l'animal perd naturellement ses poils. On la retrouve souvent tissée avec de la soie ou de la laine d'agneau."
+      strong6: "La laine de chameau"
+      liste6: ", tirée du duvet du chameau elle est extrêmement rare. Par ses qualités, elle ressemble beaucoup à la laine de yak."
+      strong7: "la soie"
+      liste7: " : c'est une fibre protéique issus du cocon produit par la chenille du bombyx du mûrier pour celle de culture et du Tussah pour la soie sauvage. Elle donne un rendu brillant à l'ouvrage. Ses avantages sont son élasticité naturelle, sa solidité, sa capacité à absorber les colorants, et sa thermorégulation, laisse respirer la peau en été et réchauffe en hiver. On la retrouve souvent mélangée à d'autres fibres comme le mohair."
+      soustitre2: "Les differentes fibres végétales naturelles :"
+      texte3: "Des matières qui contrairement aux fibres animales ont l'avantage de se laver généralement en machine. Et aux vegans de se vêtir naturellement."
+      strong21: "Le coton"
+      liste21: ". La plus répandue, et aussi controversée vu les dégats écologiques engendrés, beaucoup de pesticides et très consommatrice en eau. Privilégiez ceux qui sont certifiés GOTS. Il est absorbant et isolant, et resiste très bien aux lavages même à hautes températures. Il est doux, mais peut se révéler lourd à porter et chaud."
+      strong22: "Le lin"
+      liste22: " : longtemps délaissé au profit du coton on le voit revenir sur le devant de la scène pour sa culture qui demande peu d'engrais et d'eau. Il est très solide, thermorégulateur, très léger. Son coté rêche s'estompe avec les lavages."
+      strong23: "Le bambou"
+      liste23: ", très absorbant, il rivalise avec le coton, bien plus facile à cultiver. Il est doux et confortable, et très résistant, il peut remplacer le nylon pour la fabrication des chaussettes. Il est glissant et assez lourd. Regardez son origine, les conditions de culture n'étant pas les même en Europe qu'en Asie."
+      strong24: "Le soja"
+      liste24: ", fibre que je connais assez peu, apparemment artificielle car régénérée à partir des protéines contenues dans les graines, c'est qui fait un gros travail de transformation. Elle est aussi brillante que la soie, hypoallergénique, stable au lavage et tient à la lumière et à la sueur."
+      strong25: "Le chanvre"
+      liste25: " : fibre du moyen-âge qui retrouve ses lettres de noblesse, pour sa culture rapide et productive avec peu d'eau, d'engrais et de pesticides. Assez ressemblant au lin, il est aussi thermorégulateur, se porte aussi bien l'été que l'hiver, et s'adoucit avec le temps."
+      strong26: "le tencel"
+      liste26: " (ou lyocell), est extrait de la pulpe du bois d'eucalyptus. Il rappelle la soie par son aspect et son toucher. Il est infroissable et facile d'entretien vu qu'il tient un lavage en machine à 60°C."
+      texte4: "Merci aux différents blogs, et wiki qui m'ont permis de me documenter sur le sujet."
     labels:
       title: "LES LABELS"
+      img1: "Beaucoup de labels!"
+      texte1: "Pourquoi s'intéresser aux labels textiles ?"
+      texte2: "Dans une démarche écologique et durable bien sûr. Quitte à faire de l'artisanat autant le faire bien et surtout choisir ses matières premières en toute conscience. L’industrie textile utilise le quart des produits chimiques dans le monde et a été accusée de 20 % de la pollution de l’eau par l’industrie, ce qui en fait le deuxième plus grand pollueur d’eau douce de la planète, c’est pour cela qu’en plus des normes et des réglementations, les labels ont un rôle à jouer, en terme d’accompagnement des marques, et aussi en tant que gage de qualité auprès des consommateurs finaux. Merci à tous ceux qui ont déjà écrit sur le sujet , des blogs et autres ou je me suis documentée pour vous offrir le plus large éventail de possibilités."
+      texte3: "Chaque label vérifie et priorise un ou plusieurs aspects de la chaîne de valeur. De production du tissu, jusqu’au produit fini.  Voici quelques exemples de domaine où les labels se spécialisent :"
+      liste1: "Ecologie – Protection environnementale – Démarche éthique et durable – RSE"
+      liste2: "Social – Respect de la condition humaine "
+      liste3: "Commerce équitable"
+      liste4: "Origine biologique – Produits certifiés sans pesticides – Cuir écologique – Produits vegans"
+      liste5: "Santé"
+      texte4: "L'industrie du textile étant une des plus polluantes mondialement, l'industrie des labels n'allait pas tarder à s'y mettre. Toujours plus vert que vert.... Mais qu'est ce que l'on nous vend ??? Et oui acheter des tissus ou laines/fils labélisés a un coût que le consommateur final devra payer. Alors autant les connaître pour bien choisir."
+      texte5: "Donc merci à tous ceux et celles qui ont écrit sur le sujet et m'ont permis de me documenter...Le wiki est ton meilleur ami..."
+      texte6: "Je vais donc vous en faire une petite liste en détaillant les deux principaux puisque si je dois me fier à un label, ce sera un de ces deux-là....Après pour la laine, certifiée ou pas , je privilégie toujours un petit éleveur français, ou fillature, au moins on n'est sur de favoriser l'élevage français et on n'évite le coût carbonne (surtout que certains labels comme AB, n'ont rien à voir avec le AB français)...bref revenons à nos moutons !!!!"
+      texte7: "GOTS pour"
+      img2: "Global Organic Textil Standard"
+      texte8: "est pour moi la référence en la matière.C'est un label que l'on retrouve plutôt au RU, aux USA et au Japon(j'adore leurs tissus). Il vise depuis 2008 à harmoniser  les normes du secteur textile mondialement. Et il m’intéresse particulièrement puisqu'il possède les cahiers des charges les plus strictes concernant la laine, le coton, la soie, le chanvre (manque le lin...mais bon). De plus il fait appel à des organismes indépendants pour effectuer le contrôle de l'application du cahier des charges que le producteur s'est engagé à respecter."
+      texte9: "A chaque production son cahier bien sûr ; mais dans l'ensemble on retrouve pour ce qui est interdits :"
+      liste21: "Les métaux lourds dans leur ensemble,"
+      liste22: "Les perturbateurs endocriniens,"
+      liste23: "Les produits ignifuges bromés ou chlorés,"
+      liste24: "Les organismes génétiquement modifiés ou OGM,"
+      liste25: "La nanotechnologie,"
+      liste26: "Les substances cancérigènes,"
+      liste27: "Le PVC,"
+      liste28: "Le nickel,"
+      liste29: "Le chrome,"
+      liste30: "Les méthodes d’impression utilisant des solvants aromatiques,"
+      liste31: "Les méthodes d’impression plastisol utilisant des phtalates et PVC."
+      texte10: "Pour ce qui est  inévitables, l'écolabel fait des concessions sans toutefois se plier à la loi du marché. Pour ainsi dire, la certification GOTS cherchent à limiter leur usage avec des mesures comme pour :"
+      liste40: "L’arrosage des cultures de coton qui doit être raisonné,"
+      liste41: "Les eaux usées qui doivent être assainies dans une station d’épuration,"
+      liste42: "Les emballages qui doivent être recyclables."
+      texte11: "Pour ce qui est du social, il va de soi (-mais sûrement pas tant que ça vu qu'il faut le dire, là aussi tout dépend du pays d'origine^^) que le travail forcé, des enfants et la discrimination sont interdits, se rajoute à ça les recommandations de l'OIT (organisation internationale du travail),  soit horaire et salaire décents, le droit syndical , et des conditions d'hygiène et de sécurités"
+      strong1: "Et ce que j'apprécie particulièrement en tant que client, des tests de d'usures, car pour être logique le vêtement doit pouvoir durer dans le temps, afin de limiter sa production et son impact environnemental."
+      img3: "oeko-tex"
+      
+
+
+
+
+
+
+
+
       para1: "L'industrie du textile étant une des plus polluantes mondialement, l'industrie des labels n'allait pas tarder à s'y mettre. 
               Toujours plus vert que vert.... Mais qu'est ce que l'on nous vend ???"
       para2: "Donc merci à tous ceux et celles qui ont écrit sur le sujet et m'ont permis de me doccumenter...Le wiki est ton meilleur ami..."
@@ -173,6 +251,7 @@ fr:
       size: "Taille"
   shared:
     header:
+      forgot: "Mot de passe oublié"
       signout: "Se deconnecter"
       signin: "Se connecter"
       you_have: 
@@ -186,3 +265,20 @@ fr:
           attributes:
             email:
               blank: " ne doit pas être vide!"
+  home:
+    who:
+      titre: Qui sommes nous ?
+      intro: OcéNat Créations est une petite entreprise artisanale, qui se veut avant tout française et écoresponsable.
+      texte1: Ayant travaillé comme observatrice scientifique embarquée, j'ai été très vite sensibilisée à l'impact du plastique sur les océans. Or le plastique c'est quoi ? Un peu tout, à vrai dire, on le retrouve dans les fibres synthétiques comme les polaires sous forme de microparticules, et c'est elles qui forment des continents dans certaines zones des océans et détruisent une grande partie de la faune car invisibles mais absorbées.
+      texte2: "Aussi nous avons décidé :"
+      liste1: de ne travailler que des fibres naturelles(animales ou végétales),
+      liste2: de participer au recyclage de vêtements, 2ème industrie les plus polluantes au monde, et beaucoup de vêtements sont très peu portés avant d'être jetés,
+      liste3: et afin de rester dans l'idée, nous avons aussi développé une gamme de zéro-déchet qui vous aidera à éliminer le plastique de votre quotidien (sac à vrac, charlotte à plat ou bee-wraps...)et faire des économies sur le long terme.
+      texte3: Nos fournisseurs sont choisis avec le plus grand soin pour répondre à nos nombreuses exigences.Nous essayons au maximum dans la mesure du possible de travailler avec des laines/fils/tissus labellisé GOTS, ou Okéo-tex, après nous privilégions toujours les productions françaises afin de limiter les émissions carbone
+      texte4: Ce site vous les présente dans sa boutique, sous 3 catégories. Vous y trouverez aussi quelques articles sur l'écologie et l'industrie textile, ainsi que sur les fibres et des tutoriels.
+      texte5: N'hésitez pas à vous abonner, vous recevrez ainsi notre newsletter (4 par an environ) et vous pourrez commenter vos articles préférés
+      texte6: Bonne visite
+    contact:
+      texte1: "Pour nous contacter :"
+      texte2: "téléphone :"
+

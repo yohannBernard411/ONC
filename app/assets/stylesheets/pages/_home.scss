@@ -4,8 +4,9 @@ body{
 }
 .my-container{
   height: calc( 100vh - 150px );
-  background-image: linear-gradient(225deg, rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 0.9)), url("https://res.cloudinary.com/do3nu0tns/image/upload/v1594397358/yfxhrx3zvrk89velrbty.jpg");
+  background-image: linear-gradient(315deg, rgba(236, 234, 226, 0.8), rgba(236, 234, 226, 0.6) 40%, rgba(250, 250, 250, 0)), url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596480564/skxl6dkcxcyfv8xscv80.jpg");
   background-size: cover;
+  background-position: center;
 }
 .my-card{
   margin: 0;
@@ -14,21 +15,28 @@ body{
   text-align: center;
   font-size: 40px;
   overflow: hidden;
+  transition: width .2s height .2s;
 }
-.my-card h2{
-  font-family: 'Courgette', cursive;
+.scale-title{
+  transition: transform .2s;
+}
+.scale-title:hover{
+  transform: scale(1.1);
 }
 .list{
   display: none;
   font-size: 24px;
   list-style: none;
   transition: 0.5s;
+  width: 100vw;
   & li{
     margin-left: -40px;
+    margin-bottom: 5px;
     font-family: 'Courgette', cursive;
     & a{
       display: block;
-      width: 100vw;
+      width: 100%;
+      color: #2A80B9;
     }
   }
 }
@@ -39,16 +47,40 @@ body{
   .my-container{
     display: flex;
     flex-flow: row wrap;
+    background-image: none;
   }
   .my-card{
     width: 50%;
     height: 50%;
-    border: solid 2px grey;
+    border: solid 1px grey;
     cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    padding: 10vmin;
+  }
+  .list{
+    background-color: rgba(236, 234, 226, 0.8);
+    padding-left: -40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    width: 100%;
   }
   .list li a{
     display: block;
-    width: 70vw;
+    width: 100%;
+  }
+  #home{
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596535301/ffuiowogord1ullhpb2w.jpg");
+  }
+  #shop{
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596535601/tv6wbiqqx0a6bo95rmhn.jpg");
+  }
+  #articles{
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596535860/oaj8rjccadp4n7lgcgst.jpg");
+  }
+  #partners{
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596536935/tbtiwdgieww6vve0fwap.jpg");
   }
 }
 
@@ -58,15 +90,32 @@ body{
   .my-container{
     display: flex;
     flex-flow: row nowrap;
+    overflow: hidden;
+    transition: opacity 0.3s;
+    background-color: rgba(245, 243, 238, 0.8);;
   }
   .my-card{
-    width: 25%;
+    width: 24%;
     height: 100%;
     margin-top: 40px;
     cursor: pointer;
+    overflow: visible;
+  }
+  .list{
+    display: block;
+    transform: translateX(150vw);
+    transition-property: transform;
+    transition-duration: .7s;
+    width: 80vw;
+    min-height: 40vh;
+    border-radius: 7px;
+    background-color: rgba(245, 243, 238, 0.8);
+    box-shadow: 3px 3px 10px grey;
   }
   .list li a{
     display: block;
-    width: 70vw;
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 20px;
   }
 }

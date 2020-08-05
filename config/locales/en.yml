@@ -11,7 +11,7 @@ en:
       innovation: Textile innovation
       interest: Wool interests
       label: Label
-      lin: Flax and other matter
+      lin: Wool and other materials
       link: Link
       partners: Tutorials/ Partners
       plastic: Plastic in the oceans
@@ -99,6 +99,41 @@ en:
       more_pages:
         display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
   articles:
+    lin:
+      titre1: "Threads, Wools and other materials "
+      titre2: "What to choose?"
+      texte1: "Cc, you know my ideas on the subject also I will give you the topo on synthetic knitting yarns, you will find acrylic, nylon and polyamide, polyester, lurex (a rare exception that you can find in my designs). The advantage of these materials is their ease of maintenance, their low cost. Their drawbacks are little thermal quality (damage for a sweater), they come from petrochemicals and even once produced, they continue to pollute with each washing via wastewater, the microparticles which emerge from them pass through the filters. sewage treatment plants to end up in the sea."
+      texte2: "Natural knitting yarns are made from spun animal or plant fibers, commonly called wool. The advantage is their thermal and breathable quality, and that they do not take on an odor, you just need to ventilate your sweater, no need to wash it every time you wear it, the disadvantage is precisely the washing because the wools can felt under the effect of the sudden change in temperature and the movements of the drum of the machine. A process exists to avoid this, it is Superwash (SW) wools, but this process uses a lot of chemicals and water so it has a strong impact on the environment as much as you know. Unlike animal fibers, plant fibers are not very elastic."
+      soustitre1: "The different animal fibers:"
+      strong1: "The wool of sheep"
+      liste1: ", sheep and lamb come from the shearing of fleeces. According to the races they will be more or less gentle. Also pay attention to their origin, the sheep can be in Australia / South America, the wool washed and processed in China and the spinning in France. Merino is very soft and in France Arles merino, there is also Ouessant, Shetland ... The structure of the wool gives it good elasticity, moreover it has a shape memory which prevents deformation over time. It is wrinkle-resistant and easy to dye. It has many thermal qualities and allows the body to keep a constant temperature, and lets the skin breathe, and allows perspiration to escape."
+      strong2: "Angora and cashmere wool"
+      liste2: ", come from goats. Cashmere comes from Himalayan goats, it is the undercoat of the fleece. It is very fine, soft and with very efficient thermal qualities. Angora goats provide the mohair that we find classified in different categories according to its finesse, the finest being the kid-mohair (from kids). This wool swells with air as soon as it gets cold, which gives it exceptional thermal qualities. France offers a wide variety of them thanks to our artisanal breeding. It is often found associated with silk in the form of Kid-silk."
+      strong3: "Angora rabbit wool"
+      liste3: ": It is an extremely soft fiber and up to 9 times warmer than sheep's wool. You have to pay attention to the origin and the conditions of harvest , in Germany the rabbits are shorn, in France to comb with a comb, in Asia the rabbit is sacrificed. So pay attention to your suppliers, and go to Caregora angora (strict respect for animal welfare, with European certification)."
+      strong4: "Alpaca wool"
+      liste4: ", very soft, warm, light and resistant, it is a high-end fiber. Baby alpaca fiber is ideal for sensitive skin, especially for layettes. Many breedings have developed in France."
+      strong5: "Yak wool" 
+      liste5: ", it has qualities similar to cashmere, softness to the touch and warmth.It is a fairly rare fiber that can only be harvested in an artisanal way in spring by weeding because the animal naturally loses its hair. It is often found woven with silk or lambswool."
+      strong6: "Camel wool"
+      liste6: ", taken from the down of the camel, it is extremely rare. By virtue of its qualities, it is very similar to yak wool."
+      strong7: "silk"
+      liste7: ": it is a protein fiber resulting from the cocoon produced by the caterpillar of the mulberry bombyx for that of culture and of Tussah for wild silk. It gives a brilliant rendering to the Its advantages are its natural elasticity, its solidity, its ability to absorb dyes, and its thermoregulation, lets the skin breathe in summer and warms in winter. It is often found mixed with other fibers such as mohair."
+      soustitre2: "The different natural plant fibers:"
+      texte3: "Materials which, unlike animal fibers, have the advantage of being generally machine washed. And vegans to dress naturally."
+      strong21: "Cotton"
+      liste21: ". The most widespread, and also controversial given the ecological damage caused, a lot of pesticides and very water consuming. Choose those that are GOTS certified. It is absorbent and insulating, and is very resistant to washing even at high temperatures. It is soft, but can be heavy to wear and warm."
+      strong22: "Linen"
+      liste22: ": long neglected in favor of cotton, we see it come back to the fore for its culture which requires little fertilizer and water. It is very solid, thermoregulatory, very light. Its rough side fades with washing."
+      strong23: "Bamboo"
+      liste23: ", very absorbent, it rivals cotton, much easier to grow. It is soft and comfortable, and very resistant, it can replace nylon in the manufacture of socks. It is slippery and quite heavy. Look at its origin, the growing conditions are not the same in Europe as in Asia."
+      strong24: "Soy"
+      liste24: ", a fiber that I know very little about, apparently artificial because it is regenerated from the proteins contained in the seeds, it is what does a lot of transformation work. It is as shiny as silk, hypoallergenic, washable and resists light and sweat."
+      strong25: "Hemp"
+      liste25: ": fiber from the Middle Ages which regains its letters of nobility, for its rapid and productive cultivation with little water, fertilizers and pesticides. Quite similar to flax, it is also thermoregulatory, goes well in summer as well as winter, and softens over time."
+      strong26: "tencel"
+      liste26: " (or lyocell), is extracted from the pulp of eucalyptus wood. It is reminiscent of silk by its appearance and its touch. It is wrinkle-resistant and easy to maintain as it can be machine washed at 60 ° C."
+      texte4: "Thanks to the various blogs and wiki which allowed me to document myself on the subject."
     labels:
       title: "THE LABELS"
       para1: "The textile industry being one of the most polluting in the world, the label industry was soon to get started.
@@ -173,6 +208,7 @@ en:
       size: "Size"
   shared:
     header:
+      forgot: "Forgot your password"
       signout: "Sign out"
       signin: "Sign in"
       you_have: 
@@ -186,3 +222,19 @@ en:
           attributes:
             email:
               blank: " can't be blank!"
+  home: 
+    who:
+      titre: Who are we?
+      intro: OcéNat Créations is a small craft company, which is above all French and eco-responsible.
+      texte1: Having worked as an on-board scientific observer, I was quickly made aware of the impact of plastic on the oceans. But what is plastic? A bit of everything, to tell the truth, it is found in synthetic fibers such as polar fleece in the form of microparticles, and it is these which form continents in certain areas of the oceans and destroy a large part of the fauna because they are invisible but absorbed.
+      texte2: "So we decided:"
+      liste1: to work only with natural fibers (animal or plant),
+      liste2: to participate in the recycling of clothes, the second most polluting industry in the world, and a lot of clothes are hardly worn before being thrown away,
+      liste3: and in order to stay in the idea, we have also developed a zero-waste range that will help you eliminate the plastic from your daily life (bulk bag, charlotte flat or bee-wraps ...) and make long-term savings.
+      texte3: Our suppliers are chosen with the greatest care to meet our many requirements.We try as much as possible to work with wools / threads / fabrics labeled GOTS, or Okéo-tex, after which we always favor productions in order to limit carbon emissions
+      texte4: This site presents them to you in its shop, under 3 categories. You will also find some articles on ecology and the textile industry, as well as on fibers and tutorials.
+      texte5: Do not hesitate to subscribe, you will receive our newsletter (approximately 4 per year) and you will be able to comment on your favorite articles
+      texte6: Have a nice visit
+    contact:
+      texte1: "To contact us:"
+      texte2: "phone:"

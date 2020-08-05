@@ -11,7 +11,7 @@ es:
       innovation: Innovación textil
       interest: Interés de lana
       label: Etiquetas
-      lin: Lino y otras materias
+      lin: Lana y otros materiales
       link: Vínculos
       partners: Tutoriales/ Socios
       plastic: Plástico en el océano
@@ -94,6 +94,41 @@ es:
       more_pages:
         display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
   articles:
+    lin:
+      titre1: "Hilos, lanas y otros materiales "
+      titre2: "¿Qué elegir?"
+      texte1: "Cc, conoces mis ideas sobre el tema también te daré la topografía sobre hilos sintéticos, encontrarás acrílico, nylon y poliamida, poliéster, lurex (una rara excepción que puedes encontrar en mis diseños). La ventaja de estos materiales es su facilidad de mantenimiento, su bajo costo. Sus inconvenientes son de baja calidad térmica (daños para un suéter), provienen de productos petroquímicos e incluso una vez producidos, continúan contaminando con cada lavado a través de aguas residuales, las micropartículas que emergen de ellos pasan a través de los filtros. plantas de tratamiento de aguas residuales para terminar en el mar."
+      texte2: "Los hilos de tejer naturales están hechos de fibras animales o vegetales hiladas, comúnmente llamadas lana. La ventaja es su calidad térmica y transpirable, y que no tienen olor, solo necesita ventilar su suéter, no necesita lavarlo cada vez que lo usa, la desventaja es precisamente el lavado porque el Las lanas pueden sentirse bajo el efecto del cambio repentino de temperatura y los movimientos del tambor de la máquina. Los hilos de superlavado (SW) existen para evitar esto, pero este proceso utiliza muchos productos químicos y agua, por lo que tiene un fuerte impacto en el medio ambiente tanto como usted sabe. A diferencia de las fibras animales, las fibras vegetales no son muy elásticas."
+      soustitre1: "Las diferentes fibras animales:"
+      strong1: "La lana de oveja"
+      liste1: ", oveja y cordero provienen de la esquila de vellones. Según las razas serán más o menos amables. También preste atención a su origen, las ovejas pueden estar en Australia / América del Sur, la lana lavada y procesada en China y el hilado en Francia. Merino es muy suave y en Francia Arles merino, también está Ouessant, Shetland ... La estructura de la lana le da buena elasticidad, además tiene una memoria de forma que evita la deformación con el tiempo. Es resistente a las arrugas y fácil de teñir. Tiene muchas cualidades térmicas y permite que el cuerpo mantenga una temperatura constante, permite que la piel respire y permite que la transpiración escape."
+      strong2: "Angora y lana de cachemira"
+      liste2: ", provienen de cabras. La cachemira proviene de las cabras del Himalaya, es la capa interna del vellón. Es muy fino, suave y con cualidades térmicas muy eficientes. Las cabras de angora proporcionan el mohair que encontramos clasificados en diferentes categorías de acuerdo con su finura, el más fino es el mohair para niños (de niños). Esta lana se hincha con aire tan pronto como hace frío, lo que le da cualidades térmicas excepcionales. Francia ofrece una amplia variedad de ellos gracias a nuestra cría artesanal. A menudo se encuentra asociado con la seda en forma de Kid-silk."
+      strong3: "lana de conejo de angora"
+      liste3: ": es una fibra extremadamente suave y hasta 9 veces más cálida que la lana de oveja. Hay que prestar atención al origen y las condiciones de la cosecha , en Alemania se despojan los conejos, en Francia se peinan con un peine, en Asia se sacrifica el conejo. Por lo tanto, preste atención a sus proveedores y vaya a Caregora angora (respeto estricto por el bienestar animal, con certificación europea)."
+      strong4: "Lana de alpaca"
+      liste4: ", muy suave, cálida, ligera y resistente, es una fibra de alta gama. La fibra de alpaca para bebés es ideal para pieles sensibles, especialmente para canastillas. Muchas crías se han desarrollado en Francia."
+      strong5: "lana de yak"
+      liste5: ", tiene cualidades similares a la cachemira, suavidad al tacto y calor. Es una fibra bastante rara que solo se puede cosechar de manera artesanal en primavera deshierbando porque El animal pierde naturalmente su pelo. A menudo se encuentra tejido con seda o lana de cordero."
+      strong6: "Lana de camello"
+      liste6: ", tomado de la parte inferior del camello, es extremadamente raro. En virtud de sus cualidades, es muy similar a la lana de yak."
+      strong7: "seda"
+      liste7: ": es una fibra proteica resultante del capullo producido por la oruga del morera de la morera para el cultivo y de Tussah para la seda salvaje. Le da una brillante interpretación al Sus ventajas son su elasticidad natural, su solidez, su capacidad para absorber colorantes y su termorregulación, permite que la piel respire en verano y se caliente en invierno. A menudo se encuentra mezclada con otras fibras como el mohair."
+      soustitre2: "Las diferentes fibras vegetales naturales:"
+      texte3: "Materiales que, a diferencia de las fibras animales, tienen la ventaja de ser generalmente lavados a máquina. Y veganos para vestirse naturalmente."
+      strong21: "Algodón"
+      liste21: ". El más extendido y también controvertido dado el daño ecológico causado, una gran cantidad de pesticidas y mucho consumo de agua. Elija los que tienen certificación GOTS. Es absorbente y aislante, y es muy resistente al lavado incluso a altas temperaturas. Es suave, pero puede ser pesado de usar y cálido."
+      strong22: "Linen"
+      liste22: ": descuidado por mucho tiempo a favor del algodón, vemos que vuelve a la palestra por su cultivo que requiere poco fertilizante y agua. Es muy sólido, termorregulador, muy ligero. Su lado áspero se desvanece con el lavado."
+      strong23: "Bamboo"
+      liste23: ", muy absorbente, rivaliza con el algodón, mucho más fácil de cultivar. Es suave y cómodo, y muy resistente, puede reemplazar el nylon en la fabricación de calcetines. Es resbaladizo y bastante pesado. Mire su origen, las condiciones de crecimiento no son las mismas en Europa que en Asia."
+      strong24: "Soja"
+      liste24: ", una fibra de la que sé muy poco, aparentemente artificial porque se regenera a partir de las proteínas contenidas en las semillas, es lo que hace mucho trabajo de transformación. Es tan brillante como la seda, hipoalergénico, lavable y resistente a la luz y al sudor."
+      strong25: "Cáñamo"
+      liste25: ": fibra de la Edad Media que recupera sus letras de nobleza, por su cultivo rápido y productivo con poca agua, fertilizantes y pesticidas. Muy similar al lino, también es termorregulador, funciona bien tanto en verano como en invierno y se suaviza con el tiempo."
+      strong26: "tencel"
+      liste26: " (o lyocell), se extrae de la pulpa de madera de eucalipto. Es una reminiscencia de la seda por su apariencia y su tacto. Es resistente a las arrugas y fácil de mantener, ya que se puede lavar a máquina a 60 ° C."
+      texte4: "Gracias a los diversos blogs y wiki que me permitieron documentarme sobre el tema."
     labels:
       title: "LAS ETIQUETAS"
       para1: "Como la industria textil es una de las más contaminantes del mundo, la industria de las etiquetas pronto comenzará.
@@ -168,6 +203,7 @@ es:
       size: "Talla"
   shared:
     header:
+      forgot: "Contraseña olvidada"
       signout: "Desconectarse"
       signin: "Conectarse"
       you_have: 
@@ -181,3 +217,19 @@ es:
           attributes:
             email:
               blank: " no debe estar vacío!"
+  home:
+    who:
+      titre: ¿Quiénes somos?
+      intro: OcéNat Créations es una pequeña empresa artesanal, sobre todo francesa y ecológicamente responsable.
+      texte1: Después de haber trabajado como observador científico a bordo, me di cuenta rápidamente del impacto del plástico en los océanos. ¿Pero qué es el plástico? Un poco de todo, de hecho, se encuentra en fibras sintéticas como el vellón polar en forma de micropartículas, y son estas las que forman continentes en ciertas áreas de los océanos y destruyen una gran parte de la fauna porque son invisibles pero se absorben.
+      texte2: "Entonces decidimos:"
+      liste1: para trabajar solo con fibras naturales (animales o plantas),
+      liste2: para participar en el reciclaje de ropa, la segunda industria más contaminante del mundo, y mucha ropa apenas se usa antes de tirarse,
+      liste3: y para mantener la idea, también hemos desarrollado un rango de cero desperdicio que lo ayudará a eliminar el plástico de su vida diaria (bolsa a granel, charlotte plano o envolturas de abejas ...) y hacer ahorro a largo plazo.
+      texte3: Nuestros proveedores son elegidos con el mayor cuidado para cumplir con nuestros muchos requisitos. Intentamos trabajar lo más posible con lanas / hilos / telas con la etiqueta GOTS, o Okéo-tex, luego siempre favorecemos las producciones para limitar las emisiones de carbono
+      texte4: este sitio se los presenta en su tienda, en 3 categorías. También encontrará algunos artículos sobre ecología y la industria textil, así como sobre fibras y tutoriales.
+      texte5: no dude en suscribirse, recibirá nuestro boletín (aproximadamente 4 por año) y podrá comentar sus artículos favoritos
+      texte6: Que tengas una buena visita
+    contact:
+      texte1: "Para contactarnos:"
+      texte2: "teléfono:"

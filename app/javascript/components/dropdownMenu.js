@@ -1,12 +1,17 @@
 const displayDropDownMenu = () => {
   const cubic = document.getElementById("cubic");
   const menu = document.getElementById("menu");
-  cubic.insertAdjacentHTML("beforeend", '<p id="burger" class="wait">&equiv;</p>');
-  cubic.insertAdjacentHTML("beforeend", '<p id="cross" class="action2">&times;</p>');
+  let repartX = document.querySelector(".header").offsetWidth * 0.1;
+  if (document.querySelector(".header").offsetWidth >= 750){
+    repartX = ((document.querySelector(".header").offsetWidth - 600) / 2);
+  }
+  menu.style.transform = `translate(${repartX}px, -300px`
   const burger = document.getElementById("burger");
   const cross = document.getElementById("cross");
-  burger.style.right = ((90 - burger.getBoundingClientRect()) / 2) + "px";
-  cross.style.right = "22px";
+  burger.classList.add("wait");
+  cross.classList.add("action2");
+  burger.style.transformOrigin= "center center";
+  cross.style.transformOrigin= "center center";
   burger.addEventListener("click", () => {
     burger.classList.remove("wait");
     burger.classList.add("action");
