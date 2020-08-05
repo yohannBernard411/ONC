@@ -11,7 +11,6 @@ const sumInGrid = () => {
     });
     const total = myArray2.reduce((a, b)=> a + b,0);
     const totalTarget = document.getElementById("main-total");
-    // totalTarget.innerText = `${total}.00 Euros.`;
   }
 }
 

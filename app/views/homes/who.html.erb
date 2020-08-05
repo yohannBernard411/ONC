@@ -1,14 +1,22 @@
-<h1 class="home_title">Qui sommes nous ?</h1>
-<div class="container">
-  <p class="text-justify">OcéNat Créations est une petite entreprise artisanale, qui se veut avant tout française et écoresponsable.</p>
-  <p>Ayant travaillé comme observatrice scientifique embarquée, j'ai été très vite sensibilisée à l'impact du plastique sur les océans. Or le plastique c'est quoi ? Un peu tout, à vrai dire, on le retrouve dans les fibres synthétiques comme les polaires sous forme de microparticules, et c'est elles qui forment des continents dans certaines zones des océans et détruisent une grande partie de la faune car invisibles mais absorbées.</p>
-  <p>Aussi nous avons décidé : -de ne travailler que des fibres naturelles(animales ou végétales),
--de participer au recyclage de vêtements, 2ème industrie les plus polluantes au monde, et beaucoup de vêtements sont très peu portés avant d'être jetés, 
--et afin de rester dans l'idée, nous avons aussi développé une gamme de zéro-déchet qui vous aidera à éliminer le plastique de votre quotidien (sac à vrac, charlotte à plat ou bee-wraps...)et faire des économies sur le long terme.</p>
-  <p>Nos fournisseurs sont choisis avec le plus grand soin pour répondre à nos nombreuses exigences.Nous essayons au maximum dans la mesure du possible de travailler avec des laines/fils/tissus labellisé GOTS, ou Okéo-tex, après nous privilégions toujours les productions françaises afin de limiter les émissions carbone</p>
-  <p>Ce site vous les présente dans sa boutique, sous 3 catégories. Vous y trouverez aussi quelques articles sur l'écologie et l'industrie textile, ainsi que sur les fibres et des tutoriels.</p>
-  <p>N'hésitez pas à vous abonner, vous recevrez ainsi notre newsletter (4par an environ) et vous pourrez commenter vos articles préférés</p>
-  <p>Bonne visite</p>
-  <p>OcéNat</p>
+<h1 class="home_title"><%= I18n.translate("home.who.titre") %></h1>
+<div class="container" id="who-page">
+  <div class="img-centre">
+    <%= cl_image_tag("twenozss89lby1vcxxxw",
+        width: 900, height: 500, crop: :fill, id: "home_who_img") %>
+  </div>
+  <p class="text-justify"><%= I18n.translate("home.who.intro") %></p>
+  <p><%= I18n.translate("home.who.texte1") %></p>
+  <p><%= I18n.translate("home.who.texte2") %></p>
+  <ul class="my-list-style">
+    <li><%= I18n.translate("home.who.liste1") %></li>
+    <li><%= I18n.translate("home.who.liste2") %></li>
+    <li><%= I18n.translate("home.who.liste3") %></li>
+  </ul>
+  <p><%= I18n.translate("home.who.texte3") %></p>
+  <p><%= I18n.translate("home.who.texte4") %></p>
+  <p><%= I18n.translate("home.who.texte5") %></p>
+  <p><%= I18n.translate("home.who.texte6") %></p>
+  <p class="signature">OcéNat</p>
+  
 
 </div>

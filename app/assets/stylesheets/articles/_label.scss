@@ -6,6 +6,7 @@
 .myTitle{
   text-align: center;
   font-size: 40px;
+  padding: 20px;
   font-family: 'Akronim', cursive;
   color: $my-orange;
 }
@@ -16,4 +17,8 @@
 .centrage{
   width: 100%;
   text-align: center;
+}
+#labelImage1{
+  width: 100%;
+  height: auto;
 }

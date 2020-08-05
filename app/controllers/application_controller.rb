@@ -5,8 +5,8 @@ class ApplicationController < ActionController::Base
   before_action :load_cart
   
   before_action :authenticate_user!
-  include Pundit
 
+  include Pundit
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
   after_action :verify_policy_scoped, only: :index, unless: :skip_pundit?
 

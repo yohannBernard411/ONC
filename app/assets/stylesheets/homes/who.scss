@@ -1,3 +1,26 @@
 .home_title{
   color: $my-green;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+#who-page{
+  text-align: justify;
+}
+.img-centre{
+  text-align: center;
+}
+#home_who_img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.my-list-style{
+  list-style: georgian inside url('puce.png');
+  & li{
+    margin-bottom: 15px;
+  }
+}
+.signature{
+  float: right;
+  margin-bottom: 80px;
 }

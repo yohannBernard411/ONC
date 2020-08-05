@@ -9,6 +9,8 @@
   </h1>
 
   <div id="cubic" class="restrict">
+    <%= image_tag("myburger.png", size: "46x46", alt: "Burger img", id: "burger")%>
+    <%= image_tag("mycross.png", size: "46x46", alt: "Cross img", id: "cross")%>
   </div>
   
 </div>
@@ -18,6 +20,8 @@
     <%= link_to I18n.translate("shared.header.signout"), destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %>
   <% else %>
     <%= link_to I18n.translate("shared.header.signin"), new_user_session_path, class: "btnlink" %>
+    <br>
+    <%= link_to I18n.translate("shared.header.forgot"),  new_user_password_path, class: "btnlink" %>
   <% end %>
   <br><hr>
   <div id="langue">
@@ -26,9 +30,9 @@
     <button id="english"><%= link_to "English", url_for(only_path: true, locale: "en") %></button>
     <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
   </div>
-  <hr>
   <div class="my-cart">
     <% if @all_line_items %>
+      <hr>
       <%= I18n.translate("shared.header.you_have", count: @total_count) %><br>
       <%= link_to I18n.translate("shared.header.see_cart"), cart_path(current_user.cart.id), class: "btnlink" %>
     <% end %>
