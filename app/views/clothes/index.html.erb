@@ -15,15 +15,13 @@
   <main class="container">
     <% @clothes.each do |clothe| %>
       <div id="card" class="container">
-        <hr>
         <div class="row">
           <div class="col-5 overflow">
             <%= content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
             <% if clothe.photos[0] %>
               <%= cl_image_tag clothe.photos[0].key, class: "clothe_index_image", crop: :fill %>
             <% end %>
-          </div>
-          <div class="col-7">
+
             <div class="description">
               <h2><%= clothe.name %></h2>
 

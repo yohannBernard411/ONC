@@ -15,9 +15,10 @@
   margin-bottom: 20px;
 }
 .my-list-style{
-  list-style: georgian inside url('puce.png');
+  list-style: inside url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596704467/fmkbhzebi41m234lkoav.png');
   & li{
     margin-bottom: 15px;
+    display: list-item;
   }
 }
 .signature{
