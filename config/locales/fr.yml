@@ -325,7 +325,8 @@ fr:
       lien1: "Sources : Eco-sapiens, Mes Courses pour la Planète"
   clothes:
     index:
-      title: "Liste des vêtements"
+      title: "Collection été 2020"
+      slogan: "Ici ton slogan qui claque!"
       search: "Rechercher..."
       price: "Prix:"
       note: "Note:"
@@ -390,5 +391,5 @@ fr:
       texte6: Bonne visite
     contact:
       texte1: "Pour nous contacter :"
-      texte2: "téléphone :"
+      texte2: "Téléphone :"
 
