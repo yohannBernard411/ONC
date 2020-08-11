@@ -9,6 +9,7 @@ class ClothesController < ApplicationController
       @clothes = policy_scope(Clothe).where("name ILIKE ?", "%#{@search["name"]}%").order(created_at: :desc)
       unless @clothes.first
         @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
+        redirect_to clothes_path, notice: "Aucune correspondance!"
       end
     else
       @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])

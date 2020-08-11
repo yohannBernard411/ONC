@@ -325,7 +325,8 @@ en:
       lien1: "Sources: Eco-sapiens, My Races for the Planet"
   clothes:
     index:
-      title: "List of clothes"
+      title: "Summer 2020 collection"
+      slogan: "Here your slogan that slams!"
       search: "Search ..."
       price: "Price:"
       note: "Note:"
@@ -390,4 +391,4 @@ en:
       texte6: Have a nice visit
     contact:
       texte1: "To contact us:"
-      texte2: "phone:"
+      texte2: "Phone:"

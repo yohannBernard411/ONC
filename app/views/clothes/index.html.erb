@@ -1,8 +1,10 @@
 <h1 class="indexclothetitle"><%= I18n.translate("clothes.index.title") %></h1>
 
 <div class="index-clothes-page">
-  <div class="search-bar-container">
-    <%= simple_form_for :search, url: clothes_path, method: "GET", html: { class: 'form-inline' } do |f| %>
+
+  <div class="search-bar-container container">
+    <p class="slogan"><%= I18n.translate("clothes.index.slogan") %></p>
+    <%= simple_form_for :search, url: clothes_path, method: "GET", html: { class: 'form-inline search-tool' } do |f| %>
       <%= f.input :name, label: "", input_html: {value: "", placeholder: I18n.translate("clothes.index.search") } %>
       <%= f.submit ' ', class: "btn", id: "my-search-button" %>
       <i class="fas fa-search" id="magnify-icon"></i>
@@ -12,51 +14,53 @@
   <p id="notice"><%= notice %></p>
   <p id="alert"><%= alert %></p>
 
-  <main class="container">
-    <% @clothes.each do |clothe| %>
-      <div id="card" class="container">
-        <div class="row">
-          <div class="col-5 overflow">
-            <%= content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
-            <% if clothe.photos[0] %>
-              <%= cl_image_tag clothe.photos[0].key, class: "clothe_index_image", crop: :fill %>
-            <% end %>
-
-            <div class="description">
-              <h2><%= clothe.name %></h2>
-
-              <p>
-                <p><%= I18n.translate("clothes.index.price") %> <strong><%= humanized_money_with_symbol(clothe.price) %></strong></p>
-              </p>
-
-              <p>
-                <p><%= I18n.translate("clothes.index.note") %> </p>
-                <%= content_tag(:p,"", id: "displaystars#{clothe.id}", class: "displaystars" ) %>
-                <p><%= I18n.translate("clothes.index.ononon") %> <strong><%= clothe.nbov %></strong> <%= I18n.translate("clothes.index.ratings") %></p>
-              </p>
-
-              <p>
-                <p><%= I18n.translate("clothes.index.delivery") %> </p>
-                <%= content_tag(:strong, id: "delivery#{clothe.id}", class: "delivery") do %>
-                  <%= clothe.delivery %>
-                <% end %>
-              </p>
-
-              <%= content_tag(:p, clothe.delivery_color, id: "indexColor#{clothe.id}", class: "indexColor" ) %>
-              <%= content_tag(:p, clothe.scoring, id: "slide#{clothe.id}", class: "slide" ) %>
-
-              <%= link_to I18n.translate("clothes.index.see"), clothe_path(clothe.id), class: "btnlink" %>
-              <% if policy(Clothe).edit? %>
-                <%= link_to I18n.translate("clothes.index.edit"), edit_clothe_path(clothe.id), class: "btnlink" %>
-              <% end %>
-              <% if policy(Clothe).destroy? %>
-                <%= link_to I18n.translate("clothes.index.delete"), clothe_path(clothe), method: "delete", data: {confirm: 'Etes vous sûr?'}, class: "btnlink" %>
+  <main>
+    <div id="card" class="container">
+        <% @clothes.each do |clothe| %>
+          <div class="each-card">
+            <div class="card1 overflow">
+              
+              <%= content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
+              <% if clothe.photos[0] %>
+                <%= cl_image_tag clothe.photos[0].key, width: 400, height: 300, class: "clothe_index_image", crop: :fill %>
               <% end %>
             </div>
+            <div class="card2 overflow">
+              <div class="description">
+                <h2><%= clothe.name %></h2>
+
+                <p>
+                  <p><%= I18n.translate("clothes.index.price") %> <strong><%= humanized_money_with_symbol(clothe.price) %></strong></p>
+                </p>
+
+                <p>
+                  <p><%= I18n.translate("clothes.index.note") %> </p>
+                  <%= content_tag(:p,"", id: "displaystars#{clothe.id}", class: "displaystars" ) %>
+                  <p><%= I18n.translate("clothes.index.ononon") %> <strong><%= clothe.nbov %></strong> <%= I18n.translate("clothes.index.ratings") %></p>
+                </p>
+
+                <p>
+                  <p><%= I18n.translate("clothes.index.delivery") %> </p>
+                  <%= content_tag(:strong, id: "delivery#{clothe.id}", class: "delivery") do %>
+                    <%= clothe.delivery %>
+                  <% end %>
+                </p>
+
+                <%= content_tag(:p, clothe.delivery_color, id: "indexColor#{clothe.id}", class: "indexColor" ) %>
+                <%= content_tag(:p, clothe.scoring, id: "slide#{clothe.id}", class: "slide" ) %>
+
+                <%= link_to I18n.translate("clothes.index.see"), clothe_path(clothe.id), class: "btnlink" %>
+                <% if policy(Clothe).edit? %>
+                  <%= link_to I18n.translate("clothes.index.edit"), edit_clothe_path(clothe.id), class: "btnlink" %>
+                <% end %>
+                <% if policy(Clothe).destroy? %>
+                  <%= link_to I18n.translate("clothes.index.delete"), clothe_path(clothe), method: "delete", data: {confirm: 'Etes vous sûr?'}, class: "btnlink" %>
+                <% end %>
+              </div>
+            </div>
           </div>
-        </div>
+        <% end %>
       </div>
-    <% end %>
   </main>
 
   <hr>
