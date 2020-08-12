@@ -108,11 +108,11 @@
   font-size: 16px;
   background-color: red;
   transform: rotateZ(-45deg);
-  width: 150px;
+  width: 220px;
   height: 20px;
-  position: absolute;
-  z-index: 3;
-  top: 30px;
+  position: relative;
+  z-index: 1;
+  top: -200px;
   left: -30px;
 }
 #card{
@@ -132,6 +132,7 @@
 }
 .displaystars{
   color: rgb(42, 128, 185);
+  margin-bottom: 0;
 }
 .indexclothetitle{
   color: $my-green;

@@ -2,6 +2,15 @@ const displayStars = () => {
   // recup id
   const scores = document.getElementsByClassName("slide");
   const displays = document.getElementsByClassName("displaystars");
+  let offsetX;
+  let offsetY;
+  if (window.location.href.includes("clothes?")){
+    offsetX = 104;
+    offsetY = 228;
+  }else if (window.location.href.includes("clothes/")){
+    offsetX = 100;
+    offsetY = 500;
+  }
   for (let rang = 0; rang < scores.length; rang +=1 ){
     const score = scores[rang];
     const display = displays[rang];
@@ -28,12 +37,21 @@ const displayStars = () => {
     }
     // //add color to delivery
     const delivery = document.getElementById("delivery"+id);
-    delivery.style.color = document.getElementById("indexColor"+id).innerText;
+    delivery.style.color = document.getElementById("indexColor"+id).innerHTML;
     //check empty option
     const option = document.getElementById("option"+id);
     if (option.innerText == "" ){
         option.style.visibility = "hidden";
+    }else{
+      let longueurString = option.innerText.length;
+      if (longueurString > 25){
+        option.innerText = option.innerText.substring(0, 25);
+        longueurString = 25;
+      }
+      option.style.top = `${-(offsetY - ((longueurString / 25) * 65))}px`;
+      option.style.left = `${-(offsetX - ((longueurString / 25) * 63))}px`;
     }
+
   }
 }
 

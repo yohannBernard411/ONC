@@ -14,7 +14,6 @@
 #left-button, #right-button{
   font-size: 40px;
   color: rgba(42, 128, 185, 0.9);
-
 }
 .fa-arrow-circle-right, .fa-arrow-circle-left{
   box-shadow: 5px 5px 15px grey;
@@ -44,20 +43,45 @@
     font-size: 16px;
     background-color: red;
     transform: rotateZ(-45deg);
-    width: 150px;
+    width: 220px;
     height: 20px;
-    position: absolute;
+    position: relative;
     z-index: 3;
-    top: 120px;
-    left: -30px;
+    top: -433px;
+    left: -41px;
+}
+.option-choice{
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.text-center{
+  text-align: center;
+}
+.option-choice div{
+  width: 45%;
+}
+.colorsize{
+  width: 45%;
 }
 .hidden-options{
   display: none;
 }
-
+.overflow_option{
+  overflow: hidden;
+}
 
 #size-tableau{
   overflow-x:auto;
+}
+#links{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+#links button{
+  outline-style: none;
 }
 
 #mesures{
@@ -78,8 +102,45 @@
   height: auto;
 }
 .centrage-size{
-  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 .title-size{
   text-align: center;
+}
+
+// tablette
+@media (min-width: 500px) and (max-width: 1200px) {
+  .mannequin{
+    width: 45%;
+    height: auto;
+  }
+  .centrage-size{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+// desktop
+@media (min-width: 1201px) {
+  .mannequin{
+    width: 400px;
+    height: auto;
+  }
+  .centrage-size{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .my-legende{
+    width: 400px;
+  }
+  .my-legende p{
+    line-height: 4rem;
+  }
 }

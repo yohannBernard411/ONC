@@ -3,6 +3,8 @@ const displayViewer = () => {
     //recup les elements
     let rank = 0;
     const allPictures = document.querySelectorAll(".picture");
+    const allOptionShow = document.querySelectorAll(".option-show");
+    const allOverflowOption = document.querySelectorAll(".overflow_option");
     const leftButton = document.getElementById("left-button");
     const rightButton = document.getElementById("right-button");
     const miniatures = document.querySelectorAll(".miniature");
@@ -34,7 +36,15 @@ const displayViewer = () => {
         allPictures.forEach((picture) => {
           picture.style.display = "none";
         });
+        allOptionShow.forEach((option) => {
+          option.style.display = "none";
+        });
+        allOverflowOption.forEach((overflow) => {
+          overflow.style.display = "none";
+        });
         allPictures[rank].style.display = "block";
+        allOptionShow[rank].style.display = "block";
+        allOverflowOption[rank].style.display = "block";
       }
 
       displayPicture();

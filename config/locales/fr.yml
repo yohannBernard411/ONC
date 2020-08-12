@@ -330,7 +330,9 @@ fr:
       search: "Rechercher..."
       price: "Prix:"
       note: "Note:"
-      ononon: "Sur:"
+      ononon:
+        one: "Sur 1 évaluation."
+        other: "Sur %{count} évaluations."
       ratings: "évaluations."
       delivery: "Livraison:"
       see: "Voir"
@@ -360,6 +362,33 @@ fr:
       comments: "Commentaires"
       buy: "Acheter"
       size: "Taille"
+      color: "Couleur"
+      basket: 'Mettre dans mon panier'
+      comment: "Laisser un commentaire"
+    size:
+      title: "Mensurations et tailles"
+      texte: "Chaque vêtement étant fait sur mesure, il est important que vous sachiez les prendre correctement afin que je m'adapte au mieux à votre morphologie aussi un petit croquis est plus parlant."
+      alt: "Prise de mesures"
+      mensuration: "Mensurations"
+      stature: "Stature"
+      poitrine: "Tour poitrine"
+      taille: "Tour de taille"
+      hanche: "Tour de hanches"
+      bras: "Longueur bras"
+      epaule: "Largeur épaule"
+      legende: "Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----"
+      strong1: "1) STATURE"
+      strong2: "2) TOUR DE POITRINE"
+      strong3: "3) TOUR DE TAILLE"
+      strong4: "4) TOUR DE HANCHES"
+      strong5: "5) LONGUEUR DU BRAS"
+      strong6: "6) LARGEUR D'EPAULE"
+      texte1: " en position droite, de la tête aux pieds"
+      texte2: " sur la pointe des seins"
+      texte3: " à la taille, par dessus le ruban"
+      texte4: " sur le point le plus fort des fesses"
+      texte5: " bras légérement fléchi, de l'articulation de l'épaule au poignet, en passant par-dessus le coude"
+      texte6: " de la base du cou à l'articulation de l'epaule"
   shared:
     header:
       forgot: "Mot de passe oublié"
@@ -392,4 +421,10 @@ fr:
     contact:
       texte1: "Pour nous contacter :"
       texte2: "Téléphone :"
-
+  comment:
+    new:
+      title: "Titre"
+      content: "Message"
+      note: "Note"
+      submit: "Valider"
+      return: "Retour"

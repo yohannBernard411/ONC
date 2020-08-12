@@ -15,6 +15,7 @@ class CommentsController < ApplicationController
     authorize @clothe
     authorize @comment
     if @comment.save
+      average_notation
       redirect_to clothe_path(@clothe)
     else
       render :new
@@ -33,8 +34,10 @@ class CommentsController < ApplicationController
 
   def update
     @comment = Comment.find(params[:id])
+    @clothe = Clothe.find(@comment.clothe.id)
     authorize @comment
     if @comment.update(comment_params)
+      average_notation
       redirect_to clothe_path(@comment.clothe)
     else
       render :edit
@@ -52,6 +55,18 @@ class CommentsController < ApplicationController
 
   def comment_params
     params.require(:comment).permit(:title, :content, :note, :user_id)
+  end
+
+  def average_notation
+    all_comments = Comment.where(clothe: @clothe)
+    total = 0
+    count = 0
+    all_comments.each do |comment|
+      total += comment.note
+      count += 1
+    end
+    moyenne = total.fdiv(count)
+    @clothe.update(scoring: moyenne, nbov: count)
   end
 
 end

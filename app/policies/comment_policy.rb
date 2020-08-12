@@ -21,7 +21,7 @@ class CommentPolicy < ApplicationPolicy
   end
 
   def create?
-
+    return true if @user
   end
 
   def new?
@@ -39,7 +39,13 @@ class CommentPolicy < ApplicationPolicy
   end
 
   def update?
-
+    if @user
+      if @user.admin || @user.id == @comment.user_id
+        return true
+      else
+        return false
+      end
+    end
   end
 
   def destroy?
