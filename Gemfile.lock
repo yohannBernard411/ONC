@@ -112,12 +112,6 @@ GEM
       activemodel (>= 4.2, < 6.1)
       activerecord (>= 4.2, < 6.1)
       request_store (~> 1.0)
-    globalize3 (0.1.0)
-      activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
-    globalize3_helpers (0.3.0)
-      activesupport
-      globalize3
     hashie (4.1.0)
     http-accept (1.7.0)
     http-cookie (1.0.3)
@@ -328,7 +322,6 @@ DEPENDENCIES
   faker
   font-awesome-sass
   globalize
-  globalize3_helpers
   i18n
   jbuilder (~> 2.7)
   listen (~> 3.2)
