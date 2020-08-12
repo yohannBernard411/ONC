@@ -45,6 +45,7 @@ gem 'bullet'
 gem 'postmark-rails'
 gem 'faker'
 gem 'mail'
+gem 'globalize'
 
 group :development, :test do
   gem 'pry-byebug'

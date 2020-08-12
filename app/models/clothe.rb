@@ -8,7 +8,7 @@ class Clothe < ApplicationRecord
   has_many :colors, through: :dyeings
   has_many :sizes, through: :scalings
 
-
+  translates :name, :description, :category, :delivery, :option
 
   monetize :price_cents
 

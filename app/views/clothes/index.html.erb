@@ -19,11 +19,10 @@
         <% @clothes.each do |clothe| %>
           <div class="each-card">
             <div class="card1 overflow">
-              
-              <%= content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
               <% if clothe.photos[0] %>
                 <%= cl_image_tag clothe.photos[0].key, width: 400, height: 300, class: "clothe_index_image", crop: :fill %>
               <% end %>
+              <%= content_tag(:p, clothe.option, id: "option#{clothe.id}", class: "option" ) %>
             </div>
             <div class="card2 overflow">
               <div class="description">
@@ -36,7 +35,7 @@
                 <p>
                   <p><%= I18n.translate("clothes.index.note") %> </p>
                   <%= content_tag(:p,"", id: "displaystars#{clothe.id}", class: "displaystars" ) %>
-                  <p><%= I18n.translate("clothes.index.ononon") %> <strong><%= clothe.nbov %></strong> <%= I18n.translate("clothes.index.ratings") %></p>
+                  <p><%= I18n.translate("clothes.index.ononon", count: clothe.nbov) %></p>
                 </p>
 
                 <p>

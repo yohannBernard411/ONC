@@ -47,13 +47,23 @@ ActiveRecord::Schema.define(version: 2020_07_28_222030) do
     t.index ["user_id"], name: "index_carts_on_user_id"
   end
 
-  create_table "clothes", force: :cascade do |t|
+  create_table "clothe_translations", force: :cascade do |t|
+    t.bigint "clothe_id", null: false
+    t.string "locale", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
     t.string "name"
+    t.string "description"
     t.string "category"
     t.string "option"
+    t.string "delivery"
+    t.index ["clothe_id"], name: "index_clothe_translations_on_clothe_id"
+    t.index ["locale"], name: "index_clothe_translations_on_locale"
+  end
+
+  create_table "clothes", force: :cascade do |t|
     t.float "scoring"
     t.integer "nbov"
-    t.string "delivery"
     t.string "delivery_color"
     t.integer "stock"
     t.string "wire_type"

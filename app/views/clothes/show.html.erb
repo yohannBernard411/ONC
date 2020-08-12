@@ -2,14 +2,17 @@
   <h1 id="showTitle"><%= @clothe.name %></h1>
   <div id="showContainerRow">
     <div id="showLeftPart">
-      <%= content_tag(:p, @clothe.option, id: "option#{@clothe.id}", class: "option-show" ) %>
       <div class="my-viewer">
         <p id="right-button"><i class="fas fa-arrow-circle-left"></i></p>
           <% @clothe.photos.each_with_index do |photo, index| %>
-            <%= cl_image_tag photo.key, id:"photo#{index}", class:"picture", width: 800, height:500, crop: :fill %>
+            <div class="overflow_option">
+              <%= cl_image_tag photo.key, id:"photo#{index}", class:"picture", width: 800, height:500, crop: :fill %>
+              <%= content_tag(:p, @clothe.option, id: "option#{@clothe.id}", class: "option-show" ) %>
+            </div>
           <% end %>
         <p id="left-button"><i class="fas fa-arrow-circle-right"></i></p>
       </div>
+      
       <div class="my-little-picture">
         <% count = 0 %>
         <% @clothe.photos.each do |photo| %>
@@ -20,9 +23,12 @@
     </div>
 
     <div class="container">
-      <%= I18n.translate("clothes.index.note") %>
-      <%= content_tag(:p,"", id: "displaystars#{@clothe.id}", class: "displaystars" ) %>
-      <%= I18n.translate("clothes.index.ononon") %> <strong><%= @clothe.nbov %></strong> <%= I18n.translate("clothes.index.ratings") %>
+      <p><%= @clothe.description %></p>
+      <div class="container">
+        <%= I18n.translate("clothes.index.note") %>
+        <%= content_tag(:p,"", id: "displaystars#{@clothe.id}", class: "displaystars" ) %>
+        <p><%= I18n.translate("clothes.index.ononon", count: @clothe.nbov) %></p>
+      </div>
       <div id="showRightPart">
         <p>Prix: <%= humanized_money_with_symbol(@clothe.price) %></p>
         <%= I18n.translate("clothes.index.delivery") %>
@@ -31,18 +37,6 @@
         <% end %>
         <%= content_tag(:p, @clothe.delivery_color, id: "indexColor#{@clothe.id}", class: "indexColor") %>
         <%= content_tag(:p, @clothe.scoring, id: "slide#{@clothe.id}", class: "slide") %>
-      </div>
-
-      <div class="option-choice">
-        <p>Disponible en couleurs:</p>
-        <% @clothe.colors.each do |color| %>
-          <%= color.name + "," %>
-        <% end %>
-        <br><br><br>
-        <p>Disponible en taille:</p>
-        <% @clothe.sizes.each do |size| %>
-          <%= size.name + "," %>
-        <% end %>
       </div>
 
       <%# ajout du formulaire de choix de taille et couleur qui creer line item %>
@@ -54,24 +48,29 @@
             <%= f.hidden_field :quantity, value: 1 %>
             <%= f.hidden_field :state, value: "pending" %>
           <% end %>
-          <%= f.input :color, collection: @clothe.colors.each { |color| [color.name, color.id] } %>
-          <%= f.input :size, collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
-          <%= f.submit 'Mettre dans mon panier', class: "btnlink" %>
-        <% end %>
+          <div class="option-choice">
+            <%= f.input :color, label: I18n.translate("clothes.show.color"), collection: @clothe.colors.each { |color| [color.name, color.id] } %>
+            <%= f.input :size, label: I18n.translate("clothes.show.size"), collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
+          </div>
+          <div class="text-center">
+            <%= f.submit I18n.translate("clothes.show.basket"), class: "btnlink" %>
+          </div>
+        <% end %><br>
 
 
 
 
       <div id="links">
         <% if policy(Clothe).edit? %>
-          <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %> |
+          <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %>
         <% end %>
-        <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %> |
-        <button id="displayComment"><%= I18n.translate("clothes.show.comments") %></button> |
+        <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %>
+        <%= content_tag(:button, I18n.translate("clothes.show.comments"), id: "displayComment", class: "btnlink") %>
         <% if policy(Comment).new? %>
-          <%= link_to 'Leave a comment', new_clothe_comment_path(@clothe), class: "btnlink" %> |
+          <%= link_to I18n.translate("clothes.show.comment"), new_clothe_comment_path(@clothe), class: "btnlink" %>
         <% end %>
-        <button id="displaySize"><%= I18n.translate("clothes.show.size") %></button>
+        <%= content_tag(:button, I18n.translate("clothes.show.size"), id: "displaySize", class: "btnlink") %>
+
       </div>
     </div>
   </div>
@@ -79,23 +78,32 @@
 <hr>
 
 <div class="container hidden-options" id="set-size">
-  <h2>Mensurations et tailles</h2>
-  <p>Chaque vêtement étant fait sur mesure, il est important que vous les sachiez les prendre correctement afin que je m'adapte au mieux à votre morphologie aussi un petit croquis est plus parlant </p>
+  <h2><%= I18n.translate("clothes.size.title") %></h2>
+  <p><%= I18n.translate("clothes.size.texte") %></p>
   <div class="container centrage-size">
-    <img src="https://res.cloudinary.com/do3nu0tns/image/upload/v1596214077/ej31fpkpapglqgpecz3l.jpg" alt="Prise de mesures" class="mannequin">
+    <img src="https://res.cloudinary.com/do3nu0tns/image/upload/v1597264819/avk3am6sd9mflqzvb0vb.png" alt=<%= I18n.translate("clothes.size.alt") %> class="mannequin">
+    <div class="container my-legende">
+      <p><strong><%= I18n.translate("clothes.size.strong1") %></strong><%= I18n.translate("clothes.size.texte1") %></p>
+      <p><strong><%= I18n.translate("clothes.size.strong2") %></strong><%= I18n.translate("clothes.size.texte2") %></p>
+      <p><strong><%= I18n.translate("clothes.size.strong3") %></strong><%= I18n.translate("clothes.size.texte3") %></p>
+      <p><strong><%= I18n.translate("clothes.size.strong4") %></strong><%= I18n.translate("clothes.size.texte4") %></p>
+      <p><strong><%= I18n.translate("clothes.size.strong5") %></strong><%= I18n.translate("clothes.size.texte5") %></p>
+      <p><strong><%= I18n.translate("clothes.size.strong6") %></strong><%= I18n.translate("clothes.size.texte6") %></p>
+    </div>
   </div>
-  <p class="title-size">Mensurations</p>
+  
+  <p class="title-size"><%= I18n.translate("clothes.size.mensuration") %></p>
   <div id="size-tableau">
       <table id="mesures">
         <tbody>
           <tr class="row-size">
-            <td colspan="2">Stature</td>
+            <td colspan="2"><%= I18n.translate("clothes.size.stature") %></td>
             <% (160..185).to_a.each do |stature| %>
               <td class="cellule-size"><%= stature %></td>
             <% end %>
           </tr>
           <tr class="row-size">
-            <td colspan="2">Tour poitrine</td>
+            <td colspan="2"><%= I18n.translate("clothes.size.poitrine") %></td>
             <% (74..124).to_a.each do |poitrine| %>
               <% if poitrine.even? %>
                 <td class="cellule-size"><%= poitrine %></td>
@@ -103,7 +111,7 @@
             <% end %>
           </tr>
           <tr class="row-size">
-            <td colspan="2">Tour de taille</td>
+            <td colspan="2"><%= I18n.translate("clothes.size.taille") %></td>
             <% (58..108).to_a.each do |taille| %>
               <% if taille.even? %>
                 <td class="cellule-size"><%= taille %></td>
@@ -111,7 +119,7 @@
             <% end %>
           </tr>
           <tr class="row-size">
-            <td colspan="2">Tour de hanches</td>
+            <td colspan="2"><%= I18n.translate("clothes.size.hanche") %></td>
             <% (80..130).to_a.each do |hanches| %>
               <% if hanches.even? %>
                 <td class="cellule-size"><%= hanches %></td>
@@ -119,7 +127,7 @@
             <% end %>
           </tr>
           <tr class="row-size">
-            <td colspan="2">Longueur bras</td>
+            <td colspan="2"><%= I18n.translate("clothes.size.bras") %></td>
             <% (57..65).to_a.each do |bras| %>
               <td class="cellule-size"><%= bras %></td>
             <% end %>
@@ -128,7 +136,7 @@
             <% end %>
           </tr>
           <tr class="row-size">
-            <td colspan="2">Largeur épaule</td>
+            <td colspan="2"><%= I18n.translate("clothes.size.epaule") %></td>
             <% (110..155).to_a.each do |epaule| %>
               <% if epaule%5 == 0 %>
                 <td class="cellule-size"><%= epaule/10 %></td>
@@ -141,7 +149,7 @@
         </tbody>
         <tfoot>
           <tr>
-            <td colspan="28">Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----</td>
+            <td colspan="28"><%= I18n.translate("clothes.size.legende") %></td>
           </tr>
         </tfoot>
     </table>
@@ -155,8 +163,6 @@
     <div class="container">
       <%= comment.title %><br>
       <%= comment.content %><br>
-      <%= comment.note %><br>
-      <%= comment.user_id %><br>
       <% if policy(Comment).show? %>
         <%= link_to "see", comment_path(comment), class: "btnlink" %>
       <% end %>

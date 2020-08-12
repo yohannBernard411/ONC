@@ -97,9 +97,13 @@
   position: fixed;
   transition: top 1s;
 }
-#menu > a{
+#menu a{
   border-color: white;
   color: white;
+}
+#langue a{
+  border-color: #2A80B9;
+  color: #2A80B9; 
 }
 /* classes */
 .wait{

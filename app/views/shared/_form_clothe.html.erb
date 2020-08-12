@@ -1,32 +1,28 @@
 <%= simple_form_for(@clothe) do |form| %>
 
-    <% if @clothe.errors.any? %>
-      <div id="error_explanation">
-        <h2>
-          <%= pluralize(@clothe.errors.count, "error") %> prohibited
-          this clothe from being saved:
-        </h2>
-        <ul>
-          <% @clothe.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
+  <% if @clothe.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@clothe.errors.count, "error") %> prohibited
+        this clothe from being saved:
+      </h2>
+      <ul>
+        <% @clothe.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 
     <%= form.input :name, label: I18n.translate("clothes.form.name") %><br>
 
     <%= form.input :category, label: I18n.translate("clothes.form.category") %><br>
 
     <%= form.input :description, label: I18n.translate("clothes.form.description") %><br>
-
+    <p>Pour l'option, 25 caractères maximum, merci.</p>
     <%= form.input :option, label: I18n.translate("clothes.form.option") %><br>
 
     <%= form.input :price_cents, label: I18n.translate("clothes.form.price_cents") %><br>
-
-    <%= form.input :scoring, label: I18n.translate("clothes.form.scoring") %><br>
-
-    <%= form.input :nbov, label: I18n.translate("clothes.form.nbov") %><br>
 
     <%= form.input :delivery, label: I18n.translate("clothes.form.delivery") %><br>
 
@@ -38,5 +34,11 @@
 
     <%= form.submit I18n.translate("clothes.form.submit"), class: "btnlink" %> | <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %>
 
-  <% end %>
 
+<% end %>
+
+
+
+<%# - f.globalize_fields_for_locales [ :en, :el ] do |l|
+  = l.input :name, input_html: { :class => :span5 }
+  = l.input :description, as: :text, input_html: { :class => 'span6 without_radius' } %>
