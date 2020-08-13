@@ -32,6 +32,16 @@ class ClothesController < ApplicationController
   def show
     @line_item = LineItem.new
     @clothe = Clothe.find(params[:id])
+    # @dyeings = Dyeing.where(clothe_id: @clothe.id)
+    # @scalings = Scaling.where(clothe_id: @clothe.id)
+    # @colors = []
+    # @dyeings.each do |dyeing|
+    #   @colors << Color.find(dyeing.color_id)
+    # end
+    # @sizes = []
+    # @scalings.each do |scaling|
+    #   @sizes << Size.find(scaling.color_id)
+    # end
     @comments = Comment.where(clothe_id: @clothe.id).includes(:user)
     authorize @clothe
     authorize @comments

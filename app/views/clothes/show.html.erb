@@ -185,7 +185,7 @@
                         class: "btnlink" %>
           <% end %>
           <% if policy(comment).edit? %>  
-            <%= link_to I18n.translate("comment.links.update"), edit_clothe_comment_path(comment.id), class: "btnlink" %>
+            <%= link_to I18n.translate("comment.links.update"), edit_clothe_comment_path(@clothe, comment), class: "btnlink" %>
           <% end %>
         </div>
       </div>

@@ -447,3 +447,20 @@ es:
       see: "Ves"
       remove: "Eliminar"
       update: "Actualizar"
+    edit:
+      titre: "Editar mi comentario"
+  cart:
+    show:
+      title: "Mi cesta"
+      article: "Artículo"
+      quantity: "Cant. "
+      price: "Precio unitario"
+      total_price: "Precio total"
+      delete: "Sup"
+      really: "estás seguro?"
+      main_total: "Total"
+      amount: "Cantidad: "
+      commande: "Realizar pedido"
+      return: "Volver a la tienda"
+      color: "Color"
+      size: "Tamaño"

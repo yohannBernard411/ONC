@@ -1,36 +1,57 @@
-<h1 id="cart-show-title">Mon panier</h1>
+<h1 id="cart-show-title"><%= I18n.translate("cart.show.title") %></h1>
 <div class="container total-space">
   <table>
       <thead>
           <tr>
-              <th>Article</th>
-              <th>Qte</th>
-              <th>Prix unitaire</th>
-              <th>Prix total</th>
-              <th>Sup</th>
+              <th><%= I18n.translate("cart.show.article") %></th>
+              <th><%= I18n.translate("cart.show.quantity") %></th>
+              <th class="hidden-phone"><%= I18n.translate("cart.show.color") %></th>
+              <th class="hidden-phone"><%= I18n.translate("cart.show.size") %></th>
+              <th><%= I18n.translate("cart.show.price") %></th>
+              <th><%= I18n.translate("cart.show.total_price") %></th>
+              <th><%= I18n.translate("cart.show.delete") %></th>
           </tr>
       </thead>
       <tbody>
+        <tr class="row-min-height">
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show hidden-phone"></td>
+            <td class="cellule-show hidden-phone"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+          </tr>
         <% @all_line_items.each do |line_item| %>
           <tr>
             <td class="cellule-show"><%= line_item.clothe.name %></td>
-            <td class="cellule-show"><%= line_item.quantity %></td>
+            <td class="cellule-show my-table-center"><%= line_item.quantity %></td>
+            <td class="cellule-show my-table-center hidden-phone"><%= (Color.find(line_item.color)).name %></td>
+            <td class="cellule-show my-table-center hidden-phone"><%= (Size.find(line_item.size)).name %></td>
             <td class="cellule-show"><%= "#{line_item.clothe.price_cents/100}.00 Euros." %></td>
             <td class="row-total cellule-show"><%= "#{line_item.quantity * (line_item.clothe.price_cents/100)}.00 Euros." %></td>
-            <td>Sup</td>
+            <td class="cellule-show my-table-center"><%= link_to line_item_path(line_item.id), method: "delete", data: { confirm: I18n.translate("cart.show.really") } do %>
+              <i class="fas fa-trash-alt"></i>
+            <% end %>
+            </td>
           </tr>
         <% end %>
       </tbody>
       <tfoot>
       <tr>
-        <td colspan="3">Total</td>
+        <td colspan="3"><%= I18n.translate("cart.show.main_total") %></td>
+        <td colspan="2" class="hidden-phone"></td>
         <td id="main-total"><%= @total_price %>.00 Euros.</td>
+        <td></td>
       </tr>
     </tfoot>
   </table>
 </div>
-<p>Amount: <%= humanized_money_with_symbol(current_user.cart.price_cents) %>.00</p>
+<br>
+<div class="container">
+  <p><%= I18n.translate("cart.show.amount") %><%= humanized_money_with_symbol(current_user.cart.price_cents) %>.00</p>
 
-<%= link_to "Passer commande", new_delivery_adress_path, class: "btnlink" %> 
+  <%= link_to I18n.translate("cart.show.commande"), new_delivery_adress_path, class: "btnlink" %> 
 
-<%= link_to "Retourner en boutique", clothes_path, class: "btnlink" %>
+  <%= link_to I18n.translate("cart.show.return"), clothes_path, class: "btnlink" %>
+</div>

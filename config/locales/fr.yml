@@ -435,3 +435,20 @@ fr:
       see: "Voir"
       remove: "Spprimer"
       update: "Mettre à jour"
+    edit:
+      titre: "Modifier mon commentaire"
+  cart:
+    show:
+      title: "Mon panier"
+      article: "Article"
+      quantity: "Qte"
+      price: "Prix unitaire"
+      total_price: "Prix total"
+      delete: "Sup"
+      really: "Etes vous sûr?"
+      main_total: "Total"
+      amount: "Montant: "
+      commande: "Passer commande"
+      return: "Retourner en boutique"
+      color: "Couleur"
+      size: "Taille"
