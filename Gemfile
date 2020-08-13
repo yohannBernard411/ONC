@@ -46,6 +46,8 @@ gem 'postmark-rails'
 gem 'faker'
 gem 'mail'
 gem 'globalize'
+gem 'sendgrid-actionmailer'
+gem 'sendgrid-ruby'
 
 group :development, :test do
   gem 'pry-byebug'
