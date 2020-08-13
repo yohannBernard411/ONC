@@ -1,7 +1,9 @@
 class CartsController < ApplicationController
 
   def index
+    @line_items = LineItem.all
     @carts = policy_scope(Cart).all
+    authorize @line_items
     authorize @carts
   end
 

@@ -435,3 +435,20 @@ en:
       see: "See"
       remove: "Remove"
       update: "Update"
+    edit:
+      titre: "Update my comment"
+  cart:
+    show:
+      title: "My basket"
+      article: "Article"
+      quantity: "Qty"
+      price: "Unit price"
+      total_price: "Total price"
+      delete: "Sup"
+      really: "Are you sure?"
+      main_total: "Total"
+      amount: "Amount: "
+      commande: "Order"
+      return: "Return"
+      color: "Color"
+      size: "Size"

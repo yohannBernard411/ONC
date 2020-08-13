@@ -15,3 +15,21 @@ tfoot {
     background-color: rgba(42, 128, 185, 0.9);
     color: #fff;
 }
+.row-min-height{
+  height: 20px;
+}
+.my-table-center{
+  text-align: center;
+}
+
+@media (max-width: 500px){
+  .hidden-phone{
+    display: none;
+  }
+}
+
+@media (min-width: 501px){
+  .hidden-phone{
+    display: table-cell;
+  }
+}

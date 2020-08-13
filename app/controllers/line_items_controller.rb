@@ -16,11 +16,18 @@ class LineItemsController < ApplicationController
         @line_item.save!
       end
       authorize @line_item
-      redirect_to @clothe
+      redirect_to @clothe, notice: "Cet article a été ajouté à votre panier"
     else
       authorize @line_item
       redirect_to @clothe, alert: "Vous devez choisir une couleur et une taille"
     end
+  end
+
+  def destroy
+    @line_item = LineItem.find(params[:id])
+    @line_item.destroy
+    authorize @line_item
+    redirect_to (Cart.find(@line_item.cart_id)), notice: "Votre article a bien été effacé!"
   end
 
   private

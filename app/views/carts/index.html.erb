@@ -1,23 +1,48 @@
-<h1>Index des carts</h1>
-
-<p><%= @carts.count %> Commandes: </p>
-
-<hr>
-
+<h1 id="cart-index-title">Paniers en cours</h1>
+<div class="container total-space">
 <% @carts.each do |cart| %>
-  <%# renseignement du panier %>
-  <%= cart.id %>
-  <br>
-  <%# contenu du panier %>
-  <% cart.line_items.each do |line| %>
-    <%= line.id %>
-    <%= line.clothe.name %>
-    <%= line.quantity %>
-    <%= (Size.find(line.size)).name %>
-    <%= (Color.find(line.color)).name %>
-    <%= line.state %>
-    <br><hr><br>
-  <% end %>
-<hr><hr>
+  <p>Le client: <%= User.find(cart.user_id).username %></p>
+  <p>A commandé le: <%= Order.find(cart.order_id).created_at.to_date %></p>
+  <p>Cette commande est actuellement: </p><span class="state-target"><%= cart.state %></span>
+  <table class="comptability-table">
+      <thead>
+          <tr>
+              <th>N°</th>
+              <th>Vetement</th>
+              <th>Quantité</th>
+              <th>Couleur</th>
+              <th>Taille</th>
+              <th>Etat</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr class="row-min-height">
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+            <td class="cellule-show"></td>
+          </tr>
+        <% @line_items.where(cart_id: cart.id).each do |line_item| %>
+          <tr>
+            <td class="cellule-show"><%= line_item.id %></td>
+            <td class="cellule-show my-table-center"><%= line_item.clothe.name %></td>
+            <td class="cellule-show my-table-center"><%= line_item.quantity %></td>
+            <td class="cellule-show my-table-center"><%= Color.find(line_item.color).name %></td>
+            <td class="cellule-show my-table-center"><%= Size.find(line_item.size).name %></td>
+            <td class="cellule-show my-table-center state-target"><%= line_item.state %></td>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+      <tfoot>
+      <tr>
+        <td colspan="6"></td>
+      </tr>
+    </tfoot>
+  </table>
 <% end %>
+</div>
+
   

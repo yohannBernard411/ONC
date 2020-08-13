@@ -35,6 +35,7 @@ import { sumInGrid } from '../components/calculGrid';
 import { adaptScreenSize } from '../components/imageSizing';
 import { displayComments } from '../components/comments';
 import { displaySizes } from '../components/sizes';
+import { colorize } from '../components/colorizeGrid';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -47,4 +48,5 @@ document.addEventListener('turbolinks:load', () => {
   adaptScreenSize();
   displaySizes();
   displayComments();
+  colorize();
 });

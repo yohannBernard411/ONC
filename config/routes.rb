@@ -24,6 +24,7 @@ Rails.application.routes.draw do
 
   resources :comments, only: [ :show, :destroy ]
   resources :carts, only: [ :show, :index ]
+  resources :line_items, only: [ :destroy ]
   resources :delivery_adresses
   resources :dyeings
   resources :scalings
