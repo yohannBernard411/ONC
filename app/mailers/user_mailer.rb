@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default from: 'courrier@ocenatcreations.com'
+  default from: 'yohannb215@gmail.com'
  
   def welcome
     @user = User.last #a remodifier une fois en ligne pour recuperer current_user!!!
