@@ -1,6 +1,13 @@
 *{
   font-family: 'Courgette', cursive;
 }
+.my-notice-style{
+  background-color: lightgreen !important;
+}
+.my-alert-style{
+  background-color: rgb(248, 74, 74) !important;
+  color: black !important;
+}
 body{
   /* Hide scrollbar for IE, Edge and Firefox *
     -ms-overflow-style: none;  /* IE and Edge */

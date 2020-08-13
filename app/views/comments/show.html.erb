@@ -1,5 +1,7 @@
-<%= @comment.title %><br>
-<%= @comment.content %><br>
-<%= @comment.note %><br>
-<%= @comment.user_id %><br>
-<%= link_to "return", clothe_path(@comment.clothe), class: "btnlink" %>
+<h1 class="showTitle"><%= @comment.title %></h1>
+<div class="container">
+  <%= I18n.translate("comment.new.content") %>: <%= @comment.content %><br>
+  <%= I18n.translate("comment.new.notation") %><%= @comment.note %><br>
+  <%= I18n.translate("comment.new.author") %><%= @comment.user.username %><br>
+  <%= link_to I18n.translate("comment.new.return"), clothe_path(@comment.clothe), class: "btnlink" %>
+</div>

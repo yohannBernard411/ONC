@@ -1,9 +1,14 @@
 #cart-show-title{
   color: $my-green;
 }
+.total-space{
+  width: 100%;
+}
+.total-space table{
+  width: 100%;
+}
 .cellule-show{
     border: 1px solid rgba(42, 128, 185, 0.9);
-    min-width: 25vw;
 }
 thead,
 tfoot {

@@ -1,5 +1,5 @@
 <div id="showmain">
-  <h1 id="showTitle"><%= @clothe.name %></h1>
+  <h1 class="showTitle"><%= @clothe.name %></h1>
   <div id="showContainerRow">
     <div id="showLeftPart">
       <div class="my-viewer">
@@ -158,26 +158,39 @@
 
 <hr>
 
-<div id="all-comments" class="hidden-options">
-  <% @comments.each do |comment| %>
-    <div class="container">
-      <%= comment.title %><br>
-      <%= comment.content %><br>
-      <% if policy(Comment).show? %>
-        <%= link_to "see", comment_path(comment), class: "btnlink" %>
-      <% end %>
-      <% if policy(comment).destroy? %>      
-        <%= link_to "Remove",
-                    comment_path(comment),
-                    method: :delete,
-                    data: { confirm: "Are you sure?" },
-                    class: "btnlink" %>
-      <% end %>
-      <% if policy(comment).edit? %>  
-        <%= link_to "update", edit_comment_path(comment.id), class: "btnlink" %>
-      <% end %>
-    </div>
-    <hr>
-  <% end %>
+<div class="container">
+  <div id="all-comments" class="hidden-options">
+    <% @comments.each do |comment| %>
+      <div class="each-comment">
+        <div>
+          <p class="comment-title"><%= comment.title %></p><br>
+        </div>
+        <div>
+          <% if comment.content.length > 100 %>
+            <p><%= comment.content[0..100] %>...</p>
+          <% else %>
+            <%= comment.content %><br>
+          <% end %>
+          <p class="author"><%= comment.user.username %></p><br>
+        </div>
+        <div class="comment-links">
+          <% if policy(Comment).show? %>
+            <%= link_to I18n.translate("comment.links.see"), comment_path(comment), class: "btnlink" %>
+          <% end %>
+          <% if policy(comment).destroy? %>      
+            <%= link_to I18n.translate("comment.links.remove"),
+                        comment_path(comment),
+                        method: :delete,
+                        data: { confirm: "Are you sure?" },
+                        class: "btnlink" %>
+          <% end %>
+          <% if policy(comment).edit? %>  
+            <%= link_to I18n.translate("comment.links.update"), edit_clothe_comment_path(comment.id), class: "btnlink" %>
+          <% end %>
+        </div>
+      </div>
+      <hr>
+    <% end %>
+  </div>
 </div>
 <hr>
