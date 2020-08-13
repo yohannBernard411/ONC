@@ -57,24 +57,7 @@ class User < ApplicationRecord
 
   def send_welcome_email
 
-    # Tell the UserMailer to send a welcome email after save
-    if Rails.env.production?
-      UserMailer.with(user: @user).welcome.deliver_later
-    elsif Rails.env.development? 
-      UserMailer.with(user: @user).welcome.deliver_now
-    end
-
-    # UserMailer.with(user: self).welcome.deliver_now
-
-    # require 'mail'
-    # mail = Mail.deliver do
-    #   to      'bernard.yohann516@orange.fr'
-    #   from    'courrier@ocenatcreations.com'
-    #   subject 'Hello'
-    #   text_part do
-    #     body 'Testing some Mailgun awesomness'
-    #   end
-    # end
+    UserMailer.welcome(@user).deliver_later
 
   end
 end
