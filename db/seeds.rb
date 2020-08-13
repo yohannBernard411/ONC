@@ -84,9 +84,9 @@ end
 
 # cart generating
   puts "regenerating all carts"
-  Cart.create!(user_id: User.first.id, state: CART_STATES.sample, price_cents: Faker::Number.between(from: 5000, to: 25000))
-  Cart.create!(user_id: User.all[1].id, state: CART_STATES.sample, price_cents: Faker::Number.between(from: 5000, to: 25000))
-  Cart.create!(user_id: User.last.id, state: CART_STATES.sample, price_cents: Faker::Number.between(from: 5000, to: 25000))
+  Cart.create!(user_id: User.first.id, order_id: Order.first.id, state: CART_STATES.sample, price_cents: Faker::Number.between(from: 5000, to: 25000))
+  Cart.create!(user_id: User.all[1].id, order_id: Order.all[1].id, state: CART_STATES.sample, price_cents: Faker::Number.between(from: 5000, to: 25000))
+  Cart.create!(user_id: User.last.id, order_id: Order.last.id, state: CART_STATES.sample, price_cents: Faker::Number.between(from: 5000, to: 25000))
 
 # color generating
 puts "regenerating all colors"
