@@ -425,6 +425,13 @@ en:
     new:
       title: "Title"
       content: "Message"
-      note: "Note"
+      note: "Rating (between 0 and 5)"
       submit: "Validate"
       return: "Return"
+      titre: "Write a new comment"
+      author: "Written by: "
+      notation: "Rating: "
+    links:
+      see: "See"
+      remove: "Remove"
+      update: "Update"

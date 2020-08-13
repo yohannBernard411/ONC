@@ -32,7 +32,7 @@ class ClothesController < ApplicationController
   def show
     @line_item = LineItem.new
     @clothe = Clothe.find(params[:id])
-    @comments = Comment.where(clothe_id: @clothe.id)
+    @comments = Comment.where(clothe_id: @clothe.id).includes(:user)
     authorize @clothe
     authorize @comments
   end

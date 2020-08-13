@@ -437,6 +437,13 @@ es:
     new:
       title: "Título"
       content: "Mensaje"
-      note: "Nota"
+      note: "Nota (entre 0 y 5)"
       submit: "Validar"
       return: "Volver"
+      titre: "Escribe un nuevo comentario"
+      author: "Escrito por: "
+      notation: "Nota: "
+    links:
+      see: "Ves"
+      remove: "Eliminar"
+      update: "Actualizar"

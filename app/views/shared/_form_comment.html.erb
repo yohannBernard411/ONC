@@ -1,0 +1,6 @@
+<%= simple_form_for [ @clothe, @comment ] do |f| %>
+    <%= f.input :title, label: I18n.translate("comment.new.title") %>
+    <%= f.input :content, label: I18n.translate("comment.new.content") %>
+    <%= f.input :note, label: I18n.translate("comment.new.note") %>
+    <%= f.submit I18n.translate("comment.new.submit"), class: "btnlink" %> | <%= link_to I18n.translate("comment.new.return"), clothe_path(@clothe.id), class: "btnlink"  %>
+  <% end %>

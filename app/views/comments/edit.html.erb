@@ -1,6 +1,5 @@
-<%= simple_form_for [@comment] do |f| %>
-  <%= f.input :title %>
-  <%= f.input :content %>
-  <%= f.input :note %>
-  <%= f.submit "Submit comment", class: "btnlink" %> | <%= link_to "return", clothe_path(@comment.clothe), class: "btnlink"  %>
-<% end %>
+<h1 class="showTitle"><%= I18n.translate("comment.edit.titre") %></h1>
+
+<div class="container">
+  <%= render 'shared/form_comment' %>
+</div>

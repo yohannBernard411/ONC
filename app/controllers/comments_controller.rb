@@ -29,13 +29,15 @@ class CommentsController < ApplicationController
 
   def edit
     @comment = Comment.find(params[:id])
+    @clothe = Clothe.find(@comment.clothe_id)
     authorize @comment
   end
 
   def update
     @comment = Comment.find(params[:id])
-    @clothe = Clothe.find(@comment.clothe.id)
+    @clothe = Clothe.find(@comment.clothe_id)
     authorize @comment
+    authorize @clothe
     if @comment.update(comment_params)
       average_notation
       redirect_to clothe_path(@comment.clothe)

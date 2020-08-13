@@ -32,6 +32,7 @@ class LineItemPolicy < ApplicationPolicy
   end
 
   def new?
+    return @user
   end
 
   def edit?

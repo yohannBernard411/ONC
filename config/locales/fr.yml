@@ -425,6 +425,13 @@ fr:
     new:
       title: "Titre"
       content: "Message"
-      note: "Note"
+      note: "Note (entre 0 et 5)"
       submit: "Valider"
       return: "Retour"
+      titre: "Ecrire un nouveau commentaire"
+      author: "Ecrit par: "
+      notation: "Note: "
+    links:
+      see: "Voir"
+      remove: "Spprimer"
+      update: "Mettre à jour"
