@@ -43,10 +43,12 @@
 
         <%= simple_form_for [ @clothe, @line_item ] do |f| %>
           <% if current_user %>
-            <%= f.hidden_field :cart_id, value: current_user.cart.id %>
-            <%= f.hidden_field :clothe_id, value: @clothe.id %>
-            <%= f.hidden_field :quantity, value: 1 %>
-            <%= f.hidden_field :state, value: "pending" %>
+            <% if current_user.cart %>
+              <%= f.hidden_field :cart_id, value: current_user.cart.id %>
+              <%= f.hidden_field :clothe_id, value: @clothe.id %>
+              <%= f.hidden_field :quantity, value: 1 %>
+              <%= f.hidden_field :state, value: "pending" %>
+            <% end %>
           <% end %>
           <div class="option-choice">
             <%= f.input :color, label: I18n.translate("clothes.show.color"), collection: @clothe.colors.each { |color| [color.name, color.id] } %>
