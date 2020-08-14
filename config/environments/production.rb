@@ -63,15 +63,8 @@ Rails.application.configure do
   # mailer avec sendgrid
   config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    user_name: 'newother',
-    password: ENV['SENDGRID_API_KEY'],
-    domain: ENV['SENDGRID_DOMAIN'],
-    address: ENV['SENDGRID_SERVER'],
-    port: 587,
-    authentication: :plain,
-    enable_starttls_auto: true
-  }
+
+
   # config.action_mailer.delivery_method = :sendgrid_actionmailer
   # config.action_mailer.sendgrid_actionmailer_settings = {
   #   api_key: ENV['SENDGRID_API_KEY'],
