@@ -1,29 +1,45 @@
 <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Courgette&display=swap" rel="stylesheet">
-<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<style>
+.logo1{
+  width: 90px;
+  height: 90px;
+  border: solid 5px #2A80B9;
+}
+.logo2{
+  width: 557px;
+  height: 90px;
+}
+.title{
+  font-family: 'Akronim', cursive;
+  color: #2A80B9;
+}
+.text{
+  font-family: 'Courgette', cursive;
+}
+.warning{
+  color: red;
+}
+.big{
+  font-size: 20px;
+}
+</style>
 <div class="header">
-
-  <%= link_to image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1594413833/gbh2v1yc7fdouhpjy03i.jpg", class: "logo"), "#" %>
-
-  <h1 class="my-title">
-    <p class="oce">Oce</p>
-
-    <p class="nat">Nat</p>
-    <p class="creations">Creations</p>
-  </h1>
-
-  <%= link_to image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1594413833/gbh2v1yc7fdouhpjy03i.jpg", class: "logo"), "#" %>
-  
+  <%= image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1597409554/tkjxyindcipxtt3hpfrw.png", class: "logo1") %>
+  <hr>
+  <%= image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1597409542/phbwgxql8yjnhsgk21qi.png", class: "logo2") %>
+  <hr>
 </div>
+<h2 class="title big">Bienvenue chez OceNatCreations</h2>
+<p class="text">Date <%= @user.created_at.day %> <%= ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"][@user.created_at.month-1] %> <%= @user.created_at.year %></p>
+<p class="text">Bonjour <%= @user.username %>,</p>
 
-<h1>Welcome to OceNatCreations</h1>
+<p class="text">Je suis heureuse de vous compter parmi nous,</p>
+<p class="text">Et j'espère que vous trouverez sur ce site votre bonheur, en plus de notre boutique vous trouverez des articles sur l'impact écologique et sociétal de l'industrie vestimentaire. Nous travaillons au maximum avec des artisans/fabricants français afin de favoriser l'emploi,l'agriculture, l'impact carbone mais aussi la qualité et le savoir-faire français. Un maximum de nos produits sont labellisés GOTS, ou Okéotex, surtout pour ceux venant de l'étranger.</p>
+<p class="text">Vous pouvez aussi nous suivre sur notre page <%= link_to 'Facebook', "https://www.facebook.com/OceNat" %> , ou vous retrouverez beaucoup plus d'articles.</p>
+<p class="text warning">Surtout n'oubliez pas de confirmer votre inscription en cliquant sur le lien suivant <%= link_to 'Confirmer mon compte', confirmation_url(@resource, confirmation_token: @token) %></p>
+<p class="text">Je vous souhaite une bonne découverte, et avoir bientôt de vos nouvelles,</p>
+<p class="text">Je reste à votre disposition pour toute information complémentaires, alors n'hésitez pas à nous contacter</p>
+<p class="text">Cordialement</p>
+<p class="text">OcéNat Créations</p>
 
-<p>Hi <%= @user.username %>,</p>
 
-<p>Special thanks for your inscription on my web-site OceNatCreations</p>
-<p>On this web site we talk about cloth and knitting</p>
-
-<p>Happy visiting!</p>
-
-<p>You can confirm your account email through the link below:</p>
-
-<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
