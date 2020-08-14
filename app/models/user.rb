@@ -2,9 +2,6 @@ class User < ApplicationRecord
 
   attr_accessor :login
 
-  after_create :send_welcome_email
-
-
   validates :username, presence: true, uniqueness: {case_sensitive: false }, format: {with: /\A[a-zA-Z0-9 _\.]*\z/}
 
   has_many :comments
@@ -53,11 +50,4 @@ class User < ApplicationRecord
     user
   end
 
-  private
-
-  def send_welcome_email
-    @user = User.last
-    UserMailer.with(user: @user).welcome.deliver_later
-
-  end
 end
