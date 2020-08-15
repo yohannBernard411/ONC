@@ -165,8 +165,17 @@
     <% @comments.each do |comment| %>
       <div class="each-comment">
         <div>
-          <p class="comment-title"><%= comment.title %></p><br>
+          <% if comment.title.length > 32 %>
+            <p class="comment-title"><%= comment.title[0..32] %>...</p>
+          <% else %>
+            <p class="comment-title"><%= comment.title %></p><br>
+          <% end %>
         </div>
+        <% if comment.user.photo.present?%>
+          <div class="my-avatar" style="background-image: url('<%= cl_image_path comment.user.photo.key, height: 50, width: 50, crop: :thumb, gravity: :face %>')">
+
+          </div>
+        <% end %>
         <div>
           <% if comment.content.length > 100 %>
             <p><%= comment.content[0..100] %>...</p>

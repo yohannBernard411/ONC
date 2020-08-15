@@ -5,6 +5,6 @@ class Cart < ApplicationRecord
   
   monetize :price_cents
 
-  validates :state, inclusion: { in: %w(awaiting paid manufacturing dispatched closed),
+  validates :state, inclusion: { in: %w(awaiting paid manufacturing pending dispatched closed),
   message: "%{value} is not a valid state" }
 end

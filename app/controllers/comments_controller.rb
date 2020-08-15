@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
   def new
     @clothe = Clothe.find(params[:clothe_id])
     @comment = Comment.new
-    authorize @clothe
+    # authorize @clothe
     authorize @comment 
   end
 
@@ -12,7 +12,7 @@ class CommentsController < ApplicationController
     @clothe = Clothe.find(params[:clothe_id])
     @comment.clothe = @clothe
     @comment.user_id = current_user.id
-    authorize @clothe
+    # authorize @clothe
     authorize @comment
     if @comment.save
       average_notation

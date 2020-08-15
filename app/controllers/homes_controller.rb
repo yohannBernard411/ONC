@@ -10,4 +10,7 @@ class HomesController < ApplicationController
   def contact
   end
 
+  def condition
+  end
+
 end
