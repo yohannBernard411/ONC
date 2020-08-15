@@ -7,6 +7,10 @@ class DeliveryAdressesController < ApplicationController
 
   def create
     @delivery_adress = DeliveryAdress.new(params_delivery_adress)
+    @delivery_adress.save!
+    @user = current_user
+    @user.delivery_adress_id = @delivery_adress.id
+    @user.save!
     authorize @delivery_adress
   end
 

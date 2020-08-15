@@ -48,8 +48,8 @@ const displayStars = () => {
         option.innerText = option.innerText.substring(0, 25);
         longueurString = 25;
       }
-      option.style.top = `${-(offsetY - ((longueurString / 25) * 65))}px`;
-      option.style.left = `${-(offsetX - ((longueurString / 25) * 63))}px`;
+      option.style.top = `${-(offsetY - ((longueurString / 26) * 65))}px`;
+      option.style.left = `${-(offsetX - ((longueurString / 26) * 63))}px`;
     }
 
   }

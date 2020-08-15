@@ -18,6 +18,8 @@
 
     <%= form.input :category, label: I18n.translate("clothes.form.category") %><br>
 
+    <%= form.input :function, label: I18n.translate("clothes.form.function"), collection: ["zero", "clothing", "accessory", "upcycling"] %><br>
+
     <%= form.input :description, label: I18n.translate("clothes.form.description") %><br>
     <p>Pour l'option, 25 caractères maximum, merci.</p>
     <%= form.input :option, label: I18n.translate("clothes.form.option") %><br>

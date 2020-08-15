@@ -2,7 +2,7 @@ class LineItemsController < ApplicationController
 
   def create
     @clothe = Clothe.find(params[:clothe_id])
-    @cart = Cart.new(user_id: current_user.id, state: "pending") unless @cart = Cart.where(user_id: current_user.id).first
+    @cart = Cart.new(user_id: current_user.id, order_id: Order.create.id, state: "pending") unless @cart = Cart.where(user_id: current_user.id).first
     @cart.save!
     test = LineItem.new(line_params)
     @line_item = test
@@ -13,6 +13,7 @@ class LineItemsController < ApplicationController
         @line_item.save!
       else
         @line_item = LineItem.new(line_params)
+        @line_item.cart.order_id = Order.create.id
         @line_item.save!
       end
       authorize @line_item

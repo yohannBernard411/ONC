@@ -50,10 +50,12 @@
               <%= f.hidden_field :state, value: "pending" %>
             <% end %>
           <% end %>
-          <div class="option-choice">
-            <%= f.input :color, label: I18n.translate("clothes.show.color"), collection: @clothe.colors.each { |color| [color.name, color.id] } %>
-            <%= f.input :size, label: I18n.translate("clothes.show.size"), collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
-          </div>
+          <% if @clothe.function == "clothing" %>
+            <div class="option-choice">
+              <%= f.input :color, label: I18n.translate("clothes.show.color"), collection: @clothe.colors.each { |color| [color.name, color.id] } %>
+              <%= f.input :size, label: I18n.translate("clothes.show.size"), collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
+            </div>
+          <% end %>
           <div class="text-center">
             <%= f.submit I18n.translate("clothes.show.basket"), class: "btnlink" %>
           </div>
@@ -66,7 +68,7 @@
         <% if policy(Clothe).edit? %>
           <%= link_to I18n.translate("clothes.show.edit"), edit_clothe_path(@clothe), class: "btnlink" %>
         <% end %>
-        <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %>
+        <%= link_to I18n.translate("clothes.show.back"), clothes_by_type_path(@clothe.function), class: "btnlink" %>
         <%= content_tag(:button, I18n.translate("clothes.show.comments"), id: "displayComment", class: "btnlink") %>
         <% if policy(Comment).new? %>
           <%= link_to I18n.translate("clothes.show.comment"), new_clothe_comment_path(@clothe), class: "btnlink" %>
@@ -164,6 +166,9 @@
   <div id="all-comments" class="hidden-options">
     <% @comments.each do |comment| %>
       <div class="each-comment">
+        <% if comment.user.photo.present?%>
+          <div class="my-avatar" style="background-image: url('<%= cl_image_path comment.user.photo.key, height: 50, width: 50, crop: :thumb, gravity: :face %>')"></div>
+        <% end %>
         <div>
           <% if comment.title.length > 32 %>
             <p class="comment-title"><%= comment.title[0..32] %>...</p>
@@ -171,11 +176,6 @@
             <p class="comment-title"><%= comment.title %></p><br>
           <% end %>
         </div>
-        <% if comment.user.photo.present?%>
-          <div class="my-avatar" style="background-image: url('<%= cl_image_path comment.user.photo.key, height: 50, width: 50, crop: :thumb, gravity: :face %>')">
-
-          </div>
-        <% end %>
         <div>
           <% if comment.content.length > 100 %>
             <p><%= comment.content[0..100] %>...</p>

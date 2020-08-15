@@ -2,6 +2,7 @@
 fr:
   welcome:
     index:
+      accessories: "Accessoires"
       articles: Articles
       collection: Collection été 2020
       condition: Conditions de vente
@@ -344,6 +345,7 @@ fr:
     form:
       name: "Nom:"
       category: "Catégorie:"
+      function: "Fonction:"
       description: "Description:"
       option: "Option:"
       price_cents: "Prix en centimes:"

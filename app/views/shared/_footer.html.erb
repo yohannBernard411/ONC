@@ -1,6 +1,8 @@
 <ul class="social">
   <% if current_user %>
-    <li class="my-icon"><%= cl_image_tag current_user.photo.key, height: 50, width: 50, gravity: :face, crop: :thumb, radius: 25 %></li>
+    <% if current_user.photo.attached? %>
+      <li class="my-icon"><%= cl_image_tag current_user.photo.key, height: 50, width: 50, gravity: :face, crop: :thumb, radius: 25 %></li>
+    <% end %>
   <% end %>
   <li class="my-icon"><%= link_to icon('fab', 'facebook'), "https://www.facebook.com/OceNat" %></li>
   <li class="my-icon"><%= link_to icon('fab', 'instagram'), "https://www.instagram.com/?hl=fr" %></li>
