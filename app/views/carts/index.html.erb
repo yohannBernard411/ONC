@@ -1,9 +1,21 @@
 <h1 id="cart-index-title">Paniers en cours</h1>
 <div class="container total-space">
 <% @carts.each do |cart| %>
-  <p>Le client: <%= User.find(cart.user_id).username %></p>
-  <p>A commandé le: <%= Order.find(cart.order_id).created_at.to_date %></p>
-  <p>Cette commande est actuellement: </p><span class="state-target"><%= cart.state %></span>
+  <div class="my-informations">
+    <div class="info-left">
+      <p>Le client: <%= User.find(cart.user_id).username %></p>
+      <p>A commandé le: <%= Order.find(cart.order_id).created_at.to_date %></p>
+      <p>Cette commande est actuellement: </p><span class="state-target"><%= cart.state %></span>
+    </div>
+    <div class="info-right">
+      <p>Envoyer cette commande à: </p>
+      <p><%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).first_name %> <%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).last_name %></p>
+      <p><%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).adress1 %>, <%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).adress2 %></p>
+      <p><%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).zipcode %> <%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).city %>, <%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).state %></p>
+      <p><%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).delivery_instructions %></p>
+      <p>Code: <%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).code_secure %>, tel: <%= DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id).phone_number %></p>
+    </div>
+  </div>
   <table class="comptability-table">
       <thead>
           <tr>
@@ -29,8 +41,16 @@
             <td class="cellule-show"><%= line_item.id %></td>
             <td class="cellule-show my-table-center"><%= line_item.clothe.name %></td>
             <td class="cellule-show my-table-center"><%= line_item.quantity %></td>
-            <td class="cellule-show my-table-center"><%= Color.find(line_item.color).name %></td>
-            <td class="cellule-show my-table-center"><%= Size.find(line_item.size).name %></td>
+            <% if line_item.color %>
+              <td class="cellule-show my-table-center"><%= Color.find(line_item.color).name %></td>
+            <% else %>
+              <td class="cellule-show my-table-center"></td>
+            <% end %>
+            <% if line_item.size %>
+              <td class="cellule-show my-table-center"><%= Size.find(line_item.size).name %></td>
+            <% else %>
+              <td class="cellule-show my-table-center"></td>
+            <% end %>
             <td class="cellule-show my-table-center state-target"><%= line_item.state %></td>
             </td>
           </tr>

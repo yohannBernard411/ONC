@@ -2,6 +2,7 @@
 es:
   welcome:
     index:
+      accessories: "accesorios"
       articles: Articulos
       collection: Colección de verano 2020
       condition: Condición de venta

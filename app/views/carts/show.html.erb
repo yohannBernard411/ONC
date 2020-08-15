@@ -26,8 +26,16 @@
           <tr>
             <td class="cellule-show"><%= line_item.clothe.name %></td>
             <td class="cellule-show my-table-center"><%= line_item.quantity %></td>
-            <td class="cellule-show my-table-center hidden-phone"><%= (Color.find(line_item.color)).name %></td>
-            <td class="cellule-show my-table-center hidden-phone"><%= (Size.find(line_item.size)).name %></td>
+            <% if line_item.color %>
+              <td class="cellule-show my-table-center hidden-phone"><%= (Color.find(line_item.color)).name %></td>
+            <% else %>
+              <td class="cellule-show my-table-center hidden-phone"></td>
+            <% end %>
+            <% if line_item.size %>
+              <td class="cellule-show my-table-center hidden-phone"><%= (Size.find(line_item.size)).name %></td>
+            <% else %>
+              <td class="cellule-show my-table-center hidden-phone"></td>
+            <% end %>
             <td class="cellule-show"><%= "#{line_item.clothe.price_cents/100}.00 Euros." %></td>
             <td class="row-total cellule-show"><%= "#{line_item.quantity * (line_item.clothe.price_cents/100)}.00 Euros." %></td>
             <td class="cellule-show my-table-center"><%= link_to line_item_path(line_item.id), method: "delete", data: { confirm: I18n.translate("cart.show.really") } do %>
@@ -53,5 +61,5 @@
 
   <%= link_to I18n.translate("cart.show.commande"), new_delivery_adress_path, class: "btnlink" %> 
 
-  <%= link_to I18n.translate("cart.show.return"), clothes_path, class: "btnlink" %>
+  <%= link_to I18n.translate("cart.show.return"), clothes_by_type_path("clothing"), class: "btnlink" %>
 </div>

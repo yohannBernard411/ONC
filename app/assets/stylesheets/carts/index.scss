@@ -1,3 +1,8 @@
 .comptability-table{
   margin-bottom: 50px;
 }
+.my-informations{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}

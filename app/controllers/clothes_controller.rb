@@ -8,6 +8,7 @@ class ClothesController < ApplicationController
   skip_after_action :verify_authorized, only: [:index], unless: :skip_pundit?
 
   def index
+    function = params[:function]
     @search = params["search"]
     case I18n.locale
     when :fr
@@ -25,7 +26,7 @@ class ClothesController < ApplicationController
         redirect_to clothes_path, notice: "Aucune correspondance!"
       end
     else
-      @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
+      @clothes = policy_scope(Clothe).where(function: function).order(created_at: :desc).includes([:photos_attachments])
     end
   end
 
@@ -57,6 +58,7 @@ class ClothesController < ApplicationController
     I18n.locale = :fr
 
     @clothe = Clothe.new(clothe_params)
+    @clothe.note = 5
     @clothe.save!
     name = @clothe.name
     description = @clothe.description
@@ -254,7 +256,7 @@ class ClothesController < ApplicationController
   private
 
   def clothe_params
-    params.require(:clothe).permit(:name, :name2, :name3, :category, :description, :option, :price_cents, :scoring, :nbov, :delivery, :delivery_color, :stock, photos: [])
+    params.require(:clothe).permit(:name, :function, :category, :description, :option, :price_cents, :scoring, :nbov, :delivery, :delivery_color, :stock, photos: [])
   end
 
 end
