@@ -1,5 +1,5 @@
 class UserMailer < ApplicationMailer
-  default from: 'courrier@ocenatcreations.herokuapp.com'
+  default from: 'yohannb215@gmail.com'
  
   def welcome_email
     @user = params[:user]  # a remplacer par le current user (User.find(params[:user_id])) a voir!!!
