@@ -64,11 +64,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
   config.action_mailer.delivery_method = :smtp
 
+  # ocenatcreationskey chez sendgrid
+
   ActionMailer::Base.smtp_settings = {
-    :port           => ENV['MAILGUN_SMTP_PORT'],
-    :address        => ENV['MAILGUN_SMTP_SERVER'],
-    :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
-    :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+    :port           => ENV['SENGRID_PORT'],
+    :address        => ENV['SENDGRID_SERVER'],
+    :user_name      => ENV['SENDGRID_USER_NAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'ocenatcreations.herokuapp.com',
     :authentication => :plain,
   }
