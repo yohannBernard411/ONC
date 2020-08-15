@@ -8,6 +8,8 @@ class ClothesController < ApplicationController
   skip_after_action :verify_authorized, only: [:index], unless: :skip_pundit?
 
   def index
+    @user = current_user || User.last
+    UserMailer.with(user: @user).welcome_email.deliver_now
     function = params[:function]
     @search = params["search"]
     case I18n.locale
