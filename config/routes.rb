@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'clothes/:id/remove', to: 'clothes#remove', as: 'remove_from_cart'
   get 'homes/who', to: 'homes#who'
   get 'homes/contact', to: 'homes#contact'
+  get 'homes/condition', to: 'homes#condition'
 
 
   resources :clothes do

@@ -2,7 +2,7 @@ class CartsController < ApplicationController
 
   def index
     @line_items = LineItem.all
-    @carts = policy_scope(Cart).all
+    @carts = policy_scope(Cart).where.not(order_id: nil)
     authorize @line_items
     authorize @carts
   end
