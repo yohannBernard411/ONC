@@ -21,10 +21,15 @@
                   input_html: { autocomplete: "new-password" } %>
       <%= f.input :photo, as: :file %>
       <%= f.input :newsletter, as: :boolean %>
+      <div>
+        <input type="checkbox" id="btncgv" name="cgv">
+        <label for="cgv">J'ai lu, compris et accepté les CGV</label>
+      </div>
+      <p>Les CGV sont consultables <%= link_to "ICI", homes_condition_path, class: "btnlink" %></p>
     </div>
 
     <div class="form-actions">
-      <%= f.submit "Sign up", class: "btnlink" %>
+      <%= f.submit "Sign up", class: "btnlink inactifbtn", id: "btn-signup", disabled: true %>
     </div>
   <% end %>
 

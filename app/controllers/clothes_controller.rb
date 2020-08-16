@@ -9,7 +9,6 @@ class ClothesController < ApplicationController
 
   def index
     @user = current_user || User.last
-    UserMailer.with(user: @user).welcome_email.deliver_later
     function = params[:function]
     @search = params["search"]
     case I18n.locale

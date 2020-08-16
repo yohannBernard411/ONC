@@ -37,6 +37,7 @@ import { displayComments } from '../components/comments';
 import { displaySizes } from '../components/sizes';
 import { colorize } from '../components/colorizeGrid';
 import { print } from '../components/etiquettes';
+import { checkboxcgv } from '../components/cgv';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -51,4 +52,5 @@ document.addEventListener('turbolinks:load', () => {
   displayComments();
   colorize();
   print();
+  checkboxcgv();
 });
