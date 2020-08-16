@@ -60,14 +60,14 @@
 
 /* all elements */
 #burger{
-  position: relative;
+  position: absolute;
   cursor: pointer;
   margin-top: 0;
   margin-left: 0;
   transition: transform 1s, Z-index 1s, visibility 1s, opacity 1s;
 }
 #cross{
-  position: relative;
+  position: absolute;
   font-family: sans-serif;
   cursor: pointer;
   margin-top: 0;

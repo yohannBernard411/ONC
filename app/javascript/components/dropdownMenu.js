@@ -6,9 +6,9 @@ const displayDropDownMenu = () => {
   const cross = document.getElementById("cross");
   const latMenu = (cubic.offsetHeight - burger.offsetHeight) / 2;
   const longMenu = (cubic.offsetWidth - burger.offsetWidth) / 2;
-  burger.style.marginTop = - (latMenu + 35) + "px";
+  burger.style.marginTop = - (latMenu - 40) + "px";
   burger.style.marginLeft = - (longMenu - 40) + "px";
-  cross.style.marginTop = - (latMenu + 275) + "px";
+  cross.style.marginTop = - (latMenu - 40) + "px";
   cross.style.marginLeft = - (longMenu - 40) + "px";
   if (document.querySelector(".header").offsetWidth >= 750){
     repartX = ((document.querySelector(".header").offsetWidth - 600) / 2);
