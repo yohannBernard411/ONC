@@ -4,12 +4,10 @@ const displayDropDownMenu = () => {
   let repartX = document.querySelector(".header").offsetWidth * 0.1;
   const burger = document.getElementById("burger");
   const cross = document.getElementById("cross");
-  const latMenu = (cubic.offsetHeight - burger.offsetHeight) / 2;
-  const longMenu = (cubic.offsetWidth - burger.offsetWidth) / 2;
-  burger.style.marginTop = - (latMenu - 40) + "px";
-  burger.style.marginLeft = - (longMenu - 40) + "px";
-  cross.style.marginTop = - (latMenu - 40) + "px";
-  cross.style.marginLeft = - (longMenu - 40) + "px";
+  burger.style.marginTop = "18px";
+  burger.style.marginLeft = "18px";
+  cross.style.marginTop = "18px";
+  cross.style.marginLeft = "18px";
   if (document.querySelector(".header").offsetWidth >= 750){
     repartX = ((document.querySelector(".header").offsetWidth - 600) / 2);
   }
