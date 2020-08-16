@@ -73,8 +73,9 @@
         <% if policy(Comment).new? %>
           <%= link_to I18n.translate("clothes.show.comment"), new_clothe_comment_path(@clothe), class: "btnlink" %>
         <% end %>
-        <%= content_tag(:button, I18n.translate("clothes.show.size"), id: "displaySize", class: "btnlink") %>
-
+        <% if @clothe.function == "clothing" %>
+          <%= content_tag(:button, I18n.translate("clothes.show.size"), id: "displaySize", class: "btnlink") %>
+        <% end %>
       </div>
     </div>
   </div>

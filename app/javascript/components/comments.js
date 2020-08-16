@@ -5,6 +5,9 @@ const displayComments = () => {
     commentButton.addEventListener("click", (event) => {
       commentField.classList.toggle("hidden-options");
       commentField.classList.toggle("flex-options");
+      if (commentField.classList.contains("flex-options")){
+        document.getElementById("all-comments").scrollIntoView(); 
+      }
     })
   }
 }
