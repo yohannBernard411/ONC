@@ -61,18 +61,17 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "ONC_production"
 
   # mailer avec sendgrid
-  config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
   config.action_mailer.delivery_method = :smtp
-
-  # ocenatcreationskey chez sendgrid
-
-  ActionMailer::Base.smtp_settings = {
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
+  config.action_mailer.smtp_settings = {
     :port           => ENV['SENGRID_PORT'],
     :address        => ENV['SENDGRID_SERVER'],
     :user_name      => ENV['SENDGRID_USER_NAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'ocenatcreations.herokuapp.com',
     :authentication => :plain,
+    :enable_starttls_auto => true
   }
 
 
