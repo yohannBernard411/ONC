@@ -2,11 +2,14 @@ const displayDropDownMenu = () => {
   const cubic = document.getElementById("cubic");
   const menu = document.getElementById("menu");
   let repartX = document.querySelector(".header").offsetWidth * 0.1;
+  const burger = document.getElementById("burger");
+  const altBurger = (cubic.offsetHeight - burger.offsetHeight) / 2;
+  burger.style.marginTop = - (altBurger + 33) + "px";
   if (document.querySelector(".header").offsetWidth >= 750){
     repartX = ((document.querySelector(".header").offsetWidth - 600) / 2);
   }
   menu.style.transform = `translate(${repartX}px, -300px`
-  const burger = document.getElementById("burger");
+  
   const cross = document.getElementById("cross");
   burger.classList.add("wait");
   cross.classList.add("action2");
