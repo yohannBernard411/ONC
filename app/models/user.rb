@@ -3,6 +3,7 @@ class User < ApplicationRecord
   attr_accessor :login
 
   validates :username, presence: true, uniqueness: {case_sensitive: false }, format: {with: /\A[a-zA-Z0-9 _\.]*\z/}
+  validates :cgv, presence: true, inclusion: { in: [true] }
 
   has_many :comments
   has_one :delivery_adress
