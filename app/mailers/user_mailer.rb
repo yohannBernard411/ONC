@@ -1,10 +1,8 @@
 class UserMailer < ApplicationMailer
-  default from: 'bernard.yohann516@orange.fr'
- 
-  def welcome_email
-    @user = params[:user]  # a remplacer par le current user (User.find(params[:user_id])) a voir!!!
-    @url  = 'http://ocenatcreations.herokuapp.com'
-    mail(to: @user.email,
-         subject: 'Welcome to My Awesome Site')
+  def send_email(options={})
+    @name = options[:name]
+    @email = options[:email]
+    @message = options[:message]
+    mail(:to=>"bernard.yohann516@orange.fr", :subject=>"Amazon SES Email")
   end
 end

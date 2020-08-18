@@ -15,6 +15,9 @@ Rails.application.routes.draw do
   get 'homes/condition', to: 'homes#condition'
   get 'clothes/:function/index', to: 'clothes#index', as: "clothes_by_type"
 
+  # tuto amazon mailer
+  post '/send_email', to: 'pages#send_email', as: 'send_email'
+
 
   resources :clothes do
     resources :comments, only: [ :new, :create, :edit, :update ]
