@@ -339,7 +339,7 @@ clothe17.save!
 # users generating
 puts "regenerating all users"
 
-user1 = User.create!(email: "bernard.yohann516@orange.fr",
+user1 = User.new(email: "bernard.yohann516@orange.fr",
              admin: false,
              cgv: true,
              newsletter: true,
@@ -349,8 +349,9 @@ user1 = User.create!(email: "bernard.yohann516@orange.fr",
 file = URI.open('https://res.cloudinary.com/do3nu0tns/image/upload/v1597665794/dgbihbbch3dzl4s4oqya.jpg')
 user1.photo.attach(io: file, filename: 'simpleUser.jpg', content_type: 'image/jpg')
 user1.skip_confirmation!
+user1.save!
 
-user2 = User.create!(email: "yohannb215@gmail.com",
+user2 = User.new(email: "yohannb215@gmail.com",
              admin: true,
              cgv: true,
              newsletter: true,
@@ -360,8 +361,9 @@ user2 = User.create!(email: "yohannb215@gmail.com",
 file = URI.open('https://res.cloudinary.com/do3nu0tns/image/upload/v1597666480/osr8kgjb5qy6temxk3tk.jpg')
 user2.photo.attach(io: file, filename: 'BadassMan.jpg', content_type: 'image/jpg')
 user2.skip_confirmation!
+user2.save!
 
-user3 = User.create!(email: "ocenat.creations@orange.fr",
+user3 = User.new(email: "ocenat.creations@orange.fr",
              admin: true,
              cgv: true,
              newsletter: true,
@@ -371,8 +373,9 @@ user3 = User.create!(email: "ocenat.creations@orange.fr",
 file = URI.open('https://res.cloudinary.com/do3nu0tns/image/upload/v1597666755/egsjvcohnwwxvykpsxsr.jpg')
 user3.photo.attach(io: file, filename: 'SuperAdmin.jpg', content_type: 'image/jpg')
 user3.skip_confirmation!
+user3.save!
 
-user4 = User.create!(email: "sonia.bernard00@orange.fr",
+user4 = User.new(email: "sonia.bernard00@orange.fr",
              admin: true,
              cgv: true,
              newsletter: true,
@@ -382,6 +385,7 @@ user4 = User.create!(email: "sonia.bernard00@orange.fr",
 file = URI.open('https://res.cloudinary.com/do3nu0tns/image/upload/v1597667136/guifs0gkirdmovhcxkz9.jpg')
 user4.photo.attach(io: file, filename: 'Sonia.jpg', content_type: 'image/jpg')
 user4.skip_confirmation!
+user4.save!
 
 # comments generating
 puts "regenerating all comments"
