@@ -80,12 +80,12 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
-  :address => ENV["SES_SMTP_ADRESS"],
-  :port => 587,
-  :user_name => ENV["SES_SMTP_USERNAME"], #Your SMTP user
-  :password => ENV["SES_SMTP_PASSWORD"], #Your SMTP password
-  :authentication => :login,
-  :enable_starttls_auto => true
+  address: ENV["SES_SMTP_ADRESS"],
+  port: 587,
+  user_name: ENV["SES_SMTP_USERNAME"], #Your SMTP user
+  password: ENV["SES_SMTP_PASSWORD"], #Your SMTP password
+  authentication: :plain,
+  enable_starttls_auto: true
   }
 
 
