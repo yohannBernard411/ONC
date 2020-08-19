@@ -11,7 +11,7 @@
         <div class="info-right">
           <p>Envoyer cette commande à: </p>
           <% adress = DeliveryAdress.find(User.find(cart.user_id).delivery_adress_id) %>
-          <p class="name"><%= adress.first_name %> <%= adress.last_name %>, tel: <%= adress.phone_number %></p>
+          <p class="name"><%= adress.first_name %> <%= adress.last_name %></p><p>, tel: <%= adress.phone_number %></p>
           <p class="adress"><%= adress.adress1 %>, <%= adress.adress2 %></p>
           <p class="zip-city"><%= adress.zipcode %> <%= adress.city %>, <%= adress.state %></p>
           <% if adress.delivery_instructions != "" %>
