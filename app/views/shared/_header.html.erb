@@ -18,6 +18,7 @@
 <div id="menu" class="menuup">
   <% if current_user %>
     <%= link_to I18n.translate("shared.header.signout"), destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %>
+    <%= link_to "Editer mon profil", edit_user_registration_path, class: "btnlink" %>
   <% else %>
     <%= link_to I18n.translate("shared.header.signin"), new_user_session_path, class: "btnlink" %>
     <br>
