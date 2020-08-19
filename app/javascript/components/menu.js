@@ -1,10 +1,26 @@
 const displayMenu = () => {
 
+  const cubic = document.getElementById("cubic");
+  const menu = document.getElementById("menu");
+  const burger = document.getElementById("burger");
+  const cross = document.getElementById("cross");
+  const menuGoOut = () => {
+    cross.classList.remove("wait");
+    cross.classList.add("action2");
+    burger.classList.remove("action");
+    burger.classList.add("wait");
+    cubic.classList.remove("expand");
+    cubic.classList.add("restrict");
+    menu.classList.remove("menudown");
+    menu.classList.add("menuup");
+  };
+
   const smartphoneMenu = () => {
     const allItems = document.querySelectorAll(".my-card");
     allItems.forEach((card) => {
       card.style.transition = "0.5s";
       card.addEventListener("click", (event) => {
+        menuGoOut();
         allItems.forEach((item) => {
           if (item === event.path[1] || item === event.path[0]){
             item.style.height = "calc( calc( 100vh - 150px ) * 0.7 )";
@@ -27,6 +43,7 @@ const displayMenu = () => {
       item.style.transition = "all 1s ease-out";
     })
     home.addEventListener("click", (event) => {
+      menuGoOut();
       home.style.width = "70%";
       home.style.height = "70%";
       home.querySelector(".list").style.display = "block";
@@ -41,6 +58,7 @@ const displayMenu = () => {
       partners.querySelector(".list").style.display = "none";
     })
     shop.addEventListener("click", (event) => {
+      menuGoOut();
       home.style.width = "30%";
       home.style.height = "70%";
       home.querySelector(".list").style.display = "none";
@@ -55,6 +73,7 @@ const displayMenu = () => {
       partners.querySelector(".list").style.display = "none";
     })
     articles.addEventListener("click", (event) => {
+      menuGoOut();
       home.style.width = "70%";
       home.style.height = "30%";
       home.querySelector(".list").style.display = "none";
@@ -69,6 +88,7 @@ const displayMenu = () => {
       partners.querySelector(".list").style.display = "none";
     })
     partners.addEventListener("click", (event) => {
+      menuGoOut();
       home.style.width = "30%";
       home.style.height = "30%";
       home.querySelector(".list").style.display = "none";
@@ -96,6 +116,7 @@ const displayMenu = () => {
     let currentTarget = home.querySelector(".list");
 
     home.addEventListener("click", (event) => {
+      menuGoOut();
       body.style.transition = "0s";
       body.style.opacity = "0";
       const redisplay = () => {
@@ -115,6 +136,7 @@ const displayMenu = () => {
       
     })
     shop.addEventListener("click", (event) => {
+      menuGoOut();
       body.style.transition = "0s";
       body.style.opacity = "0";
       const redisplay = () => {
@@ -134,6 +156,7 @@ const displayMenu = () => {
       list.style.transform = "translateX(0)";
     })
     articles.addEventListener("click", (event) => {
+      menuGoOut();
       body.style.transition = "0s";
       body.style.opacity = "0";
       const redisplay = () => {
@@ -153,6 +176,7 @@ const displayMenu = () => {
       list.style.transform = "translateX(0)";
     })
     partners.addEventListener("click", (event) => {
+      menuGoOut();
       body.style.transition = "0s";
       body.style.opacity = "0";
       const redisplay = () => {

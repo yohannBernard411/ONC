@@ -34,16 +34,13 @@ class ClothesController < ApplicationController
   def show
     @line_item = LineItem.new
     @clothe = Clothe.find(params[:id])
-    # @dyeings = Dyeing.where(clothe_id: @clothe.id)
-    # @scalings = Scaling.where(clothe_id: @clothe.id)
-    # @colors = []
-    # @dyeings.each do |dyeing|
-    #   @colors << Color.find(dyeing.color_id)
-    # end
-    # @sizes = []
-    # @scalings.each do |scaling|
-    #   @sizes << Size.find(scaling.color_id)
-    # end
+    if current_user
+      if Cart.where(user_id: current_user.id).where(state: "panier").last == nil
+        cart = Cart.create!(state: "panier", user_id: current_user.id)
+        current_user.cart_id = cart.id
+        current_user.save!
+      end
+    end
     @comments = Comment.where(clothe_id: @clothe.id).includes(:user)
     authorize @clothe
     authorize @comments
@@ -257,7 +254,7 @@ class ClothesController < ApplicationController
   private
 
   def clothe_params
-    params.require(:clothe).permit(:name, :function, :category, :description, :option, :price_cents, :scoring, :nbov, :delivery, :delivery_color, :stock, photos: [])
+    params.require(:clothe).permit(:name, :function, :category, :description, :wire_type, :option, :price_cents, :scoring, :nbov, :delivery, :delivery_color, :stock, photos: [])
   end
 
 end

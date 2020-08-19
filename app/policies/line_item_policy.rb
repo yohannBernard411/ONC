@@ -43,10 +43,26 @@ class LineItemPolicy < ApplicationPolicy
 
   def destroy?
     if @user
-      if @user.admin || @user.id == @line_item.user_id
+      if @user.admin || @user.id == Cart.find(@line_item.cart_id).user_id
         return true
       end
     end
+  end
+
+  def prev?
+    @user.admin
+  end
+
+  def next?
+    @user.admin
+  end
+
+  def up?
+    @user
+  end
+
+  def down?
+    @user
   end
 
 end

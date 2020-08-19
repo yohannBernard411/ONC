@@ -21,6 +21,9 @@ tfoot {
 .my-table-center{
   text-align: center;
 }
+#trash i{
+  color: $main-color;
+}
 
 @media (max-width: 500px){
   .hidden-phone{

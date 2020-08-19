@@ -43,18 +43,16 @@
 
         <%= simple_form_for [ @clothe, @line_item ] do |f| %>
           <% if current_user %>
-            <% if current_user.cart %>
-              <%= f.hidden_field :cart_id, value: current_user.cart.id %>
-              <%= f.hidden_field :clothe_id, value: @clothe.id %>
-              <%= f.hidden_field :quantity, value: 1 %>
-              <%= f.hidden_field :state, value: "pending" %>
+            <%= f.hidden_field :cart_id, value: current_user.cart_id %>
+            <%= f.hidden_field :clothe_id, value: @clothe.id %>
+            <%= f.hidden_field :quantity, value: 1 %>
+            <%= f.hidden_field :state, value: "panier" %>
+            <% if @clothe.function == "clothing" %>
+              <div class="option-choice">
+                <%= f.input :color, label: I18n.translate("clothes.show.color"), collection: @clothe.colors.each { |color| [color.name, color.id] } %>
+                <%= f.input :size, label: I18n.translate("clothes.show.size"), collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
+              </div>
             <% end %>
-          <% end %>
-          <% if @clothe.function == "clothing" %>
-            <div class="option-choice">
-              <%= f.input :color, label: I18n.translate("clothes.show.color"), collection: @clothe.colors.each { |color| [color.name, color.id] } %>
-              <%= f.input :size, label: I18n.translate("clothes.show.size"), collection: @clothe.sizes.each { |size| [size.name, size.id] } %>
-            </div>
           <% end %>
           <div class="text-center">
             <%= f.submit I18n.translate("clothes.show.basket"), class: "btnlink" %>
@@ -70,9 +68,7 @@
         <% end %>
         <%= link_to I18n.translate("clothes.show.back"), clothes_by_type_path(@clothe.function), class: "btnlink" %>
         <%= content_tag(:button, I18n.translate("clothes.show.comments"), id: "displayComment", class: "btnlink") %>
-        <% if policy(Comment).new? %>
-          <%= link_to I18n.translate("clothes.show.comment"), new_clothe_comment_path(@clothe), class: "btnlink" %>
-        <% end %>
+        
         <% if @clothe.function == "clothing" %>
           <%= content_tag(:button, I18n.translate("clothes.show.size"), id: "displaySize", class: "btnlink") %>
         <% end %>
@@ -186,9 +182,7 @@
           <p class="author"><%= comment.user.username %></p><br>
         </div>
         <div class="comment-links">
-          <% if policy(Comment).show? %>
             <%= link_to I18n.translate("comment.links.see"), comment_path(comment), class: "btnlink" %>
-          <% end %>
           <% if policy(comment).destroy? %>      
             <%= link_to I18n.translate("comment.links.remove"),
                         comment_path(comment),
@@ -202,6 +196,9 @@
         </div>
       </div>
       <hr>
+    <% end %>
+    <% if policy(Comment).new? %>
+      <%= link_to I18n.translate("clothes.show.comment"), new_clothe_comment_path(@clothe), class: "btnlink" %>
     <% end %>
   </div>
 </div>

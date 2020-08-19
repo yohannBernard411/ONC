@@ -4,20 +4,20 @@ const colorize = () => {
     allColorsTarget.forEach((target) => {
       const texte = target.innerText;
       switch (texte) {
-        case "paid":
+        case "payé":
           target.style.backgroundColor = "red";
           break;
-        case "awaiting":
+        case "réalisation":
           target.style.backgroundColor = "orange";
           break;
-        case "pending":
-          target.style.backgroundColor = "orange";
-          break;
-        case "dispatched":
+        case "réalisé":
           target.style.backgroundColor = "yellow";
           break;
-        case "closed":
+        case "envoi":
           target.style.backgroundColor = "green";
+          break;
+        case "cloturé":
+          target.style.backgroundColor = "lightblue";
           break;
       }
 

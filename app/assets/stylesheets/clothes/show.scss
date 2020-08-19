@@ -46,7 +46,7 @@
   width: 220px;
   height: 20px;
   position: relative;
-  z-index: 3;
+  z-index: 2;
   top: -436px;
   left: -41px;
 }
@@ -152,7 +152,7 @@
   padding: 30px;
   position: relative;
   top: -40px;
-  right: -283px;
+  right: -263px;
   border-radius: 50%;
   margin-bottom: -60px;
 }
@@ -168,6 +168,10 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+  }
+  .my-avatar{
+    top: -40px;
+    right: -283px;
   }
 }
 
@@ -188,5 +192,9 @@
   }
   .my-legende p{
     line-height: 4rem;
+  }
+  .my-avatar{
+    top: -40px;
+    right: -283px;
   }
 }

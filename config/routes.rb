@@ -14,6 +14,11 @@ Rails.application.routes.draw do
   get 'homes/contact', to: 'homes#contact'
   get 'homes/condition', to: 'homes#condition'
   get 'clothes/:function/index', to: 'clothes#index', as: "clothes_by_type"
+  get 'line_items/:line_id/prev', to: 'line_items#prev', as: "prev_line"
+  get 'line_items/:line_id/next', to: 'line_items#next', as: "next_line"
+  get 'line_items/:line_id/up', to: 'line_items#up', as: "up_line"
+  get 'line_items/:line_id/down', to: 'line_items#down', as: "down_line"
+
 
   # tuto amazon mailer
   post '/send_email', to: 'pages#send_email', as: 'send_email'

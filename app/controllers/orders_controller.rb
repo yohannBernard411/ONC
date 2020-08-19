@@ -2,7 +2,7 @@ class OrdersController < ApplicationController
 
   def create
     cart = Cart.find(current_user.cart.id)
-    order  = Order.create!(amount_cents: cart.price_cents, state: 'pending')
+    order  = Order.create!(amount_cents: cart.price_cents, state: 'panier')
     cart.order_id = order.id
     cart.save!
     authorize order

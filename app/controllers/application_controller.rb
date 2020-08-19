@@ -12,8 +12,11 @@ class ApplicationController < ActionController::Base
 
   def load_cart
     if current_user
-      if current_user.cart
-        @all_line_items = LineItem.where(cart_id: current_user.cart.id)
+      carts = Cart.where(user_id: current_user.id)
+      cart = carts.where(state: "panier").last
+
+      if cart
+        @all_line_items = LineItem.where(cart_id: cart.id)
         @total_count = 0
         @all_line_items.each { |line| @total_count += line.quantity }
       end
