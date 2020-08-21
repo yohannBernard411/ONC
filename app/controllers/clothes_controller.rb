@@ -27,7 +27,7 @@ class ClothesController < ApplicationController
         redirect_to clothes_path, notice: "Aucune correspondance!"
       end
     else
-      @clothes = policy_scope(Clothe).where(function: function).order(created_at: :desc).includes([:photos_attachments])
+      @clothes = policy_scope(Clothe).where(function: function).order(created_at: :desc).includes([:photos_attachments]).includes([:translations])
     end
   end
 
@@ -136,6 +136,12 @@ class ClothesController < ApplicationController
 
   def edit
     @clothe = Clothe.find(params[:id])
+    @sizes = Size.all
+    @scalings = Scaling.where(clothe_id: @clothe.id)
+    @scaling = Scaling.new
+    @colors = Color.all
+    @dyeings = Dyeing.where(clothe_id: @clothe.id)
+    @dyeing = Dyeing.new
     authorize @clothe
   end
 

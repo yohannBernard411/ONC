@@ -1,3 +1,16 @@
 #clothe-edit-title{
   color: $my-green;
 }
+.size-color-table{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.size-table, .color-table{
+  width: 300px;
+}
+.my-center{
+  text-align: center;
+}

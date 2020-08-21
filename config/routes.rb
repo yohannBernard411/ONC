@@ -27,6 +27,8 @@ Rails.application.routes.draw do
   resources :clothes do
     resources :comments, only: [ :new, :create, :edit, :update ]
     resources :line_items, only: [ :new, :create ]
+    resources :scalings
+    resources :dyeings
   end
   resources :orders, only: [:show, :create] do
     resources :payments, only: :new
@@ -37,7 +39,7 @@ Rails.application.routes.draw do
   resources :line_items, only: [ :destroy ]
   resources :delivery_adresses
   resources :dyeings
-  resources :scalings
+  
   resources :colors
   resources :sizes
 
