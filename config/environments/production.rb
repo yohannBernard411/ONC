@@ -61,33 +61,33 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "ONC_production"
 
   # mailer avec sendgrid
-  # config.action_mailer.delivery_method = :smtp
-  # config.action_mailer.perform_deliveries = true
-  # config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
-  # config.action_mailer.smtp_settings = {
-  #   :port           => ENV['SENGRID_PORT'],
-  #   :address        => ENV['SENDGRID_SERVER'],
-  #   :user_name      => ENV['SENDGRID_USER_NAME'],
-  #   :password       => ENV['SENDGRID_PASSWORD'],
-  #   :domain         => 'ocenatcreations.herokuapp.com',
-  #   :authentication => :plain,
-  #   :enable_starttls_auto => true
-  # }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: "ocenatcreations.com" }
+  config.action_mailer.smtp_settings = {
+    :port           => ENV['SENGRID_PORT'],
+    :address        => ENV['SENDGRID_SERVER'],
+    :user_name      => ENV['SENDGRID_USER_NAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
+    :domain         => 'ocenatcreations.com',
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
 
     # tuto amazon mailer
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
-  config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.smtp_settings = {
-  address: ENV["SES_SMTP_ADRESS"],
-  port: 587,
-  domain: "ocenatcreations.herokuapp.com",
-  user_name: ENV["SES_SMTP_USERNAME"], #Your SMTP user
-  password: ENV["SES_SMTP_PASSWORD"], #Your SMTP password
-  authentication: :login,
-  enable_starttls_auto: true
-  }
+  # config.action_mailer.perform_deliveries = true
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.default_url_options = { host: "ocenatcreations.herokuapp.com" }
+  # config.action_mailer.raise_delivery_errors = true
+  # config.action_mailer.smtp_settings = {
+  # address: ENV["SES_SMTP_ADRESS"],
+  # port: 587,
+  # domain: "ocenatcreations.herokuapp.com",
+  # user_name: ENV["SES_SMTP_USERNAME"], #Your SMTP user
+  # password: ENV["SES_SMTP_PASSWORD"], #Your SMTP password
+  # authentication: :login,
+  # enable_starttls_auto: true
+  # }
 
 
   # config.action_mailer.delivery_method = :sendgrid_actionmailer
