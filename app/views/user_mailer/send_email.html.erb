@@ -1,9 +1,11 @@
-<h1> Hi You,</h1>
-<p>Somebody contacted you through your site.</p>
-<p>Details:</p>
-
-<p>Name: <%= @name %>,</p>
-
-<p>Email: <%= @email %>,</p>
-
-<p>Message: <%= @message %></p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Thanks for signing up, <%= @user.name %>!</h1>
+    <p>Thanks for joining and have a great day! Now sign in and do
+awesome things!</p>
+  </body>
+</html>
