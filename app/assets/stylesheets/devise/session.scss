@@ -2,3 +2,20 @@
   color: grey;
   border-color: grey;
 }
+.btn-green{
+  border: solid 1px rgba(58, 173, 64, 0.9);
+  color: rgba(58, 173, 64, 0.9);
+  border-radius: 5px;
+  height: 30px;
+  padding: 1px 6px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.btn-green:hover{
+  background-color: rgba(58, 173, 64, 0.9);
+  color: white;
+}

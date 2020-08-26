@@ -23,6 +23,7 @@ fr:
       who: Qui sommes nous?
   devise:
     confirmations:
+      instructions: "Renvoyer instructions de confirmation"
       confirmed: "Votre compte a été validé."
       send_instructions: "Vous allez recevoir les instructions nécessaires à la confirmation de votre compte dans quelques minutes."
       send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez bientôt recevoir un e-mail contenant les instructions de confirmation de votre compte."
@@ -57,6 +58,8 @@ fr:
       updated: "Votre mot de passe a été édité avec succès, vous êtes maintenant connecté."
       updated_not_active: "Votre mot de passe a été changé avec succès."
     registrations:
+      new:
+        signup: "S'inscrire"
       destroyed: "Votre compte a été supprimé avec succès. Nous espérons vous revoir bientôt."
       signed_up: "Bienvenue, vous êtes connecté."
       signed_up_but_inactive: "Vous êtes bien enregistré. Vous ne pouvez cependant pas vous connecter car votre compte n'est pas encore activé."
@@ -69,6 +72,17 @@ fr:
       signed_in: "Connecté."
       signed_out: "Déconnecté."
       already_signed_out: "Déconnecté."
+      password: "Mot de passe:"
+      remember: "Se souvenir de moi"
+      login: "Se connecter"
+    shared:
+      links:
+        login: "Se connecter"
+        signup: "S'inscrire"
+        forgot: "Mot de passe oublié?"
+        confirmation: "Me renvoyer une confirmation"
+        unlock: "Instructions de dévérouillage non reçues?"
+        with: "S'incrire avec "
     unlocks:
       send_instructions: "Vous allez recevoir les instructions nécessaires au déverrouillage de votre compte dans quelques instants."
       send_paranoid_instructions: "Si votre compte existe, vous allez bientôt recevoir un email contenant les instructions pour le déverrouiller."

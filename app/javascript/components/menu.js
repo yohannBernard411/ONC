@@ -123,7 +123,7 @@ const displayMenu = () => {
         body.style.transition = transition;
         body.style.opacity = "1";
       }
-      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596535301/ffuiowogord1ullhpb2w.jpg')";
+      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1598476905/ehk0z0clp1g7juqalc2s.jpg')";
       const tempo = setTimeout(redisplay, delay);
       currentTarget.style.transform = "translateX(100vw)";
       currentTarget = home.querySelector(".list");
@@ -143,7 +143,7 @@ const displayMenu = () => {
         body.style.transition = transition;
         body.style.opacity = "1";
       }
-      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596535601/tv6wbiqqx0a6bo95rmhn.jpg')";
+      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1598476989/jqu1y32pd8aaullfsudy.jpg')";
       const tempo = setTimeout(redisplay, delay);
       currentTarget.style.transform = "translateX(100vw)";
       currentTarget = shop.querySelector(".list");
@@ -163,7 +163,7 @@ const displayMenu = () => {
         body.style.transition = transition;
         body.style.opacity = "1";
       }
-      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596535860/oaj8rjccadp4n7lgcgst.jpg')";
+      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1598477019/nr9dylwpsjtwb3uco01a.jpg')";
       const tempo = setTimeout(redisplay, delay);
       currentTarget.style.transform = "translateX(100vw)";
       currentTarget = articles.querySelector(".list");
@@ -183,7 +183,7 @@ const displayMenu = () => {
         body.style.transition = transition;
         body.style.opacity = "1";
       }
-      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1596536935/tbtiwdgieww6vve0fwap.jpg')";
+      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1598477047/qe7arwis6lwm6k8fplq6.jpg')";
       const tempo = setTimeout(redisplay, delay);
       currentTarget.style.transform = "translateX(100vw)";
       currentTarget = partners.querySelector(".list");
