@@ -9,5 +9,3 @@ class UserMailer < ApplicationMailer
     :subject => 'First test send email with sendgrid' )
   end
 end
-  
-end
