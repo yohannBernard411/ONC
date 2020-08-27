@@ -16,6 +16,8 @@ body{
   font-size: 40px;
   overflow: hidden;
   transition: width .2s height .2s;
+  background-size: cover;
+  background-position: center;
 }
 .scale-title{
   transition: transform .2s;
@@ -71,16 +73,16 @@ body{
     width: 100%;
   }
   #home{
-    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596535301/ffuiowogord1ullhpb2w.jpg");
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1598477019/nr9dylwpsjtwb3uco01a.jpg");
   }
   #shop{
-    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596535601/tv6wbiqqx0a6bo95rmhn.jpg");
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1598476905/ehk0z0clp1g7juqalc2s.jpg");
   }
   #articles{
-    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596535860/oaj8rjccadp4n7lgcgst.jpg");
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1598477047/qe7arwis6lwm6k8fplq6.jpg");
   }
   #partners{
-    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1596536935/tbtiwdgieww6vve0fwap.jpg");
+    background-image: url("https://res.cloudinary.com/do3nu0tns/image/upload/v1598476989/jqu1y32pd8aaullfsudy.jpg");
   }
 }
 
