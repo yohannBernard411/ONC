@@ -8,26 +8,17 @@ class ClothesController < ApplicationController
   skip_after_action :verify_authorized, only: [:index], unless: :skip_pundit?
 
   def index
-    @user = current_user || User.last
-    function = params[:function]
+    @function = params[:function]
     @search = params["search"]
-    case I18n.locale
-    when :fr
-      my_locale = 1
-    when :en
-      my_locale = 0
-    when :es
-      my_locale = 2
-    end
     if @search.present?
       allclothes =  policy_scope(Clothe).all
-      @clothes = allclothes.select { |clothe| clothe.translations[my_locale].name.downcase.include? @search[:name].downcase }
+      @clothes = allclothes.select { |clothe| clothe.name.downcase.include? @search[:name].downcase }
       unless @clothes.first
         @clothes = policy_scope(Clothe).order(created_at: :desc).includes([:photos_attachments])
-        redirect_to clothes_path, notice: "Aucune correspondance!"
+        redirect_to clothes_by_type_path(@function), notice: I18n.translate("clothes.index.nothing")
       end
     else
-      @clothes = policy_scope(Clothe).where(function: function).order(created_at: :desc).includes([:photos_attachments]).includes([:translations])
+      @clothes = policy_scope(Clothe).where(function: @function).order(created_at: :desc).includes([:photos_attachments]).includes([:translations])
     end
   end
 

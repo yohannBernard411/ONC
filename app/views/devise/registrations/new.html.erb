@@ -1,35 +1,42 @@
 <h1><%= I18n.translate("devise.registrations.new.signup") %></h1>
 
-<div class="container">
+<div class="container bottom-shared">
   <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= f.error_notification %>
 
     <div class="form-inputs">
-      <%= f.input :username,
+      <%= f.input :username, label: I18n.translate("devise.registrations.new.username"),
                   required: true,
                   autofocus: true,
                   input_html: { autocomplete: "username" }%>
       <%= f.input :email,
                   required: true,
                   input_html: { autocomplete: "email" }%>
-      <%= f.input :password,
+      <%= f.input :password, label: I18n.translate("devise.registrations.new.password"),
                   required: true,
-                  hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
+                  hint: ("#{@minimum_password_length} #{I18n.translate('devise.registrations.new.charmin')}" if @minimum_password_length),
                   input_html: { autocomplete: "new-password" } %>
-      <%= f.input :password_confirmation,
+      <%= f.input :password_confirmation, label: I18n.translate("devise.registrations.new.password_confirmation"),
                   required: true,
-                  input_html: { autocomplete: "new-password" } %>
-      <%= f.input :photo, as: :file %>
-      <%= f.input :newsletter, as: :boolean %>
+                  input_html: { autocomplete: "new-password" } %><br>
+      <label class="btnlink">
+        <%= I18n.translate("devise.registrations.new.photo") %>
+        <span style="display:none;">
+          <%= f.input :photo, as: :file %>
+        </span>
+      </label><br><br>
+      
+      <%= f.input :newsletter,
+       as: :boolean %>
       <div>
         <input type="checkbox" id="btncgv" name="cgv">
-        <label for="cgv">J'ai lu, compris et accepté les CGV</label>
+        <label for="cgv"><%= I18n.translate("devise.registrations.new.readcgv") %></label>
       </div>
-      <p>Les CGV sont consultables <%= link_to "ICI", homes_condition_path, class: "btnlink" %></p>
+      <p><%= I18n.translate("devise.registrations.new.seecgv") %><%= link_to I18n.translate("devise.registrations.new.here"), homes_condition_path, class: "btnlink" %></p>
     </div>
 
     <div class="form-actions">
-      <%= f.submit "Sign up", class: "btnlink inactifbtn", id: "btn-signup", disabled: true %>
+      <%= f.submit I18n.translate("devise.registrations.new.signup"), class: "btnlink inactifbtn solo-btn", id: "btn-signup", disabled: true %>
     </div>
   <% end %>
 

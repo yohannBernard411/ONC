@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   get 'homes/who', to: 'homes#who'
   get 'homes/contact', to: 'homes#contact'
   get 'homes/condition', to: 'homes#condition'
+  get '/partners/spitzberg', to: 'partners#spitzberg'
   get 'clothes/:function/index', to: 'clothes#index', as: "clothes_by_type"
   get 'line_items/:line_id/prev', to: 'line_items#prev', as: "prev_line"
   get 'line_items/:line_id/next', to: 'line_items#next', as: "next_line"

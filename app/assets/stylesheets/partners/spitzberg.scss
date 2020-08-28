@@ -1,0 +1,18 @@
+.header_spitz_img{
+  width: 70%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.sleeve{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .sleeve{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+}

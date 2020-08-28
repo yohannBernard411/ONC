@@ -1,10 +1,10 @@
-<h1 class="indexclothetitle"><%= I18n.translate("clothes.index.title") %></h1>
+<h1 class="indexclothetitle"><%= I18n.translate("clothes.index.title.#{@function}") %></h1>
 
 <div class="index-clothes-page">
 
   <div class="search-bar-container container">
     <p class="slogan"><%= I18n.translate("clothes.index.slogan") %></p>
-    <%= simple_form_for :search, url: clothes_path, method: "GET", html: { class: 'form-inline search-tool' } do |f| %>
+    <%= simple_form_for :search, url: clothes_by_type_path(@function), method: "GET", html: { class: 'form-inline search-tool' } do |f| %>
       <%= f.input :name, label: "", input_html: {value: "", placeholder: I18n.translate("clothes.index.search") } %>
       <%= f.submit ' ', class: "btn", id: "my-search-button" %>
       <i class="fas fa-search" id="magnify-icon"></i>

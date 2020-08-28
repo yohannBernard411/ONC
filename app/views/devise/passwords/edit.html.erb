@@ -1,4 +1,4 @@
-<h2>Change your password</h2>
+<h2><%= I18n.translate("devise.sessions.change") %></h2>
 
 <%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
   <%= f.error_notification %>
@@ -8,19 +8,19 @@
 
   <div class="form-inputs">
     <%= f.input :password,
-                label: "New password",
+                label: I18n.translate("devise.registrations.new.password"),
                 required: true,
                 autofocus: true,
-                hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
-                input_html: { autocomplete: "new-password" } %>
+                hint: ("#{@minimum_password_length} #{I18n.translate('devise.registrations.new.charmin')}" if @minimum_password_length),
+                input_html: { autocomplete: I18n.translate('devise.registrations.sessions.new')"new-password" } %>
     <%= f.input :password_confirmation,
-                label: "Confirm your new password",
+                label: I18n.translate("devise.registrations.new.password_confirmation"),
                 required: true,
-                input_html: { autocomplete: "new-password" } %>
+                input_html: { autocomplete: I18n.translate('devise.registrations.sessions.new')"new-password" } %>
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit, "Change my password" %>
+    <%= f.button :submit, <%= I18n.translate("devise.sessions.change") %> %>
   </div>
 <% end %>
 
