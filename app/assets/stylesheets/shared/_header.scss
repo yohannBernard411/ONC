@@ -9,6 +9,16 @@
   top:0;
   background-color: #EEEDEC;
 }
+#connectionMenu, #langue, #cartMenu{
+  display: none;
+  height:auto;
+}
+#connection, #language, #cart{
+  transition: 0.5s;
+  margin: 10px;
+  font-size: 36px;
+  line-height: 25px;
+}
 .logo{
   width: 90px;
   height: 90px;
@@ -96,11 +106,14 @@
   box-shadow: 5px 5px 15px rgb(111, 111, 139);
   z-index: 3;
   width: 80vw;
-  max-width: 600px;
   height: auto;
+  max-width: 600px;
   background-color: #2A80B9;
   position: fixed;
   transition: top 1s;
+}
+#menu>p{
+  font-size: 24px;
 }
 #menu a{
   border-color: white;
@@ -140,7 +153,7 @@
   top: 0;
 }
 .menudown{
-  top: 400px;
+  top: 500px;
 }
 .my-cart{
   color: white;

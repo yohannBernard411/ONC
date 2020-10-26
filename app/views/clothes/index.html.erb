@@ -65,7 +65,7 @@
   <hr>
 
   <% if policy(Clothe).new? %>
-    <%= link_to I18n.translate("clothes.index.newclothe"), new_clothe_path, class: "btnlink" %>
+    <%= link_to I18n.translate("clothes.index.newclothe"), new_with_function_path(@function), class: "btnlink" %>
   <% end %>
 
   <% if policy(Cart).index? %>

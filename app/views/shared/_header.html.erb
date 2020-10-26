@@ -16,26 +16,28 @@
 </div>
 
 <div id="menu" class="menuup">
-  <% if current_user %>
-    <%= link_to I18n.translate("shared.header.signout"), destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %>
-    <%= link_to "Editer mon profil", edit_user_registration_path, class: "btnlink" %>
-  <% else %>
-    <%= link_to I18n.translate("shared.header.signin"), new_user_session_path, class: "btnlink" %>
-    <br>
-    <%= link_to I18n.translate("shared.header.forgot"),  new_user_password_path, class: "btnlink" %>
-  <% end %>
-  <br><hr>
+  <p>Connection <i id="connection" class="fas fa-angle-left"></i></p><br>
+  <div id="connectionMenu">
+    <% if current_user %>
+        <%= link_to I18n.translate("shared.header.signout"), destroy_user_session_path, method: "delete", data: {confirm: 'Etes vous sûr de vouloir vous déconnecter?'}, class: "btnlink" %><br>
+        <%= link_to "Editer mon profil", edit_user_registration_path, class: "btnlink" %>
+    <% else %>
+      <%= link_to I18n.translate("shared.header.signin"), new_user_session_path, class: "btnlink" %><br>
+      <%= link_to I18n.translate("shared.header.forgot"),  new_user_password_path, class: "btnlink" %>
+    <% end %>
+  </div><hr>
+  <p>Langue <i id="language" class="fas fa-angle-left"></i></p><br>
   <div id="langue">
     <label id="labelLangue"><%= @langue %></label>
     <button id="francais"><%= link_to "Français", url_for(only_path: true, locale: "fr") %></button>
     <button id="english"><%= link_to "English", url_for(only_path: true, locale: "en") %></button>
     <button id="espanol"><%= link_to "Espanol", url_for(only_path: true, locale: "es") %></button>
-  </div>
-  <div class="my-cart">
+  </div><hr>
+  <p>Panier <i id="cart" class="fas fa-angle-left"></i></p><br>
+  <div class="my-cart" id="cartMenu">
     <% if @all_line_items %>
-      <hr>
       <%= I18n.translate("shared.header.you_have", count: @total_count) %><br>
       <%= link_to I18n.translate("shared.header.see_cart"), cart_path(current_user.cart.id), class: "btnlink" %>
     <% end %>
-  </div>
+  </div><hr>
 </div>

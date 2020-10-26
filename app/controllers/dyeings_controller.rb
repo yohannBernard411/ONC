@@ -1,5 +1,4 @@
 class DyeingsController < ApplicationController
-
   def create
     @dyeing = Dyeing.new(params_color)
     @dyeing.clothe_id = params[:clothe_id]
@@ -20,5 +19,4 @@ class DyeingsController < ApplicationController
   def params_color
     params.require(:dyeing).permit(:color_id)
   end
-
 end

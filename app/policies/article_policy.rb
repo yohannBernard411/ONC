@@ -1,5 +1,4 @@
 class ArticlePolicy < ApplicationPolicy
-
   attr_reader :user, :article
 
   class Scope < Scope

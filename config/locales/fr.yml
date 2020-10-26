@@ -1,8 +1,497 @@
 ---
 fr:
+  articles:
+    labels:
+      img1: Beaucoup de labels!
+      img10: Origine France Garantie
+      img11: Demeter
+      img12: Naturtextil
+      img13: Naturleder
+      img14: Soil Association Organic
+      img15: Entreprise Du Patrimoine Vivant
+      img16: Fair Wear Foundation
+      img17: Made In Respect
+      img18: Organic
+      img2: Global Organic Textil Standard
+      img3: oeko-tex
+      img4: Made in green
+      img5: Max Havelaar
+      img6: Bio Equitable
+      img7: Ecocert
+      img8: Biore
+      img9: Ecolabel Européen
+      lien1: 'Sources : Eco-sapiens, Mes Courses pour la Planète'
+      liste1: Ecologie – Protection environnementale – Démarche éthique et durable – RSE
+      liste2: 'Social – Respect de la condition humaine '
+      liste21: Les métaux lourds dans leur ensemble,
+      liste22: Les perturbateurs endocriniens,
+      liste23: Les produits ignifuges bromés ou chlorés,
+      liste24: Les organismes génétiquement modifiés ou OGM,
+      liste25: La nanotechnologie,
+      liste26: Les substances cancérigènes,
+      liste27: Le PVC,
+      liste28: Le nickel,
+      liste29: Le chrome,
+      liste3: Commerce équitable
+      liste30: Les méthodes d’impression utilisant des solvants aromatiques,
+      liste31: Les méthodes d’impression plastisol utilisant des phtalates et PVC.
+      liste4: Origine biologique – Produits certifiés sans pesticides – Cuir écologique – Produits vegans
+      liste40: L’arrosage des cultures de coton qui doit être raisonné,
+      liste41: Les eaux usées qui doivent être assainies dans une station d’épuration,
+      liste42: Les emballages qui doivent être recyclables.
+      liste5: Santé
+      soustitre1: OEKO-TEX 100
+      soustitre10: NATURTEXTIL
+      soustitre11: NATURLEDER
+      soustitre12: SOIL ASSOCIATION ORGANIC
+      soustitre13: ENTREPRISE DU PATRIMOINE VIVANT (EPV)
+      soustitre14: FAIR WEAR FOUNDATION (FWF)
+      soustitre15: MADE IN RESPECT
+      soustitre16: ORGANIC
+      soustitre2: MADE IN GREEN
+      soustitre3: MAX HAVELAAR
+      soustitre4: BIO EQUITABLE
+      soustitre5: ECOCERT
+      soustitre6: BIORE
+      soustitre7: ECOLABEL EUROPÉEN
+      soustitre8: ORIGINE FRANCE GARANTIE
+      soustitre9: DEMETER
+      strong1: Et ce que j'apprécie particulièrement en tant que client, des tests de d'usures, car pour être logique le vêtement doit pouvoir durer dans le temps, afin de limiter sa production et son impact environnemental.
+      strong10: au minimum 70% de fibres naturelles ou issues de matériaux renouvelables ou recyclés.
+      strong10bis: politique environnementale
+      strong11: respectueux de l’environnement et de la santé du consommateur.
+      strong12: conventions internationales
+      strong13: un rôle de protection et d’information du consommateur
+      strong14: interdisant l’emploi de substances dangereuses
+      strong15: coton dont la production est issue de l’agriculture biologique.
+      strong16: absence de produits chimiques
+      strong17: un traitement des eaux usées avant leur rejet dans la nature.
+      strong18: bonnes conditions de travail
+      strong19: la traçabilité des produits.
+      strong2: des textiles sans produits toxiques pour le corps et pour l’environnement.
+      strong20: l’impact environnemental des produits tout au long de leur durée de vie.
+      strong21: approche globale
+      strong22: prend en considération le cycle de vie du produit à partir de l’extraction des matières premières, la fabrication, la distribution, et l’utilisation jusqu’à son recyclage ou son élimination après usage'.
+      strong23: garantir une fabrication française en totalité ou en partie.
+      strong24: préservation de l’emploi et du respect de normes sociales, environnementales et sanitaires.
+      strong25: qu’au moins 50% du produit est bien fabriqué en France.
+      strong26: issues de fermes certifiées Demeter
+      strong27: plus exigeant que celui de l’agriculture biologique certifiée par le logo AB.
+      strong28: récolté à la main, la mécanisation étant possible seulement lorsque l’usage de produits chimiques est exclus.
+      strong29: fibres naturelles
+      strong3: les textiles sont sûrs pour la santé des consommateurs (sans produits chimiques nocifs) et sont également produits de manière durable et socialement responsable.
+      strong30: jusqu’à hauteur de 50 %.
+      strong31: au moins 95% de leurs fibres issues de l’agriculture biologique
+      strong32: Les substances tels que le chlore, les métaux lourds, le nickel sont interdites, ainsi que tout produit susceptible de contenir des OGM.
+      strong33: enregistrement permanent concernant l’utilisation des produits chimiques et de l’énergie, la consommation d’eau et le traitement des eaux usées. Les matériaux de stockage ne doivent pas contenir de PVC.
+      strong34: contrôle également les conditions de travail
+      strong35: à certifier du cuir écologique.
+      strong36: conservation des peaux se fait par le froid et avec du sel, sans agents chimiques. Le tannage à base de chrome ou d’autres produits polluants est interdit. Seuls sont autorisés les produits végétaux et ceux avec de l’aluminium, du zirkonium ou du titane.
+      strong37: animaux élevés d’abord pour leur viande.
+      strong38: au moins 70 % de fibres doivent être biologiques, et ne pas contenir de substances nocives.
+      strong39: des critères sociaux et respecte les conventions de l’Organisation internationale du travail (OIT).
+      strong4: de test spécifique et un QR code, les textiles et les processus de fabrication peuvent être détaillés et suivis.
+      strong40: maintiennent leur activité de production en France.
+      strong40bis: 'des entreprises françaises aux savoir-faire artisanaux et industriels d’excellence. '
+      strong41: objectif est de contribuer à l’amélioration des conditions de travail dans l’industrie textile.
+      strong42: interdiction du travail forcé, pas de discrimination à l’emploi, liberté syndicale, conditions de travail décentes (hygiène, santé), travail des enfants est interdit,  temps de travail et salaires contrôlés, toute discrimination interdite.
+      strong43: responsabilité sociale et environnementale
+      strong44: à la qualité et au savoir-faire, aux conditions sociales, à l’éco-conception et au respect de l’environnement ainsi qu’à l’éthique économique.
+      strong45: un taux de coton biologique dans le produit fini mais ne garantit pas les étapes de transformation du textile et notamment la teinture.
+      strong46: C’est donc un label peu fiable, surtout quand on voit où ces marques produisent et les conditions de travail qu'elles infligent à leurs employés (cf sous-traitants).
+      strong5: produit répond aux critères internationaux du commerce équitable portant sur les conditions de production et la rémunération du producteur. Il garantit le respect des conventions de l’Organisation internationale du travail (OIT).
+      strong6: critères environnementaux : les OGM sont interdits, mais pas les pesticides.
+      strong7: production biologique
+      strong8: une charte équitable et humaine
+      strong9: sur la défense du consommateur, de l’environnement et des travailleurs
+      texte1: Pourquoi s'intéresser aux labels textiles ?
+      texte10: 'Pour ce qui est  inévitables, l''écolabel fait des concessions sans toutefois se plier à la loi du marché. Pour ainsi dire, la certification GOTS cherchent à limiter leur usage avec des mesures comme pour :'
+      texte11: Pour ce qui est du social, il va de soi (-mais sûrement pas tant que ça vu qu'il faut le dire, là aussi tout dépend du pays d'origine^^) que le travail forcé, des enfants et la discrimination sont interdits, se rajoute à ça les recommandations de l'OIT (organisation internationale du travail), soit horaire et salaire décents, le droit syndical , et des conditions d'hygiène et de sécurités
+      texte12: C’est un des labels que l’on croise le plus, d'origine allemande. Il s’agit du premier label visant à garantir
+      texte13: C’est un label fiable mais qui peut aussi certifier des matières synthétiques et donc polluantes en amont.
+      texte14: On le retrouve sous différentes formes
+      texte15: Le label ÖKO-TEX standard 100 permet de protéger le consommateur. En effet, les produits labellisés sont exempts de produits chimiques qui pourraient être toxiques pour le consommateur tels que les formaldéhydes ou les métaux lourds, par exemple. Ce label international est beaucoup utilisé notamment pour le linge de lit des jeunes enfants.
+      texte16: Il existe également le label ÖKO-TEX standard 1000 qui certifie que la production  respecte l’environnement pendant toutes ses étapes.
+      texte17: Enfin, ÖKO-TEX standard 100 plus atteste que les produits labellisés sont sans substances toxiques et issus d’une production respectueuse de l’environnement.
+      texte18: Ces deux autres formes du label textile international ÖKO-TEX standard ne sont pas très répandues et sont assez rares à trouver sur les textiles.
+      texte19: Oeko-Tex a également créé une nouvelle certification Made in Green. Elle est l’assurance que
+      texte2: Dans une démarche écologique et durable bien sûr. Quitte à faire de l'artisanat autant le faire bien et surtout choisir ses matières premières en toute conscience. L’industrie textile utilise le quart des produits chimiques dans le monde et a été accusée de 20 % de la pollution de l’eau par l’industrie, ce qui en fait le deuxième plus grand pollueur d’eau douce de la planète, c’est pour cela qu’en plus des normes et des réglementations, les labels ont un rôle à jouer, en terme d’accompagnement des marques, et aussi en tant que gage de qualité auprès des consommateurs finaux. Merci à tous ceux qui ont déjà écrit sur le sujet , des blogs et autres ou je me suis documentée pour vous offrir le plus large éventail de possibilités.
+      texte20: Grace à l’utilisation d’un numéro
+      texte21: Made in Green remplace l’ancien système de certification, Oeko-Tex Standard 100 Plus et le label espagnol Made in Green by Aitex.
+      texte22: C’est le label du commerce équitable. Il garantit que le
+      texte23: C’est un bon label, mais il est moins exigeant sur les
+      texte24: Ce label garantit une
+      texte25: de la matière première, notamment du coton. Il applique également
+      texte26: qui concilie l’écologie et le social. Dans une logique globale, le label implique tous les acteurs de la chaîne.
+      texte27: C’est un label qui agit
+      texte28: ". Il a donc plusieurs objectifs."
+      texte29: 'Le premier est de protéger la planète et ses ressources en utilisant '
+      texte3: 'Chaque label vérifie et priorise un ou plusieurs aspects de la chaîne de valeur. De production du tissu, jusqu’au produit fini. Voici quelques exemples de domaine où les labels se spécialisent :'
+      texte30: " Mais également en définissant une "
+      texte30bis: " imposant la réduction des consommations en eau et en énergie, en utilisant des colorants, agents textiles et procédés de fabrication "
+      texte31: Il agit également en garantissant les principales 
+      texte32: " en matière sociale, d’hygiène et sécurité au travail."
+      texte33: 'Enfin, il a '
+      texte34: " en fournissant une information claire sur la nature des fibres composant le produit et en "
+      texte35: " (ex : métaux lourds, amines cancérogènes, formaldéhydes, enzymes OGM, …)."
+      texte36: Mais ça reste bien inférièure aux exigences de GOTS
+      texte37: C’est un label suisse qui possède des garanties écologiques, éthique et social. Il certifie la matière première du 
+      texte38: Au niveau environnemental, il certifie l’
+      texte4: L'industrie du textile étant une des plus polluantes mondialement, l'industrie des labels n'allait pas tarder à s'y mettre. Toujours plus vert que vert.... Mais qu'est ce que l'on nous vend ??? Et oui acheter des tissus ou laines/fils labélisés a un coût que le consommateur final devra payer. Alors autant les connaître pour bien choisir.
+      texte40: Il a également un rôle social en garantissant de 
+      texte41: " (pas de travail des enfants, sécurité du travail, salaires minimaux…)."
+      texte42: Il assure également 
+      texte43: " On peut même savoir qui a fabriqué le vêtement en se rendant sur le site du label."
+      texte44: 'Ce label européen évalue '
+      texte45: " Il repose sur le principe d’une "
+      texte46: " qui '"
+      texte47: Ce label ne concerne que l’environnement et n’offre aucune garantie sociale.
+      texte48: 'C’est le label officiel pour '
+      texte49: " C’est une garantie contre le faux made in France et donc pour la "
+      texte5: Donc merci à tous ceux et celles qui ont écrit sur le sujet et m'ont permis de me documenter...Le wiki est ton meilleur ami...
+      texte50: 'Il certifie '
+      texte51: " L’autre moitié du produit peut être confectionné ailleurs…  On peut regretter que ce label ne s’applique pas à 100%."
+      texte52: 'Le label Demeter est très exigeant. Il implique que la matière première du textile (les fibres de laine, de coton ou de lin) soient '
+      texte53: ", selon un cahier des charges "
+      texte54: 'Le coton doit être '
+      texte55: " Les fibres animales doivent être tondues ou peignées."
+      texte56: 'Le label Demeter textile peut être accordé à des produits contenant des '
+      texte57: " conventionnelles qui ne seraient pas disponibles sous label Demeter "
+      texte58: Ce label répond à un cahier des charges strictes et rigoureux.
+      texte59: Les textiles labellisés ont 
+      texte6: Je vais donc vous en faire une petite liste en détaillant les deux principaux puisque si je dois me fier à un label, ce sera un de ces deux-là....Après pour la laine, certifiée ou pas , je privilégie toujours un petit éleveur français, ou fillature, au moins on n'est sur de favoriser l'élevage français et on n'évite le coût carbonne (surtout que certains labels comme AB, n'ont rien à voir avec le AB français)...bref revenons à nos moutons !!!!
+      texte60: " ou en conversion. A chaque étape du process de production, il doit être vérifié que les fibres biologiques et conventionnelles ne sont pas mélangées, et que les fibres biologiques ne sont contaminées d’aucune manière."
+      texte61: 'Le processus de fabrication des vêtements est également très contrôlé. '
+      texte62: Sur le plan environnemental, les partenaires sont soumis à une charte très stricte d’
+      texte63: 'Enfin, le label '
+      texte64: " : respect des droits des salariés, interdiction du travail forcé (tout comme le fait d’exiger des travailleurs qu’ils laissent leurs papiers d’identité à leur employeur), lieu de travail sécurisé et sain, travail des enfants est interdit, toute discrimination, de quelque nature qu’elle soit (absence de promotion, différence de rémunération,..) n’est autorisée,…"
+      texte65: 'C’est le premier label '
+      texte66: Il permet de limiter fortement les impacts d’une industrie très polluante. Il garantit une 
+      texte67: " Les colorants contenant des métaux lourds sont également proscrits."
+      texte68: Ce label garantie également que les peaux doivent appartenir à des 
+      texte69: Enfin ce label possède les mêmes critères sociaux que le label textile précédemment décrit.
+      texte7: GOTS pour
+      texte70: C’est le plus important label bio au Royaume-Uni. ll certifie des produits biologiques et mène campagne pour une agriculture respectueuse de l’environnement ainsi que pour une production alimentaire plus sûre et plus saine.
+      texte71: Concernant le textile, 
+      texte72: 'Ce label prend également en compte '
+      texte73: 'Le label Entreprise du Patrimoine Vivant (EPV) est un label français. C’est une marque de reconnaissance de l’Etat distinguant '
+      texte73bis: 'Il distingue notamment les savoir-faire traditionnels de qualité (comme la dentelle).  Les Entreprises du Patrimoine Vivant '
+      texte74: 'Fair Wear Foundation est une fondation qui travaille au respect des conditions de travail décentes dans les entreprises. Son '
+      texte75: 'Pour cela elle a crée un Code des Conditions de Travail (Code of Labour Practices) que les marques s’engagent à respecter. Les grands principes de ce code sont les suivants : '
+      texte76: La FWF s’engage ensuite à vérifier l’application de ces principes dans les usines de filature et de confection de textiles.
+      texte77: L’objectif de ce label est de permettre aux petites entreprises, notamment industrielles, de disposer d’un outil de valorisation de leurs démarches éthiques de 
+      texte78: " (RSE), facile à mettre en place, peu coûteux et fiable."
+      texte79: 'Les critères associent des aspects liés '
+      texte8: est pour moi la référence en la matière. C'est un label que l'on retrouve plutôt au RU, aux USA et au Japon(j'adore leurs tissus). Il vise depuis 2008 à harmoniser les normes du secteur textile mondialement. Et il m’intéresse particulièrement puisqu'il possède les cahiers des charges les plus strictes concernant la laine, le coton, la soie, le chanvre (manque le lin...mais bon). De plus il fait appel à des organismes indépendants pour effectuer le contrôle de l'application du cahier des charges que le producteur s'est engagé à respecter.
+      texte80: Ces principes vise ainsi à promouvoir des produits fabriqués dans une démarche véritablement durable.
+      texte81: C’est une organisation américaine visant à promouvoir l’utilisation du coton biologique et qui est soutenu par des marques telles que Nike, Walmart, H&M, Adidas, Patagonia, Marks&Spencer… Il s’agit de disposer d’une norme permettant d’accéder facilement à du coton bio.
+      texte82: 'Cette certification garantit '
+      texte83: " Elle ne comporte pas d’éléments concernant les conditions sociales de production. "
+      texte9: 'A chaque production son cahier bien sûr, mais dans l''ensemble on retrouve pour ce qui est interdits :'
+      title: LES LABELS
+    lin:
+      liste1: ", brebis et agneau proviennent de la tonte des toisons. Suivant les races elles seront plus ou moins douces. Attention aussi à leur provenance, le mouton peut être en australie/amérique du sud, la laine lavée et traitée en chine et le filage en France. Le mérinos est très doux et en France le mérinos d'Arles, il y a aussi Ouessant, Shetland... La structure de la laine lui confère une bonne élasticité, de plus elle a une mémoire de forme ce qui évite les déformations dans le temps. Elle est infroissable et facile à teindre. Elle possède beaucoup de qualités thermiques et permet au corps de garder une température constante, et laisse la peau respirer, et permet l'évacuation de la transpiration."
+      liste2: ", sont issues de chèvres. Le cachemire provient de chèvres de l'Himalaya, c'est le sous-poil de la toison. Elle est très fine, douce et avec des qualités thermiques très performantes. Les chèvres angora fournissent le mohair que l'on retrouve classé dans différentes catégories selon sa finesse, le plus fin étant le kid-mohair (provenant des chevreaux). Cette laine se gonfle d'air dès qu'il fait froid, ce qui lui confère des qualités thermiques exceptionnelles. La France en offre une grande variété grâce à nos élevages artisanaux. On le retrouve souvent associé à la soie sous la forme Kid-silk."
+      liste21: ". La plus répandue, et aussi controversée vu les dégats écologiques engendrés, beaucoup de pesticides et très consommatrice en eau. Privilégiez ceux qui sont certifiés GOTS. Il est absorbant et isolant, et resiste très bien aux lavages même à hautes températures. Il est doux, mais peut se révéler lourd à porter et chaud."
+      liste22: " : longtemps délaissé au profit du coton on le voit revenir sur le devant de la scène pour sa culture qui demande peu d'engrais et d'eau. Il est très solide, thermorégulateur, très léger. Son coté rêche s'estompe avec les lavages."
+      liste23: ", très absorbant, il rivalise avec le coton, bien plus facile à cultiver. Il est doux et confortable, et très résistant, il peut remplacer le nylon pour la fabrication des chaussettes. Il est glissant et assez lourd. Regardez son origine, les conditions de culture n'étant pas les même en Europe qu'en Asie."
+      liste24: ", fibre que je connais assez peu, apparemment artificielle car régénérée à partir des protéines contenues dans les graines, c'est qui fait un gros travail de transformation. Elle est aussi brillante que la soie, hypoallergénique, stable au lavage et tient à la lumière et à la sueur."
+      liste25: " : fibre du moyen-âge qui retrouve ses lettres de noblesse, pour sa culture rapide et productive avec peu d'eau, d'engrais et de pesticides. Assez ressemblant au lin, il est aussi thermorégulateur, se porte aussi bien l'été que l'hiver, et s'adoucit avec le temps."
+      liste26: " (ou lyocell), est extrait de la pulpe du bois d'eucalyptus. Il rappelle la soie par son aspect et son toucher. Il est infroissable et facile d'entretien vu qu'il tient un lavage en machine à 60°C."
+      liste3: " : C'est une fibre extrêmement douce et jusqu'à 9fois plus chaude que la laine de mouton. Il faut faire attention à l'origine et au conditions de « récolte », en Allemagne les lapins sont tondus, en France épiler au peigne, en Asie le lapin est sacrifié. Alors attention à vos fournisseurs, et allez vers l'angora Caregora (respect strict du bien-être animal, avec une certification européenne)."
+      liste4: ", très douce, chaude, légère et résistante, c'est une fibre de haut de gamme. La fibre de bébé alpaga convient parfaitement aux peaux sensibles, notamment pour la layette. De nombreux élevages se sont développés en France."
+      liste5: ", elle a des qualités similaires au cachemire, douceur au toucher et chaleur.C'est une fibre assez rare qui ne peut être récoltée que de façon artisanale au printemps par étrillage car l'animal perd naturellement ses poils. On la retrouve souvent tissée avec de la soie ou de la laine d'agneau."
+      liste6: ", tirée du duvet du chameau elle est extrêmement rare. Par ses qualités, elle ressemble beaucoup à la laine de yak."
+      liste7: " : c'est une fibre protéique issus du cocon produit par la chenille du bombyx du mûrier pour celle de culture et du Tussah pour la soie sauvage. Elle donne un rendu brillant à l'ouvrage. Ses avantages sont son élasticité naturelle, sa solidité, sa capacité à absorber les colorants, et sa thermorégulation, laisse respirer la peau en été et réchauffe en hiver. On la retrouve souvent mélangée à d'autres fibres comme le mohair."
+      soustitre1: 'Les différentes fibres animales :'
+      soustitre2: 'Les differentes fibres végétales naturelles :'
+      strong1: La laine de mouton
+      strong2: La laine Angora et cachemire
+      strong21: Le coton
+      strong22: Le lin
+      strong23: Le bambou
+      strong24: Le soja
+      strong25: Le chanvre
+      strong26: le tencel
+      strong3: laine de lapin angora
+      strong4: Laine d'Alpaga
+      strong5: Laine de Yak
+      strong6: La laine de chameau
+      strong7: la soie
+      texte1: Cc, vous connaissez mes idées sur le sujets aussi je vous passerai le topo sur les fils à tricoter synthétique, vous y retrouverez l'acrylique, le nylon et le polyamide, le polyester, le lurex(une rare exception que vous pouvez retrouver dans mes créations). L'avantage des ces matières c'est leur facilité d'entretien, leur faible coût. Leurs inconvénients sont peu de qualité thermique (dommage pour un pull),ils sont issus de la pétrochimie et même une fois produits, ils continuent de polluer à chaque lavage via les eaux usées, les microparticules qui s'en dégagent passent à travers les filtres des stations d'épuration pour finir dans la mer.
+      texte2: Les fils à tricoter naturels sont réalisés à partir de fibres animales ou végétales filées, appelés communément laines. L'avantage est leur qualité thermique et respirante, et qu'elles ne prennent pas d'odeur, il suffit de ventiler votre pull, pas besoin de le laver à chaque fois que vous le porter, l'inconvénient est justement le lavage car les laines peuvent feutrer sous l'effet du changement brutal de température et les mouvements du tambour de la machine. Un procédé existe pour éviter ça ce sont les laines Superwash (SW), mais ce procédé utilise beaucoup de produits chimiques et d'eau donc un fort impact sur environnement autant le savoir. Contrairement aux fibres animales les fibres végétales sont très peu élastiques.
+      texte3: Des matières qui contrairement aux fibres animales ont l'avantage de se laver généralement en machine. Et aux vegans de se vêtir naturellement.
+      texte4: Merci aux différents blogs, et wiki qui m'ont permis de me documenter sur le sujet.
+      titre1: Fils, Laines et autres matières
+      titre2: Quoi choisir ?
+  cart:
+    show:
+      amount: 'Montant: '
+      article: Article
+      color: Couleur
+      commande: Passer commande
+      delete: Sup
+      main_total: Total
+      price: Prix unitaire
+      quantity: Qte
+      really: Etes vous sûr?
+      return: Retourner en boutique
+      size: Taille
+      title: Mon panier
+      total_price: Prix total
+  clothes:
+    edit:
+      update: Mise à jour
+    form:
+      category: 'Catégorie:'
+      delivery: 'Livraison:'
+      delivery_color: 'Couleur livraison:'
+      description: 'Description:'
+      function: 'Fonction:'
+      name: 'Nom:'
+      option: 'Option:'
+      photos: 'Photos:'
+      price_cents: 'Prix en centimes:'
+      stock: 'Quantitées en stock:'
+      submit: Valider
+    index:
+      delete: Supprimer
+      delivery: 'Livraison:'
+      edit: Editer
+      newclothe: Créer nouveau vétement
+      note: 'Note:'
+      nothing: Aucune correspondance!
+      ononon:
+        one: Sur 1 évaluation.
+        other: Sur %{count} évaluations.
+      price: 'Prix:'
+      search: Rechercher...
+      see: Voir
+      slogan: Save us, no more plastic please
+      title:
+        accessory: Accéssoires
+        clothing: Vétements
+        upcycling: Recyclage
+        zero: Zéro déchets
+    new:
+      title: Nouveau
+    show:
+      back: Retour
+      basket: Mettre dans mon panier
+      color: Couleur
+      comment: Laisser un commentaire
+      comments: Commentaires
+      edit: Editer
+      size: Taille
+    size:
+      alt: Prise de mesures
+      bras: Longueur bras
+      epaule: Largeur épaule
+      hanche: Tour de hanches
+      legende: Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----
+      mensuration: Mensurations
+      poitrine: Tour poitrine
+      stature: Stature
+      strong1: 1) STATURE
+      strong2: 2) TOUR DE POITRINE
+      strong3: 3) TOUR DE TAILLE
+      strong4: 4) TOUR DE HANCHES
+      strong5: 5) LONGUEUR DU BRAS
+      strong6: 6) LARGEUR D'EPAULE
+      taille: Tour de taille
+      texte: Chaque vêtement étant fait sur mesure, il est important que vous sachiez les prendre correctement afin que je m'adapte au mieux à votre morphologie aussi un petit croquis est plus parlant.
+      texte1: " en position droite, de la tête aux pieds"
+      texte2: " sur la pointe des seins"
+      texte3: " à la taille, par dessus le ruban"
+      texte4: " sur le point le plus fort des fesses"
+      texte5: " bras légérement fléchi, de l'articulation de l'épaule au poignet, en passant par-dessus le coude"
+      texte6: " de la base du cou à l'articulation de l'epaule"
+      title: Mensurations et tailles
+  comment:
+    edit:
+      titre: Modifier mon commentaire
+    links:
+      remove: Spprimer
+      see: Voir
+      update: Mettre à jour
+    new:
+      author: 'Ecrit par: '
+      content: Message
+      notation: 'Note: '
+      note: Note (entre 0 et 5)
+      return: Retour
+      submit: Valider
+      title: Titre
+      titre: Ecrire un nouveau commentaire
+  devise:
+    confirmations:
+      instructions: Renvoyer instructions de confirmation
+    failure:
+      user:
+        already_authenticated: Vous êtes déja connecté
+    mailer:
+      confirmation_instructions:
+        date: 'Date '
+        hello: 'Bonjour '
+        texte1: Je suis heureuse de vous compter parmi nous,
+        texte2: Et j'espère que vous trouverez sur ce site votre bonheur, en plus de notre boutique vous trouverez des articles sur l'impact écologique et sociétal de l'industrie vestimentaire. Nous travaillons au maximum avec des artisans/fabricants français afin de favoriser l'emploi,l'agriculture, l'impact carbone mais aussi la qualité et le savoir-faire français. Un maximum de nos produits sont labellisés GOTS, ou Okéotex, surtout pour ceux venant de l'étranger.
+        texte3: 'Vous pouvez aussi nous suivre sur notre page '
+        texte3bis: " , ou vous retrouverez beaucoup plus d'articles."
+        texte4: 'Surtout n''oubliez pas de confirmer votre inscription en cliquant sur le lien suivant '
+        texte5: Je vous souhaite une bonne découverte, et avoir bientôt de vos nouvelles,
+        texte6: Je reste à votre disposition pour toute information complémentaires, alors n'hésitez pas à nous contacter
+        texte7: Cordialement
+        welcome: Bienvenue chez OceNatCreations
+      email_changed:
+        texte1: 'Nous vous contactons pour vous informer que votre adresse e-mail est en train d''être remplacée par '
+        texte2: 'Nous vous contactons pour vous informer que votre adresse e-mail a été remplacée par '
+      password_change:
+        texte1: Nous vous contactons pour vous informer que votre mot de passe a été modifié.
+      reset_password_instructions:
+        texte1: Quelqu'un a demandé un lien pour changer votre mot de passe. Vous pouvez le faire via le lien ci-dessous.
+        texte2: Changer mon mot de passe
+        texte3: Si vous ne l'avez pas demandé, veuillez ignorer cet e-mail.
+        texte4: Votre mot de passe ne changera pas tant que vous n'aurez pas accédé au lien ci-dessus et créé un nouveau.
+      unlock_instructions:
+        texte1: Votre compte a été verrouillé en raison d'un nombre excessif de tentatives de connexion infructueuses.
+        texte2: 'Cliquez sur le lien ci-dessous pour déverrouiller votre compte:'
+    omniauth_callbacks:
+      success: Authentifié avec succès via %{kind}.
+    registrations:
+      new:
+        back: Retour
+        cancel: Supprimer mon compte
+        charmin: caractéres minimum
+        current_password: Mot de passe en cours
+        edit: 'Mise à jour '
+        here: ICI
+        hint1: Laisser vide si pas de changement
+        hint2: Nous avons besoin de votre mot de passe actuel pour confirmer vos modifications
+        password: Mot de passe
+        password_confirmation: Confirmation du mot de passe
+        photo: Photo
+        readcgv: J'ai lu, compris et accepté les CGV
+        seecgv: 'Les CGV sont consultables '
+        signup: S'inscrire
+        submit: Valider
+        username: Nom d'utilisateur
+        waiting: 'En attente de confirmation pour: '
+      sessions:
+        new: New
+    sessions:
+      change: Changer de mot de passe
+      forgot: Mot de passe oublié
+      login: Se connecter
+      password: 'Mot de passe:'
+      remember: Se souvenir de moi
+      user:
+        signed_in: Vous êtes connecté
+        signed_out: Vous êtes déconnecté
+    shared:
+      links:
+        confirmation: Me renvoyer une confirmation
+        forgot: Mot de passe oublié?
+        login: Se connecter
+        signup: S'inscrire
+        unlock: Instructions de dévérouillage non reçues?
+        with: 'S''incrire avec '
+    unlocks:
+      new:
+        title: Renvoyer les instructions de déverrouillage
+  errors:
+    messages:
+      not_saved:
+        one: '1 erreur a empêché ce(tte) %{resource} d''être sauvegardé(e) :'
+        other: "%{count} erreurs ont empêché ce(tte) %{resource} d'être sauvegardé(e) :"
+  home:
+    condition:
+      lien1: 'Nos conditions générales de vente ont été élaborées à partir d''un modèle libre et gratuit qui peut être téléchargé sur le site: '
+      soustitre1: 'Article 1 : Objet'
+      soustitre10: 'Article 10 : Paiement'
+      soustitre11: 'Article 11 : Garanties'
+      soustitre12: 'Article 12 : Réclamations et médiation'
+      soustitre13: 'Article 13 : résolution du contrat'
+      soustitre14: 'Article 14 : Droits de propriété intellectuelle'
+      soustitre15: 'Article 15 : Force majeure'
+      soustitre16: 'Article 16 : Nullité et modification du contrat'
+      soustitre17: 'Article 17 : Protection des données personnelles'
+      soustitre18: " Article 18 : Droit applicable et clauses"
+      soustitre19: 'Article 19 : Information des consommateurs'
+      soustitre2: 'Article 2 : Dispositions générales '
+      soustitre3: 'Article 3 : Prix'
+      soustitre4: 'Article 4 : Conclusion du contrat en ligne '
+      soustitre5: 'Article 5 : Produits et services '
+      soustitre6: 'Article 6 : Conformité'
+      soustitre7: 'Article 7 : Clause de réserve de propriété'
+      soustitre8: 'Article 8 : Modalités de livraison'
+      soustitre9: 'Article 9 : Disponibilité et présentation'
+      strong1: Acceptation des présentes Conditions Générales de Vente
+      texte1: Entre la MicroEntreprise OcéNat Créations,
+      texte10: 'Ci-après, « l’Acheteur », ou « le Client » D’autre part, Il a été exposé et convenu ce qui suit :'
+      texte11: Le Vendeur est éditeur de Produits OcéNat Créations à destination de consommateurs, commercialisés par l’intermédiaire de ses sites Internet (http://siteweb.com ). La liste et le descriptif des biens et services proposés par la Société peuvent être consultés sur les sites susmentionnés.
+      texte12: Les présentes Conditions Générales de Vente déterminent les droits et obligations des parties dans le cadre de la vente en ligne de Produits ou Services proposés par le Vendeur.
+      texte13: Les présentes Conditions Générales de Vente (CGV) régissent les ventes de Produits ou de Services, effectuées au travers des sites Internet de la Société, et sont partie intégrante du Contrat entre l’Acheteur et le Vendeur. Elle sont pleinement opposables à l'Acheteur qui les a acceptées avant de passer commande.
+      texte14: 'Le Vendeur se réserve la possibilité de modifier les présentes, à tout moment par la publication d’une nouvelle version sur son site Internet. Les CGV applicables alors sont celles étant en vigueur à la date du paiement (ou du premier paiement en cas de paiements multiples) de la commande. Ces CGV sont consultables sur le site Internet de la Société à l''adresse suivante :'
+      texte15: http://ocenatcreations.com/homes/condition
+      texte16: La Société s’assure également que leur acceptation soit claire et sans réserve en mettant en place une case à cocher et un clic de validation. Le Client déclare avoir pris connaissance de l’ensemble des présentes Conditions Générales de Vente, et le cas échéant des Conditions Particulières de Vente liées à un produit ou à un service, et les accepter sans restriction ni réserve.
+      texte17: Le Client reconnaît qu’il a bénéficié des conseils et informations nécessaires afin de s’assurer de l’adéquation de l’offre à ses besoins.
+      texte18: Le Client déclare être en mesure de contracter légalement en vertu des lois françaises ou valablement représenter la personne physique ou morale pour laquelle il s’engage. Sauf preuve contraire les informations enregistrées par la Société constituent la preuve de l’ensemble des transactions.
+      texte19: " Les prix des produits vendus au travers des sites Internet sont indiqués en Euros hors taxes et précisément déterminés sur les pages de descriptifs des Produits. Ils sont également indiqués en euros toutes taxes comprises (TVA + autres taxes éventuelles) sur la page de commande des produits, et hors frais spécifiques d'expédition. Pour tous les produits expédiés hors Union européenne et/ou DOM-TOM, le prix est calculé hors taxes automatiquement sur la facture. Des droits de douane ou autres taxes locales ou droits d'importation ou taxes d'état sont susceptibles d'être exigibles dans certains cas. Ces droits et sommes ne relèvent pas du ressort du Vendeur. Ils seront à la charge de l'acheteur et relèvent de sa responsabilité (déclarations, paiement aux autorités compétentes, etc.). Le Vendeur invite à ce titre l'acheteur à se renseigner sur ces aspects auprès des autorités locales correspondantes.La Société se réserve la possibilité de modifier ses prix à tout moment pour l’avenir. Les frais de télécommunication nécessaires à l’accès aux sites Internet de la Société sont à la charge du Client. Le cas échéant également, les frais de livraison."
+      texte2: 16rue des Tilleuls,
+      texte20: Conformément aux dispositions de l'article 1127-1 du Code civil, le Client doit suivre une série d’étapes pour conclure le contrat par voie électronique pour pouvoir réaliser sa commande :; Information sur les caractéristiques essentielles du Produit ; – Choix du Produit, le cas échéant, de ses options - Indication des coordonnées essentielles du Client (identification, email, adresse…) ; –
+      texte21: 'Vérification des éléments de la commande (formalité du double clic) et, le cas échéant, correction des erreurs. Avant de procéder à sa confirmation, l''Acheteur a la possibilité de vérifier le détail de sa commande, son prix, et de corriger ses éventuelles erreur, ou annuler sa commande. La confirmation de la commande emportera formation du présent contrat. – Ensuite, suivi des instructions pour le paiement, paiement des produits, puis livraison de la commande. Le Client recevra confirmation par courrier électronique du paiement de la commande, ainsi qu’un accusé de réception de la commande la confirmant. Il recevra un exemplaire .pdf des présentes conditions générales de vente. Le client disposera pendant son processus de commande de la possibilité d''identifier d''éventuelles erreurs commises dans la saisie des données et de les corriger. La langue proposé pour la conclusion du contrat est la langue française. Les modalités de l''offre et des conditions générales de vente sont renvoyées par email à l''acheteur lors de la commande et archivées sur le site web du Vendeur. Le cas échéant, les règles professionnelles et commerciales auxquelles l''auteur de l''offre entend se soumettre sont consultables dans la rubrique ''règles annexes'' des présentes CGV, consultables sur le site du Vendeur à l''adresse suivante ??,. L''archivage des communications, de la commande, des détails de la commande, ainsi que des factures est effectué sur un support fiable et durable de manière constituer une copie fidèle et durable conformément aux dispositions de l''article 1360 du code civil. Ces informations peuvent être produits à titre de preuve du contrat. Pour les produits livrés, la livraison se fera à l’adresse indiquée par le Client. Aux fins de bonne réalisation de la commande, le Client s’engage à fournir ses éléments d’identification véridiques. Le Vendeur se réserve la possibilité de refuser la commande, par exemple pour toute demande anormale, réalisée de mauvaise foi ou pour tout motif légitime. '
+      texte22: 'Les caractéristiques essentielles des biens, des services et leurs prix respectifs sont mis à disposition de l’acheteur sur les sites Internet de la société, de même, le cas échéant, que le mode d''utilisation du produit. Conformément à l''article L112-1 du Code la consommation, le consommateur est informé, par voie de marquage, d''étiquetage, d''affichage ou par tout autre procédé approprié, des prix et des conditions particulières de la vente et de l''exécution des services avant toute conclusion du contrat de vente. Dans tous les cas, le montant total dû par l''Acheteur est indiqué sur la page de confirmation de la commande. Le prix de vente du produit est celui en vigueur indiqué au jour de la commande, celui-ci ne comportant par les frais de ports facturés en supplément. Ces éventuels frais sont indiqués à l''Acheteur lors du processus de vente, et en tout état de cause au moment de la confirmation de la commande. Le Vendeur se réserve la possibilité de modifier ses prix à tout moment, tout en garantissant l''application du prix indiqué au moment de la commande. Lorsque les produits ou services ne sont pas exécuté immédiatement, une information claire est donnée sur la page de présentation du produit quant aux dates de livraison des produits ou services. Le client atteste avoir reçu un détail des frais de livraison ainsi que les modalités de paiement, de livraison et d’exécution du contrat, ainsi qu''une information détaillée relative à l''identité du vendeur, ses coordonnées postales, téléphoniques et électroniques, et à ses activités dans le contexte de la présente vente. Le Vendeur s’engage à honorer la commande du Client dans la limite des stocks de Produits disponibles uniquement. A défaut, le Vendeur en informe le Client ; si la commande a été passée, et à défaut d''accord avec le Client sur une nouvelle date de livraison, le Vendeur rembourse le client. Les informations contractuelles sont présentées en détail et en langue française. Les parties conviennent que les illustrations ou photos des produits offerts à la vente n’ont pas de valeur contractuelle. La durée de validité de l’offre des Produits ainsi que leurs prix est précisée sur les sites Internet de la Société, ainsi que la durée minimale des contrats proposés lorsque ceux-ci portent sur une fourniture continue ou périodique de produits ou services. Sauf conditions particulières, les droits concédés au titre des présentes le sont uniquement à la personne physique signataire de la commande (ou la personne titulaire de l’adresse email communiqué). '
+      texte23: 'Conformément à l''article L.411-1 du Code de la consommation, les produits et les services offert à la vente au travers des présentes CGV répondent aux prescriptions en vigueur relatives à la sécurité et à la santé des personnes, à la loyauté des transactions commerciales et à la protection des consommateurs. Indépendamment de toute garantie commerciale, le Vendeur reste tenu des défauts de conformité et des vices cachés du produit. Conformément à l''article L.217-4, le vendeur livre un bien conforme au contrat et répond des défauts de conformité existant lors de la délivrance. Il répond également des défauts de conformité résultant de l''emballage, des instructions de montage ou de l''installation lorsque celle-ci a été mise à sa charge par le contrat ou a été réalisée sous sa responsabilité. Conformément aux dispositions légales en matière de conformité et de vices cachés (art. 1641 c. civ.), le Vendeur rembourse ou échange les produits défectueux ou ne correspondant pas à la commande. Le remboursement peut être demandé de la manière suivante : Si dès reception un défaut est constaté un mail doit nous être envoyé sous 48h afin de signaler le problème avec photos, le produit doit nous êtes retournés (les frais de port étant à la charge du client sauf accord préalable par e-mail) dans les 10jours maximums afin de procédé à un échange ou un remboursement (sauf si problème de tailles et que cela provient d''une erreur client sur le bon de commande).'
+      texte24: 'Les produits demeurent la propriété de la Société jusqu’au complet paiement du prix. '
+      texte25: Les produits sont livrés à l'adresse de livraison qui a été indiquée lors de la commande et dans les délais indiqués. Ces délais ne prennent pas en compte le délai de préparation de la commande. Lorsque le Client commande plusieurs produits en même temps ceux-ci peuvent avoir des délais de livraison différents acheminés selon les modalités suivantes:Les produits zéro-déchet et Upcycling sont emballés et envoyé dans les 8jours suivant la confirmation de commande, les modèles collection fait sur mesure sont emballés et envoyés entre 4 et 6 semaines. Tous les produits sont envoyés par UPS ou Mondial Relay à domicile ou en point relais suivant les modalités définies par le client lors de sa commande. En cas de retard d’expédition, le client sera contacté par e-mail ou téléphone afin de lui donner la possibilité d'annuler ou confirmer sa commande, l'annulation donnant droit à remboursement intégrale des sommes déjà versées . En cas de retard de livraison, le Client dispose de la possibilité de résoudre le contrat dans les conditions et modalités définies à l’Article L 138-2 du Code de la consommation. Le Vendeur procède alors au remboursement du produit et aux frais « aller » dans les conditions de l’Article L 138-3 du Code de la consommation. Le Vendeur met à disposition un point de contact téléphonique (coût d’une communication locale à partir d’un poste fixe) indiqué dans l’email de confirmation de commande afin d'assurer le suivi de la commande. Le Vendeur rappelle qu’au moment où le Client pend possession physiquement des produits, les risques de perte ou d’endommagement des produits lui sont transférés. Il appartient au Client de notifier au transporteur toute réserves sur le produit livré.
+      texte26: " En cas d’indisponibilité d’un article pour une période supérieure à 10 jours ouvrables, vous serez immédiatement prévenu des délais prévisibles de livraison et la commande de cet article pourra être annulée sur simple demande. Le Client pourra alors demander un avoir pour le montant de l’article ou son remboursement intégral et l'annulation de la commande. "
+      texte27: Le paiement est exigible immédiatement à la commande, y compris pour les produits en précommande. Le Client peut effectuer le règlement par carte de paiement ou chèque bancaire. Les cartes émises par des banques domiciliées hors de France doivent obligatoirement être des cartes bancaires internationales (Mastercard ou Visa).Le paiement sécurisé en ligne par carte bancaire est réalisé par notre prestataire de paiement. Les informations transmises sont chiffrées dans les règles de l’art et ne peuvent être lues au cours du transport sur le réseau
+      texte27bis: 'Une fois le paiement lancé par le Client, la transaction est immédiatement débitée après vérification des informations. Conformément aux dispositions du Code monétaire et financier, l’engagement de payer donné par carte est irrévocable. En communiquant ses informations bancaires lors de la vente, le Client autorise le Vendeur à débiter sa carte du montant relatif au prix indiqué. Le Client confirme qu’il est bien le titulaire légal de la carte à débiter et qu’il est légalement en droit d’en faire usage. En cas d’erreur, ou d’impossibilité de débiter la carte, la Vente est immédiatement résolue de plein droit et la commande annulée. Article 11 : Délai de rétractation Conformément aux dispositions de l''article L 221-5 du Code de la consommation, l''Acheteur dispose du droit de se rétracter sans donner de motif, dans un délai de quatorze (14) jours à la date de réception de sa commande. Le droit de rétractation peut être exercé en contactant la Société de la manière suivante :sur simple e-mail . En cas d’exercice du droit de rétractation dans le délai susmentionné, le prix du ou des produits achetés et les frais d’envoi seront remboursés, les frais de retour restant à la charge du Client. Les retours des produits sont à effectuer dans leur état d''origine et complets (emballage, accessoires, notice…) ; ils doivent si possible être accompagnés d’une copie du justificatif d''achat. Conformément aux dispositions légales, vous trouverez ci-après le formulaire-type de rétractation à nous adresser à l’adresse suivante :'
+      texte27ter: 'Procédure de remboursement : le remboursement sera effectué par virement sous 3 jours (hors délai bancaire) dès reception du colis retour.'
+      texte28: 'Conformément à la loi, le Vendeur assume les garanties suivantes : de conformité et relative aux vices cachés des produits. Le Vendeur rembourse l''acheteur ou échange les produits apparemment défectueux ou ne correspondant pas à la commande effectuée. La demande de remboursement doit s''effectuer de la manière suivante : _________ (détailler la procédure) Le Vendeur rappelle que le consommateur : – dispose d''un délai de 2 ans à compter de la délivrance du bien pour agir auprès du Vendeur – qu''il peut choisir entre le remplacement et la réparation du bien sous réserve des conditions prévues par les dispositions susmentionnées. apparemment défectueux ou ne correspondant – qu''il est dispensé d''apporter la preuve l’existence du défaut de conformité du bien durant les six mois suivant la délivrance du bien. – que, sauf biens d’occasion, ce délai sera porté à 24 mois à compter du 18 mars 2016 – que le consommateur peut également faire valoir la garantie contre les vices cachés de la chose vendue au sens de l’article 1641 du code civil et, dans cette hypothèse, il peut choisir entre la résolution de la vente ou une réduction du prix de vente (dispositions des articles 1644 du Code Civil). Garanties complémentaires : _____ (décrire vos garanties complémentaires)(celui-là je sais pas encore quoi mettre faut que je me renseigne bien, j''ai pas remplacer des trucs au bout de 2 ans^^)'
+      texte29: Le cas échéant, l’Acheteur peut présenter toute réclamation en contactant la société au moyen des coordonnées suivantes _____ (indiquer les coordonnées et la procédure). Conformément aux dispositions des art. L. 611-1 à L. 616-3 du Code de la consommation, le consommateur est informé qu'il peut recourir à un médiateur de la consommation dans les conditions prévues par le titre Ier du livre VI du code de la consommation. En cas d'échec de la demande de réclamation auprès du service client du Vendeur, ou en l'absence de réponse dans un délai de deux mois, le consommateur peut soumettre le différent à un médiateurA voir avec mon assurance pro qui tentera en toute indépendance de rapprocher les parties en vue d'obtenir une solution amiable.
+      texte3: 16360 Baignes Ste Radegonde
+      texte30: 'La commande peut être résolue par l''acheteur par lettre recommandée avec demande d''avis de réception dans les cas suivants : — livraison d''un produit non conforme aux caractéristiques de la commande ; — livraison dépassant la date limite fixée lors de la commande ou, à défaut de date, dans les trente jours suivant le paiement ; — de hausse du prix injustifiée ou de modification du produit. Dans ces cas, l''acheteur peut exiger le remboursement de l''acompte versé majoré des intérêts calculés au taux légal à partir de la date d''encaissement de l''acompte.'
+      texte31: Les marques, noms de domaines, produits, logiciels, images, vidéos, textes ou plus généralement toute information objet de droits de propriété intellectuelle sont et restent la propriété exclusive du vendeur. Aucune cession de droits de propriété intellectuelle n’est réalisée au travers des présentes CGV. Toute reproduction totale ou partielle, modification ou utilisation de ces biens pour quelque motif que ce soit est strictement interdite.
+      texte32: L’exécution des obligations du vendeur au terme des présentes est suspendue en cas de survenance d’un cas fortuit ou de force majeure qui en empêcherait l’exécution. Le vendeur avisera le client de la survenance d’un tel évènement dès que possible.
+      texte33: Si l’une des stipulations du présent contrat était annulée, cette nullité n’entraînerait pas la nullité des autres stipulations qui demeureront en vigueur entre les parties. Toute modification contractuelle n’est valable qu’après un accord écrit et signé des parties.
+      texte34: 'Conformément au Règlement 2016/679 du 27 avril 2016 relatif à la protection des personnes physiques à l''égard du traitement des données à caractère personnel et à la libre circulation de ces données, le Vendeur met en place un traitement de données personnelles qui a pour finalité la vente et la livraison de produits et services définis au présent contrat. L''Acheteur est informé des éléments suivants : - l''identité et les coordonnées du responsable du traitement et, le cas échéant, du représentant du responsable du traitement : le Vendeur, tel qu''indiqué en haut des présentes CGV ; - les coordonnées du délégué à la protection des données : ????- la base juridique du traitement : l''exécution contractuelle - les destinataires ou les catégories de destinataires des données à caractère personnel, s''ils existent  : le responsable du traitement, ses services en charge du marketing, les services en charge de la sécurité informatique, le service en charge de la vente, de la livraison et de la commande, les sous-traitant intervenants dans les opérations de livraison et de vente ainsi que toute autorité légalement autorisée à accéder aux données personnelles en question - aucun transfert hors UE n''est prévu - la durée de conservation des données : le temps de la prescription commerciale - la personne concernée dispose du droit de demander au responsable du traitement l''accès aux données à caractère personnel, la rectification ou l''effacement de celles-ci, ou une limitation du traitement relatif à la personne concernée, ou du droit de s''opposer au traitement et du droit à la portabilité des données - La personne concernée a le droit d''introduire une réclamation auprès d''une autorité de contrôle - les informations demandées lors de la commande sont nécessaires à l''établissement de la facture (obligation légale) et la livraison des biens commandés, sans quoi la commande ne pourras pas être passée. Aucune décision automatisée ou profilage n''est mis en œuvre au travers du processus de commande.'
+      texte35: Toutes les clauses figurant dans les présentes conditions générales de vente, ainsi que toutes les opérations d’achat et de vente qui y sont visées, seront soumises au droit français. La nullité d'une clause contractuelle n'entraîne pas la nullité des présentes conditions générales de vente.
+      texte36: 'Aux fins d''information des consommateurs, les dispositions du code civil et du code de la consommation sont reproduites ci-après : Aricle 1641 du Code civil : Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l''usage auquel on la destine, ou qui diminuent tellement cet usage que l''acheteur ne l''aurait pas acquise, ou n''en aurait donné qu''un moindre prix, s''il les avait connus. Aricle 1648 du Code civil : L''action résultant des vices rédhibitoires doit être intentée par l''acquéreur dans un délai de deux ans à compter de la découverte du vice. Dans le cas prévu par l''article 1642-1, l''action doit être introduite, à peine de forclusion, dans l''année qui suit la date à laquelle le vendeur peut être déchargé des vices ou des défauts de conformité apparents. Article L. 217-4 du Code de la consommation : Le vendeur livre un bien conforme au contrat et répond des défauts de conformité existant lors de la délivrance. Il répond également des défauts de conformité résultant de l''emballage, des instructions de montage ou de l''installation lorsque celle-ci a été mise à sa charge par le contrat ou a été réalisée sous sa responsabilité. Article L. 217-5 du Code de la consommation : Le bien est conforme au contrat : 1° S''il est propre à l''usage habituellement attendu d''un bien semblable et, le cas échéant : - s''il correspond à la description donnée par le vendeur et possède les qualités que celui-ci a présentées à l''acheteur sous forme d''échantillon ou de modèle ; - s''il présente les qualités qu''un acheteur peut légitimement attendre eu égard aux déclarations publiques faites par le vendeur, par le producteur ou par son représentant, notamment dans la publicité ou l''étiquetage ; 2° Ou s''il présente les caractéristiques définies d''un commun accord par les parties ou est propre à tout usage spécial recherché par l''acheteur, porté à la connaissance du vendeur et que ce dernier a accepté. Article L. 217-12 du Code de la consommation : L''action résultant du défaut de conformité se prescrit par deux ans à compter de la délivrance du bien. Article L. 217-16 du Code de la consommation : Lorsque l''acheteur demande au vendeur, pendant le cours de la garantie commerciale qui lui a été consentie lors de l''acquisition ou de la réparation d''un bien meuble, une remise en état couverte par la garantie, toute période d''immobilisation d''au moins sept jours vient s''ajouter à la durée de la garantie qui restait à courir. Cette période court à compter de la demande d''intervention de l''acheteur ou de la mise à disposition pour réparation du bien en cause, si cette mise à disposition est postérieure à la demande d''intervention '
+      texte4: immatriculée au Registre de la Chambre des Métiers et de l'Artisanat de Charente,
+      texte5: 'sous le numéro SIRET 0000000000, '
+      texte6: représentée par Mme Bernard Sonia en qualité de gérant, dûment habilité aux fins des présentes.
+      texte7: 'La société peut être jointe par e-mail en cliquant sur le formulaire de contact accessible via la page d’accueil du site. '
+      texte8: Ci-après le « Vendeur » ou la « Société ».
+      texte9: 'D’une part, Et la personne physique ou morale procédant à l’achat de produits ou services de la société, '
+      title: CONDITIONS GENERALES DE VENTE
+    contact:
+      texte1: 'Pour nous contacter :'
+      texte2: 'Téléphone :'
+    who:
+      intro: OcéNat Créations est une petite entreprise artisanale, qui se veut avant tout française et écoresponsable.
+      liste1: de ne travailler que des fibres naturelles(animales ou végétales),
+      liste2: de participer au recyclage de vêtements, 2ème industrie les plus polluantes au monde, et beaucoup de vêtements sont très peu portés avant d'être jetés,
+      liste3: et afin de rester dans l'idée, nous avons aussi développé une gamme de zéro-déchet qui vous aidera à éliminer le plastique de votre quotidien (sac à vrac, charlotte à plat ou bee-wraps...)et faire des économies sur le long terme.
+      texte1: Ayant travaillé comme observatrice scientifique embarquée, j'ai été très vite sensibilisée à l'impact du plastique sur les océans. Or le plastique c'est quoi ? Un peu tout, à vrai dire, on le retrouve dans les fibres synthétiques comme les polaires sous forme de microparticules, et c'est elles qui forment des continents dans certaines zones des océans et détruisent une grande partie de la faune car invisibles mais absorbées.
+      texte2: 'Aussi nous avons décidé :'
+      texte3: Nos fournisseurs sont choisis avec le plus grand soin pour répondre à nos nombreuses exigences.Nous essayons au maximum dans la mesure du possible de travailler avec des laines/fils/tissus labellisé GOTS, ou Okéo-tex, après nous privilégions toujours les productions françaises afin de limiter les émissions carbone
+      texte4: Ce site vous les présente dans sa boutique, sous 3 catégories. Vous y trouverez aussi quelques articles sur l'écologie et l'industrie textile, ainsi que sur les fibres et des tutoriels.
+      texte5: N'hésitez pas à vous abonner, vous recevrez ainsi notre newsletter (4 par an environ) et vous pourrez commenter vos articles préférés
+      texte6: Bonne visite
+      titre: Qui sommes nous ?
+  shared:
+    header:
+      forgot: Mot de passe oublié
+      see_cart: Voir mon panier
+      signin: Se connecter
+      signout: Se deconnecter
+      you_have:
+        one: Vous avez 1 article dans votre panier.
+        other: Vous avez %{count} articles dans votre panier.
   welcome:
     index:
-      accessories: "Accessoires"
+      accessories: Accessoires
       articles: Articles
       collection: Collection été 2020
       condition: Conditions de vente
@@ -21,535 +510,3 @@ fr:
       spitzberg: veste Spitzberg
       upcycling: Upcycling/ Piéce unique
       who: Qui sommes nous?
-  devise:
-    confirmations:
-      instructions: "Renvoyer instructions de confirmation"
-      confirmed: "Votre compte a été validé."
-      send_instructions: "Vous allez recevoir les instructions nécessaires à la confirmation de votre compte dans quelques minutes."
-      send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez bientôt recevoir un e-mail contenant les instructions de confirmation de votre compte."
-    failure:
-      already_authenticated: "Vous êtes déjà connecté."
-      inactive: "Votre compte n'est pas encore activé."
-      invalid: "Email et/ou mot de passe incorrect(s)."
-      last_attempt: "Vous avez droit à une tentative avant que votre compte ne soit verrouillé."
-      locked: "Votre compte est verrouillé."
-      not_found_in_database: "Email et/ou mot de passe incorrect(s)."
-      timeout: "Votre session est expirée. Veuillez vous reconnecter pour continuer."
-      unauthenticated: "Vous devez vous connecter ou vous inscrire pour continuer."
-      unconfirmed: "Vous devez valider votre compte pour continuer."
-    mailer:
-      confirmation_instructions:
-        subject: "Instructions de confirmation"
-      reset_password_instructions:
-        subject: "Instructions pour changer le mot de passe"
-      unlock_instructions:
-        subject: "Instructions pour déverrouiller le compte"
-      email_changed:
-        subject: "Votre adresse e-mail a été modifiée avec succès"
-      password_change:
-        subject: "Votre mot de passe a été modifié avec succès"
-    omniauth_callbacks:
-      failure: "Nous n'avons pas pu vous authentifier via %{kind} : '%{reason}'."
-      success: "Authentifié avec succès via %{kind}."
-    passwords:
-      no_token: "Vous ne pouvez accéder à cette page sans passer par un e-mail de réinitialisation de mot de passe. Si vous êtes passé par un e-mail de ce type, assurez-vous d'utiliser l'URL complète."
-      send_instructions: "Vous allez recevoir les instructions de réinitialisation du mot de passe dans quelques instants."
-      send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir un lien de réinitialisation par e-mail."
-      updated: "Votre mot de passe a été édité avec succès, vous êtes maintenant connecté."
-      updated_not_active: "Votre mot de passe a été changé avec succès."
-    registrations:
-      new:
-        signup: "S'inscrire"
-        username: "Nom d'utilisateur"
-        password: "Mot de passe"
-        charmin: "caractéres minimum"
-        current_password: "Mot de passe en cours"
-        edit: "Mise à jour "
-        hint1: "Laisser vide si pas de changement"
-        hint2: "Nous avons besoin de votre mot de passe actuel pour confirmer vos modifications"
-        submit: "Valider"
-        cancel: "Supprimer mon compte"
-        back: "Retour"
-        password_confirmation: "Confirmation du mot de passe"
-        photo: "Photo"
-        readcgv: "J'ai lu, compris et accepté les CGV"
-        seecgv: "Les CGV sont consultables "
-        here: "ICI"
-        signup: "S'inscrire"
-      destroyed: "Votre compte a été supprimé avec succès. Nous espérons vous revoir bientôt."
-      signed_up: "Bienvenue, vous êtes connecté."
-      signed_up_but_inactive: "Vous êtes bien enregistré. Vous ne pouvez cependant pas vous connecter car votre compte n'est pas encore activé."
-      signed_up_but_locked: "Vous êtes bien enregistré. Vous ne pouvez cependant pas vous connecter car votre compte est verrouillé."
-      signed_up_but_unconfirmed: "Un message contenant un lien de confirmation a été envoyé à votre adresse email. Ouvrez ce lien pour activer votre compte."
-      update_needs_confirmation: "Votre compte a bien été mis à jour mais nous devons vérifier votre nouvelle adresse email. Merci de vérifier vos emails et de cliquer sur le lien de confirmation pour finaliser la validation de votre nouvelle adresse."
-      updated: "Votre compte a été modifié avec succès."
-      updated_but_not_signed_in: "Votre compte a été modifié avec succès. Merci de vous reconnecter."
-    sessions:
-      forgot: "Mot de passe oublié"
-      change: "Changer de mot de passe"
-      new: "Nouveau mot de passe"
-      signed_in: "Connecté."
-      signed_out: "Déconnecté."
-      already_signed_out: "Déconnecté."
-      password: "Mot de passe:"
-      remember: "Se souvenir de moi"
-      login: "Se connecter"
-    shared:
-      links:
-        login: "Se connecter"
-        signup: "S'inscrire"
-        forgot: "Mot de passe oublié?"
-        confirmation: "Me renvoyer une confirmation"
-        unlock: "Instructions de dévérouillage non reçues?"
-        with: "S'incrire avec "
-    unlocks:
-      send_instructions: "Vous allez recevoir les instructions nécessaires au déverrouillage de votre compte dans quelques instants."
-      send_paranoid_instructions: "Si votre compte existe, vous allez bientôt recevoir un email contenant les instructions pour le déverrouiller."
-      unlocked: "Votre compte a été déverrouillé avec succès, vous êtes maintenant connecté."
-  errors:
-    messages:
-      already_confirmed: "a déjà été validé(e), veuillez essayer de vous connecter"
-      confirmation_period_expired: "à confirmer dans les %{period}, merci de faire une nouvelle demande"
-      expired: "a expiré, merci d'en faire une nouvelle demande"
-      not_found: "n'a pas été trouvé(e)"
-      not_locked: "n'était pas verrouillé(e)"
-      not_saved:
-        one: "1 erreur a empêché ce(tte) %{resource} d'être sauvegardé(e) :"
-        other: "%{count} erreurs ont empêché ce(tte) %{resource} d'être sauvegardé(e) :"
-  views:
-    pagination:
-      first: "&laquo; First"
-      last: "Last &raquo;"
-      previous: "&lsaquo; Prev"
-      next: "Next &rsaquo;"
-      truncate: "&hellip;"
-  helpers:
-    page_entries_info:
-      one_page:
-        display_entries:
-          zero: "No %{entry_name} found"
-          one: "Displaying <b>1</b> %{entry_name}"
-          other: "Displaying <b>all %{count}</b> %{entry_name}"
-      more_pages:
-        display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
-  articles:
-    lin:
-      titre1: "Fils, Laines et autres matières"
-      titre2: "Quoi choisir ?"
-      texte1: "Cc, vous connaissez mes idées sur le sujets aussi je vous passerai le topo sur les fils à tricoter synthétique, vous y retrouverez l'acrylique, le nylon et le polyamide, le polyester, le lurex(une rare exception que vous pouvez retrouver dans mes créations). L'avantage des ces matières c'est leur facilité d'entretien, leur faible coût. Leurs inconvénients sont peu de qualité thermique (dommage pour un pull),ils sont issus de la pétrochimie et même une fois produits, ils continuent de polluer à chaque lavage via les eaux usées, les microparticules qui s'en dégagent passent à travers les filtres des stations d'épuration pour finir dans la mer."
-      texte2: "Les fils à tricoter naturels sont réalisés à partir de fibres animales ou végétales filées, appelés communément laines. L'avantage est leur qualité thermique et respirante, et qu'elles ne prennent pas d'odeur, il suffit de ventiler votre pull, pas besoin de le laver à chaque fois que vous le porter, l'inconvénient est justement le lavage car les laines peuvent feutrer sous l'effet du changement brutal de température et les mouvements du tambour de la machine. Un procédé existe pour éviter ça ce sont les laines Superwash (SW), mais ce procédé utilise beaucoup de produits chimiques et d'eau donc un fort impact sur environnement autant le savoir. Contrairement aux fibres animales les fibres végétales sont très peu élastiques."
-      soustitre1: "Les différentes fibres animales :"
-      strong1: "La laine de mouton"
-      liste1: ", brebis et agneau proviennent de la tonte des toisons. Suivant les races elles seront plus ou moins douces. Attention aussi à leur provenance, le mouton peut être en australie/amérique du sud, la laine lavée et traitée en chine et le filage en France. Le mérinos est très doux et en France le mérinos d'Arles, il y a aussi Ouessant, Shetland... La structure de la laine lui confère une bonne élasticité, de plus elle a une mémoire de forme ce qui évite les déformations dans le temps. Elle est infroissable et facile à teindre. Elle possède beaucoup de qualités thermiques et permet au corps de garder une température constante, et laisse la peau respirer, et permet l'évacuation de la transpiration."
-      strong2: "La laine Angora et cachemire"
-      liste2: ", sont issues de chèvres. Le cachemire provient de chèvres de l'Himalaya, c'est le sous-poil de la toison. Elle est très fine, douce et avec des qualités thermiques très performantes. Les chèvres angora fournissent le mohair que l'on retrouve classé dans différentes catégories selon sa finesse, le plus fin étant le kid-mohair (provenant des chevreaux). Cette laine se gonfle d'air dès qu'il fait froid, ce qui lui confère des qualités thermiques exceptionnelles. La France en offre une grande variété grâce à nos élevages artisanaux. On le retrouve souvent associé à la soie sous la forme Kid-silk."
-      strong3: "laine de lapin angora"
-      liste3: " : C'est une fibre extrêmement douce et jusqu'à 9fois plus chaude que la laine de mouton. Il faut faire attention à l'origine et au conditions de « récolte », en Allemagne les lapins sont tondus, en France épiler au peigne, en Asie le lapin est sacrifié. Alors attention à vos fournisseurs, et allez vers l'angora Caregora (respect strict du bien-être animal, avec une certification européenne)."
-      strong4: "Laine d'Alpaga"
-      liste4: ", très douce, chaude, légère et résistante, c'est une fibre de haut de gamme. La fibre de bébé alpaga convient parfaitement aux peaux sensibles, notamment pour la layette. De nombreux élevages se sont développés en France."
-      strong5: "Laine de Yak"
-      liste5: ", elle a des qualités similaires au cachemire, douceur au toucher et chaleur.C'est une fibre assez rare qui ne peut être récoltée que de façon artisanale au printemps par étrillage car l'animal perd naturellement ses poils. On la retrouve souvent tissée avec de la soie ou de la laine d'agneau."
-      strong6: "La laine de chameau"
-      liste6: ", tirée du duvet du chameau elle est extrêmement rare. Par ses qualités, elle ressemble beaucoup à la laine de yak."
-      strong7: "la soie"
-      liste7: " : c'est une fibre protéique issus du cocon produit par la chenille du bombyx du mûrier pour celle de culture et du Tussah pour la soie sauvage. Elle donne un rendu brillant à l'ouvrage. Ses avantages sont son élasticité naturelle, sa solidité, sa capacité à absorber les colorants, et sa thermorégulation, laisse respirer la peau en été et réchauffe en hiver. On la retrouve souvent mélangée à d'autres fibres comme le mohair."
-      soustitre2: "Les differentes fibres végétales naturelles :"
-      texte3: "Des matières qui contrairement aux fibres animales ont l'avantage de se laver généralement en machine. Et aux vegans de se vêtir naturellement."
-      strong21: "Le coton"
-      liste21: ". La plus répandue, et aussi controversée vu les dégats écologiques engendrés, beaucoup de pesticides et très consommatrice en eau. Privilégiez ceux qui sont certifiés GOTS. Il est absorbant et isolant, et resiste très bien aux lavages même à hautes températures. Il est doux, mais peut se révéler lourd à porter et chaud."
-      strong22: "Le lin"
-      liste22: " : longtemps délaissé au profit du coton on le voit revenir sur le devant de la scène pour sa culture qui demande peu d'engrais et d'eau. Il est très solide, thermorégulateur, très léger. Son coté rêche s'estompe avec les lavages."
-      strong23: "Le bambou"
-      liste23: ", très absorbant, il rivalise avec le coton, bien plus facile à cultiver. Il est doux et confortable, et très résistant, il peut remplacer le nylon pour la fabrication des chaussettes. Il est glissant et assez lourd. Regardez son origine, les conditions de culture n'étant pas les même en Europe qu'en Asie."
-      strong24: "Le soja"
-      liste24: ", fibre que je connais assez peu, apparemment artificielle car régénérée à partir des protéines contenues dans les graines, c'est qui fait un gros travail de transformation. Elle est aussi brillante que la soie, hypoallergénique, stable au lavage et tient à la lumière et à la sueur."
-      strong25: "Le chanvre"
-      liste25: " : fibre du moyen-âge qui retrouve ses lettres de noblesse, pour sa culture rapide et productive avec peu d'eau, d'engrais et de pesticides. Assez ressemblant au lin, il est aussi thermorégulateur, se porte aussi bien l'été que l'hiver, et s'adoucit avec le temps."
-      strong26: "le tencel"
-      liste26: " (ou lyocell), est extrait de la pulpe du bois d'eucalyptus. Il rappelle la soie par son aspect et son toucher. Il est infroissable et facile d'entretien vu qu'il tient un lavage en machine à 60°C."
-      texte4: "Merci aux différents blogs, et wiki qui m'ont permis de me documenter sur le sujet."
-    labels:
-      title: "LES LABELS"
-      img1: "Beaucoup de labels!"
-      texte1: "Pourquoi s'intéresser aux labels textiles ?"
-      texte2: "Dans une démarche écologique et durable bien sûr. Quitte à faire de l'artisanat autant le faire bien et surtout choisir ses matières premières en toute conscience. L’industrie textile utilise le quart des produits chimiques dans le monde et a été accusée de 20 % de la pollution de l’eau par l’industrie, ce qui en fait le deuxième plus grand pollueur d’eau douce de la planète, c’est pour cela qu’en plus des normes et des réglementations, les labels ont un rôle à jouer, en terme d’accompagnement des marques, et aussi en tant que gage de qualité auprès des consommateurs finaux. Merci à tous ceux qui ont déjà écrit sur le sujet , des blogs et autres ou je me suis documentée pour vous offrir le plus large éventail de possibilités."
-      texte3: "Chaque label vérifie et priorise un ou plusieurs aspects de la chaîne de valeur. De production du tissu, jusqu’au produit fini. Voici quelques exemples de domaine où les labels se spécialisent :"
-      liste1: "Ecologie – Protection environnementale – Démarche éthique et durable – RSE"
-      liste2: "Social – Respect de la condition humaine "
-      liste3: "Commerce équitable"
-      liste4: "Origine biologique – Produits certifiés sans pesticides – Cuir écologique – Produits vegans"
-      liste5: "Santé"
-      texte4: "L'industrie du textile étant une des plus polluantes mondialement, l'industrie des labels n'allait pas tarder à s'y mettre. Toujours plus vert que vert.... Mais qu'est ce que l'on nous vend ??? Et oui acheter des tissus ou laines/fils labélisés a un coût que le consommateur final devra payer. Alors autant les connaître pour bien choisir."
-      texte5: "Donc merci à tous ceux et celles qui ont écrit sur le sujet et m'ont permis de me documenter...Le wiki est ton meilleur ami..."
-      texte6: "Je vais donc vous en faire une petite liste en détaillant les deux principaux puisque si je dois me fier à un label, ce sera un de ces deux-là....Après pour la laine, certifiée ou pas , je privilégie toujours un petit éleveur français, ou fillature, au moins on n'est sur de favoriser l'élevage français et on n'évite le coût carbonne (surtout que certains labels comme AB, n'ont rien à voir avec le AB français)...bref revenons à nos moutons !!!!"
-      texte7: "GOTS pour"
-      img2: "Global Organic Textil Standard"
-      texte8: "est pour moi la référence en la matière. C'est un label que l'on retrouve plutôt au RU, aux USA et au Japon(j'adore leurs tissus). Il vise depuis 2008 à harmoniser les normes du secteur textile mondialement. Et il m’intéresse particulièrement puisqu'il possède les cahiers des charges les plus strictes concernant la laine, le coton, la soie, le chanvre (manque le lin...mais bon). De plus il fait appel à des organismes indépendants pour effectuer le contrôle de l'application du cahier des charges que le producteur s'est engagé à respecter."
-      texte9: "A chaque production son cahier bien sûr, mais dans l'ensemble on retrouve pour ce qui est interdits :"
-      liste21: "Les métaux lourds dans leur ensemble,"
-      liste22: "Les perturbateurs endocriniens,"
-      liste23: "Les produits ignifuges bromés ou chlorés,"
-      liste24: "Les organismes génétiquement modifiés ou OGM,"
-      liste25: "La nanotechnologie,"
-      liste26: "Les substances cancérigènes,"
-      liste27: "Le PVC,"
-      liste28: "Le nickel,"
-      liste29: "Le chrome,"
-      liste30: "Les méthodes d’impression utilisant des solvants aromatiques,"
-      liste31: "Les méthodes d’impression plastisol utilisant des phtalates et PVC."
-      texte10: "Pour ce qui est  inévitables, l'écolabel fait des concessions sans toutefois se plier à la loi du marché. Pour ainsi dire, la certification GOTS cherchent à limiter leur usage avec des mesures comme pour :"
-      liste40: "L’arrosage des cultures de coton qui doit être raisonné,"
-      liste41: "Les eaux usées qui doivent être assainies dans une station d’épuration,"
-      liste42: "Les emballages qui doivent être recyclables."
-      texte11: "Pour ce qui est du social, il va de soi (-mais sûrement pas tant que ça vu qu'il faut le dire, là aussi tout dépend du pays d'origine^^) que le travail forcé, des enfants et la discrimination sont interdits, se rajoute à ça les recommandations de l'OIT (organisation internationale du travail), soit horaire et salaire décents, le droit syndical , et des conditions d'hygiène et de sécurités"
-      strong1: "Et ce que j'apprécie particulièrement en tant que client, des tests de d'usures, car pour être logique le vêtement doit pouvoir durer dans le temps, afin de limiter sa production et son impact environnemental."
-      img3: "oeko-tex"
-      soustitre1: "OEKO-TEX 100"
-      texte12: "C’est un des labels que l’on croise le plus, d'origine allemande. Il s’agit du premier label visant à garantir"
-      strong2: "des textiles sans produits toxiques pour le corps et pour l’environnement."
-      texte13: "C’est un label fiable mais qui peut aussi certifier des matières synthétiques et donc polluantes en amont."
-      texte14: "On le retrouve sous différentes formes"
-      texte15: "Le label ÖKO-TEX standard 100 permet de protéger le consommateur. En effet, les produits labellisés sont exempts de produits chimiques qui pourraient être toxiques pour le consommateur tels que les formaldéhydes ou les métaux lourds, par exemple. Ce label international est beaucoup utilisé notamment pour le linge de lit des jeunes enfants."
-      texte16: "Il existe également le label ÖKO-TEX standard 1000 qui certifie que la production  respecte l’environnement pendant toutes ses étapes."
-      texte17: "Enfin, ÖKO-TEX standard 100 plus atteste que les produits labellisés sont sans substances toxiques et issus d’une production respectueuse de l’environnement."
-      texte18: "Ces deux autres formes du label textile international ÖKO-TEX standard ne sont pas très répandues et sont assez rares à trouver sur les textiles."
-      img4: "Made in green"
-      soustitre2: "MADE IN GREEN"
-      texte19: "Oeko-Tex a également créé une nouvelle certification Made in Green. Elle est l’assurance que"
-      strong3: "les textiles sont sûrs pour la santé des consommateurs (sans produits chimiques nocifs) et sont également produits de manière durable et socialement responsable."
-      texte20: "Grace à l’utilisation d’un numéro"
-      strong4: "de test spécifique et un QR code, les textiles et les processus de fabrication peuvent être détaillés et suivis."
-      texte21: "Made in Green remplace l’ancien système de certification, Oeko-Tex Standard 100 Plus et le label espagnol Made in Green by Aitex."
-      img5: "Max Havelaar"
-      soustitre3: "MAX HAVELAAR"
-      texte22: "C’est le label du commerce équitable. Il garantit que le"
-      strong5: "produit répond aux critères internationaux du commerce équitable portant sur les conditions de production et la rémunération du producteur. Il garantit le respect des conventions de l’Organisation internationale du travail (OIT)."
-      texte23: "C’est un bon label, mais il est moins exigeant sur les"
-      strong6: "critères environnementaux : les OGM sont interdits, mais pas les pesticides."
-      img6: "Bio Equitable"
-      soustitre4: "BIO EQUITABLE"
-      texte24: "Ce label garantit une"
-      strong7: "production biologique"
-      texte25: "de la matière première, notamment du coton. Il applique également"
-      strong8: "une charte équitable et humaine"
-      texte26: "qui concilie l’écologie et le social. Dans une logique globale, le label implique tous les acteurs de la chaîne."
-      img7: "Ecocert"
-      soustitre5: "ECOCERT"
-      texte27: "C’est un label qui agit"
-      strong9: "sur la défense du consommateur, de l’environnement et des travailleurs"
-      texte28: ". Il a donc plusieurs objectifs."
-      texte29: "Le premier est de protéger la planète et ses ressources en utilisant "
-      strong10: "au minimum 70% de fibres naturelles ou issues de matériaux renouvelables ou recyclés."
-      texte30: " Mais également en définissant une "
-      strong10bis: "politique environnementale"
-      texte30bis: " imposant la réduction des consommations en eau et en énergie, en utilisant des colorants, agents textiles et procédés de fabrication "
-      strong11: "respectueux de l’environnement et de la santé du consommateur."
-      texte31: "Il agit également en garantissant les principales "
-      strong12: "conventions internationales"
-      texte32: " en matière sociale, d’hygiène et sécurité au travail."
-      texte33: "Enfin, il a "
-      strong13: "un rôle de protection et d’information du consommateur"
-      texte34: " en fournissant une information claire sur la nature des fibres composant le produit et en "
-      strong14: "interdisant l’emploi de substances dangereuses"
-      texte35: " (ex : métaux lourds, amines cancérogènes, formaldéhydes, enzymes OGM, …)."
-      texte36: "Mais ça reste bien inférièure aux exigences de GOTS"
-      img8: "Biore"
-      soustitre6: "BIORE"
-      texte37: "C’est un label suisse qui possède des garanties écologiques, éthique et social. Il certifie la matière première du "
-      strong15: "coton dont la production est issue de l’agriculture biologique."
-      texte38: "Au niveau environnemental, il certifie l’"
-      strong16: "absence de produits chimiques"
-      texte39: " pour la teinture et "
-      strong17: "un traitement des eaux usées avant leur rejet dans la nature."
-      texte40: "Il a également un rôle social en garantissant de "
-      strong18: "bonnes conditions de travail"
-      texte41: " (pas de travail des enfants, sécurité du travail, salaires minimaux…)."
-      texte42: "Il assure également "
-      strong19: "la traçabilité des produits."
-      texte43: " On peut même savoir qui a fabriqué le vêtement en se rendant sur le site du label."
-      img9: "Ecolabel Européen"
-      soustitre7: "ECOLABEL EUROPÉEN"
-      texte44: "Ce label européen évalue "
-      strong20: "l’impact environnemental des produits tout au long de leur durée de vie."
-      texte45: " Il repose sur le principe d’une "
-      strong21: "approche globale"
-      texte46: " qui '"
-      strong22: "prend en considération le cycle de vie du produit à partir de l’extraction des matières premières, la fabrication, la distribution, et l’utilisation jusqu’à son recyclage ou son élimination après usage'."
-      texte47: "Ce label ne concerne que l’environnement et n’offre aucune garantie sociale."
-      img10: "Origine France Garantie"
-      soustitre8: "ORIGINE FRANCE GARANTIE"
-      texte48: "C’est le label officiel pour "
-      strong23: "garantir une fabrication française en totalité ou en partie."
-      texte49: " C’est une garantie contre le faux made in France et donc pour la "
-      strong24: "préservation de l’emploi et du respect de normes sociales, environnementales et sanitaires."
-      texte50: "Il certifie "
-      strong25: "qu’au moins 50% du produit est bien fabriqué en France."
-      texte51: " L’autre moitié du produit peut être confectionné ailleurs…  On peut regretter que ce label ne s’applique pas à 100%."
-      img11: "Demeter"
-      soustitre9: "DEMETER"
-      texte52: "Le label Demeter est très exigeant. Il implique que la matière première du textile (les fibres de laine, de coton ou de lin) soient "
-      strong26: "issues de fermes certifiées Demeter"
-      texte53: ", selon un cahier des charges "
-      strong27: "plus exigeant que celui de l’agriculture biologique certifiée par le logo AB."
-      texte54: "Le coton doit être "
-      strong28: "récolté à la main, la mécanisation étant possible seulement lorsque l’usage de produits chimiques est exclus."
-      texte55: " Les fibres animales doivent être tondues ou peignées."
-      texte56: "Le label Demeter textile peut être accordé à des produits contenant des "
-      strong29: "fibres naturelles"
-      texte57: " conventionnelles qui ne seraient pas disponibles sous label Demeter "
-      strong30: "jusqu’à hauteur de 50 %."
-      img12: "Naturtextil"
-      soustitre10: "NATURTEXTIL"
-      texte58: "Ce label répond à un cahier des charges strictes et rigoureux."
-      texte59: "Les textiles labellisés ont "
-      strong31: "au moins 95% de leurs fibres issues de l’agriculture biologique"
-      texte60: " ou en conversion. A chaque étape du process de production, il doit être vérifié que les fibres biologiques et conventionnelles ne sont pas mélangées, et que les fibres biologiques ne sont contaminées d’aucune manière."
-      texte61: "Le processus de fabrication des vêtements est également très contrôlé. "
-      strong32: "Les substances tels que le chlore, les métaux lourds, le nickel sont interdites, ainsi que tout produit susceptible de contenir des OGM."
-      texte62: "Sur le plan environnemental, les partenaires sont soumis à une charte très stricte d’"
-      strong33: "enregistrement permanent concernant l’utilisation des produits chimiques et de l’énergie, la consommation d’eau et le traitement des eaux usées. Les matériaux de stockage ne doivent pas contenir de PVC."
-      texte63: "Enfin, le label "
-      strong34: "contrôle également les conditions de travail"
-      texte64: " : respect des droits des salariés, interdiction du travail forcé (tout comme le fait d’exiger des travailleurs qu’ils laissent leurs papiers d’identité à leur employeur), lieu de travail sécurisé et sain, travail des enfants est interdit, toute discrimination, de quelque nature qu’elle soit (absence de promotion, différence de rémunération,..) n’est autorisée,…"
-      img13: "Naturleder"
-      soustitre11: "NATURLEDER"
-      texte65: "C’est le premier label "
-      strong35: "à certifier du cuir écologique."
-      texte66: "Il permet de limiter fortement les impacts d’une industrie très polluante. Il garantit une "
-      strong36: "conservation des peaux se fait par le froid et avec du sel, sans agents chimiques. Le tannage à base de chrome ou d’autres produits polluants est interdit. Seuls sont autorisés les produits végétaux et ceux avec de l’aluminium, du zirkonium ou du titane."
-      texte67: " Les colorants contenant des métaux lourds sont également proscrits."
-      texte68: "Ce label garantie également que les peaux doivent appartenir à des "
-      strong37: "animaux élevés d’abord pour leur viande."
-      texte69: "Enfin ce label possède les mêmes critères sociaux que le label textile précédemment décrit."
-      img14: "Soil Association Organic"
-      soustitre12: "SOIL ASSOCIATION ORGANIC"
-      texte70: "C’est le plus important label bio au Royaume-Uni. ll certifie des produits biologiques et mène campagne pour une agriculture respectueuse de l’environnement ainsi que pour une production alimentaire plus sûre et plus saine."
-      texte71: "Concernant le textile, "
-      strong38: "au moins 70 % de fibres doivent être biologiques, et ne pas contenir de substances nocives."
-      texte72: "Ce label prend également en compte "
-      strong39: "des critères sociaux et respecte les conventions de l’Organisation internationale du travail (OIT)."
-      img15: "Entreprise Du Patrimoine Vivant"
-      soustitre13: "ENTREPRISE DU PATRIMOINE VIVANT (EPV)"
-      texte73: "Le label Entreprise du Patrimoine Vivant (EPV) est un label français. C’est une marque de reconnaissance de l’Etat distinguant "
-      strong40bis: "des entreprises françaises aux savoir-faire artisanaux et industriels d’excellence. "
-      texte73bis: "Il distingue notamment les savoir-faire traditionnels de qualité (comme la dentelle).  Les Entreprises du Patrimoine Vivant "
-      strong40: "maintiennent leur activité de production en France."
-      img16: "Fair Wear Foundation"
-      soustitre14: "FAIR WEAR FOUNDATION (FWF)"
-      texte74: "Fair Wear Foundation est une fondation qui travaille au respect des conditions de travail décentes dans les entreprises. Son "
-      strong41: "objectif est de contribuer à l’amélioration des conditions de travail dans l’industrie textile."
-      texte75: "Pour cela elle a crée un Code des Conditions de Travail (Code of Labour Practices) que les marques s’engagent à respecter. Les grands principes de ce code sont les suivants : "
-      strong42: "interdiction du travail forcé, pas de discrimination à l’emploi, liberté syndicale, conditions de travail décentes (hygiène, santé), travail des enfants est interdit,  temps de travail et salaires contrôlés, toute discrimination interdite."
-      texte76: "La FWF s’engage ensuite à vérifier l’application de ces principes dans les usines de filature et de confection de textiles."
-      img17: "Made In Respect"
-      soustitre15: "MADE IN RESPECT"
-      texte77: "L’objectif de ce label est de permettre aux petites entreprises, notamment industrielles, de disposer d’un outil de valorisation de leurs démarches éthiques de "
-      strong43: "responsabilité sociale et environnementale"
-      texte78: " (RSE), facile à mettre en place, peu coûteux et fiable."
-      texte79: "Les critères associent des aspects liés "
-      strong44: "à la qualité et au savoir-faire, aux conditions sociales, à l’éco-conception et au respect de l’environnement ainsi qu’à l’éthique économique."
-      texte80: "Ces principes vise ainsi à promouvoir des produits fabriqués dans une démarche véritablement durable."
-      img18: "Organic"
-      soustitre16: "ORGANIC"
-      texte81: "C’est une organisation américaine visant à promouvoir l’utilisation du coton biologique et qui est soutenu par des marques telles que Nike, Walmart, H&M, Adidas, Patagonia, Marks&Spencer… Il s’agit de disposer d’une norme permettant d’accéder facilement à du coton bio."
-      texte82: "Cette certification garantit "
-      strong45: "un taux de coton biologique dans le produit fini mais ne garantit pas les étapes de transformation du textile et notamment la teinture."
-      texte83: " Elle ne comporte pas d’éléments concernant les conditions sociales de production. "
-      strong46: "C’est donc un label peu fiable, surtout quand on voit où ces marques produisent et les conditions de travail qu'elles infligent à leurs employés (cf sous-traitants)."
-      lien1: "Sources : Eco-sapiens, Mes Courses pour la Planète"
-  clothes:
-    index:
-      title:
-        zero: "Zéro déchets"
-        upcycling: "Recyclage"
-        clothing: "Vétements"
-        accessory: "Accéssoires"
-      nothing: "Aucune correspondance!"
-      slogan: "Save us, no more plastic please"
-      search: "Rechercher..."
-      price: "Prix:"
-      note: "Note:"
-      ononon:
-        one: "Sur 1 évaluation."
-        other: "Sur %{count} évaluations."
-      ratings: "évaluations."
-      delivery: "Livraison:"
-      see: "Voir"
-      edit: "Editer"
-      delete: "Supprimer"
-      newclothe: "Créer nouveau vétement"
-    edit:
-      update: "Mise à jour"
-    form:
-      name: "Nom:"
-      category: "Catégorie:"
-      function: "Fonction:"
-      description: "Description:"
-      option: "Option:"
-      price_cents: "Prix en centimes:"
-      scoring: "Note sur 5:"
-      nbov: "Nombre de votes:"
-      delivery: "Livraison:"
-      delivery_color: "Couleur livraison:"
-      stock: "Quantitées en stock:"
-      photos: "Photos:"
-      submit: "Valider"
-    new:
-      title: "Nouveau"
-    show:
-      edit: "Editer"
-      back: "Retour"
-      comments: "Commentaires"
-      buy: "Acheter"
-      size: "Taille"
-      color: "Couleur"
-      basket: 'Mettre dans mon panier'
-      comment: "Laisser un commentaire"
-    size:
-      title: "Mensurations et tailles"
-      texte: "Chaque vêtement étant fait sur mesure, il est important que vous sachiez les prendre correctement afin que je m'adapte au mieux à votre morphologie aussi un petit croquis est plus parlant."
-      alt: "Prise de mesures"
-      mensuration: "Mensurations"
-      stature: "Stature"
-      poitrine: "Tour poitrine"
-      taille: "Tour de taille"
-      hanche: "Tour de hanches"
-      bras: "Longueur bras"
-      epaule: "Largeur épaule"
-      legende: "Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----Toutes les mensurations sont en cm-----"
-      strong1: "1) STATURE"
-      strong2: "2) TOUR DE POITRINE"
-      strong3: "3) TOUR DE TAILLE"
-      strong4: "4) TOUR DE HANCHES"
-      strong5: "5) LONGUEUR DU BRAS"
-      strong6: "6) LARGEUR D'EPAULE"
-      texte1: " en position droite, de la tête aux pieds"
-      texte2: " sur la pointe des seins"
-      texte3: " à la taille, par dessus le ruban"
-      texte4: " sur le point le plus fort des fesses"
-      texte5: " bras légérement fléchi, de l'articulation de l'épaule au poignet, en passant par-dessus le coude"
-      texte6: " de la base du cou à l'articulation de l'epaule"
-  shared:
-    header:
-      forgot: "Mot de passe oublié"
-      signout: "Se deconnecter"
-      signin: "Se connecter"
-      you_have: 
-        one: "Vous avez 1 article dans votre panier."
-        other: "Vous avez %{count} articles dans votre panier."
-      see_cart: "Voir mon panier"
-  activerecord:
-    errors:
-      models:
-        user:
-          attributes:
-            email:
-              blank: " ne doit pas être vide!"
-  home:
-    who:
-      titre: Qui sommes nous ?
-      intro: OcéNat Créations est une petite entreprise artisanale, qui se veut avant tout française et écoresponsable.
-      texte1: Ayant travaillé comme observatrice scientifique embarquée, j'ai été très vite sensibilisée à l'impact du plastique sur les océans. Or le plastique c'est quoi ? Un peu tout, à vrai dire, on le retrouve dans les fibres synthétiques comme les polaires sous forme de microparticules, et c'est elles qui forment des continents dans certaines zones des océans et détruisent une grande partie de la faune car invisibles mais absorbées.
-      texte2: "Aussi nous avons décidé :"
-      liste1: de ne travailler que des fibres naturelles(animales ou végétales),
-      liste2: de participer au recyclage de vêtements, 2ème industrie les plus polluantes au monde, et beaucoup de vêtements sont très peu portés avant d'être jetés,
-      liste3: et afin de rester dans l'idée, nous avons aussi développé une gamme de zéro-déchet qui vous aidera à éliminer le plastique de votre quotidien (sac à vrac, charlotte à plat ou bee-wraps...)et faire des économies sur le long terme.
-      texte3: Nos fournisseurs sont choisis avec le plus grand soin pour répondre à nos nombreuses exigences.Nous essayons au maximum dans la mesure du possible de travailler avec des laines/fils/tissus labellisé GOTS, ou Okéo-tex, après nous privilégions toujours les productions françaises afin de limiter les émissions carbone
-      texte4: Ce site vous les présente dans sa boutique, sous 3 catégories. Vous y trouverez aussi quelques articles sur l'écologie et l'industrie textile, ainsi que sur les fibres et des tutoriels.
-      texte5: N'hésitez pas à vous abonner, vous recevrez ainsi notre newsletter (4 par an environ) et vous pourrez commenter vos articles préférés
-      texte6: Bonne visite
-    contact:
-      texte1: "Pour nous contacter :"
-      texte2: "Téléphone :"
-    condition:
-      title: "CONDITIONS GENERALES DE VENTE"
-      texte1: "Entre la MicroEntreprise OcéNat Créations,"
-      texte2: "16rue des Tilleuls,"
-      texte3: "16360 Baignes Ste Radegonde"
-      texte4: "immatriculée au Registre de la Chambre des Métiers et de l'Artisanat de Charente,"
-      texte5: "sous le numéro SIRET 0000000000, "
-      texte6: "représentée par Mme Bernard Sonia en qualité de gérant, dûment habilité aux fins des présentes."
-      texte7: "La société peut être jointe par e-mail en cliquant sur le formulaire de contact accessible via la page d’accueil du site. "
-      texte8: "Ci-après le « Vendeur » ou la « Société »."
-      texte9: "D’une part, Et la personne physique ou morale procédant à l’achat de produits ou services de la société, "
-      texte10: "Ci-après, « l’Acheteur », ou « le Client » D’autre part, Il a été exposé et convenu ce qui suit :"
-      texte11: "Le Vendeur est éditeur de Produits OcéNat Créations à destination de consommateurs, commercialisés par l’intermédiaire de ses sites Internet (http://siteweb.com ). La liste et le descriptif des biens et services proposés par la Société peuvent être consultés sur les sites susmentionnés."
-      soustitre1: "Article 1 : Objet"
-      texte12: "Les présentes Conditions Générales de Vente déterminent les droits et obligations des parties dans le cadre de la vente en ligne de Produits ou Services proposés par le Vendeur."
-      soustitre2: "Article 2 : Dispositions générales "
-      texte13: "Les présentes Conditions Générales de Vente (CGV) régissent les ventes de Produits ou de Services, effectuées au travers des sites Internet de la Société, et sont partie intégrante du Contrat entre l’Acheteur et le Vendeur. Elle sont pleinement opposables à l'Acheteur qui les a acceptées avant de passer commande."
-      texte14: "Le Vendeur se réserve la possibilité de modifier les présentes, à tout moment par la publication d’une nouvelle version sur son site Internet. Les CGV applicables alors sont celles étant en vigueur à la date du paiement (ou du premier paiement en cas de paiements multiples) de la commande. Ces CGV sont consultables sur le site Internet de la Société à l'adresse suivante :"
-      texte15: "http://ocenatcreations.com/homes/condition"
-      texte16: "La Société s’assure également que leur acceptation soit claire et sans réserve en mettant en place une case à cocher et un clic de validation. Le Client déclare avoir pris connaissance de l’ensemble des présentes Conditions Générales de Vente, et le cas échéant des Conditions Particulières de Vente liées à un produit ou à un service, et les accepter sans restriction ni réserve."
-      texte17: "Le Client reconnaît qu’il a bénéficié des conseils et informations nécessaires afin de s’assurer de l’adéquation de l’offre à ses besoins."
-      texte18: "Le Client déclare être en mesure de contracter légalement en vertu des lois françaises ou valablement représenter la personne physique ou morale pour laquelle il s’engage. Sauf preuve contraire les informations enregistrées par la Société constituent la preuve de l’ensemble des transactions."
-      soustitre3: "Article 3 : Prix"
-      texte19: " Les prix des produits vendus au travers des sites Internet sont indiqués en Euros hors taxes et précisément déterminés sur les pages de descriptifs des Produits. Ils sont également indiqués en euros toutes taxes comprises (TVA + autres taxes éventuelles) sur la page de commande des produits, et hors frais spécifiques d'expédition. Pour tous les produits expédiés hors Union européenne et/ou DOM-TOM, le prix est calculé hors taxes automatiquement sur la facture. Des droits de douane ou autres taxes locales ou droits d'importation ou taxes d'état sont susceptibles d'être exigibles dans certains cas. Ces droits et sommes ne relèvent pas du ressort du Vendeur. Ils seront à la charge de l'acheteur et relèvent de sa responsabilité (déclarations, paiement aux autorités compétentes, etc.). Le Vendeur invite à ce titre l'acheteur à se renseigner sur ces aspects auprès des autorités locales correspondantes.La Société se réserve la possibilité de modifier ses prix à tout moment pour l’avenir. Les frais de télécommunication nécessaires à l’accès aux sites Internet de la Société sont à la charge du Client. Le cas échéant également, les frais de livraison."
-      soustitre4: "Article 4 : Conclusion du contrat en ligne "
-      texte20: "Conformément aux dispositions de l'article 1127-1 du Code civil, le Client doit suivre une série d’étapes pour conclure le contrat par voie électronique pour pouvoir réaliser sa commande :; Information sur les caractéristiques essentielles du Produit ; – Choix du Produit, le cas échéant, de ses options - Indication des coordonnées essentielles du Client (identification, email, adresse…) ; –"
-      strong1: "Acceptation des présentes Conditions Générales de Vente"
-      texte21: "Vérification des éléments de la commande (formalité du double clic) et, le cas échéant, correction des erreurs. Avant de procéder à sa confirmation, l'Acheteur a la possibilité de vérifier le détail de sa commande, son prix, et de corriger ses éventuelles erreur, ou annuler sa commande. La confirmation de la commande emportera formation du présent contrat. – Ensuite, suivi des instructions pour le paiement, paiement des produits, puis livraison de la commande. Le Client recevra confirmation par courrier électronique du paiement de la commande, ainsi qu’un accusé de réception de la commande la confirmant. Il recevra un exemplaire .pdf des présentes conditions générales de vente. Le client disposera pendant son processus de commande de la possibilité d'identifier d'éventuelles erreurs commises dans la saisie des données et de les corriger. La langue proposé pour la conclusion du contrat est la langue française. Les modalités de l'offre et des conditions générales de vente sont renvoyées par email à l'acheteur lors de la commande et archivées sur le site web du Vendeur. Le cas échéant, les règles professionnelles et commerciales auxquelles l'auteur de l'offre entend se soumettre sont consultables dans la rubrique 'règles annexes' des présentes CGV, consultables sur le site du Vendeur à l'adresse suivante ??,. L'archivage des communications, de la commande, des détails de la commande, ainsi que des factures est effectué sur un support fiable et durable de manière constituer une copie fidèle et durable conformément aux dispositions de l'article 1360 du code civil. Ces informations peuvent être produits à titre de preuve du contrat. Pour les produits livrés, la livraison se fera à l’adresse indiquée par le Client. Aux fins de bonne réalisation de la commande, le Client s’engage à fournir ses éléments d’identification véridiques. Le Vendeur se réserve la possibilité de refuser la commande, par exemple pour toute demande anormale, réalisée de mauvaise foi ou pour tout motif légitime. "
-      soustitre5: "Article 5 : Produits et services "
-      texte22: "Les caractéristiques essentielles des biens, des services et leurs prix respectifs sont mis à disposition de l’acheteur sur les sites Internet de la société, de même, le cas échéant, que le mode d'utilisation du produit. Conformément à l'article L112-1 du Code la consommation, le consommateur est informé, par voie de marquage, d'étiquetage, d'affichage ou par tout autre procédé approprié, des prix et des conditions particulières de la vente et de l'exécution des services avant toute conclusion du contrat de vente. Dans tous les cas, le montant total dû par l'Acheteur est indiqué sur la page de confirmation de la commande. Le prix de vente du produit est celui en vigueur indiqué au jour de la commande, celui-ci ne comportant par les frais de ports facturés en supplément. Ces éventuels frais sont indiqués à l'Acheteur lors du processus de vente, et en tout état de cause au moment de la confirmation de la commande. Le Vendeur se réserve la possibilité de modifier ses prix à tout moment, tout en garantissant l'application du prix indiqué au moment de la commande. Lorsque les produits ou services ne sont pas exécuté immédiatement, une information claire est donnée sur la page de présentation du produit quant aux dates de livraison des produits ou services. Le client atteste avoir reçu un détail des frais de livraison ainsi que les modalités de paiement, de livraison et d’exécution du contrat, ainsi qu'une information détaillée relative à l'identité du vendeur, ses coordonnées postales, téléphoniques et électroniques, et à ses activités dans le contexte de la présente vente. Le Vendeur s’engage à honorer la commande du Client dans la limite des stocks de Produits disponibles uniquement. A défaut, le Vendeur en informe le Client ; si la commande a été passée, et à défaut d'accord avec le Client sur une nouvelle date de livraison, le Vendeur rembourse le client. Les informations contractuelles sont présentées en détail et en langue française. Les parties conviennent que les illustrations ou photos des produits offerts à la vente n’ont pas de valeur contractuelle. La durée de validité de l’offre des Produits ainsi que leurs prix est précisée sur les sites Internet de la Société, ainsi que la durée minimale des contrats proposés lorsque ceux-ci portent sur une fourniture continue ou périodique de produits ou services. Sauf conditions particulières, les droits concédés au titre des présentes le sont uniquement à la personne physique signataire de la commande (ou la personne titulaire de l’adresse email communiqué). "
-      soustitre6: "Article 6 : Conformité"
-      texte23: "Conformément à l'article L.411-1 du Code de la consommation, les produits et les services offert à la vente au travers des présentes CGV répondent aux prescriptions en vigueur relatives à la sécurité et à la santé des personnes, à la loyauté des transactions commerciales et à la protection des consommateurs. Indépendamment de toute garantie commerciale, le Vendeur reste tenu des défauts de conformité et des vices cachés du produit. Conformément à l'article L.217-4, le vendeur livre un bien conforme au contrat et répond des défauts de conformité existant lors de la délivrance. Il répond également des défauts de conformité résultant de l'emballage, des instructions de montage ou de l'installation lorsque celle-ci a été mise à sa charge par le contrat ou a été réalisée sous sa responsabilité. Conformément aux dispositions légales en matière de conformité et de vices cachés (art. 1641 c. civ.), le Vendeur rembourse ou échange les produits défectueux ou ne correspondant pas à la commande. Le remboursement peut être demandé de la manière suivante : Si dès reception un défaut est constaté un mail doit nous être envoyé sous 48h afin de signaler le problème avec photos, le produit doit nous êtes retournés (les frais de port étant à la charge du client sauf accord préalable par e-mail) dans les 10jours maximums afin de procédé à un échange ou un remboursement (sauf si problème de tailles et que cela provient d'une erreur client sur le bon de commande)."
-      soustitre7: "Article 7 : Clause de réserve de propriété"
-      texte24: "Les produits demeurent la propriété de la Société jusqu’au complet paiement du prix. "
-      soustitre8: "Article 8 : Modalités de livraison"
-      texte25: "Les produits sont livrés à l'adresse de livraison qui a été indiquée lors de la commande et dans les délais indiqués. Ces délais ne prennent pas en compte le délai de préparation de la commande. Lorsque le Client commande plusieurs produits en même temps ceux-ci peuvent avoir des délais de livraison différents acheminés selon les modalités suivantes:Les produits zéro-déchet et Upcycling sont emballés et envoyé dans les 8jours suivant la confirmation de commande, les modèles collection fait sur mesure sont emballés et envoyés entre 4 et 6 semaines. Tous les produits sont envoyés par UPS ou Mondial Relay à domicile ou en point relais suivant les modalités définies par le client lors de sa commande. En cas de retard d’expédition, le client sera contacté par e-mail ou téléphone afin de lui donner la possibilité d'annuler ou confirmer sa commande, l'annulation donnant droit à remboursement intégrale des sommes déjà versées . En cas de retard de livraison, le Client dispose de la possibilité de résoudre le contrat dans les conditions et modalités définies à l’Article L 138-2 du Code de la consommation. Le Vendeur procède alors au remboursement du produit et aux frais « aller » dans les conditions de l’Article L 138-3 du Code de la consommation. Le Vendeur met à disposition un point de contact téléphonique (coût d’une communication locale à partir d’un poste fixe) indiqué dans l’email de confirmation de commande afin d'assurer le suivi de la commande. Le Vendeur rappelle qu’au moment où le Client pend possession physiquement des produits, les risques de perte ou d’endommagement des produits lui sont transférés. Il appartient au Client de notifier au transporteur toute réserves sur le produit livré."
-      soustitre9: "Article 9 : Disponibilité et présentation"
-      texte26: " En cas d’indisponibilité d’un article pour une période supérieure à 10 jours ouvrables, vous serez immédiatement prévenu des délais prévisibles de livraison et la commande de cet article pourra être annulée sur simple demande. Le Client pourra alors demander un avoir pour le montant de l’article ou son remboursement intégral et l'annulation de la commande. "
-      soustitre10: "Article 10 : Paiement"
-      texte27: "Le paiement est exigible immédiatement à la commande, y compris pour les produits en précommande. Le Client peut effectuer le règlement par carte de paiement ou chèque bancaire. Les cartes émises par des banques domiciliées hors de France doivent obligatoirement être des cartes bancaires internationales (Mastercard ou Visa).Le paiement sécurisé en ligne par carte bancaire est réalisé par notre prestataire de paiement. Les informations transmises sont chiffrées dans les règles de l’art et ne peuvent être lues au cours du transport sur le réseau"
-      texte27bis: "Une fois le paiement lancé par le Client, la transaction est immédiatement débitée après vérification des informations. Conformément aux dispositions du Code monétaire et financier, l’engagement de payer donné par carte est irrévocable. En communiquant ses informations bancaires lors de la vente, le Client autorise le Vendeur à débiter sa carte du montant relatif au prix indiqué. Le Client confirme qu’il est bien le titulaire légal de la carte à débiter et qu’il est légalement en droit d’en faire usage. En cas d’erreur, ou d’impossibilité de débiter la carte, la Vente est immédiatement résolue de plein droit et la commande annulée. Article 11 : Délai de rétractation Conformément aux dispositions de l'article L 221-5 du Code de la consommation, l'Acheteur dispose du droit de se rétracter sans donner de motif, dans un délai de quatorze (14) jours à la date de réception de sa commande. Le droit de rétractation peut être exercé en contactant la Société de la manière suivante :sur simple e-mail . En cas d’exercice du droit de rétractation dans le délai susmentionné, le prix du ou des produits achetés et les frais d’envoi seront remboursés, les frais de retour restant à la charge du Client. Les retours des produits sont à effectuer dans leur état d'origine et complets (emballage, accessoires, notice…) ; ils doivent si possible être accompagnés d’une copie du justificatif d'achat. Conformément aux dispositions légales, vous trouverez ci-après le formulaire-type de rétractation à nous adresser à l’adresse suivante :"
-      texte27ter: "Procédure de remboursement : le remboursement sera effectué par virement sous 3 jours (hors délai bancaire) dès reception du colis retour."
-      soustitre11: "Article 11 : Garanties"
-      texte28: "Conformément à la loi, le Vendeur assume les garanties suivantes : de conformité et relative aux vices cachés des produits. Le Vendeur rembourse l'acheteur ou échange les produits apparemment défectueux ou ne correspondant pas à la commande effectuée. La demande de remboursement doit s'effectuer de la manière suivante : _________ (détailler la procédure) Le Vendeur rappelle que le consommateur : – dispose d'un délai de 2 ans à compter de la délivrance du bien pour agir auprès du Vendeur – qu'il peut choisir entre le remplacement et la réparation du bien sous réserve des conditions prévues par les dispositions susmentionnées. apparemment défectueux ou ne correspondant – qu'il est dispensé d'apporter la preuve l’existence du défaut de conformité du bien durant les six mois suivant la délivrance du bien. – que, sauf biens d’occasion, ce délai sera porté à 24 mois à compter du 18 mars 2016 – que le consommateur peut également faire valoir la garantie contre les vices cachés de la chose vendue au sens de l’article 1641 du code civil et, dans cette hypothèse, il peut choisir entre la résolution de la vente ou une réduction du prix de vente (dispositions des articles 1644 du Code Civil). Garanties complémentaires : _____ (décrire vos garanties complémentaires)(celui-là je sais pas encore quoi mettre faut que je me renseigne bien, j'ai pas remplacer des trucs au bout de 2 ans^^)"
-      soustitre12: "Article 12 : Réclamations et médiation"
-      texte29: "Le cas échéant, l’Acheteur peut présenter toute réclamation en contactant la société au moyen des coordonnées suivantes _____ (indiquer les coordonnées et la procédure). Conformément aux dispositions des art. L. 611-1 à L. 616-3 du Code de la consommation, le consommateur est informé qu'il peut recourir à un médiateur de la consommation dans les conditions prévues par le titre Ier du livre VI du code de la consommation. En cas d'échec de la demande de réclamation auprès du service client du Vendeur, ou en l'absence de réponse dans un délai de deux mois, le consommateur peut soumettre le différent à un médiateurA voir avec mon assurance pro qui tentera en toute indépendance de rapprocher les parties en vue d'obtenir une solution amiable."
-      soustitre13: "Article 13 : résolution du contrat"
-      texte30: "La commande peut être résolue par l'acheteur par lettre recommandée avec demande d'avis de réception dans les cas suivants : — livraison d'un produit non conforme aux caractéristiques de la commande ; — livraison dépassant la date limite fixée lors de la commande ou, à défaut de date, dans les trente jours suivant le paiement ; — de hausse du prix injustifiée ou de modification du produit. Dans ces cas, l'acheteur peut exiger le remboursement de l'acompte versé majoré des intérêts calculés au taux légal à partir de la date d'encaissement de l'acompte."
-      soustitre14: "Article 14 : Droits de propriété intellectuelle"
-      texte31: "Les marques, noms de domaines, produits, logiciels, images, vidéos, textes ou plus généralement toute information objet de droits de propriété intellectuelle sont et restent la propriété exclusive du vendeur. Aucune cession de droits de propriété intellectuelle n’est réalisée au travers des présentes CGV. Toute reproduction totale ou partielle, modification ou utilisation de ces biens pour quelque motif que ce soit est strictement interdite."
-      soustitre15: "Article 15 : Force majeure"
-      texte32: "L’exécution des obligations du vendeur au terme des présentes est suspendue en cas de survenance d’un cas fortuit ou de force majeure qui en empêcherait l’exécution. Le vendeur avisera le client de la survenance d’un tel évènement dès que possible."
-      soustitre16: "Article 16 : Nullité et modification du contrat"
-      texte33: "Si l’une des stipulations du présent contrat était annulée, cette nullité n’entraînerait pas la nullité des autres stipulations qui demeureront en vigueur entre les parties. Toute modification contractuelle n’est valable qu’après un accord écrit et signé des parties."
-      soustitre17: "Article 17 : Protection des données personnelles"
-      texte34: "Conformément au Règlement 2016/679 du 27 avril 2016 relatif à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et à la libre circulation de ces données, le Vendeur met en place un traitement de données personnelles qui a pour finalité la vente et la livraison de produits et services définis au présent contrat. L'Acheteur est informé des éléments suivants : - l'identité et les coordonnées du responsable du traitement et, le cas échéant, du représentant du responsable du traitement : le Vendeur, tel qu'indiqué en haut des présentes CGV ; - les coordonnées du délégué à la protection des données : ????- la base juridique du traitement : l'exécution contractuelle - les destinataires ou les catégories de destinataires des données à caractère personnel, s'ils existent  : le responsable du traitement, ses services en charge du marketing, les services en charge de la sécurité informatique, le service en charge de la vente, de la livraison et de la commande, les sous-traitant intervenants dans les opérations de livraison et de vente ainsi que toute autorité légalement autorisée à accéder aux données personnelles en question - aucun transfert hors UE n'est prévu - la durée de conservation des données : le temps de la prescription commerciale - la personne concernée dispose du droit de demander au responsable du traitement l'accès aux données à caractère personnel, la rectification ou l'effacement de celles-ci, ou une limitation du traitement relatif à la personne concernée, ou du droit de s'opposer au traitement et du droit à la portabilité des données - La personne concernée a le droit d'introduire une réclamation auprès d'une autorité de contrôle - les informations demandées lors de la commande sont nécessaires à l'établissement de la facture (obligation légale) et la livraison des biens commandés, sans quoi la commande ne pourras pas être passée. Aucune décision automatisée ou profilage n'est mis en œuvre au travers du processus de commande."
-      soustitre18: " Article 18 : Droit applicable et clauses"
-      texte35: "Toutes les clauses figurant dans les présentes conditions générales de vente, ainsi que toutes les opérations d’achat et de vente qui y sont visées, seront soumises au droit français. La nullité d'une clause contractuelle n'entraîne pas la nullité des présentes conditions générales de vente."
-      soustitre19: "Article 19 : Information des consommateurs"
-      texte36: "Aux fins d'information des consommateurs, les dispositions du code civil et du code de la consommation sont reproduites ci-après : Aricle 1641 du Code civil : Le vendeur est tenu de la garantie à raison des défauts cachés de la chose vendue qui la rendent impropre à l'usage auquel on la destine, ou qui diminuent tellement cet usage que l'acheteur ne l'aurait pas acquise, ou n'en aurait donné qu'un moindre prix, s'il les avait connus. Aricle 1648 du Code civil : L'action résultant des vices rédhibitoires doit être intentée par l'acquéreur dans un délai de deux ans à compter de la découverte du vice. Dans le cas prévu par l'article 1642-1, l'action doit être introduite, à peine de forclusion, dans l'année qui suit la date à laquelle le vendeur peut être déchargé des vices ou des défauts de conformité apparents. Article L. 217-4 du Code de la consommation : Le vendeur livre un bien conforme au contrat et répond des défauts de conformité existant lors de la délivrance. Il répond également des défauts de conformité résultant de l'emballage, des instructions de montage ou de l'installation lorsque celle-ci a été mise à sa charge par le contrat ou a été réalisée sous sa responsabilité. Article L. 217-5 du Code de la consommation : Le bien est conforme au contrat : 1° S'il est propre à l'usage habituellement attendu d'un bien semblable et, le cas échéant : - s'il correspond à la description donnée par le vendeur et possède les qualités que celui-ci a présentées à l'acheteur sous forme d'échantillon ou de modèle ; - s'il présente les qualités qu'un acheteur peut légitimement attendre eu égard aux déclarations publiques faites par le vendeur, par le producteur ou par son représentant, notamment dans la publicité ou l'étiquetage ; 2° Ou s'il présente les caractéristiques définies d'un commun accord par les parties ou est propre à tout usage spécial recherché par l'acheteur, porté à la connaissance du vendeur et que ce dernier a accepté. Article L. 217-12 du Code de la consommation : L'action résultant du défaut de conformité se prescrit par deux ans à compter de la délivrance du bien. Article L. 217-16 du Code de la consommation : Lorsque l'acheteur demande au vendeur, pendant le cours de la garantie commerciale qui lui a été consentie lors de l'acquisition ou de la réparation d'un bien meuble, une remise en état couverte par la garantie, toute période d'immobilisation d'au moins sept jours vient s'ajouter à la durée de la garantie qui restait à courir. Cette période court à compter de la demande d'intervention de l'acheteur ou de la mise à disposition pour réparation du bien en cause, si cette mise à disposition est postérieure à la demande d'intervention "
-      lien1: "Nos conditions générales de vente ont été élaborées à partir d'un modèle libre et gratuit qui peut être téléchargé sur le site: "
-  comment:
-    new:
-      title: "Titre"
-      content: "Message"
-      note: "Note (entre 0 et 5)"
-      submit: "Valider"
-      return: "Retour"
-      titre: "Ecrire un nouveau commentaire"
-      author: "Ecrit par: "
-      notation: "Note: "
-    links:
-      see: "Voir"
-      remove: "Spprimer"
-      update: "Mettre à jour"
-    edit:
-      titre: "Modifier mon commentaire"
-  cart:
-    show:
-      title: "Mon panier"
-      article: "Article"
-      quantity: "Qte"
-      price: "Prix unitaire"
-      total_price: "Prix total"
-      delete: "Sup"
-      really: "Etes vous sûr?"
-      main_total: "Total"
-      amount: "Montant: "
-      commande: "Passer commande"
-      return: "Retourner en boutique"
-      color: "Couleur"
-      size: "Taille"

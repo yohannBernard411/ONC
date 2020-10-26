@@ -1,5 +1,4 @@
 class OrderPolicy < ApplicationPolicy
-
   attr_reader :user, :order
 
   class Scope < Scope
@@ -13,17 +12,15 @@ class OrderPolicy < ApplicationPolicy
   end
 
   def index?
-
   end
 
   def show?
-
   end
 
   def create?
-    if @user
-      return true
-    end
+    return unless @user
+
+    return true
   end
 
   def new?
@@ -31,14 +28,11 @@ class OrderPolicy < ApplicationPolicy
   end
 
   def edit?
-
   end
 
   def update?
-
   end
 
   def destroy?
-
   end
 end

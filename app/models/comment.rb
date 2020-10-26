@@ -5,6 +5,4 @@ class Comment < ApplicationRecord
   validates :title, presence: true
   validates :content, presence: true
   validates :note, presence: false, inclusion: { in: 0..5 }
-
-
 end

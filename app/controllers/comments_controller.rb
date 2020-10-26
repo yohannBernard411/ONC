@@ -1,10 +1,8 @@
 class CommentsController < ApplicationController
-  
   def new
     @clothe = Clothe.find(params[:clothe_id])
     @comment = Comment.new
-    # authorize @clothe
-    authorize @comment 
+    authorize @comment
   end
 
   def create
@@ -12,14 +10,12 @@ class CommentsController < ApplicationController
     @clothe = Clothe.find(params[:clothe_id])
     @comment.clothe = @clothe
     @comment.user_id = current_user.id
-    # authorize @clothe
     authorize @comment
     if @comment.save
       average_notation
       redirect_to clothe_path(@clothe)
-    else
-      render :new
     end
+    render :new
   end
 
   def show
@@ -70,5 +66,4 @@ class CommentsController < ApplicationController
     moyenne = total.fdiv(count)
     @clothe.update(scoring: moyenne, nbov: count)
   end
-
 end

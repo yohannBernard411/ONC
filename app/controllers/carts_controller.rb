@@ -1,5 +1,4 @@
 class CartsController < ApplicationController
-
   def index
     @line_items = LineItem.all.order(id: :desc).includes([:clothe])
     @carts = policy_scope(Cart).where.not(order_id: nil).order(id: :desc)
@@ -19,5 +18,4 @@ class CartsController < ApplicationController
     @cart.save!
     authorize @cart
   end
-
 end

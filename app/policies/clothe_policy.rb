@@ -1,5 +1,4 @@
 class ClothePolicy < ApplicationPolicy
-
   attr_reader :user, :clothe
 
   class Scope < Scope
@@ -22,43 +21,23 @@ class ClothePolicy < ApplicationPolicy
   end
 
   def create?
-    if @user
-      return @user.admin
-    else
-      return false
-    end
+    return @user.admin if @user
   end
 
   def new?
-    if @user
-      return @user.admin
-    else
-      return false
-    end
+    return @user.admin if @user
   end
 
   def edit?
-    if @user
-      return @user.admin
-    else
-      return false
-    end
+    return @user.admin if @user
   end
 
   def update?
-    if @user
-      return @user.admin
-    else
-      return false
-    end
+    return @user.admin if @user
   end
 
   def destroy?
-    if @user
-      return @user.admin
-    else
-      return false
-    end
+    return @user.admin if @user
   end
 
   def add?

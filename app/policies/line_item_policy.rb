@@ -1,5 +1,4 @@
 class LineItemPolicy < ApplicationPolicy
-
   attr_reader :user, :line_item
 
   class Scope < Scope
@@ -14,17 +13,15 @@ class LineItemPolicy < ApplicationPolicy
   end
 
   def index?
-    if @user
-      return @user.admin
-    end
+    return unless @user
+
+    return @user.admin
   end
 
   def show?
-    if @user
-      if @user.admin || @user.id == @line_item.user_id
-        return true
-      end
-    end
+    return unless @user
+
+    return unless @user.admin || @user.id == @line_item.user_id
   end
 
   def create?
@@ -42,11 +39,9 @@ class LineItemPolicy < ApplicationPolicy
   end
 
   def destroy?
-    if @user
-      if @user.admin || @user.id == Cart.find(@line_item.cart_id).user_id
-        return true
-      end
-    end
+    return unless @user
+
+    return unless @user.admin || @user.id == Cart.find(@line_item.cart_id).user_id
   end
 
   def prev?
@@ -64,5 +59,4 @@ class LineItemPolicy < ApplicationPolicy
   def down?
     @user
   end
-
 end

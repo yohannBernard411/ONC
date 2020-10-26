@@ -1,5 +1,4 @@
 class DeliveryAdressPolicy < ApplicationPolicy
-
   attr_reader :user, :delivery_adress
 
   class Scope < Scope
@@ -17,31 +16,26 @@ class DeliveryAdressPolicy < ApplicationPolicy
   end
 
   def show?
-
   end
 
   def create?
-    if @user
-      return true
-    end
+    return unless @user
+
+    return true
   end
 
   def new?
-    if @user
-      return true
-    end
+    return unless @user
+
+    return true
   end
 
   def edit?
-
   end
 
   def update?
-
   end
 
   def destroy?
-
   end
-
 end

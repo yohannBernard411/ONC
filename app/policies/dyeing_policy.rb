@@ -1,5 +1,4 @@
 class DyeingPolicy < ApplicationPolicy
-
   attr_reader :user, :dyeing
 
   class Scope < Scope
@@ -14,11 +13,9 @@ class DyeingPolicy < ApplicationPolicy
   end
 
   def index?
-
   end
 
   def show?
-
   end
 
   def create?
@@ -26,15 +23,12 @@ class DyeingPolicy < ApplicationPolicy
   end
 
   def new?
-
   end
 
   def edit?
-
   end
 
   def update?
-
   end
 
   def destroy?

@@ -18,7 +18,7 @@
 
   <%= form.input :category, label: I18n.translate("clothes.form.category") %><br>
 
-  <%= form.input :function, label: I18n.translate("clothes.form.function"), collection: ["zero", "clothing", "accessory", "upcycling"] %><br>
+  <%= form.input :function, label: I18n.translate("clothes.form.function"), collection: ["zero", "clothing", "accessory"] %><br>
 
   <%= form.input :description, label: I18n.translate("clothes.form.description") %><br>
 
@@ -37,7 +37,7 @@
 
   <%= form.input :photos, as: :file, input_html: { multiple: true }, label: I18n.translate("clothes.form.photos") %><br>
 
-  <%= form.submit I18n.translate("clothes.form.submit"), class: "btnlink" %> | <%= link_to I18n.translate("clothes.show.back"), clothes_path, class: "btnlink" %>
+  <%= form.submit I18n.translate("clothes.form.submit"), class: "btnlink" %> | <%= link_to I18n.translate("clothes.show.back"), clothes_by_type_path(@function), class: "btnlink" %>
 
 <% end %>
 
@@ -51,21 +51,25 @@
       </tr>
     </thead>
     <tbody>
-      <% @scalings.each do |scale| %>
-        <tr>
-          <td class="cellule-show my-table-center"><%= @sizes.where(id: scale.size_id).first.name %></td>
-          <td class="cellule-show my-table-center" id="trash"><%= link_to clothe_scaling_path(@clothe.id, scale.id), method: "delete", data: { confirm: "Es tu sûre?" } do %>
-            <i class="fas fa-trash-alt"></i>
-          <% end %>
-        </tr>
+      <% if @scalings %>
+        <% @scalings.each do |scale| %>
+          <tr>
+            <td class="cellule-show my-table-center"><%= @sizes.where(id: scale.size_id).first.name %></td>
+            <td class="cellule-show my-table-center" id="trash"><%= link_to clothe_scaling_path(@clothe.id, scale.id), method: "delete", data: { confirm: "Es tu sûre?" } do %>
+              <i class="fas fa-trash-alt"></i>
+            <% end %>
+          </tr>
+        <% end %>
       <% end %>
     </tbody>
     <tfoot>
       <tr>
         <td colspan="2" class="my-center">
-          <%= simple_form_for [@clothe, @scaling] do |f| %>
-            <%= f.input :size_id, collection: @sizes.each { |size| [size.name, size.id] } %>
-            <%= f.submit "Ajouter taille", class: "btnlink" %>
+          <% if @scaling %>
+            <%= simple_form_for [@clothe, @scaling] do |f| %>
+              <%= f.input :size_id, collection: @sizes.each { |size| [size.name, size.id] } %>
+              <%= f.submit "Ajouter taille", class: "btnlink" %>
+            <% end %>
           <% end %>
         </td>
       </tr>
@@ -79,21 +83,25 @@
       </tr>
     </thead>
     <tbody>
-      <% @dyeings.each do |dyeing| %>
-        <tr>
-          <td class="cellule-show my-table-center"><%= @colors.where(id: dyeing.color_id).first.name %></td>
-          <td class="cellule-show my-table-center" id="trash"><%= link_to clothe_dyeing_path(@clothe.id, dyeing.id), method: "delete", data: { confirm: "Es tu sûre?" } do %>
-            <i class="fas fa-trash-alt"></i>
-          <% end %>
-        </tr>
+      <% if @dyeings %>
+        <% @dyeings.each do |dyeing| %>
+          <tr>
+            <td class="cellule-show my-table-center"><%= @colors.where(id: dyeing.color_id).first.name %></td>
+            <td class="cellule-show my-table-center" id="trash"><%= link_to clothe_dyeing_path(@clothe.id, dyeing.id), method: "delete", data: { confirm: "Es tu sûre?" } do %>
+              <i class="fas fa-trash-alt"></i>
+            <% end %>
+          </tr>
+        <% end %>
       <% end %>
     </tbody>
     <tfoot>
       <tr>
         <td colspan="2" class="my-center">
-          <%= simple_form_for [@clothe, @dyeing] do |f| %>
-            <%= f.input :color_id, collection: @colors.each { |color| [color.name, color.id] } %>
-            <%= f.submit "Ajouter couleur", class: "btnlink" %>
+          <% if @dyeing %>
+            <%= simple_form_for [@clothe, @dyeing] do |f| %>
+              <%= f.input :color_id, collection: @colors.each { |color| [color.name, color.id] } %>
+              <%= f.submit "Ajouter couleur", class: "btnlink" %>
+            <% end %>
           <% end %>
         </td>
       </tr>

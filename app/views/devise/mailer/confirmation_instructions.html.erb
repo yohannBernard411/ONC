@@ -29,17 +29,15 @@
   <%= image_tag("https://res.cloudinary.com/do3nu0tns/image/upload/v1597409542/phbwgxql8yjnhsgk21qi.png", class: "logo2") %>
   <hr>
 </div>
-<h2 class="title big">Bienvenue chez OceNatCreations</h2>
-<p class="text">Date <%= @user.created_at.day %> <%= ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"][@user.created_at.month-1] %> <%= @user.created_at.year %></p>
-<p class="text">Bonjour <%= @user.username %>,</p>
+<h2 class="title big"><%= I18n.translate('devise.mailer.confirmation_instructions.welcome') %></h2>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.date') %><%= @user.created_at.day %> <%= {fr:["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"], en:["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], es:["Enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]}[I18n.locale][@user.created_at.month-1] %> <%= @user.created_at.year %></p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.hello') %><%= @user.username %>,</p>
 
-<p class="text">Je suis heureuse de vous compter parmi nous,</p>
-<p class="text">Et j'espère que vous trouverez sur ce site votre bonheur, en plus de notre boutique vous trouverez des articles sur l'impact écologique et sociétal de l'industrie vestimentaire. Nous travaillons au maximum avec des artisans/fabricants français afin de favoriser l'emploi,l'agriculture, l'impact carbone mais aussi la qualité et le savoir-faire français. Un maximum de nos produits sont labellisés GOTS, ou Okéotex, surtout pour ceux venant de l'étranger.</p>
-<p class="text">Vous pouvez aussi nous suivre sur notre page <%= link_to 'Facebook', "https://www.facebook.com/OceNat" %> , ou vous retrouverez beaucoup plus d'articles.</p>
-<p class="text warning">Surtout n'oubliez pas de confirmer votre inscription en cliquant sur le lien suivant <%= link_to 'Confirmer mon compte', confirmation_url(@resource, confirmation_token: @token) %></p>
-<p class="text">Je vous souhaite une bonne découverte, et avoir bientôt de vos nouvelles,</p>
-<p class="text">Je reste à votre disposition pour toute information complémentaires, alors n'hésitez pas à nous contacter</p>
-<p class="text">Cordialement</p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.texte1') %></p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.texte2') %></p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.texte3') %><%= link_to 'Facebook', "https://www.facebook.com/OceNat" %><%= I18n.translate('devise.mailer.confirmation_instructions.texte3bis') %></p>
+<p class="text warning"><%= I18n.translate('devise.mailer.confirmation_instructions.texte4') %><%= link_to 'Confirmer mon compte', confirmation_url(@resource, confirmation_token: @token) %></p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.texte5') %></p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.texte6') %></p>
+<p class="text"><%= I18n.translate('devise.mailer.confirmation_instructions.texte7') %></p>
 <p class="text">OcéNat Créations</p>
-
-

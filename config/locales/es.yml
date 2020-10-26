@@ -1,8 +1,491 @@
 ---
 es:
+  articles:
+    labels:
+      img1: "¡Muchas etiquetas!"
+      img10: origen francés garantizado
+      img11: Demeter
+      img12: Naturtextil
+      img13: Naturleder
+      img14: Asociación de suelos orgánicos
+      img15: Living Heritage Company
+      img16: Fundación Fair Wear
+      img17: Hecho con respeto
+      img18: Orgánico
+      img2: Estándar mundial de textiles orgánicos
+      img3: oeko-tex
+      img4: Hecho en verde
+      img5: Max Havelaar
+      img6: Comercio justo orgánico
+      img7: Ecocert
+      img8: Biore
+      img9: Etiqueta ecológica europea
+      lien1: 'Fuentes: Eco-sapiens, My Races for the Planet'
+      liste1: Ecología - Protección del medio ambiente - Enfoque ético y sostenible - RSE
+      liste2: Social - Respeto por la condición humana
+      liste21: 'Metales pesados ​​en su conjunto, '
+      liste22: 'Alteradores endocrinos, '
+      liste23: 'Retardantes de llama bromados o clorados, '
+      liste24: 'Organismos modificados genéticamente u OMG, '
+      liste25: 'Nanotecnología, '
+      liste26: 'Sustancias cancerígenas, '
+      liste27: 'PVC, '
+      liste28: 'Níquel, '
+      liste29: 'El cromo, '
+      liste3: Comercio justo
+      liste30: 'Métodos de impresión que utilizan disolventes aromáticos, '
+      liste31: 'Métodos de impresión de plastisol utilizando ftalatos y PVC. '
+      liste4: Origen orgánico - Productos certificados sin pesticidas - Cuero ecológico - Productos veganos
+      liste40: 'Regar los cultivos de algodón que deben ser razonados, '
+      liste41: 'Aguas residuales que deben tratarse en una planta de tratamiento, '
+      liste42: 'Embalaje que debe ser reciclable. '
+      liste5: Salud
+      soustitre1: OEKO-TEX 100
+      soustitre10: NATURTEXTIL
+      soustitre11: NATURLEDER
+      soustitre12: ASOCIACIÓN DE SUELOS ORGÁNICOS
+      soustitre13: EMPRESA PATRIMONIO VIVO (EPV)
+      soustitre14: FUNDACIÓN DE DESGASTE JUSTO (FWF)
+      soustitre15: MADE IN RESPECT
+      soustitre16: ORGÁNICO
+      soustitre2: HECHO EN VERDE
+      soustitre3: MAX HAVELAAR
+      soustitre4: COMERCIO JUSTO ORGÁNICO
+      soustitre5: ECOCERT
+      soustitre6: BIORE
+      soustitre7: EUROPEAN ECOLABEL
+      soustitre8: ORIGEN FRANCIA GARANTIZADA
+      soustitre9: DEMETRO
+      strong1: 'Y lo que aprecio especialmente como cliente son las pruebas de desgaste, porque para ser lógico, la prenda debe poder durar con el tiempo, a fin de limitar su producción y su impacto ambiental. '
+      strong10: 'al menos 70% de fibras naturales o de materiales renovables o reciclados. '
+      strong10bis: política medioambiental
+      strong11: 'respetuoso con el medio ambiente y la salud del consumidor. '
+      strong12: convenciones internacionales
+      strong13: un papel de protección e información del consumidor
+      strong14: prohibir el uso de sustancias peligrosas
+      strong15: 'algodón producido a partir de agricultura ecológica. '
+      strong16: ausencia de productos químicos
+      strong17: 'tratamiento de aguas residuales antes de su liberación a la naturaleza. '
+      strong18: buenas condiciones laborales
+      strong19: 'trazabilidad del producto. '
+      strong2: 'textiles sin productos tóxicos para el cuerpo y el medio ambiente. '
+      strong20: 'el impacto ambiental de los productos a lo largo de su vida útil. '
+      strong21: enfoque global
+      strong22: 'toma en consideración el ciclo de vida del producto desde la extracción de materias primas, fabricación, distribución y uso hasta el reciclaje o eliminación después del uso. '
+      strong23: 'para garantizar la fabricación francesa en su totalidad o en parte. '
+      strong24: 'preservación del empleo y cumplimiento de las normas sociales, ambientales y de salud. '
+      strong25: 'que al menos el 50% del producto está hecho en Francia. '
+      strong26: de granjas certificadas Demeter
+      strong27: 'más exigente que el de la agricultura ecológica certificada con el logotipo AB. '
+      strong28: 'cosechado a mano, la mecanización sólo es posible cuando se excluye el uso de productos químicos. '
+      strong29: fibras naturales
+      strong3: 'Los textiles son seguros para la salud de los consumidores (sin productos químicos nocivos) y también se producen de manera sostenible y socialmente responsable. '
+      strong30: 'hasta un 50%. '
+      strong31: al menos el 95% de sus fibras proceden de la agricultura ecológica
+      strong32: 'Se prohíben sustancias como el cloro, metales pesados, níquel, así como cualquier producto que pueda contener OMG. '
+      strong33: 'Registro permanente de uso de sustancias químicas y energía, consumo de agua y tratamiento de aguas residuales. Los materiales de almacenamiento no deben contener PVC. '
+      strong34: también supervisa las condiciones laborales
+      strong35: 'ser cuero ecológico certificado. '
+      strong36: 'Las pieles se conservan en frío y con sal, sin agentes químicos. Está prohibido el curtido con cromo u otros productos contaminantes. Solo productos vegetales y aquellos con aluminio, circonio o titanio. '
+      strong37: 'animales criados principalmente para su carne. '
+      strong38: 'al menos el 70% de las fibras deben ser orgánicas y no contener sustancias nocivas. '
+      strong39: 'criterio social y respeta los convenios de la Organización Internacional del Trabajo (OIT). '
+      strong4: 'A partir de pruebas específicas y códigos QR, los procesos textiles y de fabricación se pueden detallar y rastrear. '
+      strong40: 'mantener su actividad productiva en Francia. '
+      strong40bis: 'Empresas francesas con excelentes conocimientos artesanales e industriales. '
+      strong41: 'El objetivo es contribuir a la mejora de las condiciones laborales en la industria textil. '
+      strong42: 'Prohibición del trabajo forzoso, no discriminación en el empleo, libertad de asociación, condiciones de trabajo decentes (higiene, salud), el trabajo infantil está prohibido, horarios y salarios controlados, toda discriminación prohibida. '
+      strong43: responsabilidad social y ambiental
+      strong44: 'a la calidad y el saber hacer, las condiciones sociales, el ecodiseño y el respeto al medio ambiente, así como a la ética económica. '
+      strong45: 'un nivel de algodón orgánico en el producto terminado pero no garantiza las etapas de transformación del textil y en particular el teñido. '
+      strong46: 'Así que es una etiqueta poco confiable, especialmente cuando se ve dónde producen estas marcas y las condiciones laborales que imponen a sus empleados (ver subcontratistas). '
+      strong5: 'el producto cumple con los criterios internacionales de comercio justo relacionados con las condiciones de producción y la remuneración del productor. Garantiza el cumplimiento de los convenios de la Organización Internacional del Trabajo (OIT). '
+      strong6: 'criterios ambientales: los OMG están prohibidos, pero no los pesticidas. '
+      strong7: producción orgánica
+      strong8: una carta justa y humana
+      strong9: en defensa de los consumidores, el medio ambiente y los trabajadores
+      texte1: "¿Por qué le interesan las etiquetas textiles?"
+      texte10: 'Por lo que es inevitable, la etiqueta ecológica hace concesiones sin, sin embargo, cumplir con la ley del mercado. Por así decirlo, la certificación GOTS busca limitar su uso con medidas como:'
+      texte11: 'En lo que respecta a asuntos sociales, no hace falta decir (-pero ciertamente no tanto, ya que hay que decirlo, nuevamente todo depende del país de origen ^^) que el trabajo forzado, los niños y se prohíbe la discriminación, además de las recomendaciones de la OIT (organización internacional del trabajo), a saber, horarios y salarios dignos, el derecho de sindicación y las condiciones de higiene y seguridad '
+      texte12: Esta es una de las etiquetas más comunes, de origen alemán. Es la primera etiqueta que garantiza
+      texte13: Es una etiqueta confiable pero también puede certificar materiales sintéticos y por lo tanto contaminantes aguas arriba
+      texte14: Lo encontramos en diferentes formas
+      texte15: 'La etiqueta estándar ÖKO-TEX 100 ayuda a proteger al consumidor. De hecho, los productos etiquetados no contienen productos químicos que puedan ser tóxicos para los consumidores, como formaldehídos o metales pesados, por ejemplo. Esta etiqueta internacional es ampliamente utilizado especialmente para ropa de cama para niños pequeños. '
+      texte16: 'También existe la etiqueta ÖKO-TEX standard 1000 que certifica que la producción respeta el medio ambiente durante todas sus etapas. '
+      texte17: 'Finalmente, el estándar ÖKO-TEX 100 plus certifica que los productos etiquetados están libres de sustancias tóxicas y provienen de una producción ecológica. '
+      texte18: 'Estas otras dos formas de la etiqueta textil estándar internacional ÖKO-TEX no están muy extendidas y son bastante raras de encontrar en los textiles. '
+      texte19: Oeko-Tex también ha creado una nueva certificación Made in Green. Es la garantía de que
+      texte2: 'En un enfoque ecológico y sostenible por supuesto. Aunque signifique tanto hacer la artesanía como hacerlo bien y sobre todo elegir sus materias primas con toda conciencia. La industria textil utiliza una cuarta parte de los productos químicos del mundo y ha sido acusada 20% de la contaminación del agua por industria, lo que la convierte en el segundo mayor contaminador de agua dulce del planeta, razón por la cual, además de los estándares y regulaciones, las etiquetas un papel que jugar, en términos de apoyo a las marcas, y también como garantía de calidad para el consumidor final. Gracias a todos los que ya han escrito sobre el tema, blogs y otros donde me he documentado para ofrecerles la más amplia gama de posibilidades. '
+      texte20: Gracias al uso de un número
+      texte21: 'Made in Green reemplaza el antiguo sistema de certificación, Oeko-Tex Standard 100 Plus y la etiqueta española Made in Green de Aitex. '
+      texte22: Esta es la etiqueta de comercio justo. Garantiza que el
+      texte23: Es una buena etiqueta, pero es menos exigente
+      texte24: Esta etiqueta garantiza un
+      texte25: materia prima, especialmente algodón. También se aplica
+      texte26: 'que reconcilia la ecología y lo social. En una lógica global, la etiqueta involucra a todos los actores de la cadena. '
+      texte27: Es una etiqueta que funciona
+      texte28: ". Por lo tanto, tiene varios objetivos. "
+      texte29: Lo primero es proteger el planeta y sus recursos mediante el uso de
+      texte3: 'Cada etiqueta verifica y prioriza uno o más aspectos de la cadena de valor. Desde la producción de telas hasta el producto terminado. Estos son algunos ejemplos de áreas en las que se especializan las etiquetas:'
+      texte30: 'Pero también definiendo una <strong> política medioambiental '
+      texte30bis: exigir una reducción del consumo de agua y energía, mediante el uso de tintes, agentes textiles y procesos de fabricación
+      texte31: También actúa garantizando lo principal
+      texte32: 'en materia social, salud y seguridad en el trabajo. '
+      texte33: Finalmente, él tiene
+      texte34: proporcionando información clara sobre la naturaleza de las fibras que componen el producto y por
+      texte35: "(por ejemplo, metales pesados, aminas cancerígenas, formaldehídos, enzimas transgénicas, etc.). "
+      texte36: Pero sigue siendo muy inferior a los requisitos de GOTS
+      texte37: Es una etiqueta suiza que tiene garantías ecológicas, éticas y sociales. Certifica la materia prima de
+      texte38: A nivel ambiental, certifica el
+      texte4: 'Siendo la industria textil una de las más contaminantes del mundo, la industria de las etiquetas iba a empezar pronto. Siempre más verde que verde ... ¿Pero qué hacemos? vender ??? Y sí, comprar telas etiquetadas o lanas / hilos tiene un costo que el consumidor final tendrá que pagar. Así que es mejor que los conozca para elegir el correcto. '
+      texte40: También tiene un rol social al garantizar
+      texte41: "(no trabajo infantil, seguridad laboral, salario mínimo…). "
+      texte42: También asegura
+      texte43: 'Incluso podemos averiguar quién hizo la prenda visitando el sitio web de la marca. '
+      texte44: Esta etiqueta europea evalúa
+      texte45: Se basa en el principio de
+      texte46: quién
+      texte47: 'Esta etiqueta se refiere solo al medio ambiente y no ofrece ninguna garantía social. '
+      texte48: Esta es la etiqueta oficial para
+      texte49: Esta es una garantía contra la falsificación hecha en Francia y, por lo tanto, para el
+      texte5: Gracias a todos los que escribieron sobre el tema y me permitieron documentarme ... La wiki es tu mejor amiga ...
+      texte50: Él certifica
+      texte51: 'La otra mitad del producto se puede hacer en otro lugar ... Lamentamos que esta etiqueta no se aplique al 100%. '
+      texte52: La etiqueta Demeter es muy exigente. Implica que la materia prima del textil (lana, algodón o fibras de lino) es
+      texte53: ", según las especificaciones"
+      texte54: El algodón debe ser
+      texte55: 'Las fibras animales deben cortarse o peinarse. '
+      texte56: La etiqueta textil Demeter puede otorgarse a productos que contengan
+      texte57: convencional que no estaría disponible bajo la etiqueta Demeter
+      texte58: 'Esta etiqueta cumple con especificaciones estrictas y rigurosas. '
+      texte59: Los textiles etiquetados tienen
+      texte6: 'Por lo tanto, haré una pequeña lista para ti detallando las dos principales, ya que si tengo que confiar en una etiqueta, será una de estas dos ... Después para lana, certificada o no, prefiero Siempre un pequeño criador francés, o filiación, al menos no estamos seguros de favorecer la cría francesa y no evitamos el costo del carbono (especialmente porque algunas etiquetas como AB, no tienen nada que ver con la AB francesa). .. De todos modos, ¡¡¡de vuelta al tema !!!! '
+      texte60: 'o en conversión. En cada etapa del proceso de producción, se debe verificar que las fibras orgánicas y convencionales no estén mezcladas, y que las fibras orgánicas no estén contaminadas de ninguna manera. '
+      texte61: 'El proceso de fabricación de prendas de vestir también está muy controlado. '
+      texte62: Desde un punto de vista medioambiental, los socios están sujetos a un estatuto muy estricto de
+      texte63: Finalmente, la etiqueta
+      texte64: ": respeto por los derechos de los empleados, prohibición del trabajo forzoso (así como el hecho de exigir a los trabajadores que dejen sus documentos de identidad con su empleador), lugar de trabajo seguro y saludable, el trabajo infantil está prohibido , no se autoriza ninguna discriminación de ningún tipo (falta de promoción, diferencia de remuneración, etc.),… "
+      texte65: Esta es la primera etiqueta
+      texte66: Limita en gran medida los impactos de una industria muy contaminante. Garantiza un
+      texte67: 'Los tintes que contienen metales pesados ​​también están prohibidos. '
+      texte68: Esta etiqueta también garantiza que las máscaras deben pertenecer a
+      texte69: 'Finalmente, esta etiqueta tiene los mismos criterios sociales que la etiqueta textil descrita anteriormente. '
+      texte7: GOTS para
+      texte70: 'Esta es la etiqueta orgánica más grande del Reino Unido. Certifica productos orgánicos y campañas para una agricultura respetuosa con el medio ambiente y una producción de alimentos más segura y saludable. '
+      texte71: 'Concerniente a los textiles, '
+      texte72: Esta etiqueta también tiene en cuenta
+      texte73: 'La etiqueta Entreprise du Patrimoine Vivant (EPV) es una etiqueta francesa. Es una marca de reconocimiento del Estado que distingue '
+      texte73bis: En particular, distingue los conocimientos tradicionales de calidad (como el encaje). Les Entreprises du Patrimoine Vivant
+      texte74: Fair Wear Foundation es una fundación que trabaja para respetar las condiciones laborales dignas en las empresas. Su
+      texte75: 'Para ello, ha creado un Código de Prácticas Laborales que las marcas se comprometen a respetar. Los principios fundamentales de este código son los siguientes:'
+      texte76: 'La FWF se compromete entonces a verificar la aplicación de estos principios en las fábricas de hilados y textiles. '
+      texte77: El objetivo de esta etiqueta es brindar a las pequeñas empresas, en particular las industriales, una herramienta para promover sus enfoques éticos
+      texte78: "(RSE), fácil de configurar, económico y confiable. "
+      texte79: Los criterios combinan aspectos relacionados
+      texte8: 'es para mí la referencia en la materia. Es una etiqueta que se encuentra más bien en Reino Unido, Estados Unidos y Japón (me encantan sus tejidos). Desde 2008 pretende armonizar los estándares del sector textil en todo el mundo y me interesa sobre todo porque tiene las especificaciones más estrictas para lana, algodón, seda, cáñamo (falta el lino ... pero bueno). independiente para controlar la aplicación de las especificaciones que el productor se ha comprometido a respetar. '
+      texte80: 'Estos principios, por tanto, tienen como objetivo promover productos fabricados de una manera verdaderamente sostenible. '
+      texte81: 'Es una organización estadounidense que tiene como objetivo promover el uso del algodón orgánico y que cuenta con el apoyo de marcas como Nike, Walmart, H&M, Adidas, Patagonia, Marks & Spencer ... Se trata de tener un estándar que permita para acceder fácilmente al algodón orgánico. '
+      texte82: Esta certificación garantiza
+      texte83: 'No incluye elementos referentes a las condiciones sociales de producción. '
+      texte9: 'Cada producción tiene su propio cuaderno, por supuesto; pero en general encontramos lo que está prohibido:'
+      title: LAS ETIQUETAS
+    lin:
+      liste1: ", oveja y cordero provienen de la esquila de vellones. Según las razas serán más o menos amables. También preste atención a su origen, las ovejas pueden estar en Australia / América del Sur, la lana lavada y procesada en China y el hilado en Francia. Merino es muy suave y en Francia Arles merino, también está Ouessant, Shetland ... La estructura de la lana le da buena elasticidad, además tiene una memoria de forma que evita la deformación con el tiempo. Es resistente a las arrugas y fácil de teñir. Tiene muchas cualidades térmicas y permite que el cuerpo mantenga una temperatura constante, permite que la piel respire y permite que la transpiración escape."
+      liste2: ", provienen de cabras. La cachemira proviene de las cabras del Himalaya, es la capa interna del vellón. Es muy fino, suave y con cualidades térmicas muy eficientes. Las cabras de angora proporcionan el mohair que encontramos clasificados en diferentes categorías de acuerdo con su finura, el más fino es el mohair para niños (de niños). Esta lana se hincha con aire tan pronto como hace frío, lo que le da cualidades térmicas excepcionales. Francia ofrece una amplia variedad de ellos gracias a nuestra cría artesanal. A menudo se encuentra asociado con la seda en forma de Kid-silk."
+      liste21: ". El más extendido y también controvertido dado el daño ecológico causado, una gran cantidad de pesticidas y mucho consumo de agua. Elija los que tienen certificación GOTS. Es absorbente y aislante, y es muy resistente al lavado incluso a altas temperaturas. Es suave, pero puede ser pesado de usar y cálido."
+      liste22: ": descuidado por mucho tiempo a favor del algodón, vemos que vuelve a la palestra por su cultivo que requiere poco fertilizante y agua. Es muy sólido, termorregulador, muy ligero. Su lado áspero se desvanece con el lavado."
+      liste23: ", muy absorbente, rivaliza con el algodón, mucho más fácil de cultivar. Es suave y cómodo, y muy resistente, puede reemplazar el nylon en la fabricación de calcetines. Es resbaladizo y bastante pesado. Mire su origen, las condiciones de crecimiento no son las mismas en Europa que en Asia."
+      liste24: ", una fibra de la que sé muy poco, aparentemente artificial porque se regenera a partir de las proteínas contenidas en las semillas, es lo que hace mucho trabajo de transformación. Es tan brillante como la seda, hipoalergénico, lavable y resistente a la luz y al sudor."
+      liste25: ": fibra de la Edad Media que recupera sus letras de nobleza, por su cultivo rápido y productivo con poca agua, fertilizantes y pesticidas. Muy similar al lino, también es termorregulador, funciona bien tanto en verano como en invierno y se suaviza con el tiempo."
+      liste26: " (o lyocell), se extrae de la pulpa de madera de eucalipto. Es una reminiscencia de la seda por su apariencia y su tacto. Es resistente a las arrugas y fácil de mantener, ya que se puede lavar a máquina a 60 ° C."
+      liste3: ": es una fibra extremadamente suave y hasta 9 veces más cálida que la lana de oveja. Hay que prestar atención al origen y las condiciones de la cosecha , en Alemania se despojan los conejos, en Francia se peinan con un peine, en Asia se sacrifica el conejo. Por lo tanto, preste atención a sus proveedores y vaya a Caregora angora (respeto estricto por el bienestar animal, con certificación europea)."
+      liste4: ", muy suave, cálida, ligera y resistente, es una fibra de alta gama. La fibra de alpaca para bebés es ideal para pieles sensibles, especialmente para canastillas. Muchas crías se han desarrollado en Francia."
+      liste5: ", tiene cualidades similares a la cachemira, suavidad al tacto y calor. Es una fibra bastante rara que solo se puede cosechar de manera artesanal en primavera deshierbando porque El animal pierde naturalmente su pelo. A menudo se encuentra tejido con seda o lana de cordero."
+      liste6: ", tomado de la parte inferior del camello, es extremadamente raro. En virtud de sus cualidades, es muy similar a la lana de yak."
+      liste7: ": es una fibra proteica resultante del capullo producido por la oruga del morera de la morera para el cultivo y de Tussah para la seda salvaje. Le da una brillante interpretación al Sus ventajas son su elasticidad natural, su solidez, su capacidad para absorber colorantes y su termorregulación, permite que la piel respire en verano y se caliente en invierno. A menudo se encuentra mezclada con otras fibras como el mohair."
+      soustitre1: 'Las diferentes fibras animales:'
+      soustitre2: 'Las diferentes fibras vegetales naturales:'
+      strong1: La lana de oveja
+      strong2: Angora y lana de cachemira
+      strong21: Algodón
+      strong22: Linen
+      strong23: Bamboo
+      strong24: Soja
+      strong25: Cáñamo
+      strong26: tencel
+      strong3: lana de conejo de angora
+      strong4: Lana de alpaca
+      strong5: lana de yak
+      strong6: Lana de camello
+      strong7: seda
+      texte1: Cc, conoces mis ideas sobre el tema también te daré la topografía sobre hilos sintéticos, encontrarás acrílico, nylon y poliamida, poliéster, lurex (una rara excepción que puedes encontrar en mis diseños). La ventaja de estos materiales es su facilidad de mantenimiento, su bajo costo. Sus inconvenientes son de baja calidad térmica (daños para un suéter), provienen de productos petroquímicos e incluso una vez producidos, continúan contaminando con cada lavado a través de aguas residuales, las micropartículas que emergen de ellos pasan a través de los filtros. plantas de tratamiento de aguas residuales para terminar en el mar.
+      texte2: Los hilos de tejer naturales están hechos de fibras animales o vegetales hiladas, comúnmente llamadas lana. La ventaja es su calidad térmica y transpirable, y que no tienen olor, solo necesita ventilar su suéter, no necesita lavarlo cada vez que lo usa, la desventaja es precisamente el lavado porque el Las lanas pueden sentirse bajo el efecto del cambio repentino de temperatura y los movimientos del tambor de la máquina. Los hilos de superlavado (SW) existen para evitar esto, pero este proceso utiliza muchos productos químicos y agua, por lo que tiene un fuerte impacto en el medio ambiente tanto como usted sabe. A diferencia de las fibras animales, las fibras vegetales no son muy elásticas.
+      texte3: Materiales que, a diferencia de las fibras animales, tienen la ventaja de ser generalmente lavados a máquina. Y veganos para vestirse naturalmente.
+      texte4: Gracias a los diversos blogs y wiki que me permitieron documentarme sobre el tema.
+      titre1: 'Hilos, lanas y otros materiales '
+      titre2: "¿Qué elegir?"
+  cart:
+    show:
+      amount: 'Cantidad: '
+      article: Artículo
+      color: Color
+      commande: Realizar pedido
+      delete: Sup
+      main_total: Total
+      price: Precio unitario
+      quantity: 'Cant. '
+      really: estás seguro?
+      return: Volver a la tienda
+      size: Tamaño
+      title: Mi cesta
+      total_price: Precio total
+  clothes:
+    edit:
+      update: Actualización
+    form:
+      category: 'Categoría:'
+      delivery: 'Entrega:'
+      delivery_color: 'Color de entrega:'
+      description: 'Descripción:'
+      function: 'Fonction:'
+      name: 'Apellido:'
+      option: 'Opción:'
+      photos: 'Fotos:'
+      price_cents: 'Precio en centavos:'
+      stock: 'Cantidades en stock:'
+      submit: Validar
+    index:
+      delete: Eliminar
+      delivery: 'Entrega:'
+      edit: Editar
+      newclothe: Crear ropa nueva
+      note: 'Nota:'
+      nothing: "¡Sin coincidencia!"
+      ononon:
+        one: En 1 evaluación.
+        other: De %{count} evaluaciones.
+      price: 'Precio:'
+      search: Buscar ...
+      see: Ves
+      slogan: Save us, no more plastic please
+      title:
+        accessory: Accesorios
+        clothing: Ropa
+        upcycling: Reciclaje
+        zero: Cero desperdicio
+    new:
+      title: Nuevo
+    show:
+      back: Volver
+      basket: Poner en mi canasta
+      color: Color
+      comment: Dejar un comentario
+      comments: Comentarios
+      edit: Editar
+      size: Talla
+    size:
+      alt: Tomando medidas
+      bras: Longitud del brazo
+      epaule: Ancho de hombros
+      hanche: Circunferencia de la cadera
+      legende: 'Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- '
+      mensuration: Medidas
+      poitrine: Tamaño del pecho
+      stature: estatura
+      strong1: 1) STATURE
+      strong2: 2) TAMAÑO DEL PECHO
+      strong3: 3) TAMAÑO DE LA CINTURA
+      strong4: 4) TOUR DE CADERAS
+      strong5: 5) LARGO DEL BRAZO
+      strong6: 6) ANCHO DE HOMBRO
+      taille: Tamaño de la cintura
+      texte: Al estar confeccionada cada prenda a medida, es importante que sepas llevarla correctamente para que me adapte lo mejor posible a tu cuerpo, así un pequeño boceto es más contundente.
+      texte1: " erguido, de la cabeza a los pies."
+      texte2: " en la punta de los senos."
+      texte3: " en la cintura, sobre la cinta."
+      texte4: " en el punto más fuerte de las nalgas."
+      texte5: " brazo ligeramente doblado, desde la articulación del hombro hasta la muñeca, pasando por encima del codo."
+      texte6: " desde la base del cuello hasta la articulación del hombro."
+      title: Medidas y tamaños
+  comment:
+    edit:
+      titre: Editar mi comentario
+    links:
+      remove: Eliminar
+      see: Ves
+      update: Actualizar
+    new:
+      author: 'Escrito por: '
+      content: Mensaje
+      notation: 'Nota: '
+      note: Nota (entre 0 y 5)
+      return: Volver
+      submit: Validar
+      title: Título
+      titre: Escribe un nuevo comentario
+  devise:
+    confirmations:
+      instructions: Reenviar instrucciones de confirmación
+    mailer:
+      confirmation_instructions:
+        date: 'Fecha '
+        hello: 'Hola '
+        texte1: 'Estoy feliz de tenerte con nosotros, '
+        texte2: 'Y espero que encuentre su felicidad en este sitio, además de nuestra tienda encontrará artículos sobre el impacto ecológico y social de la industria de la ropa. Trabajamos tanto como sea posible con artesanos / fabricantes franceses para fomentando el empleo, la agricultura, el impacto del carbono, pero también la calidad y el saber hacer franceses. La mayoría de nuestros productos llevan la etiqueta GOTS u Okéotex, especialmente para los que vienen del extranjero. '
+        texte3: También puedes seguirnos en nuestra página
+        texte3bis: ", o encontrará muchos más artículos. "
+        texte4: No olvide confirmar su registro haciendo clic en el siguiente enlace
+        texte5: Te deseo un buen descubrimiento y tener noticias tuyas pronto
+        texte6: Quedo a su disposición para cualquier información adicional, así que no dude en contactarnos
+        texte7: Saludos
+        welcome: Bienvenido a OceNatCreations
+      email_changed:
+        texte1: Nos estamos comunicando con usted para informarle que su dirección de correo electrónico está siendo reemplazada por
+        texte2: Nos estamos comunicando con usted para informarle que su dirección de correo electrónico ha sido reemplazada por
+      password_change:
+        texte1: We're contacting you to notify you that your password has been changed.
+      reset_password_instructions:
+        texte1: Quelqu'un a demandé un lien pour changer votre mot de passe. Vous pouvez le faire via le lien ci-dessous.
+        texte2: Changer mon mot de passe
+        texte3: Si vous ne l'avez pas demandé, veuillez ignorer cet e-mail.
+        texte4: Votre mot de passe ne changera pas tant que vous n'aurez pas accédé au lien ci-dessus et créé un nouveau.
+      unlock_instructions:
+        texte1: 'Su cuenta ha sido bloqueada debido a un número excesivo de intentos fallidos de inicio de sesión. '
+        texte2: 'Haga clic en el enlace de abajo para desbloquear su cuenta:'
+    omniauth_callbacks:
+      success: Identificado correctamente de %{kind}.
+    registrations:
+      new:
+        back: Regreso
+        cancel: Borrar mi cuenta
+        charmin: mínimo de caracteres
+        current_password: contraseña actual
+        edit: Actualización
+        here: Aquí
+        hint1: déjelo en blanco si no quiere cambiarlo
+        hint2: necesitamos su contraseña actual para confirmar sus cambios
+        password: Contraseña
+        password_confirmation: Confirmación de contraseña
+        photo: Foto
+        readcgv: He leído, comprendido y aceptado los TCG
+        seecgv: 'Los GTC están disponibles para consulta '
+        signup: Registrarse
+        submit: Validar
+        username: Nombre de usuario
+        waiting: 'Esperando confirmación para: '
+      sessions:
+        new: New
+    sessions:
+      change: Cambia la contraseña
+      forgot: Contraseña olvidada
+      login: Iniciar sesión
+      password: 'Contraseña:'
+      remember: Recuérdame
+    shared:
+      links:
+        confirmation: Reenviarme la confirmación
+        forgot: "¿Se te olvidó tu contraseña?"
+        login: Iniciar sesión
+        signup: Regístrate
+        unlock: "¿No se han recibido las instrucciones de desbloqueo?"
+        with: Inicia con
+    unlocks:
+      new:
+        title: Reenviar instrucciones de desbloqueo
+  errors:
+    messages:
+      not_saved:
+        one: '1 error impidió que este %{resource} fuese guardado:'
+        other: "%{count} errores impidieron que este %{resource} fuese guardado:"
+  home:
+    condition:
+      lien1: 'Nuestras condiciones generales de venta se han elaborado a partir de un modelo gratuito que se puede descargar del sitio: '
+      soustitre1: 'Artículo 1: Asunto'
+      soustitre10: 'Artículo 10: Pago'
+      soustitre11: 'Artículo 11: Garantías'
+      soustitre12: 'Artículo 12: Quejas y mediación'
+      soustitre13: 'Artículo 13: rescisión del contrato'
+      soustitre14: 'Artículo 14: Derechos de propiedad intelectual'
+      soustitre15: 'Artículo 15: Fuerza mayor'
+      soustitre16: 'Artículo 16: Nulidad y modificación del contrato'
+      soustitre17: 'Artículo 17: Protección de datos personales'
+      soustitre18: 'Artículo 18: Ley y cláusulas aplicables'
+      soustitre19: 'Artículo 19: Información al consumidor'
+      soustitre2: 'Artículo 2: Disposiciones generales'
+      soustitre3: 'Artículo 3: Precio'
+      soustitre4: 'Artículo 4: Celebración del contrato en línea'
+      soustitre5: 'Artículo 5: Productos y servicios'
+      soustitre6: 'Artículo 6: Cumplimiento'
+      soustitre7: 'Artículo 7: cláusula de reserva de propiedad'
+      soustitre8: 'Artículo 8: Condiciones de entrega'
+      soustitre9: 'Artículo 9: Disponibilidad y presentación'
+      strong1: Aceptación de estas Condiciones Generales de Venta
+      texte1: 'Entre la microempresa OcéNat Créations, '
+      texte10: 'En adelante,'' el Comprador '', o'' el Cliente ''Por otro lado, se ha establecido y acordado lo siguiente:'
+      texte11: 'El Vendedor es el editor de Productos OcéNat Créations destinados a los consumidores, comercializados a través de sus sitios web (http://siteweb.com). La lista y descripción de los bienes y servicios ofrecidos por la Compañía pueden ser visto en los sitios antes mencionados. '
+      texte12: 'Estas Condiciones Generales de Venta determinan los derechos y obligaciones de las partes en el marco de la venta online de Productos o Servicios ofrecidos por el Vendedor. '
+      texte13: 'Estas Condiciones Generales de Venta (TCG) rigen la venta de Productos o Servicios, realizada a través de los sitios web de la Compañía, y son una parte integral del Contrato entre el Comprador y el Vendedor. Son totalmente exigibles contra el Comprador que los aceptó antes de realizar un pedido. '
+      texte14: 'El Vendedor se reserva el derecho de modificar las presentes condiciones, en cualquier momento mediante la publicación de una nueva versión en su sitio web. Los TCG entonces aplicables son los vigentes en la fecha de pago (o del primer pago en caso de pagos múltiples) del pedido. Estos Términos y Condiciones están disponibles en el sitio web de la Compañía en la siguiente dirección: '
+      texte15: http://ocenatcreations.com/homes/condition
+      texte16: 'La Compañía también se asegura de que su aceptación sea clara y sin reservas al configurar una casilla de verificación y un clic de validación. El Cliente declara haber leído todos estos Términos y condiciones generales de venta, y en su caso, las Condiciones Especiales de Venta relacionadas con un producto o servicio, y aceptarlas sin restricción ni reserva. '
+      texte17: 'El Cliente reconoce que ha recibido el asesoramiento y la información necesarios para garantizar que la oferta satisface sus necesidades. '
+      texte18: 'El Cliente declara poder contratar legalmente bajo la ley francesa o representar a la persona física o jurídica por quien está comprometido. Salvo prueba en contrario, la información registrada por la Compañía constituye prueba de todas las transacciones . '
+      texte19: 'Los precios de los productos vendidos a través de los sitios de Internet se indican en euros sin impuestos y se determinan con precisión en las páginas de descripción del producto. También se indican en euros, incluidos todos los impuestos (IVA + cualquier otro impuesto) en la página de pedidos de productos y excluyendo los costos de envío específicos. Para todos los productos enviados fuera de la Unión Europea y / o DOM-TOM, el precio se calcula automáticamente sin incluir los impuestos en la factura. Derechos de aduana u otros impuestos o aranceles locales En ciertos casos, es probable que se deban pagar impuestos de importación o estatales. Estos derechos y sumas no son responsabilidad del Vendedor. Serán responsabilidad del comprador y son su responsabilidad (declaraciones, pago a las autoridades competentes, etc.) Por lo tanto, el Vendedor invita al comprador a consultar estos aspectos con las autoridades locales correspondientes.La Compañía se reserva el derecho de modificar sus precios en cualquier momento para el ven. Los costos de telecomunicaciones necesarios para acceder a los sitios web de la Compañía son responsabilidad del Cliente. En su caso, también los gastos de envío. '
+      texte2: '16rue des Tilleuls, '
+      texte20: 'De acuerdo con lo dispuesto en el artículo 1127-1 del Código Civil, el Cliente debe seguir una serie de pasos para concluir el contrato electrónicamente con el fin de poder realizar su pedido :; Información sobre las características esenciales del Producto; - Elección del Producto, en su caso, de sus opciones - Indicación de los datos de contacto esenciales del Cliente (identificación, correo electrónico, dirección, etc.); - '
+      texte21: 'Verificación de los elementos del pedido (trámite de doble clic) y, en su caso, corrección de errores. Antes de proceder a su confirmación, el Comprador tiene la posibilidad de verificar los detalles de su pedido, su precio y para corregir cualquier error, o cancelar su pedido. La confirmación del pedido constituirá el presente contrato. - Seguidamente, siga las instrucciones de pago, pago de los productos, luego entrega del pedido. El Cliente recibirá la confirmación por correo electrónico del pago del pedido, así como acuse de recibo del mismo que lo confirma.Recibirá una copia en formato pdf de estas condiciones generales de venta.El cliente tendrá durante su proceso de pedido la posibilidad de identificar los errores cometidos. en la introducción de datos y su corrección. El idioma propuesto para la celebración del contrato es el francés. Los términos de la oferta y las condiciones generales de venta son enviado por correo electrónico al comprador al realizar el pedido y archivado en el sitio web del vendedor. En su caso, las reglas profesionales y comerciales a las que el autor de la oferta pretende acatar se pueden consultar en la sección de ''reglas adicionales'' de estos TCG, disponible en el sitio web del Vendedor en la siguiente dirección. El archivo de las comunicaciones, el pedido, los detalles del pedido, así como las facturas se realiza en un soporte fidedigno y duradero con el fin de constituir una copia fiel y duradera de acuerdo con lo dispuesto en el artículo 1360 del código civil. Esta información se puede presentar como prueba del contrato. Para los productos entregados, la entrega se realizará a la dirección indicada por el Cliente. A los efectos de la finalización satisfactoria del pedido, el Cliente se compromete a proporcionar sus verdaderos elementos de identificación. El Vendedor se reserva el derecho de rechazar el pedido, por ejemplo, por cualquier solicitud anormal, realizada de mala fe o por cualquier motivo legítimo. '
+      texte22: 'Las características esenciales de los bienes, servicios y sus respectivos precios se ponen a disposición del comprador en los sitios web de la empresa, así como, en su caso, la forma de uso del producto. De acuerdo con el artículo L112-1 del Código de Consumo, se informa al consumidor, mediante marcado, etiquetado, exhibición o cualquier otro proceso adecuado, de los precios y las condiciones especiales de venta y de las ejecución de servicios antes de cualquier conclusión del contrato de venta. En todos los casos, el monto total adeudado por el Comprador se indica en la página de confirmación del pedido. El precio de venta del producto es el vigente indicado el día del pedido, éste sin incluir los gastos de envío facturados además. Estos posibles costes se indican al Comprador durante el proceso de venta, y en todo caso en el momento de la confirmación del pedido. El Vendedor se reserva el derecho a modificar sus precios en cualquier momento, garantizando la aplicación del precio indicado en el momento del pedido. Cuando los productos o servicios no se ejecutan de inmediato, se proporciona información clara en la página de presentación del producto en cuanto a las fechas de entrega de los productos o servicios. El cliente certifica haber recibido un detalle de los gastos de envío así como las condiciones de pago, entrega y ejecución del contrato, así como información detallada relativa a la identidad del vendedor, sus datos de contacto postales, telefónicos y electrónicos, y a sus actividades en el contexto de esta venta. El Vendedor se compromete a cumplir con el pedido del Cliente dentro del límite de las existencias de Productos disponibles únicamente. De lo contrario, el Vendedor informa al Cliente; si se ha realizado el pedido, y en ausencia de acuerdo con el Cliente sobre una nueva fecha de entrega, el Vendedor reembolsa al cliente. La información contractual se presenta detalladamente y en francés. Les parties conviennent que les illustrations ou photos des produits offerts à la vente n’ont pas de valeur contractuelle. La durée de validité de l’offre des Produits ainsi que leurs prix est précisée sur les sites Internet de la Société, ainsi que la durée minimale des contrats proposés lorsque ceux-ci portent sur une fourniture continue ou périodique de produits ou services. Sauf conditions particulières, les droits concédés au titre des présentes le sont uniquement à la personne physique signataire de la commande (ou la personne titulaire de l’adresse email communiqué). '
+      texte23: 'De acuerdo con el artículo L.411-1 del Código del Consumidor, los productos y servicios ofrecidos a la venta a través de estos GTCS cumplen con los requisitos vigentes relacionados con la seguridad y salud de las personas, para equidad en las transacciones comerciales y protección del consumidor. Independientemente de cualquier garantía comercial, el vendedor sigue siendo responsable de cualquier falta de conformidad y vicios ocultos en el producto. De acuerdo con el artículo L.217-4, el vendedor entrega un bien conforme del contrato y responde a cualquier falta de conformidad existente en el momento de la entrega. También responde a cualquier falta de conformidad derivada del embalaje, instrucciones de montaje o instalación cuando le haya sido a cargo del contrato o ha sido realizado bajo su responsabilidad De acuerdo con las disposiciones legales sobre conformidad y vicios ocultos (art. 1641 civ. c.), el Vendedor reembolsa o cambia los productos defectuosos o productos que no correspondan al c. orden. El reembolso se puede solicitar de la siguiente manera: Si al recibirlo se encuentra un defecto, se debe enviar un correo electrónico dentro de las 48 horas para informar el problema con fotos, el producto debe ser devuelto (los costos de envío correrán a cargo del cliente salvo acuerdo previo por correo electrónico) en un plazo máximo de 10 días para proceder a un cambio o devolución (salvo problema de tallas y que se deba a un error del cliente en el formulario de pedido). '
+      texte24: 'Los productos siguen siendo propiedad de la Compañía hasta el pago total del precio. '
+      texte25: 'Los productos se entregan en la dirección de entrega que se indicó al realizar el pedido y dentro de los tiempos indicados. Estos tiempos no tienen en cuenta el tiempo que se tarda en preparar el pedido. Cuando el Cliente pide varios productos a la vez. Estos pueden tener diferentes tiempos de entrega distribuidos de la siguiente manera: los productos de cero desperdicio y reciclaje se empaquetan y envían dentro de los 8 días posteriores a la confirmación del pedido, los modelos de recolección personalizados se empaquetan y envían entre 4 y 6 semanas. Todos los productos son enviados por UPS o Mondial Relay a su domicilio o punto de retransmisión según los términos definidos por el cliente al realizar el pedido. En caso de retraso en el envío, el cliente será contactado por correo electrónico o por teléfono en orden. para darle la posibilidad de cancelar o confirmar su pedido, la cancelación da derecho a la devolución total de las sumas ya pagadas. En caso de retraso en la entrega, el Cliente tiene derecho a posibilidad de rescindir el contrato en los términos y condiciones definidos en el artículo L 138-2 del Código del Consumidor. El Vendedor reembolsa el producto y los costos de ''salida'' en las condiciones del artículo L 138-3 del Código del Consumidor. El Vendedor proporciona un punto de contacto telefónico (costo de una llamada local desde un teléfono fijo) indicado en el correo electrónico de confirmación del pedido para dar seguimiento al pedido. El Vendedor recuerda que cuando el Cliente toma posesión física de los productos, se le transfiere el riesgo de pérdida o daño de los productos. Es responsabilidad del Cliente notificar al transportista de cualquier reserva sobre el producto entregado. '
+      texte26: 'En el caso de que un artículo no esté disponible por un período superior a 10 días hábiles, se le notificará inmediatamente de los plazos de entrega previsibles y el pedido de este artículo puede cancelarse si lo solicita. El Cliente puede entonces solicitar una nota de crédito. por el importe del artículo o su devolución total y cancelación del pedido. '
+      texte27: 'El pago vence inmediatamente después de realizar el pedido, incluidos los productos pedidos por adelantado. El cliente puede pagar con tarjeta de pago o cheque bancario. Las tarjetas emitidas por bancos domiciliados fuera de Francia deben ser tarjetas bancarias internacional (Mastercard o Visa). El pago seguro en línea con tarjeta de crédito lo realiza nuestro proveedor de servicios de pago. La información transmitida está encriptada de acuerdo con las reglas de la técnica y no se puede leer durante el transporte en la red '
+      texte27bis: 'Una vez que el Cliente ha iniciado el pago, la transacción se carga inmediatamente después de la verificación de la información. De acuerdo con lo establecido en el Código Monetario y Financiero, el compromiso de pago otorgado con tarjeta es irrevocable. Al comunicar su información bancaria durante el venta, el Cliente autoriza al Vendedor a debitar su tarjeta por el importe correspondiente al precio indicado El Cliente confirma que es efectivamente el titular legal de la tarjeta a debitar y que está legalmente autorizado a utilizarla. error, o imposibilidad de cargar la tarjeta, la Venta se resuelve inmediatamente de forma automática y el pedido cancelado Artículo 11: Plazo de desistimiento De acuerdo con lo dispuesto en el Artículo L 221-5 del Código del Consumidor, El Comprador tiene derecho a desistir sin dar ningún motivo, dentro de los catorce (14) días a partir de la fecha de recepción de su pedido. El derecho de desistimiento puede ejercerse poniéndose en contacto con la Compañía de la siguiente manera: por simple correo electrónico. Si el derecho de desistimiento se ejerce dentro del plazo antes mencionado, se reembolsará el precio del producto o productos adquiridos y los gastos de envío, siendo los gastos de devolución a cargo del Cliente. Las devoluciones de productos deben realizarse en su estado original y completas (embalaje, accesorios, instrucciones, etc.); si es posible, deben ir acompañadas de una copia del comprobante de compra. De acuerdo con las disposiciones legales, encontrará a continuación el formulario de desistimiento estándar que se nos enviará a la siguiente dirección: '
+      texte27ter: 'Procedimiento de reembolso: el reembolso se realizará mediante transferencia bancaria en un plazo de 3 días (excluyendo el plazo bancario) tras la recepción del paquete de devolución. '
+      texte28: 'De conformidad con la ley, el Vendedor asume las siguientes garantías: de conformidad y relativas a defectos ocultos de los productos. El Vendedor reembolsa al comprador o cambia los productos aparentemente defectuosos o no correspondientes al pedido realizado. La solicitud de devolución debe llevarse a cabo de la siguiente manera: _________ (detalle el procedimiento) El Vendedor recuerda que el consumidor: - tiene un plazo de 2 años desde la entrega del bien para actuar con el Vendedor - que puede elegir entre la reposición y reparación de la mercancía sujeta a las condiciones previstas por las disposiciones anteriores - aparentemente defectuosa o no correspondiente - que se exime de acreditar la existencia de la falta de conformidad de la mercancía durante los seis meses siguientes a la emisión de la - que, a excepción de los bienes de segunda mano, este plazo se ampliará a 24 meses a partir del 18 de marzo de 2016 - que el consumidor también podrá hacer valer la garantía contra vicios ocultos del cosa vendida en el sentido del artículo 1641 del código civil y, en este caso, podrá optar entre la resolución de la compraventa o una rebaja del precio de venta (disposiciones de los artículos 1644 del código civil). Garantías adicionales: _____ (describa sus garantías adicionales) (esta, todavía no sé qué ponerme, tengo que averiguarlo bien, no he reemplazado cosas después de 2 años ^^) '
+      texte29: 'En su caso, el Comprador podrá presentar cualquier reclamación poniéndose en contacto con la empresa utilizando las siguientes coordenadas _____ (indicar los datos de contacto y el procedimiento). De conformidad con lo dispuesto en los artículos L. 611-1 a L. 616-3 del Código del Consumidor, se informa al consumidor que podrá recurrir a un mediador del consumidor en las condiciones previstas en el Título I del Libro VI del Código del Consumidor. En caso de fallo de la reclamación solicitar al Servicio al cliente del Vendedor, o en ausencia de una respuesta dentro de los dos meses, el consumidor puede presentar la disputa a un mediador Para ver con mi seguro profesional que intentará con toda independencia unir a las partes para obtener una solución amistosa . '
+      texte3: 16360 Baignes Ste Radegonde
+      texte30: 'El pedido podrá ser resuelto por el comprador mediante carta certificada con acuse de recibo en los siguientes casos: - entrega de un producto que no cumpla con las características del pedido; - entrega superando el plazo fijado en el momento de el pedido o, en su defecto, dentro de los treinta días siguientes al pago; - aumento injustificado de precio o modificación del producto. En estos casos, el comprador podrá exigir el reembolso del depósito pagado más los intereses calculados sobre la Tasa legal a partir de la fecha de recepción del depósito. '
+      texte31: 'Las marcas comerciales, los nombres de dominio, los productos, el software, las imágenes, los videos, los textos o, en general, cualquier información sujeta a derechos de propiedad intelectual son y siguen siendo propiedad exclusiva del vendedor. No se realiza ninguna transferencia de derechos de propiedad intelectual a través de estos TCG. Cualquier reproducción, modificación o uso total o parcial de estos bienes por cualquier motivo está estrictamente prohibido. '
+      texte32: La ejecución de las obligaciones del vendedor al final del presente contrato se suspende en caso de que se produzca un evento fortuito o de fuerza mayor que impida la ejecución. El vendedor notificará al cliente de la ocurrencia de tal evento tan pronto como como sea posible.
+      texte33: Si una de las estipulaciones de este contrato fuera cancelada, esta nulidad no implicaría la nulidad de las demás estipulaciones que seguirán vigentes entre las partes. Cualquier modificación contractual solo es válida después de un acuerdo escrito firmado por las partes. partes.
+      texte34: 'De conformidad con el Reglamento 2016/679 del 27 de abril de 2016 sobre la protección de las personas con respecto al procesamiento de datos personales y la libre circulación de dichos datos, el Vendedor establece un procesamiento de datos personales cuyo objeto es la venta y entrega de productos y servicios definidos en este contrato. Se informa al Comprador de lo siguiente: - la identidad y los datos de contacto del responsable del tratamiento y, en su caso, del representante del responsable del tratamiento : el Vendedor, como se indica en la parte superior de estos TCG; - los datos de contacto del delegado de protección de datos: ???? - la base legal del procesamiento: ejecución contractual - los destinatarios o categorías de destinatarios de los datos de carácter personal, si existen: el controlador, sus departamentos encargados de marketing, los departamentos encargados de seguridad informática, el departamento encargado de ventas, entrega y el pedido, los subcontratistas involucrados en las operaciones de entrega y venta, así como cualquier autoridad legalmente autorizada para acceder a los datos personales en cuestión - no está prevista ninguna transferencia fuera de la UE - el período de conservación de los datos: tiempo de la prescripción comercial: el interesado tiene derecho a solicitar al responsable del tratamiento el acceso a los datos personales, la rectificación o supresión de estos, o una limitación del tratamiento en relación con el interesado, o derecho a oponerse al tratamiento y derecho a la portabilidad de los datos - El interesado tiene derecho a presentar una reclamación ante una autoridad de control - la información solicitada al realizar el pedido es necesaria para establecer el factura (obligación legal) y entrega de la mercancía solicitada, de lo contrario no se podrá realizar el pedido. No se implementan decisiones automatizadas o perfiles a través del proceso de pedido. '
+      texte35: 'Todas las cláusulas que figuran en estas condiciones generales de venta, así como todas las operaciones de compraventa a las que se refieren, estarán sometidas a la ley francesa. La nulidad de una cláusula contractual no implica la nulidad de estas condiciones generales de venta. '
+      texte36: 'A efectos de información al consumidor, a continuación se reproducen las disposiciones del Código Civil y del Código del Consumidor: Artículo 1641 del Código Civil: El vendedor está obligado por la garantía debido a los defectos ocultos del artículo vendido que lo hacen inadecuados para el uso al que está destinado, o que reducen tanto este uso que el comprador no los hubiera adquirido, o hubiera dado solo un precio inferior, si los hubiera conocido. Artículo 1648 del Código Civil: La acción resultante de defectos latentes debe ser interpuesta por el comprador dentro de los dos años siguientes al descubrimiento del defecto. En el caso previsto en el artículo 1642-1, la acción deberá interponerse, bajo pena de ejecución hipotecaria, dentro del plazo de un año desde la fecha en que el vendedor pueda ser liberado de defectos aparentes o falta de conformidad. Artículo L. 217-4 del Código del Consumidor: El vendedor entrega la mercancía de conformidad con el contrato y es responsable de cualquier falta de conformidad existente en el momento de la entrega. También responde a cualquier falta de conformidad resultante del embalaje, instrucciones de montaje o instalación cuando le haya sido a cargo del contrato o se haya realizado bajo su responsabilidad. Artículo L. 217-5 del Código del Consumidor: El bien se ajusta al contrato: 1 ° Si es apto para el uso que normalmente se espera de un bien similar y, en su caso: - si corresponde a la descripción dada por el vendedor y tiene las cualidades que este presentado al comprador como muestra o modelo; - si tiene las cualidades que un comprador puede esperar legítimamente dadas las declaraciones públicas hechas por el vendedor, el productor o su representante, en particular en publicidad o etiquetado; 2 ° O si tiene las características definidas de mutuo acuerdo por las partes o es apto para cualquier uso especial buscado por el comprador, puesto en conocimiento del vendedor y que éste ha aceptado. Artículo L. 217-12 del Código del Consumidor: La acción resultante de la falta de conformidad prescribe dos años después de la entrega de la mercancía. Artículo L. 217-16 del Código del Consumidor: Cuando el comprador solicite al vendedor, durante el curso de la garantía comercial que le fue otorgada durante la adquisición o reparación de bienes muebles, condición cubierta por la garantía, cualquier tiempo de inactividad de al menos siete días se agrega al período de garantía restante. Este plazo se extiende desde la solicitud de intervención del comprador o la disposición para la reparación del inmueble en cuestión, si esta disposición es posterior a la solicitud de intervención. '
+      texte4: 'inscrito en el Registro de la Cámara de Comercio y Artesanía de Charente, '
+      texte5: bajo el número SIRET 0000000000,
+      texte6: 'representada por la Sra. Bernard Sonia como gerente, debidamente autorizada a los efectos del presente. '
+      texte7: 'Se puede contactar a la empresa por correo electrónico haciendo clic en el formulario de contacto accesible a través de la página de inicio del sitio. '
+      texte8: En adelante, el' Vendedor 'o la' Compañía '.
+      texte9: 'Por un lado, Y la persona física o jurídica que adquiere los productos o servicios de la empresa, '
+      title: CONDICIONES GENERALES DE VENTA
+    contact:
+      texte1: 'Para contactarnos:'
+      texte2: 'Teléfono:'
+    who:
+      intro: OcéNat Créations es una pequeña empresa artesanal, sobre todo francesa y ecológicamente responsable.
+      liste1: para trabajar solo con fibras naturales (animales o plantas),
+      liste2: para participar en el reciclaje de ropa, la segunda industria más contaminante del mundo, y mucha ropa apenas se usa antes de tirarse,
+      liste3: y para mantener la idea, también hemos desarrollado un rango de cero desperdicio que lo ayudará a eliminar el plástico de su vida diaria (bolsa a granel, charlotte plano o envolturas de abejas ...) y hacer ahorro a largo plazo.
+      texte1: Después de haber trabajado como observador científico a bordo, me di cuenta rápidamente del impacto del plástico en los océanos. ¿Pero qué es el plástico? Un poco de todo, de hecho, se encuentra en fibras sintéticas como el vellón polar en forma de micropartículas, y son estas las que forman continentes en ciertas áreas de los océanos y destruyen una gran parte de la fauna porque son invisibles pero se absorben.
+      texte2: 'Entonces decidimos:'
+      texte3: Nuestros proveedores son elegidos con el mayor cuidado para cumplir con nuestros muchos requisitos. Intentamos trabajar lo más posible con lanas / hilos / telas con la etiqueta GOTS, o Okéo-tex, luego siempre favorecemos las producciones para limitar las emisiones de carbono
+      texte4: este sitio se los presenta en su tienda, en 3 categorías. También encontrará algunos artículos sobre ecología y la industria textil, así como sobre fibras y tutoriales.
+      texte5: no dude en suscribirse, recibirá nuestro boletín (aproximadamente 4 por año) y podrá comentar sus artículos favoritos
+      texte6: Que tengas una buena visita
+      titre: "¿Quiénes somos?"
+  shared:
+    header:
+      forgot: Contraseña olvidada
+      see_cart: Ver mi cesta
+      signin: Conectarse
+      signout: Desconectarse
+      you_have:
+        one: Tienes 1 artículo en tu carrito.
+        other: Tienes %{count} artículos en tu carrito.
   welcome:
     index:
-      accessories: "accesorios"
+      accessories: accesorios
       articles: Articulos
       collection: Colección de verano 2020
       condition: Condición de venta
@@ -21,547 +504,3 @@ es:
       spitzberg: Chaqueta Spitzberg
       upcycling: Upcycling / pieza única
       who: "¿Quiénes somos?"
-  devise:
-    confirmations:
-      confirmed: "Tu cuenta ya ha sido confirmada."
-      confirmed_and_signed_in: "Tu cuenta ya ha sido confirmada. Has sido indentificado."
-      send_instructions: "Recibirás un correo electrónico en unos minutos con instrucciones sobre cómo reestablecer tu contraseña."
-      send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un correo electrónico en unos minutos con instrucciones sobre cómo reiniciar tu contraseña."
-    failure:
-      already_authenticated: "Ya estás identificado."
-      inactive: "Tu cuenta aún no ha sido activada."
-      invalid: "Correo o contraseña inválidos."
-      invalid_token: "Cadena de autenticación invalida."
-      locked: "Tu cuenta está bloqueada."
-      not_found_in_database: "Correo o contraseña inválidos."
-      timeout: "Tu sesión ha expirado, por favor identifícate de nuevo para continuar."
-      unauthenticated: "Necesitas iniciar sesión o registrarte para continuar."
-      unconfirmed: "Debes de confirmar tu cuenta para continuar."
-    mailer:
-      confirmation_instructions:
-        subject: "Instrucciones de confirmación"
-      reset_password_instructions:
-        subject: "Instrucciones para reestablecer tu contraseña"
-      unlock_instructions:
-        subject: "Instrucciones de desbloqueo"
-    omniauth_callbacks:
-      failure: "No se te pudo autorizar de %{kind} debido a \"%{reason}\"."
-      success: "Identificado correctamente de %{kind}."
-    passwords:
-      no_token: "No puedes acceder a esta página sino es por medio de un enlace para reestablecer de contraseña envíado a tu correo. Si accediste desde el enlace para reestablecer la contraseña, asegúrate de que la URL esté completa."
-      send_instructions: "Recibirás un correo electrónico con instrucciones sobre cómo reestablecer tu contraseña en unos minutos."
-      send_paranoid_instructions: "Si tu correo electrónico existe en nuestra base de datos, recibirás un enlace para reestablecer la contraseña en unos minutos."
-      updated: "Tu contraseña se cambió correctamente. Has sido identificado."
-      updated_not_active: "Tu contraseña se cambió correctamente."
-    registrations:
-      new:
-        signup: "Registrarse"
-        username: "Nombre de usuario"
-        password: "Contraseña"
-        charmin: "mínimo de caracteres"
-        current_password: "contraseña actual"
-        edit: "Actualización"
-        hint1: "déjelo en blanco si no quiere cambiarlo"
-        hint2: "necesitamos su contraseña actual para confirmar sus cambios"
-        submit: "Validar"
-        cancel: "Borrar mi cuenta"
-        back: "Regreso"
-        password_confirmation: "Confirmación de contraseña"
-        photo: "Foto"
-        readcgv: "He leído, comprendido y aceptado los TCG"
-        seecgv: "Los GTC están disponibles para consulta "
-        here: "Aquí"
-        signup: "Registrarse"
-      destroyed: "¡Adiós! Tu cuenta ha sido cancelada. Esperamos volver a verte pronto."
-      signed_up: "¡Bienvenido! Has sido identificado."
-      signed_up_but_inactive: "Te has registrado correctamente. Pero no has podido iniciar sesión porque no has activado tu cuenta."
-      signed_up_but_locked: "Te has registrado correctamente. Pero no has podido iniciar sesión porque tu cuenta está bloqueada."
-      signed_up_but_unconfirmed: "Se te ha enviado un mensaje con un enlace de confirmación. Por favor visita el enlace para activar tu cuenta."
-      update_needs_confirmation: "Actualizaste tu cuenta correctamente, pero necesitamos verificar tu nueva cuenta de correo. Por favor revisa tu correo electrónico y visita el enlace para finalizar la confirmación de tu nueva dirección de correo electrónico."
-      updated: "Has actualizado tu cuenta correctamente."
-    sessions:
-      forgot: "Contraseña olvidada"
-      change: "Cambia la contraseña"
-      new: "Nueva contraseña"
-      signed_in: "Has ingresado iniciado sesión."
-      signed_out: "Has cerrado la sesión."
-      already_signed_out: "¿No se han recibido las instrucciones de desbloqueo?"
-      password: "Contraseña:"
-      remember: "Recuérdame"
-      login: "Iniciar sesión"
-    shared:
-      links:
-        login: "Iniciar sesión"
-        signup: "Regístrate"
-        forgot: "¿Se te olvidó tu contraseña?"
-        confirmation: "Reenviarme la confirmación"
-        unlock: "¿No se han recibido las instrucciones de desbloqueo?"
-        with: "Inicia con"
-    unlocks:
-      send_instructions: "Recibirás un correo electrónico en unos minutos con instrucciones sobre cómo desbloquear tu cuenta."
-      send_paranoid_instructions: "Si tu cuenta existe, recibirás un correo electrónico en unos minutos con instrucciones sobre cómo desbloquear tu cuenta."
-      unlocked: "Tu cuenta ha sido desbloqueada. Por favor inicia sesión para continuar."
-  errors:
-    messages:
-      already_confirmed: "ya ha sido confirmado, por favor intenta iniciar sesión"
-      confirmation_period_expired: "necesita ser confirmado en %{period}, por favor vuelve a solicitarla"
-      expired: "ha expirado, por favor vuelve a solicitarla"
-      not_found: "no se encontró"
-      not_locked: "no estaba bloqueado"
-      not_saved:
-        one: "1 error impidió que este %{resource} fuese guardado:"
-        other: "%{count} errores impidieron que este %{resource} fuese guardado:"
-  views:
-    pagination:
-      first: "&laquo; First"
-      last: "Last &raquo;"
-      previous: "&lsaquo; Prev"
-      next: "Next &rsaquo;"
-      truncate: "&hellip;"
-  helpers:
-    page_entries_info:
-      one_page:
-        display_entries:
-          zero: "No %{entry_name} found"
-          one: "Displaying <b>1</b> %{entry_name}"
-          other: "Displaying <b>all %{count}</b> %{entry_name}"
-      more_pages:
-        display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
-  articles:
-    lin:
-      titre1: "Hilos, lanas y otros materiales "
-      titre2: "¿Qué elegir?"
-      texte1: "Cc, conoces mis ideas sobre el tema también te daré la topografía sobre hilos sintéticos, encontrarás acrílico, nylon y poliamida, poliéster, lurex (una rara excepción que puedes encontrar en mis diseños). La ventaja de estos materiales es su facilidad de mantenimiento, su bajo costo. Sus inconvenientes son de baja calidad térmica (daños para un suéter), provienen de productos petroquímicos e incluso una vez producidos, continúan contaminando con cada lavado a través de aguas residuales, las micropartículas que emergen de ellos pasan a través de los filtros. plantas de tratamiento de aguas residuales para terminar en el mar."
-      texte2: "Los hilos de tejer naturales están hechos de fibras animales o vegetales hiladas, comúnmente llamadas lana. La ventaja es su calidad térmica y transpirable, y que no tienen olor, solo necesita ventilar su suéter, no necesita lavarlo cada vez que lo usa, la desventaja es precisamente el lavado porque el Las lanas pueden sentirse bajo el efecto del cambio repentino de temperatura y los movimientos del tambor de la máquina. Los hilos de superlavado (SW) existen para evitar esto, pero este proceso utiliza muchos productos químicos y agua, por lo que tiene un fuerte impacto en el medio ambiente tanto como usted sabe. A diferencia de las fibras animales, las fibras vegetales no son muy elásticas."
-      soustitre1: "Las diferentes fibras animales:"
-      strong1: "La lana de oveja"
-      liste1: ", oveja y cordero provienen de la esquila de vellones. Según las razas serán más o menos amables. También preste atención a su origen, las ovejas pueden estar en Australia / América del Sur, la lana lavada y procesada en China y el hilado en Francia. Merino es muy suave y en Francia Arles merino, también está Ouessant, Shetland ... La estructura de la lana le da buena elasticidad, además tiene una memoria de forma que evita la deformación con el tiempo. Es resistente a las arrugas y fácil de teñir. Tiene muchas cualidades térmicas y permite que el cuerpo mantenga una temperatura constante, permite que la piel respire y permite que la transpiración escape."
-      strong2: "Angora y lana de cachemira"
-      liste2: ", provienen de cabras. La cachemira proviene de las cabras del Himalaya, es la capa interna del vellón. Es muy fino, suave y con cualidades térmicas muy eficientes. Las cabras de angora proporcionan el mohair que encontramos clasificados en diferentes categorías de acuerdo con su finura, el más fino es el mohair para niños (de niños). Esta lana se hincha con aire tan pronto como hace frío, lo que le da cualidades térmicas excepcionales. Francia ofrece una amplia variedad de ellos gracias a nuestra cría artesanal. A menudo se encuentra asociado con la seda en forma de Kid-silk."
-      strong3: "lana de conejo de angora"
-      liste3: ": es una fibra extremadamente suave y hasta 9 veces más cálida que la lana de oveja. Hay que prestar atención al origen y las condiciones de la cosecha , en Alemania se despojan los conejos, en Francia se peinan con un peine, en Asia se sacrifica el conejo. Por lo tanto, preste atención a sus proveedores y vaya a Caregora angora (respeto estricto por el bienestar animal, con certificación europea)."
-      strong4: "Lana de alpaca"
-      liste4: ", muy suave, cálida, ligera y resistente, es una fibra de alta gama. La fibra de alpaca para bebés es ideal para pieles sensibles, especialmente para canastillas. Muchas crías se han desarrollado en Francia."
-      strong5: "lana de yak"
-      liste5: ", tiene cualidades similares a la cachemira, suavidad al tacto y calor. Es una fibra bastante rara que solo se puede cosechar de manera artesanal en primavera deshierbando porque El animal pierde naturalmente su pelo. A menudo se encuentra tejido con seda o lana de cordero."
-      strong6: "Lana de camello"
-      liste6: ", tomado de la parte inferior del camello, es extremadamente raro. En virtud de sus cualidades, es muy similar a la lana de yak."
-      strong7: "seda"
-      liste7: ": es una fibra proteica resultante del capullo producido por la oruga del morera de la morera para el cultivo y de Tussah para la seda salvaje. Le da una brillante interpretación al Sus ventajas son su elasticidad natural, su solidez, su capacidad para absorber colorantes y su termorregulación, permite que la piel respire en verano y se caliente en invierno. A menudo se encuentra mezclada con otras fibras como el mohair."
-      soustitre2: "Las diferentes fibras vegetales naturales:"
-      texte3: "Materiales que, a diferencia de las fibras animales, tienen la ventaja de ser generalmente lavados a máquina. Y veganos para vestirse naturalmente."
-      strong21: "Algodón"
-      liste21: ". El más extendido y también controvertido dado el daño ecológico causado, una gran cantidad de pesticidas y mucho consumo de agua. Elija los que tienen certificación GOTS. Es absorbente y aislante, y es muy resistente al lavado incluso a altas temperaturas. Es suave, pero puede ser pesado de usar y cálido."
-      strong22: "Linen"
-      liste22: ": descuidado por mucho tiempo a favor del algodón, vemos que vuelve a la palestra por su cultivo que requiere poco fertilizante y agua. Es muy sólido, termorregulador, muy ligero. Su lado áspero se desvanece con el lavado."
-      strong23: "Bamboo"
-      liste23: ", muy absorbente, rivaliza con el algodón, mucho más fácil de cultivar. Es suave y cómodo, y muy resistente, puede reemplazar el nylon en la fabricación de calcetines. Es resbaladizo y bastante pesado. Mire su origen, las condiciones de crecimiento no son las mismas en Europa que en Asia."
-      strong24: "Soja"
-      liste24: ", una fibra de la que sé muy poco, aparentemente artificial porque se regenera a partir de las proteínas contenidas en las semillas, es lo que hace mucho trabajo de transformación. Es tan brillante como la seda, hipoalergénico, lavable y resistente a la luz y al sudor."
-      strong25: "Cáñamo"
-      liste25: ": fibra de la Edad Media que recupera sus letras de nobleza, por su cultivo rápido y productivo con poca agua, fertilizantes y pesticidas. Muy similar al lino, también es termorregulador, funciona bien tanto en verano como en invierno y se suaviza con el tiempo."
-      strong26: "tencel"
-      liste26: " (o lyocell), se extrae de la pulpa de madera de eucalipto. Es una reminiscencia de la seda por su apariencia y su tacto. Es resistente a las arrugas y fácil de mantener, ya que se puede lavar a máquina a 60 ° C."
-      texte4: "Gracias a los diversos blogs y wiki que me permitieron documentarme sobre el tema."
-    labels:
-      title: "LAS ETIQUETAS"
-      img1: "¡Muchas etiquetas!"
-      texte1: "¿Por qué le interesan las etiquetas textiles?"
-      texte2: "En un enfoque ecológico y sostenible por supuesto. Aunque signifique tanto hacer la artesanía como hacerlo bien y sobre todo elegir sus materias primas con toda conciencia. La industria textil utiliza una cuarta parte de los productos químicos del mundo y ha sido acusada 20% de la contaminación del agua por industria, lo que la convierte en el segundo mayor contaminador de agua dulce del planeta, razón por la cual, además de los estándares y regulaciones, las etiquetas un papel que jugar, en términos de apoyo a las marcas, y también como garantía de calidad para el consumidor final. Gracias a todos los que ya han escrito sobre el tema, blogs y otros donde me he documentado para ofrecerles la más amplia gama de posibilidades. "
-      texte3: "Cada etiqueta verifica y prioriza uno o más aspectos de la cadena de valor. Desde la producción de telas hasta el producto terminado. Estos son algunos ejemplos de áreas en las que se especializan las etiquetas:"
-      liste1: "Ecología - Protección del medio ambiente - Enfoque ético y sostenible - RSE"
-      liste2: "Social - Respeto por la condición humana"
-      liste3: "Comercio justo"
-      liste4: "Origen orgánico - Productos certificados sin pesticidas - Cuero ecológico - Productos veganos"
-      liste5: "Salud"
-      texte4: "Siendo la industria textil una de las más contaminantes del mundo, la industria de las etiquetas iba a empezar pronto. Siempre más verde que verde ... ¿Pero qué hacemos? vender ??? Y sí, comprar telas etiquetadas o lanas / hilos tiene un costo que el consumidor final tendrá que pagar. Así que es mejor que los conozca para elegir el correcto. "
-      texte5: "Gracias a todos los que escribieron sobre el tema y me permitieron documentarme ... La wiki es tu mejor amiga ..."
-      texte6: "Por lo tanto, haré una pequeña lista para ti detallando las dos principales, ya que si tengo que confiar en una etiqueta, será una de estas dos ... Después para lana, certificada o no, prefiero Siempre un pequeño criador francés, o filiación, al menos no estamos seguros de favorecer la cría francesa y no evitamos el costo del carbono (especialmente porque algunas etiquetas como AB, no tienen nada que ver con la AB francesa). .. De todos modos, ¡¡¡de vuelta al tema !!!! "
-      texte7: "GOTS para"
-      img2: "Estándar mundial de textiles orgánicos"
-      texte8: "es para mí la referencia en la materia. Es una etiqueta que se encuentra más bien en Reino Unido, Estados Unidos y Japón (me encantan sus tejidos). Desde 2008 pretende armonizar los estándares del sector textil en todo el mundo y me interesa sobre todo porque tiene las especificaciones más estrictas para lana, algodón, seda, cáñamo (falta el lino ... pero bueno). independiente para controlar la aplicación de las especificaciones que el productor se ha comprometido a respetar. "
-      texte9: "Cada producción tiene su propio cuaderno, por supuesto; pero en general encontramos lo que está prohibido:"
-      liste21: "Metales pesados ​​en su conjunto, "
-      liste22: "Alteradores endocrinos, "
-      liste23: "Retardantes de llama bromados o clorados, "
-      liste24: "Organismos modificados genéticamente u OMG, "
-      liste25: "Nanotecnología, "
-      liste26: "Sustancias cancerígenas, "
-      liste27: "PVC, "
-      liste28: "Níquel, "
-      liste29: "El cromo, "
-      liste30: "Métodos de impresión que utilizan disolventes aromáticos, "
-      liste31: "Métodos de impresión de plastisol utilizando ftalatos y PVC. "
-      texte10: "Por lo que es inevitable, la etiqueta ecológica hace concesiones sin, sin embargo, cumplir con la ley del mercado. Por así decirlo, la certificación GOTS busca limitar su uso con medidas como:"
-      liste40: "Regar los cultivos de algodón que deben ser razonados, "
-      liste41: "Aguas residuales que deben tratarse en una planta de tratamiento, "
-      img2: "Estándar mundial de textiles orgánicos"
-      texte8: "es para mí la referencia en la materia. Es una etiqueta que se encuentra más bien en Reino Unido, Estados Unidos y Japón (me encantan sus tejidos). Desde 2008 pretende armonizar los estándares del sector textil en todo el mundo y me interesa sobre todo porque tiene las especificaciones más estrictas para lana, algodón, seda, cáñamo (falta el lino ... pero bueno). independiente para controlar la aplicación de las especificaciones que el productor se ha comprometido a respetar. "
-      texte9: "Cada producción tiene su propio cuaderno, por supuesto; pero en general encontramos lo que está prohibido:"
-      liste21: "Metales pesados ​​en su conjunto, "
-      liste22: "Alteradores endocrinos, "
-      liste23: "Retardantes de llama bromados o clorados, "
-      liste24: "Organismos modificados genéticamente u OMG, "
-      liste25: "Nanotecnología, "
-      liste26: "Sustancias cancerígenas, "
-      liste27: "PVC, "
-      liste28: "Níquel, "
-      liste29: "El cromo, "
-      liste30: "Métodos de impresión que utilizan disolventes aromáticos, "
-      liste31: "Métodos de impresión de plastisol utilizando ftalatos y PVC. "
-      texte10: "Por lo que es inevitable, la etiqueta ecológica hace concesiones sin, sin embargo, cumplir con la ley del mercado. Por así decirlo, la certificación GOTS busca limitar su uso con medidas como:"
-      liste40: "Regar los cultivos de algodón que deben ser razonados, "
-      liste41: "Aguas residuales que deben tratarse en una planta de tratamiento, "
-      liste42: "Embalaje que debe ser reciclable. "
-      texte11: "En lo que respecta a asuntos sociales, no hace falta decir (-pero ciertamente no tanto, ya que hay que decirlo, nuevamente todo depende del país de origen ^^) que el trabajo forzado, los niños y se prohíbe la discriminación, además de las recomendaciones de la OIT (organización internacional del trabajo), a saber, horarios y salarios dignos, el derecho de sindicación y las condiciones de higiene y seguridad "
-      strong1: "Y lo que aprecio especialmente como cliente son las pruebas de desgaste, porque para ser lógico, la prenda debe poder durar con el tiempo, a fin de limitar su producción y su impacto ambiental. "
-      img3: "oeko-tex"
-      soustitre1: "OEKO-TEX 100"
-      texte12: "Esta es una de las etiquetas más comunes, de origen alemán. Es la primera etiqueta que garantiza"
-      strong2: "textiles sin productos tóxicos para el cuerpo y el medio ambiente. "
-      texte13: "Es una etiqueta confiable pero también puede certificar materiales sintéticos y por lo tanto contaminantes aguas arriba"
-      texte14: "Lo encontramos en diferentes formas"
-      texte15: "La etiqueta estándar ÖKO-TEX 100 ayuda a proteger al consumidor. De hecho, los productos etiquetados no contienen productos químicos que puedan ser tóxicos para los consumidores, como formaldehídos o metales pesados, por ejemplo. Esta etiqueta internacional es ampliamente utilizado especialmente para ropa de cama para niños pequeños. "
-      texte16: "También existe la etiqueta ÖKO-TEX standard 1000 que certifica que la producción respeta el medio ambiente durante todas sus etapas. "
-      texte17: "Finalmente, el estándar ÖKO-TEX 100 plus certifica que los productos etiquetados están libres de sustancias tóxicas y provienen de una producción ecológica. "
-      texte18: "Estas otras dos formas de la etiqueta textil estándar internacional ÖKO-TEX no están muy extendidas y son bastante raras de encontrar en los textiles. "
-      img4: "Hecho en verde"
-      soustitre2: "HECHO EN VERDE"
-      texte19: "Oeko-Tex también ha creado una nueva certificación Made in Green. Es la garantía de que"
-      strong3: "Los textiles son seguros para la salud de los consumidores (sin productos químicos nocivos) y también se producen de manera sostenible y socialmente responsable. "
-      texte20: "Gracias al uso de un número"
-      strong4: "A partir de pruebas específicas y códigos QR, los procesos textiles y de fabricación se pueden detallar y rastrear. "
-      texte21: "Made in Green reemplaza el antiguo sistema de certificación, Oeko-Tex Standard 100 Plus y la etiqueta española Made in Green de Aitex. "
-      img5: "Max Havelaar"
-      soustitre3: "MAX HAVELAAR"
-      texte22: "Esta es la etiqueta de comercio justo. Garantiza que el"
-      strong5: "el producto cumple con los criterios internacionales de comercio justo relacionados con las condiciones de producción y la remuneración del productor. Garantiza el cumplimiento de los convenios de la Organización Internacional del Trabajo (OIT). "
-      texte23: "Es una buena etiqueta, pero es menos exigente"
-      strong6: "criterios ambientales: los OMG están prohibidos, pero no los pesticidas. "
-      img6: "Comercio justo orgánico"
-      soustitre4: "COMERCIO JUSTO ORGÁNICO"
-      texte24: "Esta etiqueta garantiza un"
-      strong7: "producción orgánica"
-      texte25: "materia prima, especialmente algodón. También se aplica"
-      strong8: "una carta justa y humana"
-      texte26: "que reconcilia la ecología y lo social. En una lógica global, la etiqueta involucra a todos los actores de la cadena. "
-      img7: "Ecocert"
-      soustitre5: "ECOCERT"
-      texte27: "Es una etiqueta que funciona"
-      strong9: "en defensa de los consumidores, el medio ambiente y los trabajadores"
-      texte28: ". Por lo tanto, tiene varios objetivos. "
-      texte29: "Lo primero es proteger el planeta y sus recursos mediante el uso de"
-      strong10: "al menos 70% de fibras naturales o de materiales renovables o reciclados. "
-      texte30: "Pero también definiendo una <strong> política medioambiental "
-      strong10bis: "política medioambiental"
-      texte30bis: "exigir una reducción del consumo de agua y energía, mediante el uso de tintes, agentes textiles y procesos de fabricación"
-      strong11: "respetuoso con el medio ambiente y la salud del consumidor. "
-      texte31: "También actúa garantizando lo principal"
-      strong12: "convenciones internacionales"
-      texte32: "en materia social, salud y seguridad en el trabajo. "
-      texte33: "Finalmente, él tiene"
-      strong13: "un papel de protección e información del consumidor"
-      texte34: "proporcionando información clara sobre la naturaleza de las fibras que componen el producto y por"
-      strong14: "prohibir el uso de sustancias peligrosas"
-      texte35: "(por ejemplo, metales pesados, aminas cancerígenas, formaldehídos, enzimas transgénicas, etc.). "
-      texte36: "Pero sigue siendo muy inferior a los requisitos de GOTS"
-      img8: "Biore"
-      soustitre6: "BIORE"
-      texte37: "Es una etiqueta suiza que tiene garantías ecológicas, éticas y sociales. Certifica la materia prima de"
-      strong15: "algodón producido a partir de agricultura ecológica. "
-      texte38: "A nivel ambiental, certifica el"
-      strong16: "ausencia de productos químicos"
-      texte39: "para teñir y"
-      strong17: "tratamiento de aguas residuales antes de su liberación a la naturaleza. "
-      texte40: "También tiene un rol social al garantizar"
-      strong18: "buenas condiciones laborales"
-      texte41: "(no trabajo infantil, seguridad laboral, salario mínimo…). "
-      texte42: "También asegura"
-      strong19: "trazabilidad del producto. "
-      texte43: "Incluso podemos averiguar quién hizo la prenda visitando el sitio web de la marca. "
-      img9: "Etiqueta ecológica europea"
-      soustitre7: "EUROPEAN ECOLABEL"
-      texte44: "Esta etiqueta europea evalúa"
-      strong20: "el impacto ambiental de los productos a lo largo de su vida útil. "
-      texte45: "Se basa en el principio de"
-      strong21: "enfoque global"
-      texte46: "quién"
-      strong22: "toma en consideración el ciclo de vida del producto desde la extracción de materias primas, fabricación, distribución y uso hasta el reciclaje o eliminación después del uso. "
-      texte47: "Esta etiqueta se refiere solo al medio ambiente y no ofrece ninguna garantía social. "
-      img10: "origen francés garantizado"
-      soustitre8: "ORIGEN FRANCIA GARANTIZADA"
-      texte48: "Esta es la etiqueta oficial para"
-      strong23: "para garantizar la fabricación francesa en su totalidad o en parte. "
-      texte49: "Esta es una garantía contra la falsificación hecha en Francia y, por lo tanto, para el"
-      strong24: "preservación del empleo y cumplimiento de las normas sociales, ambientales y de salud. "
-      texte50: "Él certifica"
-      strong25: "que al menos el 50% del producto está hecho en Francia. "
-      texte51: "La otra mitad del producto se puede hacer en otro lugar ... Lamentamos que esta etiqueta no se aplique al 100%. "
-      img11: "Demeter"
-      soustitre9: "DEMETRO"
-      texte52: "La etiqueta Demeter es muy exigente. Implica que la materia prima del textil (lana, algodón o fibras de lino) es"
-      strong26: "de granjas certificadas Demeter"
-      texte53: ", según las especificaciones"
-      strong27: "más exigente que el de la agricultura ecológica certificada con el logotipo AB. "
-      texte54: "El algodón debe ser"
-      strong28: "cosechado a mano, la mecanización sólo es posible cuando se excluye el uso de productos químicos. "
-      texte55: "Las fibras animales deben cortarse o peinarse. "
-      texte56: "La etiqueta textil Demeter puede otorgarse a productos que contengan"
-      strong29: "fibras naturales"
-      texte57: "convencional que no estaría disponible bajo la etiqueta Demeter"
-      strong30: "hasta un 50%. "
-      img12: "Naturtextil"
-      soustitre10: "NATURTEXTIL"
-      texte58: "Esta etiqueta cumple con especificaciones estrictas y rigurosas. "
-      texte59: "Los textiles etiquetados tienen"
-      strong31: "al menos el 95% de sus fibras proceden de la agricultura ecológica"
-      texte60: "o en conversión. En cada etapa del proceso de producción, se debe verificar que las fibras orgánicas y convencionales no estén mezcladas, y que las fibras orgánicas no estén contaminadas de ninguna manera. "
-      texte61: "El proceso de fabricación de prendas de vestir también está muy controlado. "
-      strong32: "Se prohíben sustancias como el cloro, metales pesados, níquel, así como cualquier producto que pueda contener OMG. "
-      texte62: "Desde un punto de vista medioambiental, los socios están sujetos a un estatuto muy estricto de"
-      strong33: "Registro permanente de uso de sustancias químicas y energía, consumo de agua y tratamiento de aguas residuales. Los materiales de almacenamiento no deben contener PVC. "
-      texte63: "Finalmente, la etiqueta"
-      strong34: "también supervisa las condiciones laborales"
-      texte64: ": respeto por los derechos de los empleados, prohibición del trabajo forzoso (así como el hecho de exigir a los trabajadores que dejen sus documentos de identidad con su empleador), lugar de trabajo seguro y saludable, el trabajo infantil está prohibido , no se autoriza ninguna discriminación de ningún tipo (falta de promoción, diferencia de remuneración, etc.),… "
-      img13: "Naturleder"
-      soustitre11: "NATURLEDER"
-      texte65: "Esta es la primera etiqueta"
-      strong35: "ser cuero ecológico certificado. "
-      texte66: "Limita en gran medida los impactos de una industria muy contaminante. Garantiza un"
-      strong36: "Las pieles se conservan en frío y con sal, sin agentes químicos. Está prohibido el curtido con cromo u otros productos contaminantes. Solo productos vegetales y aquellos con aluminio, circonio o titanio. "
-      texte67: "Los tintes que contienen metales pesados ​​también están prohibidos. "
-      texte68: "Esta etiqueta también garantiza que las máscaras deben pertenecer a"
-      strong37: "animales criados principalmente para su carne. "
-      texte69: "Finalmente, esta etiqueta tiene los mismos criterios sociales que la etiqueta textil descrita anteriormente. "
-      img14: "Asociación de suelos orgánicos"
-      soustitre12: "ASOCIACIÓN DE SUELOS ORGÁNICOS"
-      texte70: "Esta es la etiqueta orgánica más grande del Reino Unido. Certifica productos orgánicos y campañas para una agricultura respetuosa con el medio ambiente y una producción de alimentos más segura y saludable. "
-      texte71: "Concerniente a los textiles, "
-      strong38: "al menos el 70% de las fibras deben ser orgánicas y no contener sustancias nocivas. "
-      texte72: "Esta etiqueta también tiene en cuenta"
-      strong39: "criterio social y respeta los convenios de la Organización Internacional del Trabajo (OIT). "
-      img15: "Living Heritage Company"
-      soustitre13: "EMPRESA PATRIMONIO VIVO (EPV)"
-      texte73: "La etiqueta Entreprise du Patrimoine Vivant (EPV) es una etiqueta francesa. Es una marca de reconocimiento del Estado que distingue "
-      strong40bis: "Empresas francesas con excelentes conocimientos artesanales e industriales. "
-      texte73bis: "En particular, distingue los conocimientos tradicionales de calidad (como el encaje). Les Entreprises du Patrimoine Vivant"
-      strong40: "mantener su actividad productiva en Francia. "
-      img16: "Fundación Fair Wear"
-      soustitre14: "FUNDACIÓN DE DESGASTE JUSTO (FWF)"
-      texte74: "Fair Wear Foundation es una fundación que trabaja para respetar las condiciones laborales dignas en las empresas. Su"
-      strong41: "El objetivo es contribuir a la mejora de las condiciones laborales en la industria textil. "
-      texte75: "Para ello, ha creado un Código de Prácticas Laborales que las marcas se comprometen a respetar. Los principios fundamentales de este código son los siguientes:"
-      strong42: "Prohibición del trabajo forzoso, no discriminación en el empleo, libertad de asociación, condiciones de trabajo decentes (higiene, salud), el trabajo infantil está prohibido, horarios y salarios controlados, toda discriminación prohibida. "
-      texte76: "La FWF se compromete entonces a verificar la aplicación de estos principios en las fábricas de hilados y textiles. "
-      img17: "Hecho con respeto"
-      soustitre15: "MADE IN RESPECT"
-      texte77: "El objetivo de esta etiqueta es brindar a las pequeñas empresas, en particular las industriales, una herramienta para promover sus enfoques éticos"
-      strong43: "responsabilidad social y ambiental"
-      texte78: "(RSE), fácil de configurar, económico y confiable. "
-      texte79: "Los criterios combinan aspectos relacionados"
-      strong44: "a la calidad y el saber hacer, las condiciones sociales, el ecodiseño y el respeto al medio ambiente, así como a la ética económica. "
-      texte80: "Estos principios, por tanto, tienen como objetivo promover productos fabricados de una manera verdaderamente sostenible. "
-      img18: "Orgánico"
-      soustitre16: "ORGÁNICO"
-      texte81: "Es una organización estadounidense que tiene como objetivo promover el uso del algodón orgánico y que cuenta con el apoyo de marcas como Nike, Walmart, H&M, Adidas, Patagonia, Marks & Spencer ... Se trata de tener un estándar que permita para acceder fácilmente al algodón orgánico. "
-      texte82: "Esta certificación garantiza"
-      strong45: "un nivel de algodón orgánico en el producto terminado pero no garantiza las etapas de transformación del textil y en particular el teñido. "
-      texte83: "No incluye elementos referentes a las condiciones sociales de producción. "
-      strong46: "Así que es una etiqueta poco confiable, especialmente cuando se ve dónde producen estas marcas y las condiciones laborales que imponen a sus empleados (ver subcontratistas). "
-      lien1: "Fuentes: Eco-sapiens, My Races for the Planet"
-  clothes:
-    index:
-      title:
-        zero: "Cero desperdicio"
-        upcycling: "Reciclaje"
-        clothing: "Ropa"
-        accessory: "Accesorios"
-      nothing: "¡Sin coincidencia!"
-      slogan: "Save us, no more plastic please"
-      search: "Buscar ..."
-      price: "Precio:"
-      note: "Nota:"
-      ononon:
-        one: "En 1 evaluación."
-        other: "De %{count} evaluaciones."
-      ratings: "Calificaciones."
-      delivery: "Entrega:"
-      see: "Ves"
-      edit: "Editar"
-      delete: "Eliminar"
-      newclothe: "Crear ropa nueva"
-    edit:
-      update: "Actualización"
-    form:
-      name: "Apellido:"
-      category: "Categoría:"
-      description: "Descripción:"
-      option: "Opción:"
-      price_cents: "Precio en centavos:"
-      scoring: "Nota de 5:"
-      nbov: "Número de votos:"
-      delivery: "Entrega:"
-      delivery_color: "Color de entrega:"
-      stock: "Cantidades en stock:"
-      photos: "Fotos:"
-      submit: "Validar"
-    new:
-      title: "Nuevo"
-    show:
-      edit: "Editar"
-      back: "Volver"
-      comments: "Comentarios"
-      buy: "Compra"
-      size: "Talla"
-      color: "Color"
-      basket: "Poner en mi canasta"
-      comment: "Dejar un comentario"
-    size:
-      title: "Medidas y tamaños"
-      texte: "Al estar confeccionada cada prenda a medida, es importante que sepas llevarla correctamente para que me adapte lo mejor posible a tu cuerpo, así un pequeño boceto es más contundente."
-      alt: "Tomando medidas"
-      mensuration: "Medidas"
-      stature: "estatura"
-      poitrine: "Tamaño del pecho"
-      taille: "Tamaño de la cintura"
-      hanche: "Circunferencia de la cadera"
-      bras: "Longitud del brazo"
-      epaule: "Ancho de hombros"
-      legende: "Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- Todas las medidas están en cm ----- "
-      strong1: "1) STATURE"
-      strong2: "2) TAMAÑO DEL PECHO"
-      strong3: "3) TAMAÑO DE LA CINTURA"
-      strong4: "4) TOUR DE CADERAS"
-      strong5: "5) LARGO DEL BRAZO"
-      strong6: "6) ANCHO DE HOMBRO"
-      texte1: " erguido, de la cabeza a los pies."
-      texte2: " en la punta de los senos."
-      texte3: " en la cintura, sobre la cinta."
-      texte4: " en el punto más fuerte de las nalgas."
-      texte5: " brazo ligeramente doblado, desde la articulación del hombro hasta la muñeca, pasando por encima del codo."
-      texte6: " desde la base del cuello hasta la articulación del hombro."
-  shared:
-    header:
-      forgot: "Contraseña olvidada"
-      signout: "Desconectarse"
-      signin: "Conectarse"
-      you_have: 
-        one: "Tienes 1 artículo en tu carrito."
-        other: "Tienes %{count} artículos en tu carrito."
-      see_cart: "Ver mi cesta"
-  activerecord:
-    errors:
-      models:
-        user:
-          attributes:
-            email:
-              blank: " no debe estar vacío!"
-  home:
-    who:
-      titre: ¿Quiénes somos?
-      intro: OcéNat Créations es una pequeña empresa artesanal, sobre todo francesa y ecológicamente responsable.
-      texte1: Después de haber trabajado como observador científico a bordo, me di cuenta rápidamente del impacto del plástico en los océanos. ¿Pero qué es el plástico? Un poco de todo, de hecho, se encuentra en fibras sintéticas como el vellón polar en forma de micropartículas, y son estas las que forman continentes en ciertas áreas de los océanos y destruyen una gran parte de la fauna porque son invisibles pero se absorben.
-      texte2: "Entonces decidimos:"
-      liste1: para trabajar solo con fibras naturales (animales o plantas),
-      liste2: para participar en el reciclaje de ropa, la segunda industria más contaminante del mundo, y mucha ropa apenas se usa antes de tirarse,
-      liste3: y para mantener la idea, también hemos desarrollado un rango de cero desperdicio que lo ayudará a eliminar el plástico de su vida diaria (bolsa a granel, charlotte plano o envolturas de abejas ...) y hacer ahorro a largo plazo.
-      texte3: Nuestros proveedores son elegidos con el mayor cuidado para cumplir con nuestros muchos requisitos. Intentamos trabajar lo más posible con lanas / hilos / telas con la etiqueta GOTS, o Okéo-tex, luego siempre favorecemos las producciones para limitar las emisiones de carbono
-      texte4: este sitio se los presenta en su tienda, en 3 categorías. También encontrará algunos artículos sobre ecología y la industria textil, así como sobre fibras y tutoriales.
-      texte5: no dude en suscribirse, recibirá nuestro boletín (aproximadamente 4 por año) y podrá comentar sus artículos favoritos
-      texte6: Que tengas una buena visita
-    contact:
-      texte1: "Para contactarnos:"
-      texte2: "Teléfono:"
-    condition:
-      title: "CONDICIONES GENERALES DE VENTA"
-      texte1: "Entre la microempresa OcéNat Créations, "
-      texte2: "16rue des Tilleuls, "
-      texte3: "16360 Baignes Ste Radegonde"
-      texte4: "inscrito en el Registro de la Cámara de Comercio y Artesanía de Charente, "
-      texte5: "bajo el número SIRET 0000000000,"
-      texte6: "representada por la Sra. Bernard Sonia como gerente, debidamente autorizada a los efectos del presente. "
-      texte7: "Se puede contactar a la empresa por correo electrónico haciendo clic en el formulario de contacto accesible a través de la página de inicio del sitio. "
-      texte8: "En adelante, el' Vendedor 'o la' Compañía '."
-      texte9: "Por un lado, Y la persona física o jurídica que adquiere los productos o servicios de la empresa, "
-      texte10: "En adelante,' el Comprador ', o' el Cliente 'Por otro lado, se ha establecido y acordado lo siguiente:"
-      texte11: "El Vendedor es el editor de Productos OcéNat Créations destinados a los consumidores, comercializados a través de sus sitios web (http://siteweb.com). La lista y descripción de los bienes y servicios ofrecidos por la Compañía pueden ser visto en los sitios antes mencionados. "
-      soustitre1: "Artículo 1: Asunto"
-      texte12: "Estas Condiciones Generales de Venta determinan los derechos y obligaciones de las partes en el marco de la venta online de Productos o Servicios ofrecidos por el Vendedor. "
-      soustitre2: "Artículo 2: Disposiciones generales"
-      texte13: "Estas Condiciones Generales de Venta (TCG) rigen la venta de Productos o Servicios, realizada a través de los sitios web de la Compañía, y son una parte integral del Contrato entre el Comprador y el Vendedor. Son totalmente exigibles contra el Comprador que los aceptó antes de realizar un pedido. "
-      texte14: "El Vendedor se reserva el derecho de modificar las presentes condiciones, en cualquier momento mediante la publicación de una nueva versión en su sitio web. Los TCG entonces aplicables son los vigentes en la fecha de pago (o del primer pago en caso de pagos múltiples) del pedido. Estos Términos y Condiciones están disponibles en el sitio web de la Compañía en la siguiente dirección: "
-      texte15: "http://ocenatcreations.com/homes/condition"
-      texte16: "La Compañía también se asegura de que su aceptación sea clara y sin reservas al configurar una casilla de verificación y un clic de validación. El Cliente declara haber leído todos estos Términos y condiciones generales de venta, y en su caso, las Condiciones Especiales de Venta relacionadas con un producto o servicio, y aceptarlas sin restricción ni reserva. "
-      texte17: "El Cliente reconoce que ha recibido el asesoramiento y la información necesarios para garantizar que la oferta satisface sus necesidades. "
-      texte18: "El Cliente declara poder contratar legalmente bajo la ley francesa o representar a la persona física o jurídica por quien está comprometido. Salvo prueba en contrario, la información registrada por la Compañía constituye prueba de todas las transacciones . "
-      soustitre3: "Artículo 3: Precio"
-      texte19: "Los precios de los productos vendidos a través de los sitios de Internet se indican en euros sin impuestos y se determinan con precisión en las páginas de descripción del producto. También se indican en euros, incluidos todos los impuestos (IVA + cualquier otro impuesto) en la página de pedidos de productos y excluyendo los costos de envío específicos. Para todos los productos enviados fuera de la Unión Europea y / o DOM-TOM, el precio se calcula automáticamente sin incluir los impuestos en la factura. Derechos de aduana u otros impuestos o aranceles locales En ciertos casos, es probable que se deban pagar impuestos de importación o estatales. Estos derechos y sumas no son responsabilidad del Vendedor. Serán responsabilidad del comprador y son su responsabilidad (declaraciones, pago a las autoridades competentes, etc.) Por lo tanto, el Vendedor invita al comprador a consultar estos aspectos con las autoridades locales correspondientes.La Compañía se reserva el derecho de modificar sus precios en cualquier momento para el ven. Los costos de telecomunicaciones necesarios para acceder a los sitios web de la Compañía son responsabilidad del Cliente. En su caso, también los gastos de envío. "
-      soustitre4: "Artículo 4: Celebración del contrato en línea"
-      texte20: "De acuerdo con lo dispuesto en el artículo 1127-1 del Código Civil, el Cliente debe seguir una serie de pasos para concluir el contrato electrónicamente con el fin de poder realizar su pedido :; Información sobre las características esenciales del Producto; - Elección del Producto, en su caso, de sus opciones - Indicación de los datos de contacto esenciales del Cliente (identificación, correo electrónico, dirección, etc.); - "
-      strong1: "Aceptación de estas Condiciones Generales de Venta"
-      texte21: "Verificación de los elementos del pedido (trámite de doble clic) y, en su caso, corrección de errores. Antes de proceder a su confirmación, el Comprador tiene la posibilidad de verificar los detalles de su pedido, su precio y para corregir cualquier error, o cancelar su pedido. La confirmación del pedido constituirá el presente contrato. - Seguidamente, siga las instrucciones de pago, pago de los productos, luego entrega del pedido. El Cliente recibirá la confirmación por correo electrónico del pago del pedido, así como acuse de recibo del mismo que lo confirma.Recibirá una copia en formato pdf de estas condiciones generales de venta.El cliente tendrá durante su proceso de pedido la posibilidad de identificar los errores cometidos. en la introducción de datos y su corrección. El idioma propuesto para la celebración del contrato es el francés. Los términos de la oferta y las condiciones generales de venta son enviado por correo electrónico al comprador al realizar el pedido y archivado en el sitio web del vendedor. En su caso, las reglas profesionales y comerciales a las que el autor de la oferta pretende acatar se pueden consultar en la sección de 'reglas adicionales' de estos TCG, disponible en el sitio web del Vendedor en la siguiente dirección. El archivo de las comunicaciones, el pedido, los detalles del pedido, así como las facturas se realiza en un soporte fidedigno y duradero con el fin de constituir una copia fiel y duradera de acuerdo con lo dispuesto en el artículo 1360 del código civil. Esta información se puede presentar como prueba del contrato. Para los productos entregados, la entrega se realizará a la dirección indicada por el Cliente. A los efectos de la finalización satisfactoria del pedido, el Cliente se compromete a proporcionar sus verdaderos elementos de identificación. El Vendedor se reserva el derecho de rechazar el pedido, por ejemplo, por cualquier solicitud anormal, realizada de mala fe o por cualquier motivo legítimo. "
-      soustitre5: "Artículo 5: Productos y servicios"
-      texte22: "Las características esenciales de los bienes, servicios y sus respectivos precios se ponen a disposición del comprador en los sitios web de la empresa, así como, en su caso, la forma de uso del producto. De acuerdo con el artículo L112-1 del Código de Consumo, se informa al consumidor, mediante marcado, etiquetado, exhibición o cualquier otro proceso adecuado, de los precios y las condiciones especiales de venta y de las ejecución de servicios antes de cualquier conclusión del contrato de venta. En todos los casos, el monto total adeudado por el Comprador se indica en la página de confirmación del pedido. El precio de venta del producto es el vigente indicado el día del pedido, éste sin incluir los gastos de envío facturados además. Estos posibles costes se indican al Comprador durante el proceso de venta, y en todo caso en el momento de la confirmación del pedido. El Vendedor se reserva el derecho a modificar sus precios en cualquier momento, garantizando la aplicación del precio indicado en el momento del pedido. Cuando los productos o servicios no se ejecutan de inmediato, se proporciona información clara en la página de presentación del producto en cuanto a las fechas de entrega de los productos o servicios. El cliente certifica haber recibido un detalle de los gastos de envío así como las condiciones de pago, entrega y ejecución del contrato, así como información detallada relativa a la identidad del vendedor, sus datos de contacto postales, telefónicos y electrónicos, y a sus actividades en el contexto de esta venta. El Vendedor se compromete a cumplir con el pedido del Cliente dentro del límite de las existencias de Productos disponibles únicamente. De lo contrario, el Vendedor informa al Cliente; si se ha realizado el pedido, y en ausencia de acuerdo con el Cliente sobre una nueva fecha de entrega, el Vendedor reembolsa al cliente. La información contractual se presenta detalladamente y en francés. Les parties conviennent que les illustrations ou photos des produits offerts à la vente n’ont pas de valeur contractuelle. La durée de validité de l’offre des Produits ainsi que leurs prix est précisée sur les sites Internet de la Société, ainsi que la durée minimale des contrats proposés lorsque ceux-ci portent sur une fourniture continue ou périodique de produits ou services. Sauf conditions particulières, les droits concédés au titre des présentes le sont uniquement à la personne physique signataire de la commande (ou la personne titulaire de l’adresse email communiqué). "
-      soustitre6: "Artículo 6: Cumplimiento"
-      texte23: "De acuerdo con el artículo L.411-1 del Código del Consumidor, los productos y servicios ofrecidos a la venta a través de estos GTCS cumplen con los requisitos vigentes relacionados con la seguridad y salud de las personas, para equidad en las transacciones comerciales y protección del consumidor. Independientemente de cualquier garantía comercial, el vendedor sigue siendo responsable de cualquier falta de conformidad y vicios ocultos en el producto. De acuerdo con el artículo L.217-4, el vendedor entrega un bien conforme del contrato y responde a cualquier falta de conformidad existente en el momento de la entrega. También responde a cualquier falta de conformidad derivada del embalaje, instrucciones de montaje o instalación cuando le haya sido a cargo del contrato o ha sido realizado bajo su responsabilidad De acuerdo con las disposiciones legales sobre conformidad y vicios ocultos (art. 1641 civ. c.), el Vendedor reembolsa o cambia los productos defectuosos o productos que no correspondan al c. orden. El reembolso se puede solicitar de la siguiente manera: Si al recibirlo se encuentra un defecto, se debe enviar un correo electrónico dentro de las 48 horas para informar el problema con fotos, el producto debe ser devuelto (los costos de envío correrán a cargo del cliente salvo acuerdo previo por correo electrónico) en un plazo máximo de 10 días para proceder a un cambio o devolución (salvo problema de tallas y que se deba a un error del cliente en el formulario de pedido). "
-      soustitre7: "Artículo 7: cláusula de reserva de propiedad"
-      texte24: "Los productos siguen siendo propiedad de la Compañía hasta el pago total del precio. "
-      soustitre8: "Artículo 8: Condiciones de entrega"
-      texte25: "Los productos se entregan en la dirección de entrega que se indicó al realizar el pedido y dentro de los tiempos indicados. Estos tiempos no tienen en cuenta el tiempo que se tarda en preparar el pedido. Cuando el Cliente pide varios productos a la vez. Estos pueden tener diferentes tiempos de entrega distribuidos de la siguiente manera: los productos de cero desperdicio y reciclaje se empaquetan y envían dentro de los 8 días posteriores a la confirmación del pedido, los modelos de recolección personalizados se empaquetan y envían entre 4 y 6 semanas. Todos los productos son enviados por UPS o Mondial Relay a su domicilio o punto de retransmisión según los términos definidos por el cliente al realizar el pedido. En caso de retraso en el envío, el cliente será contactado por correo electrónico o por teléfono en orden. para darle la posibilidad de cancelar o confirmar su pedido, la cancelación da derecho a la devolución total de las sumas ya pagadas. En caso de retraso en la entrega, el Cliente tiene derecho a posibilidad de rescindir el contrato en los términos y condiciones definidos en el artículo L 138-2 del Código del Consumidor. El Vendedor reembolsa el producto y los costos de 'salida' en las condiciones del artículo L 138-3 del Código del Consumidor. El Vendedor proporciona un punto de contacto telefónico (costo de una llamada local desde un teléfono fijo) indicado en el correo electrónico de confirmación del pedido para dar seguimiento al pedido. El Vendedor recuerda que cuando el Cliente toma posesión física de los productos, se le transfiere el riesgo de pérdida o daño de los productos. Es responsabilidad del Cliente notificar al transportista de cualquier reserva sobre el producto entregado. "
-      soustitre9: "Artículo 9: Disponibilidad y presentación"
-      texte26: "En el caso de que un artículo no esté disponible por un período superior a 10 días hábiles, se le notificará inmediatamente de los plazos de entrega previsibles y el pedido de este artículo puede cancelarse si lo solicita. El Cliente puede entonces solicitar una nota de crédito. por el importe del artículo o su devolución total y cancelación del pedido. "
-      soustitre10: "Artículo 10: Pago"
-      texte27: "El pago vence inmediatamente después de realizar el pedido, incluidos los productos pedidos por adelantado. El cliente puede pagar con tarjeta de pago o cheque bancario. Las tarjetas emitidas por bancos domiciliados fuera de Francia deben ser tarjetas bancarias internacional (Mastercard o Visa). El pago seguro en línea con tarjeta de crédito lo realiza nuestro proveedor de servicios de pago. La información transmitida está encriptada de acuerdo con las reglas de la técnica y no se puede leer durante el transporte en la red "
-      texte27bis: "Una vez que el Cliente ha iniciado el pago, la transacción se carga inmediatamente después de la verificación de la información. De acuerdo con lo establecido en el Código Monetario y Financiero, el compromiso de pago otorgado con tarjeta es irrevocable. Al comunicar su información bancaria durante el venta, el Cliente autoriza al Vendedor a debitar su tarjeta por el importe correspondiente al precio indicado El Cliente confirma que es efectivamente el titular legal de la tarjeta a debitar y que está legalmente autorizado a utilizarla. error, o imposibilidad de cargar la tarjeta, la Venta se resuelve inmediatamente de forma automática y el pedido cancelado Artículo 11: Plazo de desistimiento De acuerdo con lo dispuesto en el Artículo L 221-5 del Código del Consumidor, El Comprador tiene derecho a desistir sin dar ningún motivo, dentro de los catorce (14) días a partir de la fecha de recepción de su pedido. El derecho de desistimiento puede ejercerse poniéndose en contacto con la Compañía de la siguiente manera: por simple correo electrónico. Si el derecho de desistimiento se ejerce dentro del plazo antes mencionado, se reembolsará el precio del producto o productos adquiridos y los gastos de envío, siendo los gastos de devolución a cargo del Cliente. Las devoluciones de productos deben realizarse en su estado original y completas (embalaje, accesorios, instrucciones, etc.); si es posible, deben ir acompañadas de una copia del comprobante de compra. De acuerdo con las disposiciones legales, encontrará a continuación el formulario de desistimiento estándar que se nos enviará a la siguiente dirección: "
-      texte27ter: "Procedimiento de reembolso: el reembolso se realizará mediante transferencia bancaria en un plazo de 3 días (excluyendo el plazo bancario) tras la recepción del paquete de devolución. "
-      soustitre11: "Artículo 11: Garantías"
-      texte28: "De conformidad con la ley, el Vendedor asume las siguientes garantías: de conformidad y relativas a defectos ocultos de los productos. El Vendedor reembolsa al comprador o cambia los productos aparentemente defectuosos o no correspondientes al pedido realizado. La solicitud de devolución debe llevarse a cabo de la siguiente manera: _________ (detalle el procedimiento) El Vendedor recuerda que el consumidor: - tiene un plazo de 2 años desde la entrega del bien para actuar con el Vendedor - que puede elegir entre la reposición y reparación de la mercancía sujeta a las condiciones previstas por las disposiciones anteriores - aparentemente defectuosa o no correspondiente - que se exime de acreditar la existencia de la falta de conformidad de la mercancía durante los seis meses siguientes a la emisión de la - que, a excepción de los bienes de segunda mano, este plazo se ampliará a 24 meses a partir del 18 de marzo de 2016 - que el consumidor también podrá hacer valer la garantía contra vicios ocultos del cosa vendida en el sentido del artículo 1641 del código civil y, en este caso, podrá optar entre la resolución de la compraventa o una rebaja del precio de venta (disposiciones de los artículos 1644 del código civil). Garantías adicionales: _____ (describa sus garantías adicionales) (esta, todavía no sé qué ponerme, tengo que averiguarlo bien, no he reemplazado cosas después de 2 años ^^) "
-      soustitre12: "Artículo 12: Quejas y mediación"
-      texte29: "En su caso, el Comprador podrá presentar cualquier reclamación poniéndose en contacto con la empresa utilizando las siguientes coordenadas _____ (indicar los datos de contacto y el procedimiento). De conformidad con lo dispuesto en los artículos L. 611-1 a L. 616-3 del Código del Consumidor, se informa al consumidor que podrá recurrir a un mediador del consumidor en las condiciones previstas en el Título I del Libro VI del Código del Consumidor. En caso de fallo de la reclamación solicitar al Servicio al cliente del Vendedor, o en ausencia de una respuesta dentro de los dos meses, el consumidor puede presentar la disputa a un mediador Para ver con mi seguro profesional que intentará con toda independencia unir a las partes para obtener una solución amistosa . "
-      soustitre13: "Artículo 13: rescisión del contrato"
-      texte30: "El pedido podrá ser resuelto por el comprador mediante carta certificada con acuse de recibo en los siguientes casos: - entrega de un producto que no cumpla con las características del pedido; - entrega superando el plazo fijado en el momento de el pedido o, en su defecto, dentro de los treinta días siguientes al pago; - aumento injustificado de precio o modificación del producto. En estos casos, el comprador podrá exigir el reembolso del depósito pagado más los intereses calculados sobre la Tasa legal a partir de la fecha de recepción del depósito. "
-      soustitre14: "Artículo 14: Derechos de propiedad intelectual"
-      texte31: "Las marcas comerciales, los nombres de dominio, los productos, el software, las imágenes, los videos, los textos o, en general, cualquier información sujeta a derechos de propiedad intelectual son y siguen siendo propiedad exclusiva del vendedor. No se realiza ninguna transferencia de derechos de propiedad intelectual a través de estos TCG. Cualquier reproducción, modificación o uso total o parcial de estos bienes por cualquier motivo está estrictamente prohibido. "
-      soustitre15: "Artículo 15: Fuerza mayor"
-      texte32: "La ejecución de las obligaciones del vendedor al final del presente contrato se suspende en caso de que se produzca un evento fortuito o de fuerza mayor que impida la ejecución. El vendedor notificará al cliente de la ocurrencia de tal evento tan pronto como como sea posible."
-      soustitre16: "Artículo 16: Nulidad y modificación del contrato"
-      texte33: "Si una de las estipulaciones de este contrato fuera cancelada, esta nulidad no implicaría la nulidad de las demás estipulaciones que seguirán vigentes entre las partes. Cualquier modificación contractual solo es válida después de un acuerdo escrito firmado por las partes. partes."
-      soustitre17: "Artículo 17: Protección de datos personales"
-      texte34: "De conformidad con el Reglamento 2016/679 del 27 de abril de 2016 sobre la protección de las personas con respecto al procesamiento de datos personales y la libre circulación de dichos datos, el Vendedor establece un procesamiento de datos personales cuyo objeto es la venta y entrega de productos y servicios definidos en este contrato. Se informa al Comprador de lo siguiente: - la identidad y los datos de contacto del responsable del tratamiento y, en su caso, del representante del responsable del tratamiento : el Vendedor, como se indica en la parte superior de estos TCG; - los datos de contacto del delegado de protección de datos: ???? - la base legal del procesamiento: ejecución contractual - los destinatarios o categorías de destinatarios de los datos de carácter personal, si existen: el controlador, sus departamentos encargados de marketing, los departamentos encargados de seguridad informática, el departamento encargado de ventas, entrega y el pedido, los subcontratistas involucrados en las operaciones de entrega y venta, así como cualquier autoridad legalmente autorizada para acceder a los datos personales en cuestión - no está prevista ninguna transferencia fuera de la UE - el período de conservación de los datos: tiempo de la prescripción comercial: el interesado tiene derecho a solicitar al responsable del tratamiento el acceso a los datos personales, la rectificación o supresión de estos, o una limitación del tratamiento en relación con el interesado, o derecho a oponerse al tratamiento y derecho a la portabilidad de los datos - El interesado tiene derecho a presentar una reclamación ante una autoridad de control - la información solicitada al realizar el pedido es necesaria para establecer el factura (obligación legal) y entrega de la mercancía solicitada, de lo contrario no se podrá realizar el pedido. No se implementan decisiones automatizadas o perfiles a través del proceso de pedido. "
-      soustitre18: "Artículo 18: Ley y cláusulas aplicables"
-      texte35: "Todas las cláusulas que figuran en estas condiciones generales de venta, así como todas las operaciones de compraventa a las que se refieren, estarán sometidas a la ley francesa. La nulidad de una cláusula contractual no implica la nulidad de estas condiciones generales de venta. "
-      soustitre19: "Artículo 19: Información al consumidor"
-      texte36: "A efectos de información al consumidor, a continuación se reproducen las disposiciones del Código Civil y del Código del Consumidor: Artículo 1641 del Código Civil: El vendedor está obligado por la garantía debido a los defectos ocultos del artículo vendido que lo hacen inadecuados para el uso al que está destinado, o que reducen tanto este uso que el comprador no los hubiera adquirido, o hubiera dado solo un precio inferior, si los hubiera conocido. Artículo 1648 del Código Civil: La acción resultante de defectos latentes debe ser interpuesta por el comprador dentro de los dos años siguientes al descubrimiento del defecto. En el caso previsto en el artículo 1642-1, la acción deberá interponerse, bajo pena de ejecución hipotecaria, dentro del plazo de un año desde la fecha en que el vendedor pueda ser liberado de defectos aparentes o falta de conformidad. Artículo L. 217-4 del Código del Consumidor: El vendedor entrega la mercancía de conformidad con el contrato y es responsable de cualquier falta de conformidad existente en el momento de la entrega. También responde a cualquier falta de conformidad resultante del embalaje, instrucciones de montaje o instalación cuando le haya sido a cargo del contrato o se haya realizado bajo su responsabilidad. Artículo L. 217-5 del Código del Consumidor: El bien se ajusta al contrato: 1 ° Si es apto para el uso que normalmente se espera de un bien similar y, en su caso: - si corresponde a la descripción dada por el vendedor y tiene las cualidades que este presentado al comprador como muestra o modelo; - si tiene las cualidades que un comprador puede esperar legítimamente dadas las declaraciones públicas hechas por el vendedor, el productor o su representante, en particular en publicidad o etiquetado; 2 ° O si tiene las características definidas de mutuo acuerdo por las partes o es apto para cualquier uso especial buscado por el comprador, puesto en conocimiento del vendedor y que éste ha aceptado. Artículo L. 217-12 del Código del Consumidor: La acción resultante de la falta de conformidad prescribe dos años después de la entrega de la mercancía. Artículo L. 217-16 del Código del Consumidor: Cuando el comprador solicite al vendedor, durante el curso de la garantía comercial que le fue otorgada durante la adquisición o reparación de bienes muebles, condición cubierta por la garantía, cualquier tiempo de inactividad de al menos siete días se agrega al período de garantía restante. Este plazo se extiende desde la solicitud de intervención del comprador o la disposición para la reparación del inmueble en cuestión, si esta disposición es posterior a la solicitud de intervención. "
-      lien1: "Nuestras condiciones generales de venta se han elaborado a partir de un modelo gratuito que se puede descargar del sitio: "
-
-  comment:
-    new:
-      title: "Título"
-      content: "Mensaje"
-      note: "Nota (entre 0 y 5)"
-      submit: "Validar"
-      return: "Volver"
-      titre: "Escribe un nuevo comentario"
-      author: "Escrito por: "
-      notation: "Nota: "
-    links:
-      see: "Ves"
-      remove: "Eliminar"
-      update: "Actualizar"
-    edit:
-      titre: "Editar mi comentario"
-  cart:
-    show:
-      title: "Mi cesta"
-      article: "Artículo"
-      quantity: "Cant. "
-      price: "Precio unitario"
-      total_price: "Precio total"
-      delete: "Sup"
-      really: "estás seguro?"
-      main_total: "Total"
-      amount: "Cantidad: "
-      commande: "Realizar pedido"
-      return: "Volver a la tienda"
-      color: "Color"
-      size: "Tamaño"

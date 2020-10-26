@@ -11,7 +11,7 @@ const displayDropDownMenu = () => {
   if (document.querySelector(".header").offsetWidth >= 750){
     repartX = ((document.querySelector(".header").offsetWidth - 600) / 2);
   }
-  menu.style.transform = `translate(${repartX}px, -300px`
+  menu.style.transform = `translate(${repartX}px, -400px`
   
   
   burger.classList.add("wait");

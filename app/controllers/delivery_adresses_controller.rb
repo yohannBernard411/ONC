@@ -1,5 +1,4 @@
 class DeliveryAdressesController < ApplicationController
-
   def new
     @delivery_adress = DeliveryAdress.new
     authorize @delivery_adress
@@ -17,8 +16,7 @@ class DeliveryAdressesController < ApplicationController
   private
 
   def params_delivery_adress
-    params.require(:delivery_adress).permit(:first_name, :last_name, :adress1, :adress2, :city, :state, :zipcode, :phone_number, :delivery_instructions, :code_secure)
+    params.require(:delivery_adress).permit(:first_name, :last_name, :adress1, :adress2, :city,
+                                            :state, :zipcode, :phone_number, :delivery_instructions, :code_secure)
   end
-  
-
 end

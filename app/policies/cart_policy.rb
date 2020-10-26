@@ -1,5 +1,4 @@
 class CartPolicy < ApplicationPolicy
-
   attr_reader :user, :cart
 
   class Scope < Scope
@@ -14,35 +13,29 @@ class CartPolicy < ApplicationPolicy
   end
 
   def index?
-    if @user
-      return @user.admin
-    end
+    return unless @user
+
+    return @user.admin
   end
 
   def show?
-    if @user
-      return @user.id == @cart.user_id
-    end
+    return unless @user
+
+    return @user.id == @cart.user_id
   end
 
   def create?
-    
   end
 
   def new?
-
   end
 
   def edit?
-
   end
 
   def update?
-
   end
 
   def destroy?
-
   end
-
 end

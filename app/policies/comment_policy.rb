@@ -1,5 +1,4 @@
 class CommentPolicy < ApplicationPolicy
-
   attr_reader :user, :comment
 
   class Scope < Scope
@@ -29,32 +28,17 @@ class CommentPolicy < ApplicationPolicy
   end
 
   def edit?
-    if @user
-      if @user.admin || @user.id == @comment.user_id
-        return true
-      else
-        return false
-      end
-    end
+    return unless @user
+    return true if @user.admin || @user.id == @comment.user_id
   end
 
   def update?
-    if @user
-      if @user.admin || @user.id == @comment.user_id
-        return true
-      else
-        return false
-      end
-    end
+    return unless @user
+    return true if @user.admin || @user.id == @comment.user_id
   end
 
   def destroy?
-    if @user
-      if @user.admin || @user.id == @comment.user_id
-        return true
-      else
-        return false
-      end
-    end
+    return unless @user
+    return true if @user.admin || @user.id == @comment.user_id
   end
 end

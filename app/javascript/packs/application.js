@@ -38,6 +38,7 @@ import { displaySizes } from '../components/sizes';
 import { colorize } from '../components/colorizeGrid';
 import { print } from '../components/etiquettes';
 import { checkboxcgv } from '../components/cgv';
+import { accordionMenu } from '../components/accordionMenu';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
@@ -53,4 +54,5 @@ document.addEventListener('turbolinks:load', () => {
   colorize();
   print();
   checkboxcgv();
+  accordionMenu();
 });

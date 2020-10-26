@@ -38,7 +38,6 @@ const displayMenu = () => {
     const home = document.getElementById("home");
     const shop = document.getElementById("shop");
     const articles = document.getElementById("articles");
-    const partners = document.getElementById("partners");
     allItems.forEach((item) => {
       item.style.transition = "all 1s ease-out";
     })
@@ -53,9 +52,6 @@ const displayMenu = () => {
       articles.style.width = "70%";
       articles.style.height = "30%";
       articles.querySelector(".list").style.display = "none";
-      partners.style.width = "30%";
-      partners.style.height = "30%";
-      partners.querySelector(".list").style.display = "none";
     })
     shop.addEventListener("click", (event) => {
       menuGoOut();
@@ -68,9 +64,6 @@ const displayMenu = () => {
       articles.style.width = "30%";
       articles.style.height = "30%";
       articles.querySelector(".list").style.display = "none";
-      partners.style.width = "70%";
-      partners.style.height = "30%";
-      partners.querySelector(".list").style.display = "none";
     })
     articles.addEventListener("click", (event) => {
       menuGoOut();
@@ -83,24 +76,6 @@ const displayMenu = () => {
       articles.style.width = "70%";
       articles.style.height = "70%";
       articles.querySelector(".list").style.display = "block";
-      partners.style.width = "30%";
-      partners.style.height = "70%";
-      partners.querySelector(".list").style.display = "none";
-    })
-    partners.addEventListener("click", (event) => {
-      menuGoOut();
-      home.style.width = "30%";
-      home.style.height = "30%";
-      home.querySelector(".list").style.display = "none";
-      shop.style.width = "70%";
-      shop.style.height = "30%";
-      shop.querySelector(".list").style.display = "none";
-      articles.style.width = "30%";
-      articles.style.height = "70%";
-      articles.querySelector(".list").style.display = "none";
-      partners.style.width = "70%";
-      partners.style.height = "70%";
-      partners.querySelector(".list").style.display = "block";
     })
   }
 
@@ -112,7 +87,6 @@ const displayMenu = () => {
     const home = document.getElementById("home");
     const shop = document.getElementById("shop");
     const articles = document.getElementById("articles");
-    const partners = document.getElementById("partners");
     let currentTarget = home.querySelector(".list");
 
     home.addEventListener("click", (event) => {
@@ -172,26 +146,6 @@ const displayMenu = () => {
       const screenWidth = document.body.getBoundingClientRect().width;
       const listWidth = articles.querySelector(".list").getBoundingClientRect().width;
       const offsetX = ((screenWidth - listWidth) / 2) - (articles.getBoundingClientRect().width * 2);
-      list.style.margin = `50px ${offsetX}px`;
-      list.style.transform = "translateX(0)";
-    })
-    partners.addEventListener("click", (event) => {
-      menuGoOut();
-      body.style.transition = "0s";
-      body.style.opacity = "0";
-      const redisplay = () => {
-        body.style.transition = transition;
-        body.style.opacity = "1";
-      }
-      body.style.backgroundImage = "linear-gradient(315deg, rgba(236, 234, 226, 1), rgba(250, 250, 250, 0)), url('https://res.cloudinary.com/do3nu0tns/image/upload/v1598476989/jqu1y32pd8aaullfsudy.jpg')";
-      const tempo = setTimeout(redisplay, delay);
-      currentTarget.style.transform = "translateX(100vw)";
-      currentTarget = partners.querySelector(".list");
-      currentTarget.style.transform = "translateX(0)";
-      const list = partners.querySelector(".list");
-      const screenWidth = document.body.getBoundingClientRect().width;
-      const listWidth = partners.querySelector(".list").getBoundingClientRect().width;
-      const offsetX = ((screenWidth - listWidth) / 2) - (partners.getBoundingClientRect().width * 3);
       list.style.margin = `50px ${offsetX}px`;
       list.style.transform = "translateX(0)";
     })

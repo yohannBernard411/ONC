@@ -1,3 +1,2 @@
 class PossibleColorsController < ApplicationController
-
 end

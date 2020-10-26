@@ -1,5 +1,4 @@
 class ScalingsController < ApplicationController
-
   def create
     @scaling = Scaling.new(params_scale)
     @scaling.clothe_id = params[:clothe_id]
@@ -20,5 +19,4 @@ class ScalingsController < ApplicationController
   def params_scale
     params.require(:scaling).permit(:size_id)
   end
-
 end

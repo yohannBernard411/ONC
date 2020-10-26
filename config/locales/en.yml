@@ -1,8 +1,491 @@
 ---
 en:
+  articles:
+    labels:
+      img1: Lots of labels!
+      img10: Guaranteed French Origin
+      img11: Demeter
+      img12: Naturtextil
+      img13: Naturleder
+      img14: Soil Association Organic
+      img15: Living Heritage Company
+      img16: Fair Wear Foundation
+      img17: Made In Respect
+      img18: Organic
+      img2: Global Organic Textil Standard
+      img3: oeko-tex
+      img4: Made in green
+      img5: Max Havelaar
+      img6: Organic Fair Trade
+      img7: Ecocert
+      img8: Biore
+      img9: European Ecolabel
+      lien1: 'Sources: Eco-sapiens, My Races for the Planet'
+      liste1: Ecology - Environmental protection - Ethical and sustainable approach - CSR
+      liste2: Social - Respect for the human condition
+      liste21: Heavy metals as a whole,
+      liste22: Endocrine disruptors,
+      liste23: Brominated or chlorinated flame retardants,
+      liste24: Genetically modified organisms or GMOs,
+      liste25: Nanotechnology,
+      liste26: Carcinogenic substances,
+      liste27: PVC,
+      liste28: Nickel,
+      liste29: The chrome,
+      liste3: Fair trade
+      liste30: Printing methods using aromatic solvents,
+      liste31: Plastisol printing methods using phthalates and PVC.
+      liste4: Organic origin - Products certified without pesticides - Ecological leather - Vegan products
+      liste40: Watering cotton crops which must be reasoned,
+      liste41: Wastewater that must be treated in a treatment plant,
+      liste42: Packaging which must be recyclable.
+      liste5: Health
+      soustitre1: OEKO-TEX 100
+      soustitre10: NATURTEXTIL
+      soustitre11: NATURLEDER
+      soustitre12: SOIL ASSOCIATION ORGANIC
+      soustitre13: LIVING HERITAGE COMPANY (EPV)
+      soustitre14: FAIR WEAR FOUNDATION (FWF)
+      soustitre15: MADE IN RESPECT
+      soustitre16: ORGANIC
+      soustitre2: MADE IN GREEN
+      soustitre3: MAX HAVELAAR
+      soustitre4: FAIR TRADE ORGANIC
+      soustitre5: ECOCERT
+      soustitre6: BIORE
+      soustitre7: EUROPEAN ECOLABEL
+      soustitre8: ORIGIN FRANCE GUARANTEED
+      soustitre9: DEMETER
+      strong1: And what I particularly appreciate as a customer, wear tests, because to be logical the garment must be able to last over time, in order to limit its production and its environmental impact.
+      strong10: at least 70% natural fibers or from renewable or recycled materials.
+      strong10bis: environmental policy
+      strong11: respectful of the environment and the health of the consumer.
+      strong12: international conventions
+      strong13: a role of consumer protection and information
+      strong14: prohibiting the use of dangerous substances
+      strong15: cotton produced from organic farming.
+      strong16: absence of chemicals
+      strong17: wastewater treatment before it is released into nature.
+      strong18: good working conditions
+      strong19: product traceability.
+      strong2: textiles without toxic products for the body and the environment.
+      strong20: the environmental impact of products throughout their lifespan.
+      strong21: global approach
+      strong22: takes into consideration the life cycle of the product from raw material extraction, manufacturing, distribution, and use through to recycling or disposal after use.
+      strong23: to guarantee French manufacture in whole or in part.
+      strong24: preservation of employment and compliance with social, environmental and health standards.
+      strong25: that at least 50% of the product is indeed made in France.
+      strong26: from Demeter certified farms
+      strong27: more demanding than that of organic farming certified with the AB logo.
+      strong28: harvested by hand, mechanization being possible only when the use of chemicals is excluded.
+      strong29: natural fibers
+      strong3: Textiles are safe for the health of consumers (without harmful chemicals) and are also produced in a sustainable and socially responsible manner.
+      strong30: up to 50%.
+      strong31: at least 95% of their fibers from organic farming
+      strong32: Substances such as chlorine, heavy metals, nickel are prohibited, as well as any product likely to contain GMOs.
+      strong33: Permanent record of chemical and energy use, water consumption and wastewater treatment. Storage materials should not contain PVC.
+      strong34: also monitors working conditions
+      strong35: to be certified ecological leather.
+      strong36: 'The skins are preserved by cold and with salt, without chemical agents. Tanning with chromium or other polluting products is prohibited. Only vegetable products and those with aluminum, zirkonium or titanium. '
+      strong37: animals raised primarily for their meat.
+      strong38: at least 70% of the fibers must be organic, and not contain harmful substances.
+      strong39: social criteria and respects the conventions of the International Labor Organization (ILO).
+      strong4: From specific test and QR code, textiles and manufacturing processes can be detailed and tracked.
+      strong40: maintain their production activity in France.
+      strong40bis: French companies with excellent artisanal and industrial know-how.
+      strong41: The objective is to contribute to the improvement of working conditions in the textile industry.
+      strong42: Prohibition of forced labor, no discrimination in employment, freedom of association, decent working conditions (hygiene, health), child labor is prohibited, working hours and wages controlled, all discrimination prohibited.
+      strong43: social and environmental responsibility
+      strong44: to quality and know-how, to social conditions, to eco-design and respect for the environment as well as to economic ethics.
+      strong45: a level of organic cotton in the finished product but does not guarantee the stages of transformation of the textile and in particular the dyeing.
+      strong46: So it is an unreliable label, especially when you see where these brands produce and the working conditions they impose on their employees (see subcontractors).
+      strong5: product meets international fair trade criteria relating to production conditions and producer remuneration. It guarantees compliance with the conventions of the International Labor Organization (ILO).
+      strong6: 'environmental criteria: GMOs are prohibited, but not pesticides.'
+      strong7: organic production
+      strong8: a fair and humane charter
+      strong9: on the defense of consumers, the environment and workers
+      texte1: Why are you interested in textile labels?
+      texte10: 'For what is inevitable, the eco-label makes concessions without however bending to the law of the market. So to speak, the GOTS certification seeks to limit their use with measures such as:'
+      texte11: 'As far as social matters are concerned, it goes without saying (-but certainly not that much since it must be said, again everything depends on the country of origin ^^) that forced labor, children and discrimination is prohibited, in addition to that the recommendations of the ILO (international labor organization), namely decent hours and wages, the right to organize, and hygiene and safety conditions '
+      texte12: This is one of the most common labels, of German origin. It is the first label to guarantee
+      texte13: It is a reliable label but it can also certify synthetic materials and therefore polluting upstream.
+      texte14: We find it in different forms
+      texte15: 'The ÖKO-TEX standard 100 label helps protect the consumer. Indeed, labeled products are free from chemicals that could be toxic to the consumer such as formaldehydes or heavy metals, for example. This international label is widely used especially for bed linen for young children. '
+      texte16: There is also the ÖKO-TEX standard 1000 label which certifies that production respects the environment during all its stages.
+      texte17: Finally, ÖKO-TEX standard 100 plus certifies that labeled products are free of toxic substances and come from environmentally friendly production.
+      texte18: These two other forms of the international standard ÖKO-TEX textile label are not very widespread and are quite rare to find on textiles.
+      texte19: Oeko-Tex has also created a new Made in Green certification. It is the assurance that
+      texte2: 'In an ecological and sustainable approach of course. Even if it means doing craftsmanship as much to do it well and above all to choose its raw materials in all conscience. The textile industry uses a quarter of the chemicals in the world and has been accused 20% of water pollution by industry, which makes it the second largest freshwater polluter on the planet, which is why in addition to standards and regulations, labels have a role to play, in terms of supporting brands, and also as a guarantee of quality for end consumers. Thank you to all those who have already written on the subject, blogs and others where I have documented myself to offer you the widest range of possibilities. '
+      texte20: Thanks to the use of a number
+      texte21: Made in Green replaces the old certification system, Oeko-Tex Standard 100 Plus and the Spanish label Made in Green by Aitex.
+      texte22: This is the fair trade label. It guarantees that the
+      texte23: It's a good label, but it's less demanding on
+      texte24: This label guarantees a
+      texte25: raw material, especially cotton. It also applies
+      texte26: which reconciles ecology and the social. In a global logic, the label involves all the actors of the chain.
+      texte27: It's a label that works
+      texte28: ". It therefore has several objectives."
+      texte29: The first is to protect the planet and its resources by using
+      texte3: 'Each label verifies and prioritizes one or more aspects of the value chain. From fabric production to the finished product. Here are some examples of areas where labels specialize:'
+      texte30: 'But also by defining an '
+      texte30bis: requiring a reduction in water and energy consumption, by using dyes, textile agents and manufacturing processes
+      texte31: It also acts by guaranteeing the main
+      texte32: in social matters, health and safety at work.
+      texte33: Finally, he has
+      texte34: by providing clear information on the nature of the fibers making up the product and by
+      texte35: "(eg heavy metals, carcinogenic amines, formaldehydes, GMO enzymes, etc.)."
+      texte36: But it remains much inferior to the requirements of GOTS
+      texte37: It is a Swiss label that has ecological, ethical and social guarantees. It certifies the raw material of
+      texte38: At the environmental level, it certifies the
+      texte4: 'The textile industry being one of the most polluting in the world, the label industry was soon going to get started. Always greener than green .... But what do we do? sell ??? And yes, buying labeled fabrics or wools / yarns has a cost that the end consumer will have to pay. So you might as well know them to choose the right one. '
+      texte40: It also has a social role by guaranteeing
+      texte41: "(no child labor, work safety, minimum wages…)."
+      texte42: It also ensures
+      texte43: We can even find out who made the garment by going to the label's website.
+      texte44: This European label evaluates
+      texte45: It is based on the principle of
+      texte46: who '
+      texte47: This label concerns only the environment and offers no social guarantee.
+      texte48: This is the official label for
+      texte49: This is a guarantee against forgery made in France and therefore for the
+      texte5: So thank you to all those who wrote on the subject and allowed me to document myself ... The wiki is your best friend ...
+      texte50: He certifies
+      texte51: The other half of the product can be made elsewhere ... It is regrettable that this label does not apply 100%.
+      texte52: The Demeter label is very demanding. It implies that the raw material of the textile (wool, cotton or linen fibers) is
+      texte53: ", according to specifications"
+      texte54: Cotton must be
+      texte55: Animal fibers must be clipped or combed.
+      texte56: The Demeter textile label may be granted to products containing
+      texte57: conventional which would not be available under the Demeter label
+      texte58: This label meets strict and rigorous specifications.
+      texte59: Labeled textiles have
+      texte6: I will therefore make a small list for you by detailing the two main ones since if I have to trust a label, it will be one of these two .... Afterwards for wool, certified or not, I prefer always a small French breeder, or fillature, at least we are not sure to favor French breeding and we do not avoid the carbon cost (especially since some labels like AB, have nothing to do with the French AB). ..Anyway, back on topic !!!!
+      texte60: or in conversion. At each stage of the production process, it must be checked that organic and conventional fibers are not mixed, and that organic fibers are not contaminated in any way.
+      texte61: The clothing manufacturing process is also very controlled.
+      texte62: From an environmental point of view, the partners are subject to a very strict charter of
+      texte63: Finally, the label
+      texte64: ": respect for the rights of employees, prohibition of forced labor (as well as the fact of requiring workers to leave their identity papers with their employer), safe and healthy workplace, child labor is prohibited , any discrimination of any kind (lack of promotion, difference in remuneration, etc.) is not authorized,… "
+      texte65: This is the first label
+      texte66: It greatly limits the impacts of a very polluting industry. It guarantees a
+      texte67: Dyes containing heavy metals are also prohibited.
+      texte68: This label also guarantees that the skins must belong to
+      texte69: Finally, this label has the same social criteria as the textile label described above.
+      texte7: GOTS for
+      texte70: This is the largest organic label in the UK. It certifies organic products and campaigns for environmentally friendly agriculture and safer and healthier food production.
+      texte71: Concerning textiles,
+      texte72: This label also takes into account
+      texte73: 'The Entreprise du Patrimoine Vivant (EPV) label is a French label. It is a mark of recognition of the State distinguishing '
+      texte73bis: In particular, it distinguishes quality traditional know-how (such as lace). Les Entreprises du Patrimoine Vivant
+      texte74: Fair Wear Foundation is a foundation that works to respect decent working conditions in companies. Its
+      texte75: 'To do this, it has created a Code of Labor Practices which brands undertake to respect. The main principles of this code are as follows:'
+      texte76: The FWF then undertakes to verify the application of these principles in the spinning and textile factories.
+      texte77: The objective of this label is to provide small businesses, particularly industrial ones, with a tool to promote their ethical approaches to
+      texte78: "(RSE), easy to set up, inexpensive and reliable."
+      texte79: The criteria combine related aspects
+      texte8: 'is for me the reference in the matter. It is a label which one finds rather in the UK, the USA and Japan (I love their fabrics). Since 2008 it aims to harmonize the standards of the textile sector worldwide. And it interests me particularly since it has the most stringent specifications for wool, cotton, silk, hemp (linen is missing ... but hey). independent to control the application of the specifications that the producer has undertaken to respect. '
+      texte80: These principles thus aim to promote products manufactured in a truly sustainable manner.
+      texte81: 'It is an American organization aiming to promote the use of organic cotton and which is supported by brands such as Nike, Walmart, H&M, Adidas, Patagonia, Marks & Spencer ... It is about having a standard allowing to easily access organic cotton. '
+      texte82: 'Cette certification garantit '
+      texte83: It does not include elements concerning the social conditions of production.
+      texte9: 'Each production has its own notebook of course; but overall we find for what is prohibited:'
+      title: THE LABELS
+    lin:
+      liste1: ", sheep and lamb come from the shearing of fleeces. According to the races they will be more or less gentle. Also pay attention to their origin, the sheep can be in Australia / South America, the wool washed and processed in China and the spinning in France. Merino is very soft and in France Arles merino, there is also Ouessant, Shetland ... The structure of the wool gives it good elasticity, moreover it has a shape memory which prevents deformation over time. It is wrinkle-resistant and easy to dye. It has many thermal qualities and allows the body to keep a constant temperature, and lets the skin breathe, and allows perspiration to escape."
+      liste2: ", come from goats. Cashmere comes from Himalayan goats, it is the undercoat of the fleece. It is very fine, soft and with very efficient thermal qualities. Angora goats provide the mohair that we find classified in different categories according to its finesse, the finest being the kid-mohair (from kids). This wool swells with air as soon as it gets cold, which gives it exceptional thermal qualities. France offers a wide variety of them thanks to our artisanal breeding. It is often found associated with silk in the form of Kid-silk."
+      liste21: ". The most widespread, and also controversial given the ecological damage caused, a lot of pesticides and very water consuming. Choose those that are GOTS certified. It is absorbent and insulating, and is very resistant to washing even at high temperatures. It is soft, but can be heavy to wear and warm."
+      liste22: ": long neglected in favor of cotton, we see it come back to the fore for its culture which requires little fertilizer and water. It is very solid, thermoregulatory, very light. Its rough side fades with washing."
+      liste23: ", very absorbent, it rivals cotton, much easier to grow. It is soft and comfortable, and very resistant, it can replace nylon in the manufacture of socks. It is slippery and quite heavy. Look at its origin, the growing conditions are not the same in Europe as in Asia."
+      liste24: ", a fiber that I know very little about, apparently artificial because it is regenerated from the proteins contained in the seeds, it is what does a lot of transformation work. It is as shiny as silk, hypoallergenic, washable and resists light and sweat."
+      liste25: ": fiber from the Middle Ages which regains its letters of nobility, for its rapid and productive cultivation with little water, fertilizers and pesticides. Quite similar to flax, it is also thermoregulatory, goes well in summer as well as winter, and softens over time."
+      liste26: " (or lyocell), is extracted from the pulp of eucalyptus wood. It is reminiscent of silk by its appearance and its touch. It is wrinkle-resistant and easy to maintain as it can be machine washed at 60 ° C."
+      liste3: ": It is an extremely soft fiber and up to 9 times warmer than sheep's wool. You have to pay attention to the origin and the conditions of harvest , in Germany the rabbits are shorn, in France to comb with a comb, in Asia the rabbit is sacrificed. So pay attention to your suppliers, and go to Caregora angora (strict respect for animal welfare, with European certification)."
+      liste4: ", very soft, warm, light and resistant, it is a high-end fiber. Baby alpaca fiber is ideal for sensitive skin, especially for layettes. Many breedings have developed in France."
+      liste5: ", it has qualities similar to cashmere, softness to the touch and warmth.It is a fairly rare fiber that can only be harvested in an artisanal way in spring by weeding because the animal naturally loses its hair. It is often found woven with silk or lambswool."
+      liste6: ", taken from the down of the camel, it is extremely rare. By virtue of its qualities, it is very similar to yak wool."
+      liste7: ": it is a protein fiber resulting from the cocoon produced by the caterpillar of the mulberry bombyx for that of culture and of Tussah for wild silk. It gives a brilliant rendering to the Its advantages are its natural elasticity, its solidity, its ability to absorb dyes, and its thermoregulation, lets the skin breathe in summer and warms in winter. It is often found mixed with other fibers such as mohair."
+      soustitre1: 'The different animal fibers:'
+      soustitre2: 'The different natural plant fibers:'
+      strong1: The wool of sheep
+      strong2: Angora and cashmere wool
+      strong21: Cotton
+      strong22: Linen
+      strong23: Bamboo
+      strong24: Soy
+      strong25: Hemp
+      strong26: tencel
+      strong3: Angora rabbit wool
+      strong4: Alpaca wool
+      strong5: Yak wool
+      strong6: Camel wool
+      strong7: silk
+      texte1: Cc, you know my ideas on the subject also I will give you the topo on synthetic knitting yarns, you will find acrylic, nylon and polyamide, polyester, lurex (a rare exception that you can find in my designs). The advantage of these materials is their ease of maintenance, their low cost. Their drawbacks are little thermal quality (damage for a sweater), they come from petrochemicals and even once produced, they continue to pollute with each washing via wastewater, the microparticles which emerge from them pass through the filters. sewage treatment plants to end up in the sea.
+      texte2: Natural knitting yarns are made from spun animal or plant fibers, commonly called wool. The advantage is their thermal and breathable quality, and that they do not take on an odor, you just need to ventilate your sweater, no need to wash it every time you wear it, the disadvantage is precisely the washing because the wools can felt under the effect of the sudden change in temperature and the movements of the drum of the machine. A process exists to avoid this, it is Superwash (SW) wools, but this process uses a lot of chemicals and water so it has a strong impact on the environment as much as you know. Unlike animal fibers, plant fibers are not very elastic.
+      texte3: Materials which, unlike animal fibers, have the advantage of being generally machine washed. And vegans to dress naturally.
+      texte4: Thanks to the various blogs and wiki which allowed me to document myself on the subject.
+      titre1: 'Threads, Wools and other materials '
+      titre2: What to choose?
+  cart:
+    show:
+      amount: 'Amount: '
+      article: Article
+      color: Color
+      commande: Order
+      delete: Sup
+      main_total: Total
+      price: Unit price
+      quantity: Qty
+      really: Are you sure?
+      return: Return
+      size: Size
+      title: My basket
+      total_price: Total price
+  clothes:
+    edit:
+      update: Update
+    form:
+      category: 'Category:'
+      delivery: 'Delivery:'
+      delivery_color: 'Delivery color:'
+      description: 'Description:'
+      function: 'Fonction:'
+      name: 'Name:'
+      option: 'Option:'
+      photos: 'Photos:'
+      price_cents: 'Price in cents:'
+      stock: 'Quantities in stock:'
+      submit: Validate
+    index:
+      delete: Delete
+      delivery: 'Delivery:'
+      edit: Edit
+      newclothe: Create new clothe
+      note: 'Note:'
+      nothing: no match!
+      ononon:
+        one: On 1 evaluation.
+        other: Out of %{count} evaluations.
+      price: 'Price:'
+      search: Search ...
+      see: See
+      slogan: Save us, no more plastic please
+      title:
+        accessory: Accessories
+        clothing: Clothing
+        upcycling: Upcycling
+        zero: Zero waste
+    new:
+      title: New
+    show:
+      back: Return
+      basket: Put in my basket
+      color: Color
+      comment: Leave a comment
+      comments: Comments
+      edit: Edit
+      size: Size
+    size:
+      alt: Taking measurements
+      bras: Arm length
+      epaule: Shoulder width
+      hanche: Hip circumference
+      legende: 'All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- '
+      mensuration: Measurements
+      poitrine: Chest size
+      stature: Stature
+      strong1: 1) STATURE
+      strong2: 2) CHEST SIZE
+      strong3: 3) WAIST SIZE
+      strong4: 4) HIPS TOUR
+      strong5: 5) ARM LENGTH
+      strong6: 6) SHOULDER WIDTH
+      taille: Waist size
+      texte: Each item of clothing being made to measure, it is important that you know how to take them correctly so that I adapt to your body as well as possible, so a small sketch is more telling.
+      texte1: " upright, from head to toe."
+      texte2: " on the tip of the breasts."
+      texte3: " at the waist, over the ribbon."
+      texte4: " on the strongest point of the buttocks."
+      texte5: " arm slightly bent, from the shoulder joint to the wrist, passing over the elbow."
+      texte6: " from the base of the neck to the shoulder joint."
+      title: Measurements and sizes
+  comment:
+    edit:
+      titre: Update my comment
+    links:
+      remove: Remove
+      see: See
+      update: Update
+    new:
+      author: 'Written by: '
+      content: Message
+      notation: 'Rating: '
+      note: Rating (between 0 and 5)
+      return: Return
+      submit: Validate
+      title: Title
+      titre: Write a new comment
+  devise:
+    confirmations:
+      instructions: Resend Confirmation Instructions
+    mailer:
+      confirmation_instructions:
+        date: 'Date '
+        hello: 'Hello '
+        texte1: I am happy to have you with us,
+        texte2: 'And I hope that you will find your happiness on this site, in addition to our shop you will find articles on the ecological and societal impact of the clothing industry. We work as much as possible with French artisans / manufacturers in order to promote employment, agriculture, the carbon impact but also French quality and know-how. A maximum of our products are GOTS or Okéotex labeled, especially for those coming from abroad. '
+        texte3: 'Vous pouvez aussi nous suivre sur notre page '
+        texte3bis: ", or you will find many more articles."
+        texte4: Do not forget to confirm your registration by clicking on the following link
+        texte5: I wish you a good discovery, and to hear from you soon,
+        texte6: I remain at your disposal for any further information, so do not hesitate to contact us
+        texte7: Regards
+        welcome: Welcome to OceNatCreations
+      email_changed:
+        texte1: 'Nous vous contactons pour vous informer que votre adresse e-mail est en train d''être remplacée par '
+        texte2: 'Nous vous contactons pour vous informer que votre adresse e-mail a été remplacée par '
+      password_change:
+        texte1: We're contacting you to notify you that your password has been changed.
+      reset_password_instructions:
+        texte1: Quelqu'un a demandé un lien pour changer votre mot de passe. Vous pouvez le faire via le lien ci-dessous.
+        texte2: Changer mon mot de passe
+        texte3: Si vous ne l'avez pas demandé, veuillez ignorer cet e-mail.
+        texte4: Votre mot de passe ne changera pas tant que vous n'aurez pas accédé au lien ci-dessus et créé un nouveau.
+      unlock_instructions:
+        texte1: Your account has been locked out due to an excessive number of failed login attempts.
+        texte2: 'Click on the link below to unlock your account:'
+    omniauth_callbacks:
+      success: Successfully authenticated from %{kind} account.
+    registrations:
+      new:
+        back: Back
+        cancel: Cancel my account
+        charmin: characters minimum
+        current_password: Current password
+        edit: 'Edit '
+        here: HERE
+        hint1: Leave it blank if you don't want to change it
+        hint2: We need your current password to confirm your changes
+        password: Password
+        password_confirmation: Password confirmation
+        photo: Photo
+        readcgv: I have read, understood and accepted the GTC
+        seecgv: 'The GTC are available for consultation '
+        signup: Sign up
+        submit: Submit
+        username: Username
+        waiting: 'Awaiting confirmation for: '
+      sessions:
+        new: New
+    sessions:
+      change: Reset password
+      forgot: Forgot your password
+      login: Log in
+      password: 'Password:'
+      remember: Remember me
+    shared:
+      links:
+        confirmation: Resend me confirmation
+        forgot: Forgot password?
+        login: Log in
+        signup: Sign up
+        unlock: Unlocking instructions not received?
+        with: 'Log in with '
+    unlocks:
+      new:
+        title: Resend unlock instructions
+  errors:
+    messages:
+      not_saved:
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
+  home:
+    condition:
+      lien1: 'Our general conditions of sale have been drawn up from a free model which can be downloaded from the site: '
+      soustitre1: 'Article 1: Subject'
+      soustitre10: 'Article 10: Payment'
+      soustitre11: 'Article 11: Guarantees'
+      soustitre12: 'Article 12: Complaints and mediation'
+      soustitre13: 'Article 13: termination of the contract'
+      soustitre14: 'Article 14: Intellectual property rights'
+      soustitre15: 'Article 15: Force majeure'
+      soustitre16: 'Article 16: Nullity and modification of the contract'
+      soustitre17: 'Article 17: Protection of personal data'
+      soustitre18: 'Article 18: Applicable law and clauses'
+      soustitre19: 'Article 19: Consumer information'
+      soustitre2: 'Article 2: General provisions'
+      soustitre3: 'Article 3: Price'
+      soustitre4: 'Article 4: Conclusion of the contract online'
+      soustitre5: 'Article 5: Products and services'
+      soustitre6: 'Article 6: Compliance'
+      soustitre7: 'Article 7: Retention of title clause'
+      soustitre8: 'Article 8: Terms of delivery'
+      soustitre9: 'Article 9: Availability and presentation'
+      strong1: Acceptance of these General Conditions of Sale
+      texte1: Between the OcéNat Créations Microenterprise,
+      texte10: 'Hereinafter,'' the Buyer '', or'' the Customer ''On the other hand, It has been stated and agreed as follows:'
+      texte11: 'The Seller is the publisher of OcéNat Créations Products intended for consumers, marketed through its websites (http://siteweb.com). The list and description of the goods and services offered by the Company can be viewed on the aforementioned sites. '
+      texte12: These General Conditions of Sale determine the rights and obligations of the parties within the framework of the online sale of Products or Services offered by the Seller.
+      texte13: 'These General Terms and Conditions of Sale (GTC) govern the sale of Products or Services, made through the Company''s websites, and are an integral part of the Contract between the Buyer and the Seller. They are fully enforceable against the Buyer who accepted them before ordering. '
+      texte14: 'The Seller reserves the right to modify the present conditions, at any time by the publication of a new version on its website. The GTC then applicable are those in force on the date of payment (or of the first payment in case of multiple payments) of the order. These T & Cs are available on the Company''s website at the following address: '
+      texte15: http://ocenatcreations.com/homes/condition
+      texte16: 'The Company also ensures that their acceptance is clear and unreserved by setting up a checkbox and a validation click. The Customer declares to have read all of these General Conditions of Sale, and if applicable, the Special Conditions of Sale linked to a product or a service, and accept them without restriction or reservation. '
+      texte17: The Customer acknowledges that he has received the advice and information necessary to ensure that the offer meets his needs.
+      texte18: 'The Customer declares to be able to contract legally under French law or to validly represent the natural or legal person for whom he is committed. Unless proven otherwise, the information recorded by the Company constitutes proof of all transactions . '
+      texte19: 'The prices of the products sold through the Internet sites are indicated in Euros excluding taxes and precisely determined on the product description pages. They are also indicated in euros including all taxes (VAT + any other taxes) on the page of ordering products, and excluding specific shipping costs. For all products shipped outside the European Union and / or DOM-TOM, the price is automatically calculated excluding taxes on the invoice. Customs duties or other local taxes or duties import or state taxes are likely to be payable in certain cases. These duties and sums are not the responsibility of the Seller. They will be charged to the buyer and are his responsibility (declarations, payment to the competent authorities, etc.). The Seller therefore invites the buyer to inquire about these aspects from the corresponding local authorities. The Company reserves the right to modify its prices at any time for the come. The telecommunication costs required to access the Company''s websites are the responsibility of the Customer. If applicable, also the delivery costs. '
+      texte2: 16rue des Tilleuls,
+      texte20: 'In accordance with the provisions of article 1127-1 of the Civil Code, the Customer must follow a series of steps to conclude the contract electronically in order to be able to place his order:; Information on the essential characteristics of the Product; - Choice of the Product, if applicable, of its options - Indication of the essential contact details of the Customer (identification, email, address, etc.); - '
+      texte21: 'Verification of the elements of the order (double-click formality) and, if necessary, correction of errors. Before proceeding with its confirmation, the Purchaser has the possibility of verifying the details of his order, its price, and to correct any errors, or cancel their order. Confirmation of the order will constitute this contract. - Then, follow the instructions for payment, payment of the products, then delivery of the order. The Customer will receive confirmation by e-mail from the payment of the order, as well as an acknowledgment of receipt of the order confirming it. He will receive a .pdf copy of these general conditions of sale. The customer will have during his order process the possibility of identifying any errors made in entering data and correcting them. The language proposed for the conclusion of the contract is French. The terms of the offer and the general conditions of sale are sent by email to the buyer when ordering and archived on the Seller''s website. Where applicable, the professional and commercial rules to which the author of the offer intends to abide can be viewed in the ''additional rules'' section of these GTC, available on the Seller''s website at the following address ??,. The archiving of communications, the order, the details of the order, as well as the invoices is carried out on a reliable and durable medium in order to constitute a faithful and durable copy in accordance with the provisions of article 1360 of the civil code. This information can be produced as proof of the contract. For delivered products, delivery will be made to the address indicated by the Customer. For the purposes of successful completion of the order, the Customer undertakes to provide their true identification elements. The Seller reserves the right to refuse the order, for example for any abnormal request, made in bad faith or for any legitimate reason. '
+      texte22: 'The essential characteristics of the goods, services and their respective prices are made available to the buyer on the company''s websites, as well as, where applicable, the method of use of the product. In accordance with article L112-1 of the Consumer Code, the consumer is informed, by means of marking, labeling, display or any other appropriate process, of the prices and the special conditions of sale and of the execution of services before any conclusion of the sales contract. In all cases, the total amount owed by the Buyer is indicated on the order confirmation page. The selling price of the product is that in force indicated on the day of the order, this one not including the shipping costs invoiced in addition. These possible costs are indicated to the Buyer during the sales process, and in any case at the time of confirmation of the order. The Seller reserves the right to modify its prices at any time, while guaranteeing the application of the price indicated at the time of the order. When the products or services are not executed immediately, clear information is given on the product presentation page as to the delivery dates of the products or services. The customer certifies having received a detail of the delivery costs as well as the terms of payment, delivery and execution of the contract, as well as detailed information relating to the identity of the seller, his postal, telephone and electronic contact details, and to its activities in the context of this sale. The Seller undertakes to honor the Customer''s order within the limit of stocks of available Products only. Otherwise, the Seller informs the Customer; if the order has been placed, and in the absence of agreement with the Customer on a new delivery date, the Seller will reimburse the customer. The contractual information is presented in detail and in French. The parties agree that the illustrations or photos of the products offered for sale have no contractual value. The period of validity of the Product offer as well as their prices is specified on the Company''s websites, as well as the minimum duration of the contracts offered when these relate to a continuous or periodic supply of products or services. Unless there are specific conditions, the rights granted hereunder are granted only to the natural person signing the order (or the person holding the communicated email address). '
+      texte23: 'In accordance with Article L.411-1 of the Consumer Code, the products and services offered for sale through these GTCS meet the requirements in force relating to the safety and health of persons, to fairness in commercial transactions and consumer protection. Regardless of any commercial guarantee, the Seller remains liable for any lack of conformity and hidden defects in the product. In accordance with article L.217-4, the seller delivers a compliant good to the contract and responds to any lack of conformity existing at the time of delivery. It also responds to any lack of conformity resulting from the packaging, assembly instructions or installation when this has been charged to it by the contract or has been carried out under its responsibility. In accordance with the legal provisions on compliance and hidden defects (art. 1641 civ. c.), the seller reimburses or exchanges defective products or products not corresponding to the c order. Reimbursement can be requested as follows: If upon receipt a defect is found, an email must be sent to us within 48 hours to report the problem with photos, the product must be returned to us (shipping costs being the responsibility of the customer except prior agreement by e-mail) within 10 days maximum in order to proceed to an exchange or a refund (except if problem of sizes and that it comes from a customer error on the order form). '
+      texte24: The products remain the property of the Company until full payment of the price.
+      texte25: 'The products are delivered to the delivery address which was indicated when ordering and within the times indicated. These times do not take into account the time taken to prepare the order. When the Customer orders several products at the same time. These may have different delivery times as follows: Zero-waste and Upcycling products are packaged and sent within 8 days of order confirmation, custom-made collection models are packaged and sent between 4 and 6 weeks. All products are sent by UPS or Mondial Relay to their home or relay point according to the terms defined by the customer when ordering. In the event of a delay in shipment, the customer will be contacted by e-mail or telephone in order to give him the possibility of canceling or confirming his order, the cancellation giving the right to full refund of the sums already paid. In the event of late delivery, the Customer has the right to possibility of terminating the contract under the terms and conditions defined in Article L 138-2 of the Consumer Code. The Seller then reimburses the product and the ''outbound'' costs under the conditions of Article L 138-3 of the Consumer Code. The Seller provides a telephone point of contact (cost of a local call from a landline) indicated in the order confirmation email in order to follow up on the order. The Seller recalls that when the Customer takes physical possession of the products, the risk of loss or damage to the products is transferred to him. It is the Customer''s responsibility to notify the carrier of any reservations about the product delivered. '
+      texte26: 'If an item is unavailable for a period exceeding 10 working days, you will be immediately notified of the foreseeable delivery times and the order for this item may be canceled on request. The Customer may then request a credit note. for the amount of the item or its full refund and cancellation of the order. '
+      texte27: 'Payment is due immediately upon ordering, including for pre-ordered products. The Customer can pay by payment card or bank check. Cards issued by banks domiciled outside France must be bank cards international (Mastercard or Visa). Secure online payment by credit card is made by our payment service provider. The information transmitted is encrypted according to the rules of the art and cannot be read during transport on the network '
+      texte27bis: 'Once the payment has been initiated by the Customer, the transaction is immediately debited after verification of the information. In accordance with the provisions of the Monetary and Financial Code, the commitment to pay given by card is irrevocable. By communicating his banking information during the sale, the Customer authorizes the Seller to debit his card for the amount relating to the price indicated. The Customer confirms that he is indeed the legal holder of the card to be debited and that he is legally entitled to use it. error, or inability to debit the card, the Sale is immediately resolved automatically and the order canceled Article 11: Withdrawal period In accordance with the provisions of Article L 221-5 of the Consumer Code, The Buyer has the right to withdraw without giving any reason, within fourteen (14) days from the date of receipt of his order. The right of withdrawal can be exercised by contacting the Company as follows: by simple e-mail. If the right of withdrawal is exercised within the aforementioned period, the price of the product (s) purchased and the shipping costs will be reimbursed, the return costs remaining the responsibility of the Customer. Product returns must be made in their original condition and complete (packaging, accessories, instructions, etc.); if possible, they should be accompanied by a copy of the proof of purchase. In accordance with legal provisions, you will find below the standard withdrawal form to be sent to us at the following address: '
+      texte27ter: 'Refund procedure: the refund will be made by bank transfer within 3 days (excluding the bank deadline) upon receipt of the return package.'
+      texte28: 'In accordance with the law, the Seller assumes the following guarantees: of conformity and relating to hidden defects of the products. The Seller reimburses the buyer or exchanges the products apparently defective or not corresponding to the order made. The refund request must be done as follows: _________ (detail the procedure) The Seller reminds that the consumer: - has a period of 2 years from the delivery of the goods to act with the Seller - that he can choose between the replacement and repair of the good subject to the conditions provided for by the aforementioned provisions. apparently defective or not corresponding - that it is not necessary to prove the existence of the lack of conformity of the good during the six months following the delivery of the well. - that, except for second-hand goods, this period will be extended to 24 months from March 18, 2016 - that the consumer can also assert the guarantee against hidden defects of the thing sold within the meaning of article 1641 of the Civil Code and, in this case, he can choose between the resolution of the sale or a reduction of the sale price (provisions of articles 1644 of the Civil Code). Additional guarantees: _____ (describe your additional guarantees) (this one I do not know yet what to put must be well informed, I have not replaced things after 2 years ^^) '
+      texte29: 'If applicable, the Purchaser may submit any complaint by contacting the company using the following coordinates _____ (indicate the contact details and the procedure). In accordance with the provisions of Articles L. 611-1 to L. 616-3 of the Consumer Code, the consumer is informed that he may have recourse to a consumer mediator under the conditions provided for in Title I of Book VI of the Consumer Code. In case of failure of the complaint request to the Customer service of the Seller, or in the absence of a response within two months, the consumer can submit the dispute to a mediator To see with my professional insurance which will try in all independence to bring the parties together in order to obtain an amicable solution . '
+      texte3: 16360 Baignes Ste Radegonde
+      texte30: 'The order can be resolved by the purchaser by registered letter with acknowledgment of receipt in the following cases: - delivery of a product that does not comply with the characteristics of the order; - delivery exceeding the deadline fixed during the order or, failing a date, within thirty days of payment; - unjustified price increase or modification of the product. In these cases, the buyer may demand the reimbursement of the deposit paid plus interest calculated on the legal rate from the date of receipt of the deposit. '
+      texte31: 'Trademarks, domain names, products, software, images, videos, texts or more generally any information subject to intellectual property rights are and remain the exclusive property of the seller. No transfer of intellectual property rights is carried out through these T & Cs. Any total or partial reproduction, modification or use of these goods for any reason whatsoever is strictly prohibited. '
+      texte32: The execution of the seller's obligations at the end of the present contract is suspended in the event of the occurrence of a fortuitous event or of force majeure which would prevent its execution. The seller will notify the customer of the occurrence of such an event as soon as possible. as possible.
+      texte33: If one of the stipulations of this contract were canceled, this nullity would not entail the nullity of the other stipulations which will remain in force between the parties. Any contractual modification is only valid after a written agreement signed by the parties. parts.
+      texte34: 'In accordance with Regulation 2016/679 of April 27, 2016 on the protection of individuals with regard to the processing of personal data and the free movement of such data, the Seller sets up a processing of personal data whose purpose is the sale and delivery of products and services defined in this contract. The Purchaser is informed of the following: - the identity and contact details of the controller and, where applicable, of the representative of the controller : the Seller, as indicated at the top of these T & Cs; - the contact details of the data protection officer: ???? - the legal basis of the processing: contractual execution - the recipients or categories of recipients of the data of a personal nature, if they exist: the data controller, his services in charge of marketing, the services in charge of IT security, the service in charge of sales, delivery and the order, the subcontractors involved in the delivery and sales operations as well as any authority legally authorized to access the personal data in question - no transfer outside the EU is planned - the retention period of the data: time of the commercial prescription - the data subject has the right to request from the data controller access to personal data, the rectification or erasure of these, or a limitation of the processing relating to the data subject, or right to object to processing and the right to data portability - The data subject has the right to lodge a complaint with a supervisory authority - the information requested when ordering is necessary for establishing the invoice (legal obligation) and delivery of the goods ordered, otherwise the order cannot be placed. No automated decisions or profiling is implemented through the ordering process. '
+      texte35: 'All the clauses appearing in these general conditions of sale, as well as all the purchase and sale operations referred to therein, will be subject to French law. The nullity of a contractual clause does not entail the nullity of these general conditions of sale. '
+      texte36: 'For consumer information purposes, the provisions of the Civil Code and the Consumer Code are reproduced below: Aricle 1641 of the Civil Code: The seller is bound by the warranty for hidden defects in the item sold which make it unfit for the use for which it is intended, or which reduce this use to such an extent that the buyer has not acquired it, or would have given a lower price, if he had known them. Aricle 1648 of the Civil Code: The action resulting from latent defects must be brought by the purchaser within two years from the discovery of the defect. In the case provided for by article 1642-1, the action must be brought, on pain of foreclosure, within one year of the date on which the seller can be released from apparent defects or lack of conformity. Article L. 217-4 of the Consumer Code: The seller delivers goods that comply with the contract and is liable for any lack of conformity existing at the time of delivery. It is also responsible for any lack of conformity resulting from the packaging, the assembly instructions or the installation when this has been charged to it by the contract or has been carried out under its responsibility. Article L. 217-5 of the Consumer Code: The good complies with the contract: 1 ° If it is suitable for the use usually expected of a similar good and, where applicable: - if it corresponds to the description given by the seller and possess the qualities that the latter presented to the buyer in the form of a sample or model; - if it has the qualities that a buyer can legitimately expect given the public statements made by the seller, the producer or his representative, in particular in advertising or labeling; 2 ° Or if it has the characteristics defined by mutual agreement by the parties or is suitable for any special use sought by the buyer, brought to the attention of the seller and which the latter has accepted. Article L. 217-12 of the Consumer Code: Action resulting from lack of conformity lapses two years after delivery of the goods. Article L. 217-16 of the Consumer Code: When the buyer asks the seller, during the course of the commercial guarantee which was granted to him during the acquisition or repair of movable property, condition covered by the warranty, any downtime of at least seven days is added to the remaining warranty period. This period runs from the buyer''s request for intervention or the provision for repair of the property in question, if this provision is subsequent to the request for intervention. '
+      texte4: registered in the Register of the Chamber of Trades and Crafts of Charente,
+      texte5: under the SIRET number 0000000000,
+      texte6: represented by Ms. Bernard Sonia as manager, duly authorized for the purposes hereof.
+      texte7: The company can be reached by e-mail by clicking on the contact form accessible via the home page of the site.
+      texte8: Hereinafter the“ Seller ”or the“ Company ”.
+      texte9: On the one hand, And the natural or legal person purchasing the company's products or services,
+      title: GENERAL CONDITIONS OF SALE
+    contact:
+      texte1: 'To contact us:'
+      texte2: 'Phone:'
+    who:
+      intro: OcéNat Créations is a small craft company, which is above all French and eco-responsible.
+      liste1: to work only with natural fibers (animal or plant),
+      liste2: to participate in the recycling of clothes, the second most polluting industry in the world, and a lot of clothes are hardly worn before being thrown away,
+      liste3: and in order to stay in the idea, we have also developed a zero-waste range that will help you eliminate the plastic from your daily life (bulk bag, charlotte flat or bee-wraps ...) and make long-term savings.
+      texte1: Having worked as an on-board scientific observer, I was quickly made aware of the impact of plastic on the oceans. But what is plastic? A bit of everything, to tell the truth, it is found in synthetic fibers such as polar fleece in the form of microparticles, and it is these which form continents in certain areas of the oceans and destroy a large part of the fauna because they are invisible but absorbed.
+      texte2: 'So we decided:'
+      texte3: Our suppliers are chosen with the greatest care to meet our many requirements.We try as much as possible to work with wools / threads / fabrics labeled GOTS, or Okéo-tex, after which we always favor productions in order to limit carbon emissions
+      texte4: This site presents them to you in its shop, under 3 categories. You will also find some articles on ecology and the textile industry, as well as on fibers and tutorials.
+      texte5: Do not hesitate to subscribe, you will receive our newsletter (approximately 4 per year) and you will be able to comment on your favorite articles
+      texte6: Have a nice visit
+      titre: Who are we?
+  shared:
+    header:
+      forgot: Forgot your password
+      see_cart: See my shopping cart
+      signin: Sign in
+      signout: Sign out
+      you_have:
+        one: You have 1 item in your cart.
+        other: You have %{count} items in your cart.
   welcome:
     index:
-      accessories: "Accessories"
+      accessories: Accessories
       articles: Articles
       collection: Summer collection 2020
       condition: Conditions of sale
@@ -21,534 +504,3 @@ en:
       spitzberg: Spitzberg Jacket
       upcycling: Upcycling / single piece
       who: who are we?
-  devise:
-    confirmations:
-      confirmed: "Your email address has been successfully confirmed."
-      send_instructions: "You will receive an email with instructions for how to confirm your email address in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."
-    failure:
-      already_authenticated: "You are already signed in."
-      inactive: "Your account is not activated yet."
-      invalid: "Invalid %{authentication_keys} or password."
-      locked: "Your account is locked."
-      last_attempt: "You have one more attempt before your account is locked."
-      not_found_in_database: "Invalid %{authentication_keys} or password."
-      timeout: "Your session expired. Please sign in again to continue."
-      unauthenticated: "You need to sign in or sign up before continuing."
-      unconfirmed: "You have to confirm your email address before continuing."
-    mailer:
-      confirmation_instructions:
-        subject: "Confirmation instructions"
-      reset_password_instructions:
-        subject: "Reset password instructions"
-      unlock_instructions:
-        subject: "Unlock instructions"
-      email_changed:
-        subject: "Email Changed"
-      password_change:
-        subject: "Password Changed"
-    omniauth_callbacks:
-      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
-      success: "Successfully authenticated from %{kind} account."
-    passwords:
-      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
-      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."
-      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
-      updated: "Your password has been changed successfully. You are now signed in."
-      updated_not_active: "Your password has been changed successfully."
-    registrations:
-      new:
-        signup: "Sign up"
-        username: "Username"
-        password: "Password"
-        charmin: "characters minimum"
-        current_password: "Current password"
-        edit: "Edit "
-        hint1: "Leave it blank if you don't want to change it"
-        hint2: "We need your current password to confirm your changes"
-        submit: "Submit"
-        cancel: "Cancel my account"
-        back: "Back"
-        password_confirmation: "Password confirmation"
-        photo: "Photo"
-        readcgv: "I have read, understood and accepted the GTC"
-        seecgv: "The GTC are available for consultation "
-        here: "HERE"
-        signup: "Sign up"
-      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
-      signed_up: "Welcome! You have signed up successfully."
-      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
-      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
-      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."
-      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address."
-      updated: "Your account has been updated successfully."
-      updated_but_not_signed_in: "Your account has been updated successfully, but since your password was changed, you need to sign in again"
-    sessions:
-      forgot: "Forgot your password"
-      change: "Reset password"
-      new: "New password"
-      signed_in: "Signed in successfully."
-      signed_out: "Signed out successfully."
-      already_signed_out: "Signed out successfully."
-      password: "Password:"
-      remember: "Remember me"
-      login: "Log in"
-    shared:
-      links:
-        login: "Log in"
-        signup: "Sign up"
-        forgot: "Forgot password?"
-        confirmation: "Resend me confirmation"
-        unlock: "Unlocking instructions not received?"
-        with: "Log in with "
-    unlocks:
-      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
-      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."
-      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
-  errors:
-    messages:
-      already_confirmed: "was already confirmed, please try signing in"
-      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
-      expired: "has expired, please request a new one"
-      not_found: "not found"
-      not_locked: "was not locked"
-      not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
-  views:
-    pagination:
-      first: "&laquo; First"
-      last: "Last &raquo;"
-      previous: "&lsaquo; Prev"
-      next: "Next &rsaquo;"
-      truncate: "&hellip;"
-  helpers:
-    page_entries_info:
-      one_page:
-        display_entries:
-          zero: "No %{entry_name} found"
-          one: "Displaying <b>1</b> %{entry_name}"
-          other: "Displaying <b>all %{count}</b> %{entry_name}"
-      more_pages:
-        display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
-  articles:
-    lin:
-      titre1: "Threads, Wools and other materials "
-      titre2: "What to choose?"
-      texte1: "Cc, you know my ideas on the subject also I will give you the topo on synthetic knitting yarns, you will find acrylic, nylon and polyamide, polyester, lurex (a rare exception that you can find in my designs). The advantage of these materials is their ease of maintenance, their low cost. Their drawbacks are little thermal quality (damage for a sweater), they come from petrochemicals and even once produced, they continue to pollute with each washing via wastewater, the microparticles which emerge from them pass through the filters. sewage treatment plants to end up in the sea."
-      texte2: "Natural knitting yarns are made from spun animal or plant fibers, commonly called wool. The advantage is their thermal and breathable quality, and that they do not take on an odor, you just need to ventilate your sweater, no need to wash it every time you wear it, the disadvantage is precisely the washing because the wools can felt under the effect of the sudden change in temperature and the movements of the drum of the machine. A process exists to avoid this, it is Superwash (SW) wools, but this process uses a lot of chemicals and water so it has a strong impact on the environment as much as you know. Unlike animal fibers, plant fibers are not very elastic."
-      soustitre1: "The different animal fibers:"
-      strong1: "The wool of sheep"
-      liste1: ", sheep and lamb come from the shearing of fleeces. According to the races they will be more or less gentle. Also pay attention to their origin, the sheep can be in Australia / South America, the wool washed and processed in China and the spinning in France. Merino is very soft and in France Arles merino, there is also Ouessant, Shetland ... The structure of the wool gives it good elasticity, moreover it has a shape memory which prevents deformation over time. It is wrinkle-resistant and easy to dye. It has many thermal qualities and allows the body to keep a constant temperature, and lets the skin breathe, and allows perspiration to escape."
-      strong2: "Angora and cashmere wool"
-      liste2: ", come from goats. Cashmere comes from Himalayan goats, it is the undercoat of the fleece. It is very fine, soft and with very efficient thermal qualities. Angora goats provide the mohair that we find classified in different categories according to its finesse, the finest being the kid-mohair (from kids). This wool swells with air as soon as it gets cold, which gives it exceptional thermal qualities. France offers a wide variety of them thanks to our artisanal breeding. It is often found associated with silk in the form of Kid-silk."
-      strong3: "Angora rabbit wool"
-      liste3: ": It is an extremely soft fiber and up to 9 times warmer than sheep's wool. You have to pay attention to the origin and the conditions of harvest , in Germany the rabbits are shorn, in France to comb with a comb, in Asia the rabbit is sacrificed. So pay attention to your suppliers, and go to Caregora angora (strict respect for animal welfare, with European certification)."
-      strong4: "Alpaca wool"
-      liste4: ", very soft, warm, light and resistant, it is a high-end fiber. Baby alpaca fiber is ideal for sensitive skin, especially for layettes. Many breedings have developed in France."
-      strong5: "Yak wool" 
-      liste5: ", it has qualities similar to cashmere, softness to the touch and warmth.It is a fairly rare fiber that can only be harvested in an artisanal way in spring by weeding because the animal naturally loses its hair. It is often found woven with silk or lambswool."
-      strong6: "Camel wool"
-      liste6: ", taken from the down of the camel, it is extremely rare. By virtue of its qualities, it is very similar to yak wool."
-      strong7: "silk"
-      liste7: ": it is a protein fiber resulting from the cocoon produced by the caterpillar of the mulberry bombyx for that of culture and of Tussah for wild silk. It gives a brilliant rendering to the Its advantages are its natural elasticity, its solidity, its ability to absorb dyes, and its thermoregulation, lets the skin breathe in summer and warms in winter. It is often found mixed with other fibers such as mohair."
-      soustitre2: "The different natural plant fibers:"
-      texte3: "Materials which, unlike animal fibers, have the advantage of being generally machine washed. And vegans to dress naturally."
-      strong21: "Cotton"
-      liste21: ". The most widespread, and also controversial given the ecological damage caused, a lot of pesticides and very water consuming. Choose those that are GOTS certified. It is absorbent and insulating, and is very resistant to washing even at high temperatures. It is soft, but can be heavy to wear and warm."
-      strong22: "Linen"
-      liste22: ": long neglected in favor of cotton, we see it come back to the fore for its culture which requires little fertilizer and water. It is very solid, thermoregulatory, very light. Its rough side fades with washing."
-      strong23: "Bamboo"
-      liste23: ", very absorbent, it rivals cotton, much easier to grow. It is soft and comfortable, and very resistant, it can replace nylon in the manufacture of socks. It is slippery and quite heavy. Look at its origin, the growing conditions are not the same in Europe as in Asia."
-      strong24: "Soy"
-      liste24: ", a fiber that I know very little about, apparently artificial because it is regenerated from the proteins contained in the seeds, it is what does a lot of transformation work. It is as shiny as silk, hypoallergenic, washable and resists light and sweat."
-      strong25: "Hemp"
-      liste25: ": fiber from the Middle Ages which regains its letters of nobility, for its rapid and productive cultivation with little water, fertilizers and pesticides. Quite similar to flax, it is also thermoregulatory, goes well in summer as well as winter, and softens over time."
-      strong26: "tencel"
-      liste26: " (or lyocell), is extracted from the pulp of eucalyptus wood. It is reminiscent of silk by its appearance and its touch. It is wrinkle-resistant and easy to maintain as it can be machine washed at 60 ° C."
-      texte4: "Thanks to the various blogs and wiki which allowed me to document myself on the subject."
-    labels:
-      title: "THE LABELS"
-      img1: "Lots of labels!"
-      texte1: "Why are you interested in textile labels?"
-      texte2: "In an ecological and sustainable approach of course. Even if it means doing craftsmanship as much to do it well and above all to choose its raw materials in all conscience. The textile industry uses a quarter of the chemicals in the world and has been accused 20% of water pollution by industry, which makes it the second largest freshwater polluter on the planet, which is why in addition to standards and regulations, labels have a role to play, in terms of supporting brands, and also as a guarantee of quality for end consumers. Thank you to all those who have already written on the subject, blogs and others where I have documented myself to offer you the widest range of possibilities. "
-      texte3: "Each label verifies and prioritizes one or more aspects of the value chain. From fabric production to the finished product. Here are some examples of areas where labels specialize:"
-      liste1: "Ecology - Environmental protection - Ethical and sustainable approach - CSR"
-      liste2: "Social - Respect for the human condition"
-      liste3: "Fair trade"
-      liste4: "Organic origin - Products certified without pesticides - Ecological leather - Vegan products"
-      liste5: "Health"
-      texte4: "The textile industry being one of the most polluting in the world, the label industry was soon going to get started. Always greener than green .... But what do we do? sell ??? And yes, buying labeled fabrics or wools / yarns has a cost that the end consumer will have to pay. So you might as well know them to choose the right one. "
-      texte5: "So thank you to all those who wrote on the subject and allowed me to document myself ... The wiki is your best friend ..."
-      texte6: "I will therefore make a small list for you by detailing the two main ones since if I have to trust a label, it will be one of these two .... Afterwards for wool, certified or not, I prefer always a small French breeder, or fillature, at least we are not sure to favor French breeding and we do not avoid the carbon cost (especially since some labels like AB, have nothing to do with the French AB). ..Anyway, back on topic !!!!"
-      texte7: "GOTS for"
-      img2: "Global Organic Textil Standard"
-      texte8: "is for me the reference in the matter. It is a label which one finds rather in the UK, the USA and Japan (I love their fabrics). Since 2008 it aims to harmonize the standards of the textile sector worldwide. And it interests me particularly since it has the most stringent specifications for wool, cotton, silk, hemp (linen is missing ... but hey). independent to control the application of the specifications that the producer has undertaken to respect. "
-      texte9: "Each production has its own notebook of course; but overall we find for what is prohibited:"
-      liste21: "Heavy metals as a whole,"
-      liste22: "Endocrine disruptors,"
-      liste23: "Brominated or chlorinated flame retardants,"
-      liste24: "Genetically modified organisms or GMOs,"
-      liste25: "Nanotechnology,"
-      liste26: "Carcinogenic substances,"
-      liste27: "PVC,"
-      liste28: "Nickel,"
-      liste29: "The chrome,"
-      liste30: "Printing methods using aromatic solvents,"
-      liste31: "Plastisol printing methods using phthalates and PVC."
-      texte10: "For what is inevitable, the eco-label makes concessions without however bending to the law of the market. So to speak, the GOTS certification seeks to limit their use with measures such as:"
-      liste40: "Watering cotton crops which must be reasoned,"
-      liste41: "Wastewater that must be treated in a treatment plant,"
-      liste42: "Packaging which must be recyclable."
-      texte11: "As far as social matters are concerned, it goes without saying (-but certainly not that much since it must be said, again everything depends on the country of origin ^^) that forced labor, children and discrimination is prohibited, in addition to that the recommendations of the ILO (international labor organization), namely decent hours and wages, the right to organize, and hygiene and safety conditions "
-      strong1: "And what I particularly appreciate as a customer, wear tests, because to be logical the garment must be able to last over time, in order to limit its production and its environmental impact."
-      img3: "oeko-tex"
-      soustitre1: "OEKO-TEX 100"
-      texte12: "This is one of the most common labels, of German origin. It is the first label to guarantee"
-      strong2: "textiles without toxic products for the body and the environment."
-      texte13: "It is a reliable label but it can also certify synthetic materials and therefore polluting upstream."
-      texte14: "We find it in different forms"
-      texte15: "The ÖKO-TEX standard 100 label helps protect the consumer. Indeed, labeled products are free from chemicals that could be toxic to the consumer such as formaldehydes or heavy metals, for example. This international label is widely used especially for bed linen for young children. "
-      texte16: "There is also the ÖKO-TEX standard 1000 label which certifies that production respects the environment during all its stages."
-      texte17: "Finally, ÖKO-TEX standard 100 plus certifies that labeled products are free of toxic substances and come from environmentally friendly production."
-      texte18: "These two other forms of the international standard ÖKO-TEX textile label are not very widespread and are quite rare to find on textiles."
-      img4: "Made in green"
-      soustitre2: "MADE IN GREEN"
-      texte19: "Oeko-Tex has also created a new Made in Green certification. It is the assurance that"
-      strong3: "Textiles are safe for the health of consumers (without harmful chemicals) and are also produced in a sustainable and socially responsible manner."
-      texte20: "Thanks to the use of a number"
-      strong4: "From specific test and QR code, textiles and manufacturing processes can be detailed and tracked."
-      texte21: "Made in Green replaces the old certification system, Oeko-Tex Standard 100 Plus and the Spanish label Made in Green by Aitex."
-      img5: "Max Havelaar"
-      soustitre3: "MAX HAVELAAR"
-      texte22: "This is the fair trade label. It guarantees that the"
-      strong5: "product meets international fair trade criteria relating to production conditions and producer remuneration. It guarantees compliance with the conventions of the International Labor Organization (ILO)."
-      texte23: "It's a good label, but it's less demanding on"
-      strong6: "environmental criteria: GMOs are prohibited, but not pesticides."
-      img6: "Organic Fair Trade"
-      soustitre4: "FAIR TRADE ORGANIC"
-      texte24: "This label guarantees a"
-      strong7: "organic production"
-      texte25: "raw material, especially cotton. It also applies"
-      strong8: "a fair and humane charter"
-      texte26: "which reconciles ecology and the social. In a global logic, the label involves all the actors of the chain."
-      img7: "Ecocert"
-      soustitre5: "ECOCERT"
-      texte27: "It's a label that works"
-      strong9: "on the defense of consumers, the environment and workers"
-      texte28: ". It therefore has several objectives."
-      texte29: "The first is to protect the planet and its resources by using"
-      strong10: "at least 70% natural fibers or from renewable or recycled materials."
-      texte30: "But also by defining an "
-      strong10bis: "environmental policy"
-      texte30bis: "requiring a reduction in water and energy consumption, by using dyes, textile agents and manufacturing processes"
-      strong11: "respectful of the environment and the health of the consumer."
-      texte31: "It also acts by guaranteeing the main"
-      strong12: "international conventions"
-      texte32: "in social matters, health and safety at work."
-      texte33: "Finally, he has"
-      strong13: "a role of consumer protection and information"
-      texte34: "by providing clear information on the nature of the fibers making up the product and by"
-      strong14: "prohibiting the use of dangerous substances"
-      texte35: "(eg heavy metals, carcinogenic amines, formaldehydes, GMO enzymes, etc.)."
-      texte36: "But it remains much inferior to the requirements of GOTS"
-      img8: "Biore"
-      soustitre6: "BIORE"
-      texte37: "It is a Swiss label that has ecological, ethical and social guarantees. It certifies the raw material of"
-      strong15: "cotton produced from organic farming."
-      texte38: "At the environmental level, it certifies the"
-      strong16: "absence of chemicals"
-      texte39: "for dyeing and"
-      strong17: "wastewater treatment before it is released into nature."
-      texte40: "It also has a social role by guaranteeing"
-      strong18: "good working conditions"
-      texte41: "(no child labor, work safety, minimum wages…)."
-      texte42: "It also ensures"
-      strong19: "product traceability."
-      texte43: "We can even find out who made the garment by going to the label's website."
-      img9: "European Ecolabel"
-      soustitre7: "EUROPEAN ECOLABEL"
-      texte44: "This European label evaluates"
-      strong20: "the environmental impact of products throughout their lifespan."
-      texte45: "It is based on the principle of"
-      strong21: "global approach"
-      texte46: "who '"
-      strong22: "takes into consideration the life cycle of the product from raw material extraction, manufacturing, distribution, and use through to recycling or disposal after use."
-      texte47: "This label concerns only the environment and offers no social guarantee."
-      img10: "Guaranteed French Origin"
-      soustitre8: "ORIGIN FRANCE GUARANTEED"
-      texte48: "This is the official label for"
-      strong23: "to guarantee French manufacture in whole or in part."
-      texte49: "This is a guarantee against forgery made in France and therefore for the"
-      strong24: "preservation of employment and compliance with social, environmental and health standards."
-      texte50: "He certifies"
-      strong25: "that at least 50% of the product is indeed made in France."
-      texte51: "The other half of the product can be made elsewhere ... It is regrettable that this label does not apply 100%."
-      img11: "Demeter"
-      soustitre9: "DEMETER"
-      texte52: "The Demeter label is very demanding. It implies that the raw material of the textile (wool, cotton or linen fibers) is"
-      strong26: "from Demeter certified farms"
-      texte53: ", according to specifications"
-      strong27: "more demanding than that of organic farming certified with the AB logo."
-      texte54: "Cotton must be"
-      strong28: "harvested by hand, mechanization being possible only when the use of chemicals is excluded."
-      texte55: "Animal fibers must be clipped or combed."
-      texte56: "The Demeter textile label may be granted to products containing"
-      strong29: "natural fibers"
-      texte57: "conventional which would not be available under the Demeter label"
-      strong30: "up to 50%."
-      img12: "Naturtextil"
-      soustitre10: "NATURTEXTIL"
-      texte58: "This label meets strict and rigorous specifications."
-      texte59: "Labeled textiles have"
-      strong31: "at least 95% of their fibers from organic farming"
-      texte60: "or in conversion. At each stage of the production process, it must be checked that organic and conventional fibers are not mixed, and that organic fibers are not contaminated in any way."
-      texte61: "The clothing manufacturing process is also very controlled."
-      strong32: "Substances such as chlorine, heavy metals, nickel are prohibited, as well as any product likely to contain GMOs."
-      texte62: "From an environmental point of view, the partners are subject to a very strict charter of"
-      strong33: "Permanent record of chemical and energy use, water consumption and wastewater treatment. Storage materials should not contain PVC."
-      texte63: "Finally, the label"
-      strong34: "also monitors working conditions"
-      texte64: ": respect for the rights of employees, prohibition of forced labor (as well as the fact of requiring workers to leave their identity papers with their employer), safe and healthy workplace, child labor is prohibited , any discrimination of any kind (lack of promotion, difference in remuneration, etc.) is not authorized,… "
-      img13: "Naturleder"
-      soustitre11: "NATURLEDER"
-      texte65: "This is the first label"
-      strong35: "to be certified ecological leather."
-      texte66: "It greatly limits the impacts of a very polluting industry. It guarantees a"
-      strong36: "The skins are preserved by cold and with salt, without chemical agents. Tanning with chromium or other polluting products is prohibited. Only vegetable products and those with aluminum, zirkonium or titanium. "
-      texte67: "Dyes containing heavy metals are also prohibited."
-      texte68: "This label also guarantees that the skins must belong to"
-      strong37: "animals raised primarily for their meat."
-      texte69: "Finally, this label has the same social criteria as the textile label described above."
-      img14: "Soil Association Organic"
-      soustitre12: "SOIL ASSOCIATION ORGANIC"
-      texte70: "This is the largest organic label in the UK. It certifies organic products and campaigns for environmentally friendly agriculture and safer and healthier food production."
-      texte71: "Concerning textiles,"
-      strong38: "at least 70% of the fibers must be organic, and not contain harmful substances."
-      texte72: "This label also takes into account"
-      strong39: "social criteria and respects the conventions of the International Labor Organization (ILO)."
-      img15: "Living Heritage Company"
-      soustitre13: "LIVING HERITAGE COMPANY (EPV)"
-      texte73: "The Entreprise du Patrimoine Vivant (EPV) label is a French label. It is a mark of recognition of the State distinguishing "
-      strong40bis: "French companies with excellent artisanal and industrial know-how."
-      texte73bis: "In particular, it distinguishes quality traditional know-how (such as lace). Les Entreprises du Patrimoine Vivant"
-      strong40: "maintain their production activity in France."
-      img16: "Fair Wear Foundation"
-      soustitre14: "FAIR WEAR FOUNDATION (FWF)"
-      texte74: "Fair Wear Foundation is a foundation that works to respect decent working conditions in companies. Its"
-      strong41: "The objective is to contribute to the improvement of working conditions in the textile industry."
-      texte75: "To do this, it has created a Code of Labor Practices which brands undertake to respect. The main principles of this code are as follows:"
-      strong42: "Prohibition of forced labor, no discrimination in employment, freedom of association, decent working conditions (hygiene, health), child labor is prohibited, working hours and wages controlled, all discrimination prohibited."
-      texte76: "The FWF then undertakes to verify the application of these principles in the spinning and textile factories."
-      img17: "Made In Respect"
-      soustitre15: "MADE IN RESPECT"
-      texte77: "The objective of this label is to provide small businesses, particularly industrial ones, with a tool to promote their ethical approaches to"
-      strong43: "social and environmental responsibility"
-      texte78: "(RSE), easy to set up, inexpensive and reliable."
-      texte79: "The criteria combine related aspects"
-      strong44: "to quality and know-how, to social conditions, to eco-design and respect for the environment as well as to economic ethics."
-      texte80: "These principles thus aim to promote products manufactured in a truly sustainable manner."
-      img18: "Organic"
-      soustitre16: "ORGANIC"
-      texte81: "It is an American organization aiming to promote the use of organic cotton and which is supported by brands such as Nike, Walmart, H&M, Adidas, Patagonia, Marks & Spencer ... It is about having a standard allowing to easily access organic cotton. "
-      text82: "This certification guarantees"
-      strong45: "a level of organic cotton in the finished product but does not guarantee the stages of transformation of the textile and in particular the dyeing."
-      texte83: "It does not include elements concerning the social conditions of production."
-      strong46: "So it is an unreliable label, especially when you see where these brands produce and the working conditions they impose on their employees (see subcontractors)."
-      lien1: "Sources: Eco-sapiens, My Races for the Planet"
-  clothes:
-    index:
-      title:
-        zero: "Zero waste"
-        upcycling: "Upcycling"
-        clothing: "Clothing"
-        accessory: "Accessories"
-      nothing: "no match!"
-      slogan: "Save us, no more plastic please"
-      search: "Search ..."
-      price: "Price:"
-      note: "Note:"
-      ononon:
-        one: "On 1 evaluation."
-        other: "Out of %{count} evaluations."
-      ratings: "ratings."
-      delivery: "Delivery:"
-      see: "See"
-      edit: "Edit"
-      delete: "Delete"
-      newclothe: "Create new clothe"
-    edit:
-      update: "Update"
-    form:
-      name: "Name:"
-      category: "Category:"
-      description: "Description:"
-      option: "Option:"
-      price_cents: "Price in cents:"
-      scoring: "Note out of 5:"
-      nbov: "Number of votes:"
-      delivery: "Delivery:"
-      delivery_color: "Delivery color:"
-      stock: "Quantities in stock:"
-      photos: "Photos:"
-      submit: "Validate"
-    new:
-      title: "New"
-    show:
-      edit: "Edit"
-      back: "Return"
-      comments: "Comments"
-      buy: "Buy"
-      size: "Size"
-      color: "Color"
-      basket: "Put in my basket"
-      comment: "Leave a comment"
-    size:
-      title: "Measurements and sizes"
-      texte: "Each item of clothing being made to measure, it is important that you know how to take them correctly so that I adapt to your body as well as possible, so a small sketch is more telling."
-      alt: "Taking measurements"
-      mensuration: "Measurements"
-      stature: "Stature"
-      poitrine: "Chest size"
-      taille: "Waist size"
-      hanche: "Hip circumference"
-      bras: "Arm length"
-      epaule: "Shoulder width"
-      legende: "All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- All measurements are in cm ----- "
-      strong1: "1) STATURE"
-      strong2: "2) CHEST SIZE"
-      strong3: "3) WAIST SIZE"
-      strong4: "4) HIPS TOUR"
-      strong5: "5) ARM LENGTH"
-      strong6: "6) SHOULDER WIDTH"
-      texte1: " upright, from head to toe."
-      texte2: " on the tip of the breasts."
-      texte3: " at the waist, over the ribbon."
-      texte4: " on the strongest point of the buttocks."
-      texte5: " arm slightly bent, from the shoulder joint to the wrist, passing over the elbow."
-      texte6: " from the base of the neck to the shoulder joint."
-  shared:
-    header:
-      forgot: "Forgot your password"
-      signout: "Sign out"
-      signin: "Sign in"
-      you_have: 
-        one: "You have 1 item in your cart."
-        other: "You have %{count} items in your cart."
-      see_cart: "See my shopping cart"
-  activerecord:
-    errors:
-      models:
-        user:
-          attributes:
-            email:
-              blank: " can't be blank!"
-  home: 
-    who:
-      titre: Who are we?
-      intro: OcéNat Créations is a small craft company, which is above all French and eco-responsible.
-      texte1: Having worked as an on-board scientific observer, I was quickly made aware of the impact of plastic on the oceans. But what is plastic? A bit of everything, to tell the truth, it is found in synthetic fibers such as polar fleece in the form of microparticles, and it is these which form continents in certain areas of the oceans and destroy a large part of the fauna because they are invisible but absorbed.
-      texte2: "So we decided:"
-      liste1: to work only with natural fibers (animal or plant),
-      liste2: to participate in the recycling of clothes, the second most polluting industry in the world, and a lot of clothes are hardly worn before being thrown away,
-      liste3: and in order to stay in the idea, we have also developed a zero-waste range that will help you eliminate the plastic from your daily life (bulk bag, charlotte flat or bee-wraps ...) and make long-term savings.
-      texte3: Our suppliers are chosen with the greatest care to meet our many requirements.We try as much as possible to work with wools / threads / fabrics labeled GOTS, or Okéo-tex, after which we always favor productions in order to limit carbon emissions
-      texte4: This site presents them to you in its shop, under 3 categories. You will also find some articles on ecology and the textile industry, as well as on fibers and tutorials.
-      texte5: Do not hesitate to subscribe, you will receive our newsletter (approximately 4 per year) and you will be able to comment on your favorite articles
-      texte6: Have a nice visit
-    contact:
-      texte1: "To contact us:"
-      texte2: "Phone:"
-    condition:
-      title: "GENERAL CONDITIONS OF SALE"
-      texte1: "Between the OcéNat Créations Microenterprise,"
-      texte2: "16rue des Tilleuls,"
-      texte3: "16360 Baignes Ste Radegonde"
-      texte4: "registered in the Register of the Chamber of Trades and Crafts of Charente,"
-      texte5: "under the SIRET number 0000000000,"
-      texte6: "represented by Ms. Bernard Sonia as manager, duly authorized for the purposes hereof."
-      texte7: "The company can be reached by e-mail by clicking on the contact form accessible via the home page of the site."
-      texte8: "Hereinafter the“ Seller ”or the“ Company ”."
-      texte9: "On the one hand, And the natural or legal person purchasing the company's products or services,"
-      texte10: "Hereinafter,' the Buyer ', or' the Customer 'On the other hand, It has been stated and agreed as follows:"
-      texte11: "The Seller is the publisher of OcéNat Créations Products intended for consumers, marketed through its websites (http://siteweb.com). The list and description of the goods and services offered by the Company can be viewed on the aforementioned sites. "
-      soustitre1: "Article 1: Subject"
-      texte12: "These General Conditions of Sale determine the rights and obligations of the parties within the framework of the online sale of Products or Services offered by the Seller."
-      soustitre2: "Article 2: General provisions"
-      texte13: "These General Terms and Conditions of Sale (GTC) govern the sale of Products or Services, made through the Company's websites, and are an integral part of the Contract between the Buyer and the Seller. They are fully enforceable against the Buyer who accepted them before ordering. "
-      texte14: "The Seller reserves the right to modify the present conditions, at any time by the publication of a new version on its website. The GTC then applicable are those in force on the date of payment (or of the first payment in case of multiple payments) of the order. These T & Cs are available on the Company's website at the following address: "
-      texte15: "http://ocenatcreations.com/homes/condition"
-      texte16: "The Company also ensures that their acceptance is clear and unreserved by setting up a checkbox and a validation click. The Customer declares to have read all of these General Conditions of Sale, and if applicable, the Special Conditions of Sale linked to a product or a service, and accept them without restriction or reservation. "
-      texte17: "The Customer acknowledges that he has received the advice and information necessary to ensure that the offer meets his needs."
-      texte18: "The Customer declares to be able to contract legally under French law or to validly represent the natural or legal person for whom he is committed. Unless proven otherwise, the information recorded by the Company constitutes proof of all transactions . "
-      soustitre3: "Article 3: Price"
-      texte19: "The prices of the products sold through the Internet sites are indicated in Euros excluding taxes and precisely determined on the product description pages. They are also indicated in euros including all taxes (VAT + any other taxes) on the page of ordering products, and excluding specific shipping costs. For all products shipped outside the European Union and / or DOM-TOM, the price is automatically calculated excluding taxes on the invoice. Customs duties or other local taxes or duties import or state taxes are likely to be payable in certain cases. These duties and sums are not the responsibility of the Seller. They will be charged to the buyer and are his responsibility (declarations, payment to the competent authorities, etc.). The Seller therefore invites the buyer to inquire about these aspects from the corresponding local authorities. The Company reserves the right to modify its prices at any time for the come. The telecommunication costs required to access the Company's websites are the responsibility of the Customer. If applicable, also the delivery costs. "
-      soustitre4: "Article 4: Conclusion of the contract online"
-      texte20: "In accordance with the provisions of article 1127-1 of the Civil Code, the Customer must follow a series of steps to conclude the contract electronically in order to be able to place his order:; Information on the essential characteristics of the Product; - Choice of the Product, if applicable, of its options - Indication of the essential contact details of the Customer (identification, email, address, etc.); - "
-      strong1: "Acceptance of these General Conditions of Sale"
-      texte21: "Verification of the elements of the order (double-click formality) and, if necessary, correction of errors. Before proceeding with its confirmation, the Purchaser has the possibility of verifying the details of his order, its price, and to correct any errors, or cancel their order. Confirmation of the order will constitute this contract. - Then, follow the instructions for payment, payment of the products, then delivery of the order. The Customer will receive confirmation by e-mail from the payment of the order, as well as an acknowledgment of receipt of the order confirming it. He will receive a .pdf copy of these general conditions of sale. The customer will have during his order process the possibility of identifying any errors made in entering data and correcting them. The language proposed for the conclusion of the contract is French. The terms of the offer and the general conditions of sale are sent by email to the buyer when ordering and archived on the Seller's website. Where applicable, the professional and commercial rules to which the author of the offer intends to abide can be viewed in the 'additional rules' section of these GTC, available on the Seller's website at the following address ??,. The archiving of communications, the order, the details of the order, as well as the invoices is carried out on a reliable and durable medium in order to constitute a faithful and durable copy in accordance with the provisions of article 1360 of the civil code. This information can be produced as proof of the contract. For delivered products, delivery will be made to the address indicated by the Customer. For the purposes of successful completion of the order, the Customer undertakes to provide their true identification elements. The Seller reserves the right to refuse the order, for example for any abnormal request, made in bad faith or for any legitimate reason. "
-      soustitre5: "Article 5: Products and services"
-      texte22: "The essential characteristics of the goods, services and their respective prices are made available to the buyer on the company's websites, as well as, where applicable, the method of use of the product. In accordance with article L112-1 of the Consumer Code, the consumer is informed, by means of marking, labeling, display or any other appropriate process, of the prices and the special conditions of sale and of the execution of services before any conclusion of the sales contract. In all cases, the total amount owed by the Buyer is indicated on the order confirmation page. The selling price of the product is that in force indicated on the day of the order, this one not including the shipping costs invoiced in addition. These possible costs are indicated to the Buyer during the sales process, and in any case at the time of confirmation of the order. The Seller reserves the right to modify its prices at any time, while guaranteeing the application of the price indicated at the time of the order. When the products or services are not executed immediately, clear information is given on the product presentation page as to the delivery dates of the products or services. The customer certifies having received a detail of the delivery costs as well as the terms of payment, delivery and execution of the contract, as well as detailed information relating to the identity of the seller, his postal, telephone and electronic contact details, and to its activities in the context of this sale. The Seller undertakes to honor the Customer's order within the limit of stocks of available Products only. Otherwise, the Seller informs the Customer; if the order has been placed, and in the absence of agreement with the Customer on a new delivery date, the Seller will reimburse the customer. The contractual information is presented in detail and in French. The parties agree that the illustrations or photos of the products offered for sale have no contractual value. The period of validity of the Product offer as well as their prices is specified on the Company's websites, as well as the minimum duration of the contracts offered when these relate to a continuous or periodic supply of products or services. Unless there are specific conditions, the rights granted hereunder are granted only to the natural person signing the order (or the person holding the communicated email address). "
-      soustitre6: "Article 6: Compliance"
-      texte23: "In accordance with Article L.411-1 of the Consumer Code, the products and services offered for sale through these GTCS meet the requirements in force relating to the safety and health of persons, to fairness in commercial transactions and consumer protection. Regardless of any commercial guarantee, the Seller remains liable for any lack of conformity and hidden defects in the product. In accordance with article L.217-4, the seller delivers a compliant good to the contract and responds to any lack of conformity existing at the time of delivery. It also responds to any lack of conformity resulting from the packaging, assembly instructions or installation when this has been charged to it by the contract or has been carried out under its responsibility. In accordance with the legal provisions on compliance and hidden defects (art. 1641 civ. c.), the seller reimburses or exchanges defective products or products not corresponding to the c order. Reimbursement can be requested as follows: If upon receipt a defect is found, an email must be sent to us within 48 hours to report the problem with photos, the product must be returned to us (shipping costs being the responsibility of the customer except prior agreement by e-mail) within 10 days maximum in order to proceed to an exchange or a refund (except if problem of sizes and that it comes from a customer error on the order form). "
-      soustitre7: "Article 7: Retention of title clause"
-      texte24: "The products remain the property of the Company until full payment of the price."
-      soustitre8: "Article 8: Terms of delivery"
-      texte25: "The products are delivered to the delivery address which was indicated when ordering and within the times indicated. These times do not take into account the time taken to prepare the order. When the Customer orders several products at the same time. These may have different delivery times as follows: Zero-waste and Upcycling products are packaged and sent within 8 days of order confirmation, custom-made collection models are packaged and sent between 4 and 6 weeks. All products are sent by UPS or Mondial Relay to their home or relay point according to the terms defined by the customer when ordering. In the event of a delay in shipment, the customer will be contacted by e-mail or telephone in order to give him the possibility of canceling or confirming his order, the cancellation giving the right to full refund of the sums already paid. In the event of late delivery, the Customer has the right to possibility of terminating the contract under the terms and conditions defined in Article L 138-2 of the Consumer Code. The Seller then reimburses the product and the 'outbound' costs under the conditions of Article L 138-3 of the Consumer Code. The Seller provides a telephone point of contact (cost of a local call from a landline) indicated in the order confirmation email in order to follow up on the order. The Seller recalls that when the Customer takes physical possession of the products, the risk of loss or damage to the products is transferred to him. It is the Customer's responsibility to notify the carrier of any reservations about the product delivered. "
-      soustitre9: "Article 9: Availability and presentation"
-      texte26: "If an item is unavailable for a period exceeding 10 working days, you will be immediately notified of the foreseeable delivery times and the order for this item may be canceled on request. The Customer may then request a credit note. for the amount of the item or its full refund and cancellation of the order. "
-      soustitre10: "Article 10: Payment"
-      texte27: "Payment is due immediately upon ordering, including for pre-ordered products. The Customer can pay by payment card or bank check. Cards issued by banks domiciled outside France must be bank cards international (Mastercard or Visa). Secure online payment by credit card is made by our payment service provider. The information transmitted is encrypted according to the rules of the art and cannot be read during transport on the network "
-      texte27bis: "Once the payment has been initiated by the Customer, the transaction is immediately debited after verification of the information. In accordance with the provisions of the Monetary and Financial Code, the commitment to pay given by card is irrevocable. By communicating his banking information during the sale, the Customer authorizes the Seller to debit his card for the amount relating to the price indicated. The Customer confirms that he is indeed the legal holder of the card to be debited and that he is legally entitled to use it. error, or inability to debit the card, the Sale is immediately resolved automatically and the order canceled Article 11: Withdrawal period In accordance with the provisions of Article L 221-5 of the Consumer Code, The Buyer has the right to withdraw without giving any reason, within fourteen (14) days from the date of receipt of his order. The right of withdrawal can be exercised by contacting the Company as follows: by simple e-mail. If the right of withdrawal is exercised within the aforementioned period, the price of the product (s) purchased and the shipping costs will be reimbursed, the return costs remaining the responsibility of the Customer. Product returns must be made in their original condition and complete (packaging, accessories, instructions, etc.); if possible, they should be accompanied by a copy of the proof of purchase. In accordance with legal provisions, you will find below the standard withdrawal form to be sent to us at the following address: "
-      texte27ter: "Refund procedure: the refund will be made by bank transfer within 3 days (excluding the bank deadline) upon receipt of the return package."
-      soustitre11: "Article 11: Guarantees"
-      texte28: "In accordance with the law, the Seller assumes the following guarantees: of conformity and relating to hidden defects of the products. The Seller reimburses the buyer or exchanges the products apparently defective or not corresponding to the order made. The refund request must be done as follows: _________ (detail the procedure) The Seller reminds that the consumer: - has a period of 2 years from the delivery of the goods to act with the Seller - that he can choose between the replacement and repair of the good subject to the conditions provided for by the aforementioned provisions. apparently defective or not corresponding - that it is not necessary to prove the existence of the lack of conformity of the good during the six months following the delivery of the well. - that, except for second-hand goods, this period will be extended to 24 months from March 18, 2016 - that the consumer can also assert the guarantee against hidden defects of the thing sold within the meaning of article 1641 of the Civil Code and, in this case, he can choose between the resolution of the sale or a reduction of the sale price (provisions of articles 1644 of the Civil Code). Additional guarantees: _____ (describe your additional guarantees) (this one I do not know yet what to put must be well informed, I have not replaced things after 2 years ^^) "
-      soustitre12: "Article 12: Complaints and mediation"
-      texte29: "If applicable, the Purchaser may submit any complaint by contacting the company using the following coordinates _____ (indicate the contact details and the procedure). In accordance with the provisions of Articles L. 611-1 to L. 616-3 of the Consumer Code, the consumer is informed that he may have recourse to a consumer mediator under the conditions provided for in Title I of Book VI of the Consumer Code. In case of failure of the complaint request to the Customer service of the Seller, or in the absence of a response within two months, the consumer can submit the dispute to a mediator To see with my professional insurance which will try in all independence to bring the parties together in order to obtain an amicable solution . "
-      soustitre13: "Article 13: termination of the contract"
-      texte30: "The order can be resolved by the purchaser by registered letter with acknowledgment of receipt in the following cases: - delivery of a product that does not comply with the characteristics of the order; - delivery exceeding the deadline fixed during the order or, failing a date, within thirty days of payment; - unjustified price increase or modification of the product. In these cases, the buyer may demand the reimbursement of the deposit paid plus interest calculated on the legal rate from the date of receipt of the deposit. "
-      soustitre14: "Article 14: Intellectual property rights"
-      texte31: "Trademarks, domain names, products, software, images, videos, texts or more generally any information subject to intellectual property rights are and remain the exclusive property of the seller. No transfer of intellectual property rights is carried out through these T & Cs. Any total or partial reproduction, modification or use of these goods for any reason whatsoever is strictly prohibited. "
-      soustitre15: "Article 15: Force majeure"
-      texte32: "The execution of the seller's obligations at the end of the present contract is suspended in the event of the occurrence of a fortuitous event or of force majeure which would prevent its execution. The seller will notify the customer of the occurrence of such an event as soon as possible. as possible."
-      soustitre16: "Article 16: Nullity and modification of the contract"
-      texte33: "If one of the stipulations of this contract were canceled, this nullity would not entail the nullity of the other stipulations which will remain in force between the parties. Any contractual modification is only valid after a written agreement signed by the parties. parts."
-      soustitre17: "Article 17: Protection of personal data"
-      texte34: "In accordance with Regulation 2016/679 of April 27, 2016 on the protection of individuals with regard to the processing of personal data and the free movement of such data, the Seller sets up a processing of personal data whose purpose is the sale and delivery of products and services defined in this contract. The Purchaser is informed of the following: - the identity and contact details of the controller and, where applicable, of the representative of the controller : the Seller, as indicated at the top of these T & Cs; - the contact details of the data protection officer: ???? - the legal basis of the processing: contractual execution - the recipients or categories of recipients of the data of a personal nature, if they exist: the data controller, his services in charge of marketing, the services in charge of IT security, the service in charge of sales, delivery and the order, the subcontractors involved in the delivery and sales operations as well as any authority legally authorized to access the personal data in question - no transfer outside the EU is planned - the retention period of the data: time of the commercial prescription - the data subject has the right to request from the data controller access to personal data, the rectification or erasure of these, or a limitation of the processing relating to the data subject, or right to object to processing and the right to data portability - The data subject has the right to lodge a complaint with a supervisory authority - the information requested when ordering is necessary for establishing the invoice (legal obligation) and delivery of the goods ordered, otherwise the order cannot be placed. No automated decisions or profiling is implemented through the ordering process. "
-      soustitre18: "Article 18: Applicable law and clauses"
-      texte35: "All the clauses appearing in these general conditions of sale, as well as all the purchase and sale operations referred to therein, will be subject to French law. The nullity of a contractual clause does not entail the nullity of these general conditions of sale. "
-      soustitre19: "Article 19: Consumer information"
-      texte36: "For consumer information purposes, the provisions of the Civil Code and the Consumer Code are reproduced below: Aricle 1641 of the Civil Code: The seller is bound by the warranty for hidden defects in the item sold which make it unfit for the use for which it is intended, or which reduce this use to such an extent that the buyer has not acquired it, or would have given a lower price, if he had known them. Aricle 1648 of the Civil Code: The action resulting from latent defects must be brought by the purchaser within two years from the discovery of the defect. In the case provided for by article 1642-1, the action must be brought, on pain of foreclosure, within one year of the date on which the seller can be released from apparent defects or lack of conformity. Article L. 217-4 of the Consumer Code: The seller delivers goods that comply with the contract and is liable for any lack of conformity existing at the time of delivery. It is also responsible for any lack of conformity resulting from the packaging, the assembly instructions or the installation when this has been charged to it by the contract or has been carried out under its responsibility. Article L. 217-5 of the Consumer Code: The good complies with the contract: 1 ° If it is suitable for the use usually expected of a similar good and, where applicable: - if it corresponds to the description given by the seller and possess the qualities that the latter presented to the buyer in the form of a sample or model; - if it has the qualities that a buyer can legitimately expect given the public statements made by the seller, the producer or his representative, in particular in advertising or labeling; 2 ° Or if it has the characteristics defined by mutual agreement by the parties or is suitable for any special use sought by the buyer, brought to the attention of the seller and which the latter has accepted. Article L. 217-12 of the Consumer Code: Action resulting from lack of conformity lapses two years after delivery of the goods. Article L. 217-16 of the Consumer Code: When the buyer asks the seller, during the course of the commercial guarantee which was granted to him during the acquisition or repair of movable property, condition covered by the warranty, any downtime of at least seven days is added to the remaining warranty period. This period runs from the buyer's request for intervention or the provision for repair of the property in question, if this provision is subsequent to the request for intervention. "
-      lien1: "Our general conditions of sale have been drawn up from a free model which can be downloaded from the site: "
-
-  comment:
-    new:
-      title: "Title"
-      content: "Message"
-      note: "Rating (between 0 and 5)"
-      submit: "Validate"
-      return: "Return"
-      titre: "Write a new comment"
-      author: "Written by: "
-      notation: "Rating: "
-    links:
-      see: "See"
-      remove: "Remove"
-      update: "Update"
-    edit:
-      titre: "Update my comment"
-  cart:
-    show:
-      title: "My basket"
-      article: "Article"
-      quantity: "Qty"
-      price: "Unit price"
-      total_price: "Total price"
-      delete: "Sup"
-      really: "Are you sure?"
-      main_total: "Total"
-      amount: "Amount: "
-      commande: "Order"
-      return: "Return"
-      color: "Color"
-      size: "Size"

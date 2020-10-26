@@ -8,12 +8,11 @@ Rails.application.routes.draw do
   
   get 'articles/label', to: 'articles#label'
   get 'articles/lin', to: 'articles#lin'
-  get 'clothes/:id/add', to: 'clothes#add', as: 'add_to_cart'
-  get 'clothes/:id/remove', to: 'clothes#remove', as: 'remove_from_cart'
   get 'homes/who', to: 'homes#who'
   get 'homes/contact', to: 'homes#contact'
   get 'homes/condition', to: 'homes#condition'
   get '/partners/spitzberg', to: 'partners#spitzberg'
+  get 'clothes/:function/new', to: 'clothes#new', as: "new_with_function"
   get 'clothes/:function/index', to: 'clothes#index', as: "clothes_by_type"
   get 'line_items/:line_id/prev', to: 'line_items#prev', as: "prev_line"
   get 'line_items/:line_id/next', to: 'line_items#next', as: "next_line"

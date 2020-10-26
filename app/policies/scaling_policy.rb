@@ -1,5 +1,4 @@
 class ScalingPolicy < ApplicationPolicy
-
   attr_reader :user, :scaling
 
   class Scope < Scope
@@ -14,11 +13,9 @@ class ScalingPolicy < ApplicationPolicy
   end
 
   def index?
-
   end
 
   def show?
-
   end
 
   def create?
@@ -26,15 +23,12 @@ class ScalingPolicy < ApplicationPolicy
   end
 
   def new?
-
   end
 
   def edit?
-
   end
 
   def update?
-
   end
 
   def destroy?

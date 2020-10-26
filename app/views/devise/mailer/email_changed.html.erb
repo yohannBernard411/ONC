@@ -1,7 +1,7 @@
-<p>Hello <%= @email %>!</p>
+<p><%= I18n.translate("devise.mailer.confirmation_instructions.hello") %><%= @email %>!</p>
 
 <% if @resource.try(:unconfirmed_email?) %>
-  <p>We're contacting you to notify you that your email is being changed to <%= @resource.unconfirmed_email %>.</p>
+  <p><%= I18n.translate("devise.mailer.email_changed.texte1") %><%= @resource.unconfirmed_email %>.</p>
 <% else %>
-  <p>We're contacting you to notify you that your email has been changed to <%= @resource.email %>.</p>
+  <p><%= I18n.translate("devise.mailer.email_changed.texte2") %><%= @resource.email %>.</p>
 <% end %>

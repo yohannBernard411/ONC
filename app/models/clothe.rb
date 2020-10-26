@@ -1,5 +1,4 @@
 class Clothe < ApplicationRecord
-
   has_many_attached :photos
   has_many :comments, dependent: :destroy
   has_many :line_items
@@ -16,5 +15,4 @@ class Clothe < ApplicationRecord
   validates :category, presence: true
   validates :price_cents, presence: true
   validates :stock, presence: true
-
 end

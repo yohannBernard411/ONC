@@ -1,3 +1,2 @@
 class PossibleSizesController < ApplicationController
-
 end
