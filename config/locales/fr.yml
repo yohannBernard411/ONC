@@ -329,6 +329,7 @@ fr:
     failure:
       user:
         already_authenticated: Vous êtes déja connecté
+        unauthenticated: Vous n'êtes pas connecté!
     mailer:
       confirmation_instructions:
         date: 'Date '

@@ -1,6 +1,6 @@
 class PaymentsController < ApplicationController
   def new
-    @order = Order.where(id: Cart.where(user_id: current_user.id).first.order_id).first
+    @order = Order.find(Cart.where(user_id: current_user.id).last.order_id)
     authorize @order
   end
 end

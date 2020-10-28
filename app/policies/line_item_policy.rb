@@ -7,8 +7,8 @@ class LineItemPolicy < ApplicationPolicy
     end
   end
 
-  def initialize(user, line_item)
-    @user = user
+  def initialize(current_user, line_item)
+    @user = current_user
     @line_item = line_item
   end
 
@@ -41,7 +41,7 @@ class LineItemPolicy < ApplicationPolicy
   def destroy?
     return unless @user
 
-    return unless @user.admin || @user.id == Cart.find(@line_item.cart_id).user_id
+    @user.admin || @user.id == Cart.find(@line_item.cart_id).user_id
   end
 
   def prev?

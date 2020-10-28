@@ -17,8 +17,8 @@ class LineItemsController < ApplicationController
 
   def destroy
     @line_item = LineItem.find(params[:id])
-    @line_item.destroy
     authorize @line_item
+    @line_item.destroy
     redirect_to Cart.find(@line_item.cart_id), notice: "Votre article a bien été effacé!"
   end
 

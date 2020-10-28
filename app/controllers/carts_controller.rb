@@ -11,9 +11,9 @@ class CartsController < ApplicationController
     @all_line_items = LineItem.where(cart_id: @cart.id).includes(:clothe).order(id: :desc)
     @total_price = 0
     @all_line_items.each do |line|
-      @total_price += (line.quantity * (line.clothe.price_cents / 100))
+      @total_price += (line.quantity * (line.clothe.price_cents/100))
     end
-    @cart.price_cents = @total_price
+    @cart.price_cents = @total_price*100
     current_user.cart.price_cents = @total_price
     @cart.save!
     authorize @cart
